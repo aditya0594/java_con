@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Array collection 12-08-2023">
-      <change afterPath="$PROJECT_DIR$/src/Collection/Even_odd_valuefromArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Find_duplicate_element_in_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Sum_of_element_in_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/star_program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Reverse_String.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691856582532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Array collection 16-08-2023">
+      <created>1692194123755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692194123755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
