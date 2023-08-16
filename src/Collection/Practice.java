@@ -2,31 +2,21 @@ package Collection;
 
 public class Practice {
 
-    public static void main(String[] args){
-
-        //Method 1
-        // using the charater array and for loop
-
-        String inputString = "Aditya";
-        char[] chars = inputString.toCharArray();
-        //lenght of the array is
-        System.out.println("Lenght is " + chars.length); //aditya 0 12345
-        for( int i= chars.length -1; i>=0;  i --){
-            System.out.print(chars[i]);
+    public static void main(String[] args) {
+        String inputstring = "aditya";
+        char[] chars = inputstring.toCharArray(); //012345
+        for (int i=chars.length -1; i>=0; i--){
+            System.out.println(chars[i]);
         }
-        // using the Charat() method
 
-        String inputString1 = "Aditya";
-        String revstring =  "";
-        for(int i=inputString1.length()-1;i>=0;i--){
-            revstring = revstring+inputString1.charAt(i);
+        String inputstring1 = "aditya";
+        int lenght = inputstring1.length();
+        String rev = "";
+        for (int i = lenght-1; i>=0; i--){
+            rev = rev+inputstring1.charAt(i);
 
         }
-        System.out.println(revstring);
-
-
-
+        System.out.print(rev);
     }
-
 
 }
