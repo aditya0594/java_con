@@ -12,7 +12,7 @@ public class Reverse_String {
 
         String inputstring = "Aditya";
         char[] chars = inputstring.toCharArray();
-        System.out.println("This the lenght of array :" + chars.length);
+        System.out.println("This the lenght of array :" + chars.length); // 012345
 
         for (int i = chars.length - 1; i >= 0; i--) {
             System.out.print(chars[i]);

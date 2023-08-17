@@ -1,32 +1,21 @@
 package Collection;
 
+import java.util.HashSet;
+
 public class Practice {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        //Method 1
-        // using the charater array and for loop
+        //duplicate value of array
 
-        String inputString = "Aditya";
-        char[] chars = inputString.toCharArray();
-        //lenght of the array is
-        System.out.println("Lenght is " + chars.length); //aditya 0 12345
-        for( int i= chars.length -1; i>=0;  i --){
-            System.out.print(chars[i]);
+        String arr[] = {"java","aditya","java"};
+
+        HashSet<String> lang = new HashSet<>();
+        for(String a : arr){
+           if(lang.add(a)==false){
+               System.out.println("arry consist of duplicate value : "+a);
+           }
         }
-        // using the Charat() method
-
-        String inputString1 = "Aditya";
-        String revstring =  "";
-        for(int i=inputString1.length()-1;i>=0;i--){
-            revstring = revstring+inputString1.charAt(i);
-
-        }
-        System.out.println(revstring);
-
-
 
     }
-
-
 }

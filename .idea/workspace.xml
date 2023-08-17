@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Array collection 12-08-2023" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Array collection 12-08-2023">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,12 +35,28 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditya Pawar/IdeaProjects/Java_con&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditya Pawar/IdeaProjects/Java_con&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Remove_Space">
-    <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.HashMap" />
+  <component name="RunManager" selected="Application.Find_duplicate_element_in_Array">
+    <configuration name="Even_odd_valuefromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Even_odd_valuefromArray" />
+      <module name="Java_con" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Find_duplicate_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Find_duplicate_element_in_Array" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -54,20 +75,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Linked_List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Linked_List" />
-      <module name="Java_con" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Collection.Practice" />
       <module name="Java_con" />
       <extension name="coverage">
@@ -80,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Remove_Space" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Remove_Space" />
+    <configuration name="Sum_of_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Sum_of_element_in_Array" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Reverse_String" />
+    <configuration name="star_program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.star_program" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -127,20 +137,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java" />
+      <item itemvalue="Application.Even_odd_valuefromArray" />
+      <item itemvalue="Application.Find_duplicate_element_in_Array" />
+      <item itemvalue="Application.Sum_of_element_in_Array" />
+      <item itemvalue="Application.star_program" />
       <item itemvalue="Application.Practice" />
-      <item itemvalue="Application.Remove_Space" />
-      <item itemvalue="Application.Reverse_String" />
-      <item itemvalue="Application.HashMap" />
-      <item itemvalue="Application.Linked_List" />
       <item itemvalue="Gradle.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Remove_Space" />
+        <item itemvalue="Application.Find_duplicate_element_in_Array" />
+        <item itemvalue="Application.Even_odd_valuefromArray" />
+        <item itemvalue="Application.Sum_of_element_in_Array" />
+        <item itemvalue="Application.star_program" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.Reverse_String" />
-        <item itemvalue="Application.HashMap" />
-        <item itemvalue="Application.Linked_List" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691856582532</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Array collection 16-08-2023">
+      <created>1692194123755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692194123755</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
