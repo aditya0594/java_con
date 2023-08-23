@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Array collection 18-08-2023">
-      <change afterPath="$PROJECT_DIR$/src/Collection/Compare_Two_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Extract_First_letter_of_sentance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Interview_ques.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Reverse_each_word_present_in_the_sentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/Reverse_the_sentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Collection/extract_Last_charater_from_a_string.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_con.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_con.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Find_duplicate_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Reverse_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Seum_OF_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Maximum_Value_of_element_in_Array.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="programs 23-08-2023">
       <change beforePath="$PROJECT_DIR$/src/Collection/Star_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Star_program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692194123755</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="programs 23-08-2023">
+      <created>1692814570006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692814570006</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +224,8 @@
     <MESSAGE value="Array collection" />
     <MESSAGE value="Array collection 12-08-2023" />
     <MESSAGE value="Array collection 18-08-2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array collection 18-08-2023" />
+    <MESSAGE value="programs 23-08-2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="programs 23-08-2023" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
