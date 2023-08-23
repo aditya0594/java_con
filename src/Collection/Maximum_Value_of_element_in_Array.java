@@ -1,6 +1,6 @@
 package Collection;
 
-public class Seum_OF_element_in_Array {
+public class Maximum_Value_of_element_in_Array {
     public static void main(String[] args) {
 //        int a[] ={2,2,2,2};
 //        int sum = 0;
@@ -10,7 +10,7 @@ public class Seum_OF_element_in_Array {
 //        System.out.println(sum);
 
 
-    int a[] = {5,2,3,6,7,9,10};
+    int a[] = {5,2,3,6,7};
     int max = a[0];
     for( int i=1; i<a.length;i++){
         if(a[i]<max){

@@ -4,13 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Array collection 12-08-2023">
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Array collection 18-08-2023">
+      <change afterPath="$PROJECT_DIR$/src/Collection/Compare_Two_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Extract_First_letter_of_sentance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Find_Duplicate_element_Array_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Interview_ques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Reverse_each_word_present_in_the_sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/Reverse_the_sentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collection/extract_Last_charater_from_a_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_con.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_con.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Find_duplicate_element_in_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Reverse_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/Seum_OF_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Maximum_Value_of_element_in_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/Star_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Star_program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,9 +65,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Find_duplicate_element_in_Array">
-    <configuration name="Even_odd_valuefromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Even_odd_valuefromArray" />
+  <component name="RunManager" selected="Application.HashMap">
+    <configuration name="Compare_Two_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Compare_Two_Array" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Find_duplicate_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Find_duplicate_element_in_Array" />
+    <configuration name="HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.HashMap" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -75,10 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Collection.Practice" />
+    <configuration name="Maximum_Value_of_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Maximum_Value_of_element_in_Array" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum_of_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Sum_of_element_in_Array" />
+    <configuration name="Reverse_each_word_present_in_the_sentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Reverse_each_word_present_in_the_sentence" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="star_program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.star_program" />
+    <configuration name="Reverse_the_sentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Reverse_the_sentence" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -137,20 +159,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java" />
-      <item itemvalue="Application.Even_odd_valuefromArray" />
-      <item itemvalue="Application.Find_duplicate_element_in_Array" />
-      <item itemvalue="Application.Sum_of_element_in_Array" />
-      <item itemvalue="Application.star_program" />
-      <item itemvalue="Application.Practice" />
+      <item itemvalue="Application.HashMap" />
+      <item itemvalue="Application.Compare_Two_Array" />
+      <item itemvalue="Application.Maximum_Value_of_element_in_Array" />
+      <item itemvalue="Application.Reverse_each_word_present_in_the_sentence" />
+      <item itemvalue="Application.Reverse_the_sentence" />
       <item itemvalue="Gradle.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Find_duplicate_element_in_Array" />
-        <item itemvalue="Application.Even_odd_valuefromArray" />
-        <item itemvalue="Application.Sum_of_element_in_Array" />
-        <item itemvalue="Application.star_program" />
-        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.HashMap" />
+        <item itemvalue="Application.Compare_Two_Array" />
+        <item itemvalue="Application.Reverse_each_word_present_in_the_sentence" />
+        <item itemvalue="Application.Reverse_the_sentence" />
+        <item itemvalue="Application.Maximum_Value_of_element_in_Array" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +230,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Array collection" />
     <MESSAGE value="Array collection 12-08-2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array collection 12-08-2023" />
+    <MESSAGE value="Array collection 18-08-2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array collection 18-08-2023" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="hasint" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

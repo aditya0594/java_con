@@ -6,5 +6,8 @@ public class Reverse_number {
         StringBuilder str = new StringBuilder(String.valueOf(num));
         str.reverse();
         System.out.println(str);
+
+
+        System.out.print("-------------------------------------------");
     }
 }
