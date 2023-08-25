@@ -1,34 +1,21 @@
 package Collection;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
-
-public class star_program {
+public class Star_program {
     public static void main(String[] args) {
-
-        for (int i =0; i<=4 ; i++){
-            for(int j=0; j<=i; j++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-        System.out.println("-----------------------------------");
-
-        for (int i =0; i<=4 ; i++){
-            for(int j=4; j>=i;j--){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-
-        System.out.println("-----------------------------------");
-
-        for (int i=0; i<=0; i++){
-            for (int j =4; j>=i; j--){
+       // left star
+        for(int i=0; i<5; i++){
+            for(int j=0; j<5-i-1;j++){
                 System.out.print(" ");
             }
-            for(int k=1;k<=i; k++){
+            for(int j=0;j<=i;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        System.out.println("-----------------------------");
+        for(int a=0; a<=5; a++) {
+            for(int b=0;b<=a;b++) {
                 System.out.print("*");
             }
             System.out.println();
