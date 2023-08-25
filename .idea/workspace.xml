@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="programs 23-08-2023">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/Interview_ques.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_the_sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Reverse_the_sentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collection/Star_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection/Star_program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +55,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HashMap">
+  <component name="RunManager" selected="Application.Practice">
     <configuration name="Compare_Two_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collection.Compare_Two_Array" />
       <module name="Java_con" />
@@ -85,21 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maximum_Value_of_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Maximum_Value_of_element_in_Array" />
-      <module name="Java_con" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reverse_each_word_present_in_the_sentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.Reverse_each_word_present_in_the_sentence" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.Practice" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -113,6 +104,19 @@
     </configuration>
     <configuration name="Reverse_the_sentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collection.Reverse_the_sentence" />
+      <module name="Java_con" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="number_like_star" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collection.number_like_star" />
       <module name="Java_con" />
       <extension name="coverage">
         <pattern>
@@ -145,20 +149,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java" />
+      <item itemvalue="Application.Practice" />
+      <item itemvalue="Application.number_like_star" />
       <item itemvalue="Application.HashMap" />
       <item itemvalue="Application.Compare_Two_Array" />
-      <item itemvalue="Application.Maximum_Value_of_element_in_Array" />
-      <item itemvalue="Application.Reverse_each_word_present_in_the_sentence" />
       <item itemvalue="Application.Reverse_the_sentence" />
       <item itemvalue="Gradle.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.Reverse_the_sentence" />
+        <item itemvalue="Application.number_like_star" />
         <item itemvalue="Application.HashMap" />
         <item itemvalue="Application.Compare_Two_Array" />
-        <item itemvalue="Application.Reverse_each_word_present_in_the_sentence" />
-        <item itemvalue="Application.Reverse_the_sentence" />
-        <item itemvalue="Application.Maximum_Value_of_element_in_Array" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692814570006</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="programs 23-08-2023">
+      <created>1692814659076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692814659076</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

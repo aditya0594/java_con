@@ -6,16 +6,19 @@ public class Practice {
 
     public static void main(String[] args) {
 
-        //duplicate value of array
+        String str = "this is the man";
+        char[] chars  = str.toCharArray();
+        String result= "";
+        for(int i=0; i<chars.length; i++){
+            if(chars[i]!=' '){
+                result = result+chars[i];
+            }
 
-        String arr[] = {"java","aditya","java"};
-
-        HashSet<String> lang = new HashSet<>();
-        for(String a : arr){
-           if(lang.add(a)==false){
-               System.out.println("arry consist of duplicate value : "+a);
-           }
         }
+        System.out.println(result);
+
+
+
 
     }
 }
