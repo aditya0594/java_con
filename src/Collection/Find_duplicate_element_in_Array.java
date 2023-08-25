@@ -14,7 +14,6 @@ public class Find_duplicate_element_in_Array {
                 flag =true;
             }
         }
-
             if(flag ==false){
                 System.out.println("No duplicate element found");
             }
