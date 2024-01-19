@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="programs 25-08-2023">
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="java_com_ 19-01-2024">
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -367,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692980465228</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="java_com_ 19-01-2024">
+      <created>1705662704354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705662704354</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +395,8 @@
     <MESSAGE value="Array collection 18-08-2023" />
     <MESSAGE value="programs 23-08-2023" />
     <MESSAGE value="programs 25-08-2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="programs 25-08-2023" />
+    <MESSAGE value="java_com_ 19-01-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="java_com_ 19-01-2024" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
