@@ -5,118 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="java_com_ 19-01-2024">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_32_1_2_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dev_failsafe_failsafe_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_events_1_28_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_extension_incubator_1_28_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_28_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v118_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v119_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v120_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_manager_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_os_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/chromedriver_win.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Largest_Among_three_numbers_using.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/just.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/practices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_con.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Compare_Two_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Compare_Two_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Even_odd_valuefromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Even_odd_valuefromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Extract_First_letter_of_sentance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Extract_First_letter_of_sentance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Linked_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Linked_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Maximum_Value_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Maximum_Value_of_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Practice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Remove_Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Remove_Space.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_each_word_present_in_the_sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_each_word_present_in_the_sentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Reverse_the_sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_the_sentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Selenium_Topics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Star_program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Stringtointeger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Stringtointeger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/Sum_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Sum_of_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/extract_Last_charater_from_a_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/extract_Last_charater_from_a_string.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/number_like_star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/number_like_star.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection/star_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/star_program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/ArithmeticException.java" root0="SKIP_INSPECTION" />
@@ -178,20 +69,7 @@
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.extract_Last_charater_from_a_string">
-    <configuration name="Even_odd_valuefromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.Even_odd_valuefromArray" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/Aditya Pawar/eclipse-workspace/java_con/testng.xml">
     <configuration name="Extract_First_letter_of_sentance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Program.Extract_First_letter_of_sentance" />
       <module name="Practice_programs" />
@@ -254,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_Suite.Scroll_using_javascript" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_Suite.DragAndDrop (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -264,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_Suite" />
-      <option name="METHOD_NAME" value="Scroll_using_javascript" />
+      <option name="METHOD_NAME" value="DragAndDrop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -272,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_Suite.Verify" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_Suite.DragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -282,7 +160,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_Suite" />
-      <option name="METHOD_NAME" value="Verify" />
+      <option name="METHOD_NAME" value="DragAndDrop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -292,20 +170,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java" />
-      <item itemvalue="Application.Even_odd_valuefromArray" />
       <item itemvalue="Application.Extract_First_letter_of_sentance" />
       <item itemvalue="Application.extract_Last_charater_from_a_string" />
       <item itemvalue="Gradle.Unnamed" />
+      <item itemvalue="TestNG.Selenium_Suite.DragAndDrop" />
+      <item itemvalue="TestNG.Selenium_Suite.DragAndDrop (1)" />
       <item itemvalue="TestNG.C:/Users/Aditya Pawar/eclipse-workspace/java_con/testng.xml" />
-      <item itemvalue="TestNG.Selenium_Suite.Scroll_using_javascript" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Aditya Pawar/eclipse-workspace/java_con/testng.xml" />
+        <item itemvalue="TestNG.Selenium_Suite.DragAndDrop (1)" />
+        <item itemvalue="TestNG.Selenium_Suite.DragAndDrop" />
         <item itemvalue="Application.extract_Last_charater_from_a_string" />
         <item itemvalue="Application.Extract_First_letter_of_sentance" />
-        <item itemvalue="Application.Even_odd_valuefromArray" />
-        <item itemvalue="TestNG.C:/Users/Aditya Pawar/eclipse-workspace/java_con/testng.xml" />
-        <item itemvalue="TestNG.Selenium_Suite.Scroll_using_javascript" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705662704354</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="java_com_ 19-01-2024">
+      <created>1705688060493</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705688060493</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
