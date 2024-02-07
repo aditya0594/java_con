@@ -12,7 +12,7 @@ import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
-
+@Listeners(ITestListener.class)
 public class Selenium_Suite {
         WebDriver driver;
     @Parameters("browser")
@@ -45,7 +45,7 @@ public class Selenium_Suite {
             JavascriptExecutor js = (JavascriptExecutor)driver;
             // scroll to the element on the page
                 WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
-                js.executeScript("arguments[0].scrollIntoView();",element2 );
+                js.executeScript("arguments[0].scrolIntoView();",element2 );
                 Thread.sleep(10000);
 
                 // scroll to the bottom of the page
