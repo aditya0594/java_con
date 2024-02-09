@@ -33,23 +33,7 @@ public class Selenium_other_methods {
     public static ExtentReports extent;
     public static ExtentTest logger;
 
-   @BeforeTest
-   public void startReport() {
-       ExtentReports extent = new ExtentReports();
-       // Create an object of Extent Reports
-       extent = new ExtentReports();
 
-       spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/STMExtentReport.html");
-       extent.attachReporter(spark);
-       extent.setSystemInfo("Host Name", "SoftwareTestingMaterial");
-       extent.setSystemInfo("Environment", "Production");
-       extent.setSystemInfo("User Name", "Rajkumar SM");
-       spark.config().setDocumentTitle("Title of the Report Comes here ");
-       // Name of the report
-       spark.config().setReportName("Name of the Report Comes here ");
-       // Dark Theme
-       spark.config().setTheme(Theme.STANDARD);
-   }
     @BeforeMethod
     public void Setup(){
 
@@ -57,7 +41,9 @@ public class Selenium_other_methods {
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-
+        ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/STMExtentReport.html");
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
 
     }
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
@@ -72,23 +58,25 @@ public class Selenium_other_methods {
     }
     @Test(priority = 1,enabled = true)
     public void get_title(){
-        driver.get("https://demo.automationtesting.in/Register.html");
         logger = extent.createTest("To verify Register Title");
+        driver.get("https://demo.automationtesting.in/Register.html");
         Assert.assertEquals(driver.getTitle(),"Register");
+        logger.log(Status.PASS, "Title passed successfully.");
 
     }
-    @Test(priority = 1,enabled = true)
+    @Test(priority = 2,enabled = true)
         public void image_present(){
+        logger = extent.createTest("To verify Image on the Register page");
         driver.get("https://demo.automationtesting.in/Register.html");
             Boolean img = driver.findElement(By.xpath("//img[@alt='image not displaying']")).isDisplayed();
-            logger.createNode("Image is present");
             Assert.assertTrue(img);
-            logger.createNode("Image is not present");
-            Assert.assertFalse(img);
+            logger.log(Status.PASS,"Image is displayed");
+
         }
 
     @Test(priority = 1, enabled = true)
     public void Selection_Dropdown() throws InterruptedException {
+        logger = extent.createTest("Select the seletion in the dropdown ");
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id=\"msdd\"]")).click();
@@ -98,6 +86,16 @@ public class Selenium_other_methods {
         driver.findElement(By.xpath("//*[@id=\"basicBootstrapForm\"]/div[7]/div/multi-select/div[2]/ul/li[8]")).click();
         // scroll to the element on the page
         Thread.sleep(5000);
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        // scroll to the element on the page
+        WebElement element2 = driver.findElement(By.xpath("//input[@id='secondpassword']"));
+        js.executeScript("arguments[0].scrollIntoView();", element2);
+        Thread.sleep(5000);
+        Boolean Englishlang =driver.findElement(By.xpath("//div[@class='ui-autocomplete-multiselect-item']")).isDisplayed();
+        //div[@class='ui-autocomplete-multiselect-item']
+        Assert.assertTrue(Englishlang);
+        driver.findElement(By.xpath("//div[6]")).click();
+        logger.log(Status.PASS,"The English language is selected in dropdown");
 
     }
     @Test(priority = 1, enabled = true)
