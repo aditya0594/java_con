@@ -33,8 +33,6 @@ public class Selenium_other_methods {
     ExtentReports extent;
 
 
-
-
     @BeforeMethod
     public void Setup(){
 
@@ -42,10 +40,15 @@ public class Selenium_other_methods {
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+
+    }
+    @BeforeTest
+    public void report(){
+
         ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/STMExtentReport.html");
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
-
     }
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
@@ -75,7 +78,7 @@ public class Selenium_other_methods {
 
         }
 
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 3, enabled = true)
     public void Selection_Dropdown() throws InterruptedException {
         ExtentTest test = extent.createTest("Select the seletion in the dropdown ");
         driver.get("https://demo.automationtesting.in/Register.html");
@@ -99,7 +102,7 @@ public class Selenium_other_methods {
         test.log(Status.PASS,"The English language is selected in dropdown");
 
     }
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 4, enabled = true)
     public void Scroll_using_javascript() throws InterruptedException {
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();

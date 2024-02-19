@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="java_com_ extent reportes and listener added 07-02-2024">
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="java_com_ extent reportes and listener added 19-02-2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/ITestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/ITestListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/extend_report_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/extend_report_example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/ArithmeticException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,7 +81,7 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium_other_methods">
+  <component name="RunManager" selected="TestNG.Selenium_other_methods (1)">
     <configuration name="Java" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Java_Program.Array_list" />
       <module name="Practice_programs" />
@@ -109,23 +109,6 @@
       <method v="2" />
     </configuration>
     <configuration name="Selenium_other_methods (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -176,6 +159,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium_other_methods.Scroll_using_javascript" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Scroll_using_javascript" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="extend_report_example" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -196,19 +197,19 @@
     <list>
       <item itemvalue="Application.Java" />
       <item itemvalue="Gradle.Unnamed" />
+      <item itemvalue="TestNG.Selenium_other_methods.Scroll_using_javascript" />
       <item itemvalue="TestNG.Selenium_other_methods (1)" />
-      <item itemvalue="TestNG.Selenium_other_methods (3)" />
       <item itemvalue="TestNG.Selenium_other_methods (4)" />
       <item itemvalue="TestNG.extend_report_example" />
       <item itemvalue="TestNG.Selenium_other_methods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selenium_other_methods (1)" />
+        <item itemvalue="TestNG.Selenium_other_methods.Scroll_using_javascript" />
         <item itemvalue="TestNG.Selenium_other_methods" />
         <item itemvalue="TestNG.Selenium_other_methods (4)" />
         <item itemvalue="TestNG.extend_report_example" />
-        <item itemvalue="TestNG.Selenium_other_methods (3)" />
-        <item itemvalue="TestNG.Selenium_other_methods (1)" />
       </list>
     </recent_temporary>
   </component>
