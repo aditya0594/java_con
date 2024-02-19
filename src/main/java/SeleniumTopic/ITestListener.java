@@ -8,45 +8,26 @@ public class ITestListener implements org.testng.ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-        org.testng.ITestListener.super.onTestStart(result);
-
+        // Executed when a test method starts
+        System.out.println("Test Started: " + result.getName());
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("The name of the testcase passed is :"+result.getName());
+        // Executed when a test method is successful
+        System.out.println("Test Passed: " + result.getName());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-       // org.testng.ITestListener.super.onTestFailure(result);
-        System.out.println("The name of the testcase failed is :"+result.getName());
+        // Executed when a test method fails
+        System.out.println("Test Failed: " + result.getName());
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        System.out.println("The name of the testcase Skipped is :"+result.getName());
-    }
-
-    @Override
-    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-        org.testng.ITestListener.super.onTestFailedButWithinSuccessPercentage(result);
-    }
-
-    @Override
-    public void onTestFailedWithTimeout(ITestResult result) {
-        org.testng.ITestListener.super.onTestFailedWithTimeout(result);
-    }
-
-    @Override
-    public void onStart(ITestContext context) {
-        System.out.println(context.getName()+" test case started");
-    }
-
-    @Override
-    public void onFinish(ITestContext context) {
-
-        org.testng.ITestListener.super.onFinish(context);
+        // Executed when a test method is skipped
+        System.out.println("Test Skipped: " + result.getName());
     }
 }
 

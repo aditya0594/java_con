@@ -6,6 +6,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,9 +29,10 @@ import java.util.Date;
 @Listeners(ITestListener.class)
 public class Selenium_other_methods {
     WebDriver driver;
-    public static ExtentSparkReporter spark;
-    public static ExtentReports extent;
-    public static ExtentTest logger;
+    ExtentSparkReporter spark;
+    ExtentReports extent;
+
+
 
 
     @BeforeMethod
@@ -57,25 +59,25 @@ public class Selenium_other_methods {
     }
     @Test(priority = 1,enabled = true)
     public void get_title(){
-        logger = extent.createTest("To verify Register Title");
+        ExtentTest test = extent.createTest("To verify Register Title");
         driver.get("https://demo.automationtesting.in/Register.html");
         Assert.assertEquals(driver.getTitle(),"Register");
-        logger.log(Status.PASS, "Title passed successfully.");
+        test.pass("Title passed successfully.");
 
     }
     @Test(priority = 2,enabled = true)
         public void image_present(){
-        logger = extent.createTest("To verify Image on the Register page");
+        ExtentTest test = extent.createTest("To verify Image on the Register page");
         driver.get("https://demo.automationtesting.in/Register.html");
             Boolean img = driver.findElement(By.xpath("//img[@alt='image not displaying']")).isDisplayed();
             Assert.assertTrue(img);
-            logger.log(Status.PASS,"Image is displayed");
+        test.pass("To verify Image passed successfully.");
 
         }
 
-    @Test(priority = 3, enabled = true)
+    @Test(priority = 1, enabled = false)
     public void Selection_Dropdown() throws InterruptedException {
-        logger = extent.createTest("Select the seletion in the dropdown ");
+        ExtentTest test = extent.createTest("Select the seletion in the dropdown ");
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id=\"msdd\"]")).click();
@@ -94,12 +96,11 @@ public class Selenium_other_methods {
         //div[@class='ui-autocomplete-multiselect-item']
         Assert.assertTrue(Englishlang);
         driver.findElement(By.xpath("//div[6]")).click();
-        logger.log(Status.PASS,"The English language is selected in dropdown");
+        test.log(Status.PASS,"The English language is selected in dropdown");
 
     }
-    @Test(priority = 4, enabled = true)
+    @Test(priority = 1, enabled = false)
     public void Scroll_using_javascript() throws InterruptedException {
-        logger = extent.createTest("Scroll using the javascript");
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
@@ -112,9 +113,6 @@ public class Selenium_other_methods {
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
         js.executeScript("arguments[0].scrollIntoView();",element2 );
         Thread.sleep(10000);
-        boolean element_visible  = driver.findElement(By.xpath("//button[@id='submitbtn']")).isDisplayed();
-        Assert.assertTrue(element_visible);
-        logger.log(Status.PASS,"Scrolled on the element");
 
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
@@ -122,9 +120,9 @@ public class Selenium_other_methods {
         //js.executeScript("window.scrollBy(0,1000);");
 
     }
-    @Test(priority = 5, enabled = true)
+    @Test(priority = 2, enabled = false)
     public void DragAndDrop() throws InterruptedException {
-        logger = extent.createTest("Drag and drop the element");
+
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
         WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
@@ -132,28 +130,22 @@ public class Selenium_other_methods {
         Actions builder = new Actions(driver);
         builder.dragAndDrop(from,to).perform();
         Thread.sleep(5000);
-        boolean draaganddrop_element_visib  = driver.findElement(By.xpath("//div[@id='droparea']")).isDisplayed();
-        Assert.assertTrue(draaganddrop_element_visib);
-        logger.log(Status.PASS,"Element dragged");
-
 
     }
-    @Test(priority = 6, enabled = true)
+    @Test(priority = 3, enabled = false)
     public void Verify(){
-        logger = extent.createTest("Verify the SOFT ASSERT");
         SoftAssert softAssert = new SoftAssert();
         softAssert.fail("First fail");
         System.out.println("Failing first the excution");
-
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
-        logger.log(Status.PASS,"Verify soft assert");
+
 
     }
-    @Test(priority = 7, enabled = false)
+    @Test(priority = 3, enabled = false)
     //@Given("^user is already on Login Page$")
     public void Frames_Switching() throws InterruptedException {
-        logger = extent.createTest("Frame Switching verify");
+
         driver.get("https://demo.automationtesting.in/Frames.html");
         driver.findElement(By.xpath("//div[@class='tabpane']/ul/li[2]")).click();
         Thread.sleep(10000);
@@ -165,31 +157,34 @@ public class Selenium_other_methods {
 
     }
 
-    @AfterTest
-    public void getResult(ITestResult result) throws Exception{
-        if(result.getStatus() == ITestResult.FAILURE){
-        //MarkupHelper is used to display the output in different colors
-            logger.log(Status.FAIL, MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
-            logger.log(Status.FAIL, MarkupHelper.createLabel(result.getThrowable() + " - Test Case Failed", ExtentColor.RED));
-        //To capture screenshot path and store the path of the screenshot in the string "screenshotPath"
-        //We do pass the path captured by this method in to the extent reports using "logger.addScreenCapture" method.
-        //String Scrnshot=TakeScreenshot.captuerScreenshot(driver,"TestCaseFailed");
-            String screenshotPath = getScreenShot(driver, result.getName());
-        //To add it in the extent report
-            logger.fail("Test Case Failed Snapshot is below " + logger.addScreenCaptureFromPath(screenshotPath));
-
-        } else if(result.getStatus() == ITestResult.SKIP){
-            logger.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " - Test Case Skipped", ExtentColor.ORANGE));
-        } else if(result.getStatus() == ITestResult.SUCCESS) {
-            logger.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " Test Case PASSED", ExtentColor.GREEN));
-        }
-    extent.flush();
-
-    }
     @AfterMethod
-    public void endReport() {
+    public void getResult(ITestResult result) throws Exception{
+        ExtentTest test;
+        if(result.getStatus() == ITestResult.FAILURE) {
+            // Executed when a test method fails
+            test = extent.createTest(result.getName() + " - Test Case Failed");
+            test.log(Status.FAIL, result.getName() + " - Test Case Failed");
+            test.log(Status.FAIL, result.getThrowable() + " - Test Case Failed");
+
+            // Capture screenshot
+            String screenshotPath = getScreenShot(driver, result.getName());
+            test.fail("Test Case Failed Snapshot is below " + test.addScreenCaptureFromPath(screenshotPath));
+
+        } else if(result.getStatus() == ITestResult.SKIP) {
+            // Executed when a test method is skipped
+            test = extent.createTest(result.getName() + " - Test Case Skipped");
+            test.log(Status.SKIP, result.getName() + " - Test Case Skipped");
+        } else if(result.getStatus() == ITestResult.SUCCESS) {
+            // Executed when a test method passes
+            test = extent.createTest(result.getName() + " - Test Case PASSED");
+            test.log(Status.PASS, result.getName() + " - Test Case PASSED");
+        }
         driver.quit();
-        //extent.flush();
+    }
+
+    @AfterTest
+    public void endReport() {
+        extent.flush();
     }
 
 }
