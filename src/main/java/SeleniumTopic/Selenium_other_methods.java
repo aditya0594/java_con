@@ -6,7 +6,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -74,7 +73,7 @@ public class Selenium_other_methods {
 
         }
 
-    @Test(priority = 1, enabled = true)
+    @Test(priority = 3, enabled = true)
     public void Selection_Dropdown() throws InterruptedException {
         logger = extent.createTest("Select the seletion in the dropdown ");
         driver.get("https://demo.automationtesting.in/Register.html");
@@ -98,8 +97,9 @@ public class Selenium_other_methods {
         logger.log(Status.PASS,"The English language is selected in dropdown");
 
     }
-    @Test(priority = 1, enabled = true)
+    @Test(priority = 4, enabled = true)
     public void Scroll_using_javascript() throws InterruptedException {
+        logger = extent.createTest("Scroll using the javascript");
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
@@ -112,6 +112,9 @@ public class Selenium_other_methods {
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
         js.executeScript("arguments[0].scrollIntoView();",element2 );
         Thread.sleep(10000);
+        boolean element_visible  = driver.findElement(By.xpath("//button[@id='submitbtn']")).isDisplayed();
+        Assert.assertTrue(element_visible);
+        logger.log(Status.PASS,"Scrolled on the element");
 
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
@@ -119,9 +122,9 @@ public class Selenium_other_methods {
         //js.executeScript("window.scrollBy(0,1000);");
 
     }
-    @Test(priority = 2, enabled = true)
+    @Test(priority = 5, enabled = true)
     public void DragAndDrop() throws InterruptedException {
-
+        logger = extent.createTest("Drag and drop the element");
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
         WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
@@ -129,23 +132,28 @@ public class Selenium_other_methods {
         Actions builder = new Actions(driver);
         builder.dragAndDrop(from,to).perform();
         Thread.sleep(5000);
+        boolean draaganddrop_element_visib  = driver.findElement(By.xpath("//div[@id='droparea']")).isDisplayed();
+        Assert.assertTrue(draaganddrop_element_visib);
+        logger.log(Status.PASS,"Element dragged");
+
 
     }
-    @Test(priority = 3, enabled = true)
+    @Test(priority = 6, enabled = true)
     public void Verify(){
+        logger = extent.createTest("Verify the SOFT ASSERT");
         SoftAssert softAssert = new SoftAssert();
         softAssert.fail("First fail");
         System.out.println("Failing first the excution");
 
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
-
+        logger.log(Status.PASS,"Verify soft assert");
 
     }
-    @Test(priority = 3, enabled = false)
+    @Test(priority = 7, enabled = false)
     //@Given("^user is already on Login Page$")
     public void Frames_Switching() throws InterruptedException {
-
+        logger = extent.createTest("Frame Switching verify");
         driver.get("https://demo.automationtesting.in/Frames.html");
         driver.findElement(By.xpath("//div[@class='tabpane']/ul/li[2]")).click();
         Thread.sleep(10000);
@@ -157,7 +165,7 @@ public class Selenium_other_methods {
 
     }
 
-    @AfterMethod
+    @AfterTest
     public void getResult(ITestResult result) throws Exception{
         if(result.getStatus() == ITestResult.FAILURE){
         //MarkupHelper is used to display the output in different colors
@@ -169,19 +177,19 @@ public class Selenium_other_methods {
             String screenshotPath = getScreenShot(driver, result.getName());
         //To add it in the extent report
             logger.fail("Test Case Failed Snapshot is below " + logger.addScreenCaptureFromPath(screenshotPath));
-        }
-        else if(result.getStatus() == ITestResult.SKIP){
+
+        } else if(result.getStatus() == ITestResult.SKIP){
             logger.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " - Test Case Skipped", ExtentColor.ORANGE));
+        } else if(result.getStatus() == ITestResult.SUCCESS) {
+            logger.log(Status.PASS, MarkupHelper.createLabel(result.getName() + " Test Case PASSED", ExtentColor.GREEN));
         }
-        else if(result.getStatus() == ITestResult.SUCCESS)
-        {
-            logger.log(Status.PASS, MarkupHelper.createLabel(result.getName()+" Test Case PASSED", ExtentColor.GREEN));
-        }
-        driver.quit();
+    extent.flush();
+
     }
-    @AfterTest
+    @AfterMethod
     public void endReport() {
-        extent.flush();
+        driver.quit();
+        //extent.flush();
     }
 
 }
