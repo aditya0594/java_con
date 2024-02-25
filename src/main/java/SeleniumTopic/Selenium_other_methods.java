@@ -3,10 +3,7 @@ package SeleniumTopic;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,6 +16,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -39,7 +37,7 @@ public class Selenium_other_methods {
         System.setProperty("webdriver.chrome.driver", "Driver/chromedriver_win.exe");
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 
     }
@@ -104,6 +102,7 @@ public class Selenium_other_methods {
     }
     @Test(priority = 4, enabled = true)
     public void Scroll_using_javascript() throws InterruptedException {
+        ExtentTest test = extent.createTest("Scroll using java script");
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
@@ -112,54 +111,102 @@ public class Selenium_other_methods {
         Thread.sleep(10000);
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
+
         // scroll to the element on the page
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
         js.executeScript("arguments[0].scrollIntoView();",element2 );
         Thread.sleep(10000);
+        test.pass("Scroll using java script");
 
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
         // scroll by the specific pixels
         //js.executeScript("window.scrollBy(0,1000);");
 
     }
-    @Test(priority = 2, enabled = false)
+    @Test(priority = 5, enabled = true)
     public void DragAndDrop() throws InterruptedException {
-
+        ExtentTest test = extent.createTest("Drag and drop element");
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
         WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
-        Actions builder = new Actions(driver);
-        builder.dragAndDrop(from,to).perform();
+        Actions actions = new Actions(driver);
+        actions.dragAndDrop(from,to).perform();
         Thread.sleep(5000);
-
+        test.pass("Element draged properly");
     }
-    @Test(priority = 3, enabled = false)
+    @Test(priority = 6, enabled = true)
     public void Verify(){
+        ExtentTest test = extent.createTest("Verify the soft assert");
         SoftAssert softAssert = new SoftAssert();
         softAssert.fail("First fail");
         System.out.println("Failing first the excution");
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
+        test.pass("Verify the soft assert");
 
 
     }
-    @Test(priority = 3, enabled = false)
+    @Test(priority = 7, enabled = true)
     //@Given("^user is already on Login Page$")
     public void Frames_Switching() throws InterruptedException {
-
+        ExtentTest test = extent.createTest("frames switching testcase ");
         driver.get("https://demo.automationtesting.in/Frames.html");
+        driver.manage().window().maximize();
         driver.findElement(By.xpath("//div[@class='tabpane']/ul/li[2]")).click();
         Thread.sleep(10000);
-
         // String s = "iframe-container";
         driver.switchTo().frame(1);
         Thread.sleep(10000);
         driver.findElement(By.xpath("//div[@class=\"col-xs-6 col-xs-offset-5\"]//input")).sendKeys("aditya");
-
+        test.pass("frames switching testcase ");
     }
 
+    @Test(priority = 8, enabled = true)
+    public void rightClick(){
+        ExtentTest test = extent.createTest("Right click on the element");
+        driver.get("https://practice.automationtesting.in/");
+        driver.manage().window().maximize();
+        Actions actions = new Actions(driver);
+        WebElement rightClickElemen = driver.findElement(By.xpath("//img[@title='Automation Practice Site']"));
+        actions.contextClick(rightClickElemen).build().perform();
+        test.pass("Right click performed");
+    }
+    @Test(priority = 9, enabled = true)
+    public void image_upload() throws AWTException, InterruptedException {
+        driver.get("https://demo.automationtesting.in/FileUpload.html");
+        driver.manage().window().maximize();
+        //By upload = By.id("//*[@id='imagesrc']");
+      //  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+      //  WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='input-4']")));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement uploadInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("input-4")));
+        boolean element = driver.findElement(By.xpath("//*[@id='input-4']")).isDisplayed();
+        if(element = true){
+            System.out.println("visible");
+            driver.findElement(By.xpath("//*[@id='input-4']")).click();
+        }
+        else {
+            System.out.println("not visible");
+        }
+        Thread.sleep(5000);
+       /* String filePath = "Utils/test_image.png";
+        // Copy file path to clipboard
+        StringSelection stringSelection = new StringSelection(filePath);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection,null);
+
+        Robot robot = new Robot();
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyPress(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_V);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+
+        robot.keyPress(KeyEvent.VK_ENTER);
+        robot.keyRelease(KeyEvent.VK_ENTER);*/
+
+    }
     @AfterMethod
     public void getResult(ITestResult result) throws Exception{
         ExtentTest test;

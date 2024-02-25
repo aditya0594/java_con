@@ -93,6 +93,7 @@ public class Selenium_Suite {
 
     }
 
+
         @AfterTest
     public void tearDown() throws InterruptedException {
             Thread.sleep(3);
