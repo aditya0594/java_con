@@ -1,5 +1,6 @@
 package SeleniumTopic;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -29,6 +30,12 @@ public class Selenium_Suite {
             }
             else if (browser.equalsIgnoreCase("IE")){
                 driver = new InternetExplorerDriver();
+            }
+            else if (browser.equalsIgnoreCase("webdrivermanager")){
+                WebDriverManager.chromedriver().setup();
+                ChromeOptions options = new ChromeOptions();
+                driver = new ChromeDriver(options);
+
             }
         }
         @Test(priority = 1, enabled = true)
@@ -62,8 +69,8 @@ public class Selenium_Suite {
         driver.manage().window().maximize();
         WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
-        Actions builder = new Actions(driver);
-        builder.dragAndDrop(from,to).perform();
+        Actions actions = new Actions(driver);
+        actions.dragAndDrop(from,to).perform();
         Thread.sleep(5000);
 
     }

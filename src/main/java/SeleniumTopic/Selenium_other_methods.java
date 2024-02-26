@@ -4,6 +4,8 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import lombok.Data;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +24,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.Set;
 
 
 @Listeners(ITestListener.class)
@@ -31,14 +34,23 @@ public class Selenium_other_methods {
     ExtentReports extent;
 
 
+
     @BeforeMethod
     public void Setup(){
 
         System.setProperty("webdriver.chrome.driver", "Driver/chromedriver_win.exe");
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+      /*  WebDriverManager.chromedriver().driverVersion("121.0.6167.161").setup();
+        ChromeOptions options = new ChromeOptions();
+        driver = new ChromeDriver(options);*/
+
+        //Implicitly wait
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //explicit wait
+       /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));*/
 
     }
     @BeforeTest
@@ -207,6 +219,57 @@ public class Selenium_other_methods {
         robot.keyRelease(KeyEvent.VK_ENTER);*/
 
     }
+    @DataProvider(name = "loginDataProvider")
+    public Object[] [] loginData(){
+        return new Object [] []
+                {
+                        {"aditya@gmail.com","Aditya@123"},
+                        {"aditya1@gmail.com","Aditya@123"},
+                        {"aditya1@gmail.com","Aditya@123"},
+                };
+    }
+    @Test(priority =10, enabled = true,dataProvider = "loginDataProvider")
+    public void Dataproviders(String username , String password){
+
+       // DataProvider is like a container that passes
+        //the data to our test methods so that our single test method can execute itself with multiple data sets.
+        ExtentTest test = extent.createTest("Right click on the element");
+        driver.get("https://practice.automationtesting.in/my-account/");notify();
+        driver.manage().window().maximize();
+
+        driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+
+    }
+    @Test(priority = 11, enabled = true)
+    //@Given("^user is already on Login Page$")
+    public void Windows_Switching() throws InterruptedException {
+
+        driver.get("https://demo.automationtesting.in/Windows.html");
+// Get parent window handle
+        String parentWindowHandle = driver.getWindowHandle();
+// Click the link/button to open a new window or tab
+        driver.findElement(By.xpath("//button[@class='btn btn-info']")).click();
+
+// Switch to child window
+        Set<String> allWindowHandles = driver.getWindowHandles();
+        for (String handle : allWindowHandles) {
+            if (!handle.equals(parentWindowHandle)) {
+                driver.switchTo().window(handle);
+                break;
+            }
+        }
+// Perform actions in child window
+        driver.findElement(By.xpath("//div[@class='collapse navbar-collapse justify-content-end']/ul/li[4]")).click();
+        Thread.sleep(10000);
+        // Switch back to parent window
+        driver.switchTo().window(parentWindowHandle);
+        Thread.sleep(10000);
+
+
+    }
+
+
     @AfterMethod
     public void getResult(ITestResult result) throws Exception{
         ExtentTest test;
