@@ -11,6 +11,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -38,7 +39,7 @@ public class Selenium_other_methods {
     @BeforeMethod
     public void Setup(){
 
-        System.setProperty("webdriver.chrome.driver", "Driver/chromedriver_win.exe");
+        System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
 
@@ -60,6 +61,8 @@ public class Selenium_other_methods {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
     }
+    @FindBy(xpath="user_login")WebElement userId;
+
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) driver;
@@ -227,6 +230,7 @@ public class Selenium_other_methods {
                         {"aditya1@gmail.com","Aditya@123"},
                         {"aditya1@gmail.com","Aditya@123"},
                 };
+
     }
     @Test(priority =10, enabled = true,dataProvider = "loginDataProvider")
     public void Dataproviders(String username , String password){

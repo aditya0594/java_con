@@ -7,6 +7,7 @@ public class Stringtointeger {
         // Integer.parseInt()
         System.out.println( Integer.parseInt( str ));
 
+        System.out.println(String.valueOf(str));
 
         int x = 123;
         int y = 456;

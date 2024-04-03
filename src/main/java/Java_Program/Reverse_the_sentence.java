@@ -14,6 +14,10 @@ public class Reverse_the_sentence {
 
     public static String revers_sentance(String str){
         String[] words = str.split(" ");
+       // System.out.print(words);
+        for(String w : words){
+            System.out.println(w);
+        }
         String result = "";
         for(int i=words.length-1; i>=0;i--){
             if(i==0) {

@@ -1,15 +1,24 @@
 package Java_Concept;
 
 public class exception_Handing {
-    public static void main(String[] args) {
-        System.out.println( "before the exception");
+
+    public static void fun(){
         try {
-            int a = 99 / 0;
+            throw new NullPointerException("Demo");
         }
-        catch (ArithmeticException e){
-            System.out.println("You can not divide by number 0");
+        catch(NullPointerException e){
+            System.out.println("find inside the method");
+            throw e;
         }
-        System.out.println("After the exception");
+    }
+    public static void main(String[] args) {
+        try {
+            fun();
+        }
+        catch (NullPointerException e){
+            System.out.println("Find in the main method");
+            throw e;
+        }
 
     }
 }

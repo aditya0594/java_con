@@ -62,7 +62,7 @@ public class Selenium_Suite {
             //js.executeScript("window.scrollBy(0,1000);");
 
         }
-    @Test(priority = 2, enabled = true)
+    @Test(priority = 2, enabled = true,invocationCount = 3)
     public void DragAndDrop() throws InterruptedException {
 
         driver.get("https://demo.automationtesting.in/Dynamic.html");
