@@ -7,25 +7,32 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.Data;
 import org.apache.commons.io.FileUtils;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.awt.*;
-import java.io.File;
-import java.io.IOException;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
+import java.io.*;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Set;
+import java.util.function.Function;
 
 
 @Listeners(ITestListener.class)
@@ -48,10 +55,16 @@ public class Selenium_other_methods {
         driver = new ChromeDriver(options);*/
 
         //Implicitly wait
+        //Implicitly wait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         //explicit wait
        /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));*/
+
+        Wait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
+                .pollingEvery(Duration.ofSeconds(1))
+                .ignoring(NoAlertPresentException.class);
+
 
     }
     @BeforeTest
@@ -73,10 +86,16 @@ public class Selenium_other_methods {
         FileUtils.copyFile(source, finalDestination);
         return destination;
     }
+
+    @FindBy(id = "searchBox")
+    private WebElement searchBar;
+
     @Test(priority = 1,enabled = true)
     public void get_title(){
         ExtentTest test = extent.createTest("To verify Register Title");
-        driver.get("https://demo.automationtesting.in/Register.html");
+        //driver.get("https://demo.automationtesting.in/Register.html");
+        driver.navigate().to("https://demo.automationtesting.in/Register.html");
+        Assert.assertEquals(driver.getCurrentUrl(),"https://demo.automationtesting.in/Register.html");
         Assert.assertEquals(driver.getTitle(),"Register");
         test.pass("Title passed successfully.");
 
@@ -147,9 +166,12 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
+
         Actions actions = new Actions(driver);
         actions.dragAndDrop(from,to).perform();
         Thread.sleep(5000);
+
+
         test.pass("Element draged properly");
     }
     @Test(priority = 6, enabled = true)
@@ -172,21 +194,30 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//div[@class='tabpane']/ul/li[2]")).click();
         Thread.sleep(10000);
+
         // String s = "iframe-container";
-        driver.switchTo().frame(1);
+        driver.switchTo().frame(1);   // index ,frameelement , name or ID
         Thread.sleep(10000);
+
+
         driver.findElement(By.xpath("//div[@class=\"col-xs-6 col-xs-offset-5\"]//input")).sendKeys("aditya");
         test.pass("frames switching testcase ");
     }
 
     @Test(priority = 8, enabled = true)
-    public void rightClick(){
+    public void rightClick() throws InterruptedException {
         ExtentTest test = extent.createTest("Right click on the element");
         driver.get("https://practice.automationtesting.in/");
         driver.manage().window().maximize();
+        Thread.sleep(6000);
+
+
         Actions actions = new Actions(driver);
         WebElement rightClickElemen = driver.findElement(By.xpath("//img[@title='Automation Practice Site']"));
         actions.contextClick(rightClickElemen).build().perform();
+
+
+        Thread.sleep(1000);
         test.pass("Right click performed");
     }
     @Test(priority = 9, enabled = true)
@@ -207,8 +238,8 @@ public class Selenium_other_methods {
             System.out.println("not visible");
         }
         Thread.sleep(5000);
-       /* String filePath = "Utils/test_image.png";
-        // Copy file path to clipboard
+        String filePath = "Utils/test_image.png";
+       // Copy file path to clipboard
         StringSelection stringSelection = new StringSelection(filePath);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection,null);
 
@@ -219,7 +250,7 @@ public class Selenium_other_methods {
         robot.keyRelease(KeyEvent.VK_CONTROL);
 
         robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);*/
+        robot.keyRelease(KeyEvent.VK_ENTER);
 
     }
     @DataProvider(name = "loginDataProvider")
@@ -238,7 +269,7 @@ public class Selenium_other_methods {
        // DataProvider is like a container that passes
         //the data to our test methods so that our single test method can execute itself with multiple data sets.
         ExtentTest test = extent.createTest("Right click on the element");
-        driver.get("https://practice.automationtesting.in/my-account/");notify();
+        driver.get("https://practice.automationtesting.in/my-account/");
         driver.manage().window().maximize();
 
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
@@ -255,6 +286,7 @@ public class Selenium_other_methods {
 // Click the link/button to open a new window or tab
         driver.findElement(By.xpath("//button[@class='btn btn-info']")).click();
 
+        System.out.println("Parent window name :" + parentWindowHandle);
 // Switch to child window
         Set<String> allWindowHandles = driver.getWindowHandles();
         for (String handle : allWindowHandles) {
@@ -272,6 +304,102 @@ public class Selenium_other_methods {
 
 
     }
+    @Test(priority = 11, enabled = true)
+    public void FluentWait() throws InterruptedException {
+        ExtentTest test = extent.createTest("Drag and drop element");
+        driver.get("https://demo.automationtesting.in/Dynamic.html");
+        driver.manage().window().maximize();
+
+        //Fluent Wait
+        Wait wait = new FluentWait(driver)
+                .withTimeout(Duration.ofSeconds(10))
+                .pollingEvery(Duration.ofSeconds(1))
+                .ignoring(Exception.class);
+
+
+
+
+                WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
+        WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
+
+        Actions actions = new Actions(driver);
+        actions.dragAndDrop(from,to).perform();
+        Thread.sleep(5000);
+        test.pass("Element draged properly");
+    }
+    @Test(priority = 11, enabled = true)
+    public void ExcelFileRead() throws InterruptedException, IOException {
+        ExtentTest test = extent.createTest("Excel file to read");
+
+        //I have placed an excel file 'Test.xlsx' in my D Driver
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        //I have added test data in the cell A1 as "SoftwareTestingMaterial.com"
+        XSSFSheet Sheet = workbook.getSheetAt(0);
+        //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
+
+        Row row = Sheet.getRow(1);
+        Cell cell = row.getCell(0);
+
+        System.out.println(cell);
+        System.out.println("-----------------------------------------------");
+        System.out.println(Sheet.getRow(0).getCell(0));
+        //String cellval = cell.getStringCellValue();
+        //System.out.println(cellval);
+        Thread.sleep(5000);
+        test.pass("Excel file to read");
+    }
+    @Test(priority = 11, enabled = true)
+    public void Write_ExcelFile() throws InterruptedException, IOException {
+        ExtentTest test = extent.createTest("Excel file to read");
+
+        //I have placed an excel file 'Test.xlsx' in my D Driver
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
+        //I have added test data in the cell A1 as "SoftwareTestingMaterial.com"
+        XSSFSheet Sheet = workbook.getSheetAt(0);
+
+        //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
+
+        Row row = Sheet.createRow(1);
+        Cell cell = row.createCell(0);
+
+        //Entering the value in the cell
+        cell.setCellValue("aditya");
+
+        FileOutputStream fos = new FileOutputStream("src/main/resources/ExcelFile.xlsx");
+        workbook.write(fos);
+        fos.close();
+
+
+    }
+    @Test(priority = 12, enabled = true)
+    public void NAVIGATE() throws InterruptedException, IOException {
+        ExtentTest test = extent.createTest("Excel file to read");
+       // driver.get("www.google.com");
+        driver.navigate().to("https://www.google.com");
+        driver.navigate().back();
+
+
+    }
+    @Test(priority = 13, enabled = true)
+    public void ALERT() throws InterruptedException, IOException {
+        ExtentTest test = extent.createTest("Excel file to read");
+        driver.get("https://demo.automationtesting.in/Alerts.html");
+        driver.manage().window().maximize();
+        driver.findElement(By.xpath("//button[@class='btn btn-danger']")).click();
+        Thread.sleep(3000);
+
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+
+
+        Select select = new Select(driver.findElement(By.xpath("//*[@class='adb']")));
+    }
+
+
 
 
     @AfterMethod

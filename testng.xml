@@ -6,9 +6,11 @@
         <classes>
             <class name="SeleniumTopic.Selenium_Suite">
             <methods>
+                <include name="Scroll_using_javascript"/>
                 <include name="DragAndDrop"/>
             </methods>
         </class>
         </classes>
     </test>
 </suite>
+

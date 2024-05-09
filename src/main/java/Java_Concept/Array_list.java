@@ -3,23 +3,47 @@ package Java_Concept;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Array_list {
     public static void main(String[] args) {
         // non-generic
+
+        //ArrayList Class implements List interface.
+        //ArrayList allows duplicate elements (remember that Set in Java wont allow duplicate values.)
+        //ArrayList maintains the order of the object in which they are inserted
+        //ArrayList is index based we can retrieve object by calling get(index) method or remove objects by calling remove(index) method
+        //ArrayList not apply any restriction, we can add any number of null value
+
         System.out.println("----------------1111-----------------");
-        ArrayList <String>ar = new ArrayList<String>();
+
+
+
+         List<String> ar = new ArrayList<String>();
         ar.add("10");
         ar.add("20");
         ar.add("Aditya");
-        System.out.println("Size of array is : "+ ar.size());
+        ar.add("Remove value");
+        ar.add(0,"replace 10");
 
+
+
+        int n = 5;
+        for (int j=0;j<=n; j++){
+            ar.add(String.valueOf(j));
+        }
+
+
+        System.out.println("Size of array is : "+ ar.size());
+        System.out.println("Size of array is : "+ ar.get(0));
 
         // printing the value of array
         //for loop
         for (int i=0; i<ar.size();i++){
-            System.out.print(ar.get(i));
+            System.out.println("This the list of arraylist : " + ar.get(i));
         }
+
+
 
 
         System.out.println("--------------22222-------------------");
@@ -47,7 +71,9 @@ public class Array_list {
 
 
         for(int i=0; i<ar3.size();i++ ){
-            System.out.println("The value of this Ar3 "+ ar3.get(i));
+            System.out.println("The value of this Ar3 : "+ ar3.get(e1.age));
+
+
         }
 
 

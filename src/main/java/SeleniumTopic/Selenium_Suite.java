@@ -20,7 +20,7 @@ public class Selenium_Suite {
        @BeforeTest
         public void Setup(String browser){
             if(browser.equalsIgnoreCase("chrome")){
-                System.setProperty("webdriver.chrome.driver", "Driver/chromedriver_win.exe");
+                System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
                 ChromeOptions options = new ChromeOptions();
                 driver = new ChromeDriver(options);
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -51,7 +51,7 @@ public class Selenium_Suite {
 
             JavascriptExecutor js = (JavascriptExecutor)driver;
             // scroll to the element on the page
-                WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
+                WebElement element2 = driver.findElement(By.xpath("//button[@idsubmitbtn']"));
                 js.executeScript("arguments[0].scrolIntoView();",element2 );
                 Thread.sleep(10000);
 
@@ -67,7 +67,7 @@ public class Selenium_Suite {
 
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
-        WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
+        WebElement from =driver.findElement(By.xpath("//img[@src='loo.png']"));
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
         Actions actions = new Actions(driver);
         actions.dragAndDrop(from,to).perform();
