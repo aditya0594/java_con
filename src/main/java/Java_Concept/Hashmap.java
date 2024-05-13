@@ -1,9 +1,9 @@
 package Java_Concept;
 
-import org.openqa.selenium.Keys;
-
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 public class Hashmap {
 
@@ -17,40 +17,63 @@ public class Hashmap {
         //There is no difference between the Map and HashMap objects.
 
 
-        HashMap<String, String> value = new HashMap<>();
-        value.put("Name","aditya");
-        value.put("Age","12");
-        value.put("Role","tester");
+        HashMap<Integer, String> value = new HashMap<>();
+        value.put(1,"aditya");
+        value.put(2,"12");
+        value.put(3,"tester");
 
         // To get the value of the Key
-        System.out.println(value.get("Name"));
+        System.out.println(value.get("1"));
         System.out.println("---------------------------------");
-
-        value.put("Role","QA Consultant");
-
-
-        System.out.println("---------------------------------");
-
-
-        value.remove("Role","QA Consultant");
+        //value.put(1,"QA Consultant");
 
 
         System.out.println("---------------------------------");
+       // value.remove(1,"QA Consultant");
 
-
-        value.replace("Age","12","18");
-
+        System.out.println("---------------------------------");
+       // value.replace(2,"12","QA");
 
         System.out.println("---------------------------------");
 
         //To get the all keys and value we have to user the EntrySet
 
-        for(HashMap.Entry<String,String>en : value.entrySet() ){
+
+        // Q extracting the hashMap and pass date in set collection key and value using the Iterator
+/*
+
+        for(HashMap.Entry<Integer,String> en : value.entrySet() ){
 
             System.out.println("All the keys : " + en.getKey());
             System.out.println("All the values : "+ en.getValue());
         }
+        System.out.println("---------------------------------");
 
+        Set sn = value.entrySet();
+        Iterator i = sn.iterator();
+        while (i.hasNext()){
+*/
+
+          //  System.out.println(i.next());
+         //   Map.Entry mp = (Map.Entry) i.next();    // this for the separated the key and value
+           // System.out.println("All the keys : " + mp.getKey());
+           // System.out.println("All the values : "+ mp.getValue());
+
+
+       /* System.out.println("---------------------------------");
+        Set setvalues = value.entrySet();
+        Iterator j = setvalues.iterator();
+        while(j.hasNext()){
+            Map.Entry mp1 = (Map.Entry) i.next();
+            System.out.println("this is the key"+ mp1.getKey());
+            System.out.println("this is the values"+ mp1.getValue());
+        }
+        System.out.println("---------------------------------");*/
+
+        for(HashMap.Entry<Integer,String> nm : value.entrySet()){
+            System.out.println(nm.getKey());
+            System.out.println(nm.getValue());
+        }
 
 
     }

@@ -4,19 +4,16 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import lombok.Data;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
@@ -32,7 +29,6 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Set;
-import java.util.function.Function;
 
 
 @Listeners(ITestListener.class)
@@ -276,6 +272,41 @@ public class Selenium_other_methods {
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 
     }
+    public static String excelreaddata(int datarow, int datacell) throws IOException{
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        Sheet sheet = workbook.getSheetAt(0);
+        Row row = sheet.getRow(datarow);
+        Cell cell = row.createCell(datacell);
+        return cell.getStringCellValue();
+    }
+
+    @DataProvider(name = "loginDataProviderExcel")
+    public Object[] [] excel_loginData() throws IOException {
+
+        String userEmail  = excelreaddata(0,0);
+        String userPassword  = excelreaddata(0,1);
+        System.out.println("Details : " + userEmail +" "+userPassword);
+        return new Object [] []
+
+                {
+                        {userEmail,userPassword}
+                };
+
+    }
+    @Test(priority =10, enabled = true,dataProvider = "loginDataProviderExcel")
+    public void Excel_Dataproviders(String username , String password){
+
+        // DataProvider is like a container that passes
+        //the data to our test methods so that our single test method can execute itself with multiple data sets.
+        ExtentTest test = extent.createTest("Right click on the element");
+        driver.get("https://practice.automationtesting.in/my-account/");
+        driver.manage().window().maximize();
+
+        driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+
+    }
     @Test(priority = 11, enabled = true)
     //@Given("^user is already on Login Page$")
     public void Windows_Switching() throws InterruptedException {
@@ -338,7 +369,7 @@ public class Selenium_other_methods {
         XSSFSheet Sheet = workbook.getSheetAt(0);
         //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
 
-        Row row = Sheet.getRow(1);
+        Row row = Sheet.getRow(0);
         Cell cell = row.getCell(0);
 
         System.out.println(cell);

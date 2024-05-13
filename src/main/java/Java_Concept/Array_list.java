@@ -1,6 +1,8 @@
 package Java_Concept;
 
 
+import com.aventstack.extentreports.gherkin.model.ScenarioOutline;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -14,6 +16,9 @@ public class Array_list {
         //ArrayList maintains the order of the object in which they are inserted
         //ArrayList is index based we can retrieve object by calling get(index) method or remove objects by calling remove(index) method
         //ArrayList not apply any restriction, we can add any number of null value
+        // You can access and insert value in any index
+
+        // ArrayList, LinkdedList, Vector ---implementing the List interface
 
         System.out.println("----------------1111-----------------");
 
@@ -25,8 +30,16 @@ public class Array_list {
         ar.add("Aditya");
         ar.add("Remove value");
         ar.add(0,"replace 10");
+        System.out.println(ar);
+        ar.add(0, "first");
+        System.out.println(ar);
+        ar.remove(1);
+        System.out.println(ar);
+        System.out.println(ar.contains("10")); //boolean value it will return..
+        System.out.println(ar.indexOf("Aditya"));
+        System.out.println(ar.isEmpty()); // boolean value  it will return.
 
-
+        System.out.println("--------------111111-------------------");
 
         int n = 5;
         for (int j=0;j<=n; j++){

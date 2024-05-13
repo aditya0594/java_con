@@ -4,98 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 10-05-2024">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_07.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_32_1_2_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dev_failsafe_failsafe_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_events_1_28_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_extension_incubator_1_28_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_28_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_28_0_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_5_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_lite_5_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_33_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v118_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v119_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v120_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_manager_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_os_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Dataproviders20240404121053.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Dataproviders20240404121104.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503082448.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503082915.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503083208.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503083545.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Frames_Switching20240501041953.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/NAVIGATE20240504102241.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/NAVIGATE20240504102530.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Windows_Switching20240501042109.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Windows_Switching20240504121438.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/get_title20240404094233.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/image_upload20240501042027.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/rightClick20240503032437.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/rightClick20240503032502.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_tutorial/StaticVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Hashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Linkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/encapsulation/EncapsulationClassOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/encapsulation/EncapsulationClassTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ExcelFile.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngPractices.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 13-05-2024">
+      <change afterPath="$PROJECT_DIR$/src/Java_tutorial/Super_child_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_tutorial/Super_parent_demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_tutorial/exceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/example_of_collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Demo_Modifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Driver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_tutorial/StaticVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_tutorial/StaticVar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Hashmap.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/method_overriding_child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/method_overriding_parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ExcelFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ExcelFile.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,25 +68,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/Java_tutorial&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeleniumTopic" />
       <recent name="Java_Concept" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\Java_tutorial" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\main\resources" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Driver" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Utils" />
@@ -175,13 +102,13 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticVar">
-    <configuration name="EncapsulationClassTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="encapsulation.EncapsulationClassTwo" />
+  <component name="RunManager" selected="Application.Hashmap">
+    <configuration name="Hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Hashmap" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="encapsulation.*" />
+          <option name="PATTERN" value="Java_Concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,35 +123,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java_Concept.Hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Hashmap" />
+    <configuration name="exceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionDemo" />
       <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticVar" />
-      <module name="Practice_programs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.array" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,22 +162,57 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Selenium_other_methods" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.Excel_Dataproviders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Excel_Dataproviders" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Java" />
-      <item itemvalue="Application.StaticVar" />
-      <item itemvalue="Application.EncapsulationClassTwo" />
-      <item itemvalue="Application.Java_Concept.Hashmap" />
-      <item itemvalue="Application.array" />
+      <item itemvalue="Application.Hashmap" />
       <item itemvalue="Application.set" />
+      <item itemvalue="Application.exceptionDemo" />
       <item itemvalue="Gradle.Unnamed" />
+      <item itemvalue="TestNG.Selenium_other_methods" />
+      <item itemvalue="TestNG.Selenium_other_methods.Excel_Dataproviders" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticVar" />
-        <item itemvalue="Application.array" />
-        <item itemvalue="Application.EncapsulationClassTwo" />
+        <item itemvalue="Application.Hashmap" />
         <item itemvalue="Application.set" />
-        <item itemvalue="Application.Java_Concept.Hashmap" />
+        <item itemvalue="Application.exceptionDemo" />
+        <item itemvalue="TestNG.Selenium_other_methods.Excel_Dataproviders" />
+        <item itemvalue="TestNG.Selenium_other_methods" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712166535997</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updated added 10-05-2024">
+      <created>1715284524262</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715284524262</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +366,8 @@
     <MESSAGE value="updated added 03-04-2024" />
     <MESSAGE value="updated added 24-04-2024" />
     <MESSAGE value="updated added 10-05-2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 10-05-2024" />
+    <MESSAGE value="updated added 13-05-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 13-05-2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
