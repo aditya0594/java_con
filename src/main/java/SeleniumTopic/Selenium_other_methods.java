@@ -37,13 +37,15 @@ public class Selenium_other_methods {
     ExtentSparkReporter spark;
     ExtentReports extent;
 
-
-
+    //https://the-internet.herokuapp.com/
+    //https://demo.automationtesting.in/Register.html
+    //https://googlechromelabs.github.io/chrome-for-testing/
     @BeforeMethod
     public void Setup(){
 
         System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
 
       /*  WebDriverManager.chromedriver().driverVersion("121.0.6167.161").setup();
@@ -57,10 +59,10 @@ public class Selenium_other_methods {
        /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));*/
 
-        Wait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
+        /*Wait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoAlertPresentException.class);
-
+*/
 
     }
     @BeforeTest
@@ -85,7 +87,14 @@ public class Selenium_other_methods {
 
     @FindBy(id = "searchBox")
     private WebElement searchBar;
+    @Test(priority = 1,enabled = true)
+    public void Window_Basic_Auth(){
+        ExtentTest test = extent.createTest("To verify username and password in chrome base browser ");
+        //driver.get("https://demo.automationtesting.in/Register.html");
+        driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/basic_auth");
+        test.pass("To verify username and password in chrome base browser ");
 
+    }
     @Test(priority = 1,enabled = true)
     public void get_title(){
         ExtentTest test = extent.createTest("To verify Register Title");
@@ -429,6 +438,27 @@ public class Selenium_other_methods {
 
         Select select = new Select(driver.findElement(By.xpath("//*[@class='adb']")));
     }
+    @Test(priority = 14, enabled = true)
+    public void window_file() throws InterruptedException, IOException {
+        ExtentTest test = extent.createTest("Excel file to read");
+        driver.get("https://the-internet.herokuapp.com/upload");
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
+
+        // Click on the file upload input to open the file dialog
+        driver.findElement(By.xpath("//input[@id='file-upload']")).click();
+        Thread.sleep(2000);
+
+        // Create and start the process using ProcessBuilder
+        ProcessBuilder processBuilder = new ProcessBuilder("C:/GAED/src/resources/FileUpload.exe");
+        Process process = processBuilder.start();
+        process.waitFor(); // Ensure the process completes
+
+        // Submit the file upload form
+        driver.findElement(By.xpath("//input[@id='file-submit']")).click();
+        Thread.sleep(10000);
+    }
+
 
 
 
