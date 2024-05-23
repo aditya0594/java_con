@@ -1,0 +1,33 @@
+mvn clean  -- This will only clean the project by deleting the target directory.
+mvn clean compile  ----this will clean the project and then compile the source code.
+mvn clean package -- This will clean the project, compile the source code, run tests, and package the compiled code into a JAR/WAR file.
+mvn clean install deploy --- This will clean the project, compile the source code, run tests, package the code,
+                              install the package into the local repository, and then deploy it to a remote repository.
+
+
+
+mvn clean --- The mvn clean command is a fundamental part of the Maven build lifecycle that ensures a
+              clean build environment by deleting the target directory and its contents.
+              This is crucial for maintaining build consistency and avoiding issues related to leftover artifacts from previous builds.
+
+
+mvn compile :
+
+When you run mvn compile, Maven will perform the following tasks:
+
+Compile Source Code:>> Maven compiles all the Java source files (.java) in the src/main/java directory of your project.
+Generate Compiled Classes: >>The compiled classes (.class files) are generated and stored in the target/classes directory.
+Compile Dependencies:>> If your project has any dependencies, Maven will also compile them and
+include their compiled classes in the classpath.
+
+
+
+
+test Command:
+The test command is another Maven build lifecycle phase that executes the unit tests in your project.
+When you run mvn test, Maven will perform the following tasks:
+
+Compile Test Source Code: >> Maven compiles all the test source files (usually located in the src/test/java directory)
+                          along with any main source files.
+Run Unit Tests: >> Maven executes all the unit tests using a suitable testing framework (such as JUnit or TestNG).
+Report Test Results:>>  Maven generates test reports, including information about test failures and errors.

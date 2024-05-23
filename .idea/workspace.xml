@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 13-05-2024">
-      <change afterPath="$PROJECT_DIR$/Screenshots/window_file20240517022300.png" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 21-05-2024">
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20240521111039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_tutorial/Maven_Info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_parentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Duplicate_value_of_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Sort_Array_in_Alphabetically.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Example_Child_animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Example_Parent_animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_tutorial/StaticVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_tutorial/StaticVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +100,7 @@
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\Java_tutorial" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Driver" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -88,10 +110,36 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium_other_methods.window_file">
+  <component name="RunManager" selected="TestNG.Selenium_other_methods.ExcelFileRead">
+    <configuration name="Abstraction_childMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Abstraction_childMethod" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Java" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Java_Concept.Array_list" />
       <module name="Practice_programs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map_Hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Map_Hashmap" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,7 +163,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Selenium_other_methods" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_other_methods.ExcelFileRead" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -125,24 +173,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.get_title" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="get_title" />
+      <option name="METHOD_NAME" value="ExcelFileRead" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,7 +181,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_other_methods.image_present (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_other_methods.Excel_Dataproviders" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -160,7 +191,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="image_present" />
+      <option name="METHOD_NAME" value="Excel_Dataproviders" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -168,7 +199,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_other_methods.image_present" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_other_methods.Verify" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -178,25 +209,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="image_present" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.window_file" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="window_file" />
+      <option name="METHOD_NAME" value="Verify" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -206,20 +219,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java" />
+      <item itemvalue="Application.Abstraction_childMethod" />
+      <item itemvalue="Application.Map_Hashmap" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.Selenium_other_methods" />
-      <item itemvalue="TestNG.Selenium_other_methods.get_title" />
-      <item itemvalue="TestNG.Selenium_other_methods.image_present" />
-      <item itemvalue="TestNG.Selenium_other_methods.image_present (1)" />
-      <item itemvalue="TestNG.Selenium_other_methods.window_file" />
+      <item itemvalue="TestNG.Selenium_other_methods.ExcelFileRead" />
+      <item itemvalue="TestNG.Selenium_other_methods.Excel_Dataproviders" />
+      <item itemvalue="TestNG.Selenium_other_methods.Verify" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Selenium_other_methods.window_file" />
-        <item itemvalue="TestNG.Selenium_other_methods" />
-        <item itemvalue="TestNG.Selenium_other_methods.get_title" />
-        <item itemvalue="TestNG.Selenium_other_methods.image_present (1)" />
-        <item itemvalue="TestNG.Selenium_other_methods.image_present" />
+        <item itemvalue="TestNG.Selenium_other_methods.ExcelFileRead" />
+        <item itemvalue="Application.Map_Hashmap" />
+        <item itemvalue="Application.Abstraction_childMethod" />
+        <item itemvalue="TestNG.Selenium_other_methods.Excel_Dataproviders" />
+        <item itemvalue="TestNG.Selenium_other_methods.Verify" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716193224929</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="updated added 21-05-2024">
+      <created>1716284438920</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716284438920</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +408,8 @@
     <MESSAGE value="updated added 24-04-2024" />
     <MESSAGE value="updated added 10-05-2024" />
     <MESSAGE value="updated added 13-05-2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 13-05-2024" />
+    <MESSAGE value="updated added 21-05-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 21-05-2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

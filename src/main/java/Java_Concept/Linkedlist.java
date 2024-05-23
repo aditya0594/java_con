@@ -1,6 +1,7 @@
 package Java_Concept;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class Linkedlist {
 
@@ -13,7 +14,7 @@ public class Linkedlist {
         //In LinkedList class, manipulation is fast because shifting is not required when new element is inserted or deleted from the list.
 
 
-        LinkedList<String> ref = new LinkedList<>();
+        List<String> ref = new LinkedList<>();
         ref.add("selenium");
         ref.add("grid");
         ref.add("appium");

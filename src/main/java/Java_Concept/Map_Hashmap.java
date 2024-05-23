@@ -1,20 +1,21 @@
 package Java_Concept;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class Hashmap {
+public class Map_Hashmap {
 
     public static void main(String[] args) {
 
         //The Map is an interface, and HashMap is a class of the Java collection framework.
-        //The Map interface can be implemented by using its implementing classes. In comparison, the HashMap class implements the Map interface.
-        //The Map contains unique key-pair values. But, the HashMap can hold duplicate values.
-        //The Map does not allow null values. But the HashMap can have one null key and multiple values.
+        //The HashMap class implements the Map interface.
+        //The Map interface can be implemented by using its implementing classes.
+        //The Map contains unique key-pair values.the HashMap can hold duplicate values.
+        //The Map does not allow null values. But the HashMap can have one null key and multiple null values.
         //The Map has two implementations, which are HashMap and TreeMap. Whereas HashMap implements Map interface and extends AbstractMap class.
         //There is no difference between the Map and HashMap objects.
+
 
 
         HashMap<Integer, String> value = new HashMap<>();
@@ -22,19 +23,24 @@ public class Hashmap {
         value.put(2,"12");
         value.put(3,"tester");
 
+        value.remove(1);
         // To get the value of the Key
-        System.out.println(value.get("1"));
+        for(HashMap.Entry<Integer,String> en : value.entrySet() ){
+
+            System.out.println("All the keys : " + en.getKey());
+            System.out.println("All the values : "+ en.getValue());
+        }
         System.out.println("---------------------------------");
-        //value.put(1,"QA Consultant");
 
 
-        System.out.println("---------------------------------");
+
+        //System.out.println("---------------------------------");
        // value.remove(1,"QA Consultant");
 
-        System.out.println("---------------------------------");
+        //System.out.println("---------------------------------");
        // value.replace(2,"12","QA");
 
-        System.out.println("---------------------------------");
+        //System.out.println("---------------------------------");
 
         //To get the all keys and value we have to user the EntrySet
 
@@ -59,22 +65,21 @@ public class Hashmap {
            // System.out.println("All the keys : " + mp.getKey());
            // System.out.println("All the values : "+ mp.getValue());
 
-
        /* System.out.println("---------------------------------");
-        Set setvalues = value.entrySet();
-        Iterator j = setvalues.iterator();
-        while(j.hasNext()){
-            Map.Entry mp1 = (Map.Entry) i.next();
-            System.out.println("this is the key"+ mp1.getKey());
-            System.out.println("this is the values"+ mp1.getValue());
-        }
-        System.out.println("---------------------------------");*/
 
         for(HashMap.Entry<Integer,String> nm : value.entrySet()){
             System.out.println(nm.getKey());
             System.out.println(nm.getValue());
         }
+*/
+        HashMap<Integer, String> map1 = new HashMap<>();
+        value.put(1,"This is first value");
+        value.put(2,"This is second value");
+        value.put(3,"This is third value");
 
+        for(Map.Entry<Integer,String> en : map1.entrySet()){
+            System.out.println(en.getValue() + " " + en.getKey());
 
+        }
     }
 }

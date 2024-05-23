@@ -2,16 +2,19 @@ public class StaticVar {
 
     // String name;
 
-    String name;  //String name   >> Instance variable , As this varible is instance dependent that we call this variable as instance variable.
-    String address; //String address   >> Instance variable  variable
-    static  String city = "Nagpur";    // Static variable is not dependant on the instance variable, static variable independant of objects
-                            // This staic variable not change the value, this is also called os class varisble
-                            // Whenever we declare varible as static then that variable is part of class not an object
+    String name;  //String name   >> Instance variable , As this
+                  // variable is instance dependent that we call this variable as instance variable.
+    String address; //String address   >> Instance variable
+    static  String city = "Nagpur";
+                     // Static variable is not dependent on the instance variable, static variable independant of objects
+                     // This staic variable not change the value, this is also called os class varisble
+                     // Whenever we declare variable as static as that variable is part of class not an object
     static int i = 0;
 
-    // StaticVar(String name, String address, String city ) >> this is the local variable because the scope of the this variable inside the Method only.
-    // Now we have to assign this varible to the instance varible, so For that we have use the "This" keyword
-    //these all is the local variable because the scope of the this variable inside the class only.
+    // StaticVar(String name, String address, String city ) >> this is the local variable because the scope of the variable inside the Method only.
+    // Now we have to assign this variable to the instance variable, so For that we have use the "This" keyword,
+    // When the instance variable abl
+    //these all is the local variable because the scope of the this variable inside the method only.
     // constructor, Constructor name should same as the class name
     // if we are passing the parameter to the constuctor then it is a parameterize constructor
     StaticVar(String name, String address) {

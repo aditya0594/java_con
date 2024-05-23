@@ -4,17 +4,18 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class set {
+public class Set_HashSet {
 
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
         //HashSet implements Set interface in Java.
         //HashSet doesn’t allow duplicates values.
         //HashSet is an unordered collection and doesn’t maintain any order.
         //HashSet is completely object based. HashSet  does not provide get() method.
-        // There is no guarantee element stored in the sequential order .. They may store in random order.
-        // HashSet , treeSet, LinkedHashSet implements the Set interface.
+        //There is no guarantee element stored in the sequential order .. They may store in random order.
+        //HashSet , treeSet, LinkedHashSet implements the Set interface.
+        // .add(), .remove(),
 
-        Set setlist = new HashSet<String>();
+        HashSet<String> setlist = new HashSet<String>();
 
         setlist.add("USA");
         setlist.add("INDIA");
@@ -24,7 +25,7 @@ public class set {
         //duplicate value
         setlist.add("INDIA");
         System.out.println(setlist);
-       // setlist.remove("UK");
+       //setlist.remove("UK");
 
         System.out.println(setlist.isEmpty()); //it will give the boolean value
 

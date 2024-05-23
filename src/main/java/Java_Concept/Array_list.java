@@ -12,7 +12,7 @@ public class Array_list {
         // non-generic
 
         //ArrayList Class implements List interface.
-        //ArrayList allows duplicate elements (remember that Set in Java wont allow duplicate values.)
+        //ArrayList allows duplicate elements (remember that Set in Java won't allow duplicate values.)
         //ArrayList maintains the order of the object in which they are inserted
         //ArrayList is index based we can retrieve object by calling get(index) method or remove objects by calling remove(index) method
         //ArrayList not apply any restriction, we can add any number of null value
@@ -24,7 +24,7 @@ public class Array_list {
 
 
 
-         List<String> ar = new ArrayList<String>();
+        List<String> ar = new ArrayList<String>();
         ar.add("10");
         ar.add("20");
         ar.add("Aditya");
@@ -42,7 +42,7 @@ public class Array_list {
         System.out.println("--------------111111-------------------");
 
         int n = 5;
-        for (int j=0;j<=n; j++){
+        for (int j=0;j<=ar.size(); j++){
             ar.add(String.valueOf(j));
         }
 

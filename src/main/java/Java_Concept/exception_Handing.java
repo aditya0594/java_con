@@ -19,6 +19,5 @@ public class exception_Handing {
             System.out.println("Find in the main method");
             throw e;
         }
-
     }
 }

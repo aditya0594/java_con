@@ -87,6 +87,8 @@ public class Selenium_other_methods {
 
     @FindBy(id = "searchBox")
     private WebElement searchBar;
+
+
     @Test(priority = 1,enabled = true)
     public void Window_Basic_Auth(){
         ExtentTest test = extent.createTest("To verify username and password in chrome base browser ");
@@ -98,9 +100,11 @@ public class Selenium_other_methods {
     @Test(priority = 1,enabled = true)
     public void get_title(){
         ExtentTest test = extent.createTest("To verify Register Title");
-        //driver.get("https://demo.automationtesting.in/Register.html");
+        String ActualURL = ("https://demo.automationtesting.in/Register.html");
         driver.navigate().to("https://demo.automationtesting.in/Register.html");
-        Assert.assertEquals(driver.getCurrentUrl(),"https://demo.automationtesting.in/Register.html");
+
+        Assert.assertEquals(driver.getCurrentUrl(),ActualURL);
+
         Assert.assertEquals(driver.getTitle(),"Register");
         test.pass("Title passed successfully.");
 
@@ -153,16 +157,18 @@ public class Selenium_other_methods {
 
         // scroll to the element on the page
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
-        js.executeScript("arguments[0].scrollIntoView();",element2 );
+
+        js.executeScript("arguments[0].scrollIntoView(true);",element2 );
+
         Thread.sleep(10000);
-        test.pass("Scroll using java script");
+
 
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 
         // scroll by the specific pixels
         //js.executeScript("window.scrollBy(0,1000);");
-
+        test.pass("Scroll using java script");
     }
     @Test(priority = 5, enabled = true)
     public void DragAndDrop() throws InterruptedException {
@@ -171,6 +177,9 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
+
+
+
 
         Actions actions = new Actions(driver);
         actions.dragAndDrop(from,to).perform();
@@ -187,6 +196,8 @@ public class Selenium_other_methods {
         System.out.println("Failing first the excution");
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
+        softAssert.assertAll();
+
         test.pass("Verify the soft assert");
 
 
@@ -219,7 +230,14 @@ public class Selenium_other_methods {
 
         Actions actions = new Actions(driver);
         WebElement rightClickElemen = driver.findElement(By.xpath("//img[@title='Automation Practice Site']"));
+
         actions.contextClick(rightClickElemen).build().perform();
+
+        //actions.doubleClick(element).perform();  // To perform a double click, use the doubleClick method:
+
+
+        // actions.moveToElement(elementToHover).click().perform();    // Perform mouse hover and click
+
 
 
         Thread.sleep(1000);
@@ -350,7 +368,7 @@ public class Selenium_other_methods {
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
 
-        //Fluent Wait
+        //Flu  ent Wait
         Wait wait = new FluentWait(driver)
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(1))
@@ -457,6 +475,10 @@ public class Selenium_other_methods {
         // Submit the file upload form
         driver.findElement(By.xpath("//input[@id='file-submit']")).click();
         Thread.sleep(10000);
+    }
+
+    public void fluent_Wait(){
+
     }
 
 
