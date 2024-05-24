@@ -28,6 +28,7 @@ import java.io.*;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.List;
 import java.util.Set;
 
 
@@ -125,12 +126,14 @@ public class Selenium_other_methods {
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id=\"msdd\"]")).click();
+
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class ='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all']")));
         //driver.findElement(By.xpath("//*[@class ='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all']");
         driver.findElement(By.xpath("//*[@id=\"basicBootstrapForm\"]/div[7]/div/multi-select/div[2]/ul/li[8]")).click();
         // scroll to the element on the page
         Thread.sleep(5000);
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         // scroll to the element on the page
         WebElement element2 = driver.findElement(By.xpath("//input[@id='secondpassword']"));
@@ -168,6 +171,7 @@ public class Selenium_other_methods {
 
         // scroll by the specific pixels
         //js.executeScript("window.scrollBy(0,1000);");
+
         test.pass("Scroll using java script");
     }
     @Test(priority = 5, enabled = true)
@@ -339,13 +343,13 @@ public class Selenium_other_methods {
     public void Windows_Switching() throws InterruptedException {
 
         driver.get("https://demo.automationtesting.in/Windows.html");
-// Get parent window handle
+        // Get parent window handle // it will give to current window
         String parentWindowHandle = driver.getWindowHandle();
-// Click the link/button to open a new window or tab
+        // Click the link/button to open a new window or tab
         driver.findElement(By.xpath("//button[@class='btn btn-info']")).click();
 
         System.out.println("Parent window name :" + parentWindowHandle);
-// Switch to child window
+        // Switch to child window
         Set<String> allWindowHandles = driver.getWindowHandles();
         for (String handle : allWindowHandles) {
             if (!handle.equals(parentWindowHandle)) {
@@ -368,13 +372,15 @@ public class Selenium_other_methods {
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
 
-        //Flu  ent Wait
+        //Fluent Wait
+
         Wait wait = new FluentWait(driver)
-                .withTimeout(Duration.ofSeconds(10))
+                .withTimeout(Duration.ofSeconds(45))
                 .pollingEvery(Duration.ofSeconds(1))
-                .ignoring(Exception.class);
+                .ignoring(NoAlertPresentException.class);
 
-
+        WebDriverWait explicit=  new WebDriverWait(driver,Duration.ofSeconds(10));
+        explicit.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
 
 
                 WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
@@ -439,6 +445,9 @@ public class Selenium_other_methods {
        // driver.get("www.google.com");
         driver.navigate().to("https://www.google.com");
         driver.navigate().back();
+        driver.navigate().forward();
+        driver.navigate().refresh();
+
 
 
     }
@@ -452,6 +461,8 @@ public class Selenium_other_methods {
 
         Alert alert = driver.switchTo().alert();
         alert.accept();
+        alert.dismiss();
+        alert.sendKeys("");
 
 
         Select select = new Select(driver.findElement(By.xpath("//*[@class='adb']")));
@@ -477,10 +488,23 @@ public class Selenium_other_methods {
         Thread.sleep(10000);
     }
 
-    public void fluent_Wait(){
+    public void Find_all_links() {
+        try {
+            // Open the web page
+            driver.get("https://example.com");
 
+            // Find all link elements
+            List<WebElement> links = driver.findElements(By.tagName("Link"));
+
+            // Print each link's URL
+            for (WebElement link : links) {
+                System.out.println(link.getAttribute("href"));
+            }
+
+        }catch (ArithmeticException e){
+            System.out.println("This is demo ");
+        }
     }
-
 
 
 

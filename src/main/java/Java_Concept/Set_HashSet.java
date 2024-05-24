@@ -1,8 +1,6 @@
 package Java_Concept;
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class Set_HashSet {
 
@@ -28,7 +26,9 @@ public class Set_HashSet {
        //setlist.remove("UK");
 
         System.out.println(setlist.isEmpty()); //it will give the boolean value
+        System.out.println("-----------------Lamda---------------------");
 
+        setlist.forEach(values ->System.out.println(values));
 
         System.out.println("--------------------------------------");
 
@@ -39,11 +39,12 @@ public class Set_HashSet {
 
         System.out.println("--------------------------------------");
 
-        Iterator<String> i = setlist.iterator();
-        while (i.hasNext()){                      // hasNext() is check whether there is value avaliable in the set container or not.
-            System.out.println(i.next());          // next() is root of the container that is first node of the container the give the value if again you write the Next()
-                                                    // then it will give you the nex value.
-        }
+      Iterator<String> i = setlist.iterator();
+      while(i.hasNext()){
+          System.out.println(i.next());
+      }
+
+
 
 
 

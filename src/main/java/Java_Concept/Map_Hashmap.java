@@ -79,7 +79,11 @@ public class Map_Hashmap {
 
         for(Map.Entry<Integer,String> en : map1.entrySet()){
             System.out.println(en.getValue() + " " + en.getKey());
-
         }
+        System.out.println("-----------------Lamda---------------------");
+
+        map1.forEach((key, values) -> System.out.println("Key: " + key + ", Value: " + values));
+
+        System.out.println("--------------------------------------");
     }
 }

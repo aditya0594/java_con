@@ -41,12 +41,6 @@ public class Array_list {
 
         System.out.println("--------------111111-------------------");
 
-        int n = 5;
-        for (int j=0;j<=ar.size(); j++){
-            ar.add(String.valueOf(j));
-        }
-
-
         System.out.println("Size of array is : "+ ar.size());
         System.out.println("Size of array is : "+ ar.get(0));
 
@@ -71,7 +65,9 @@ public class Array_list {
         }
 
         System.out.println("---------------3333------------------");
-
+        System.out.println("---------------lamda------------------");
+        ar1.forEach(value -> System.out.println(value));
+        System.out.println("---------------lamda------------------");
         //
         Employee e1 = new Employee("aditya",25,"QA");
         Employee e2 = new Employee("tom",26,"dev");
@@ -126,6 +122,7 @@ public class Array_list {
             System.out.println("Print the value of the ar4 : " + ar6.get(num));
             num++;
         }
+
 
 
     }

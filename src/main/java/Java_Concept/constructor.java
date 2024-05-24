@@ -5,11 +5,12 @@ public class constructor {
     //constructor which didnt return any values
     // default constructor does not have the parameters
     /// Compiler will call implicit constructor if you have not defined any contructor
-    // if you have two constructor and paramaterized constructor and defined one constructor in main method then the it will call the defualt constructor because
-    // compiler find the paramate are given or not
+    // if you have two constructor and paramaterized constructor and defined one constructor in main method then  it will call the defualt constructor because
+    // compiler find the paramater are given or not
 
 
     public constructor(){  //default constructor
+
         System.out.println("this is the first constructor");
     }
 

@@ -11,6 +11,7 @@ public class Reverse_number {
         System.out.print("-------------------------------------------");
 
         int num1 = 1234;
+
         char[] chars = String.valueOf(num1).toCharArray();
         System.out.println("This the lenght of array :" + chars.length); // 012345
 
