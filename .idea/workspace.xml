@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 24-05-2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_Main_method.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 25-05-2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Hello.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/example_of_collection.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_childMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_childMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_Duplicate_element_Array_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Find_Duplicate_element_Array_String.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Reverse_number.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Reverse_number.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/example_of_collection.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -367,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716492062873</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="updated added 25-05-2024">
+      <created>1716581414417</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716581414417</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +374,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -399,7 +410,8 @@
     <MESSAGE value="updated added 13-05-2024" />
     <MESSAGE value="updated added 21-05-2024" />
     <MESSAGE value="updated added 24-05-2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 24-05-2024" />
+    <MESSAGE value="updated added 25-05-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 25-05-2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

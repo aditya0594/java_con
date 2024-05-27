@@ -17,6 +17,7 @@ public class constructor {
     // parameterized Constructor
 
     public constructor(int a, int b){
+
         System.out.println("this is the parameterized constructor");
     }
 

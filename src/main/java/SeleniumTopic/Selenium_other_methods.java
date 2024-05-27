@@ -187,6 +187,12 @@ public class Selenium_other_methods {
 
         Actions actions = new Actions(driver);
         actions.dragAndDrop(from,to).perform();
+
+        // actions.click(from).build().perform();
+        // actions.contextClick(from).build().perform();
+        // actions.clickAndHold(from);
+        // actions.doubleClick(from);
+        // actions.moveToElement(from).click().perform();
         Thread.sleep(5000);
 
 
@@ -195,8 +201,10 @@ public class Selenium_other_methods {
     @Test(priority = 6, enabled = true)
     public void Verify(){
         ExtentTest test = extent.createTest("Verify the soft assert");
+
         SoftAssert softAssert = new SoftAssert();
         softAssert.fail("First fail");
+
         System.out.println("Failing first the excution");
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
