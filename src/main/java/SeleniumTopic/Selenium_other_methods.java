@@ -54,16 +54,16 @@ public class Selenium_other_methods {
         driver = new ChromeDriver(options);*/
 
         //Implicitly wait
-        //Implicitly wait
+
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         //explicit wait
        /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));*/
 
-        /*Wait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
+        Wait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoAlertPresentException.class);
-*/
+
 
     }
     @BeforeTest
@@ -353,6 +353,7 @@ public class Selenium_other_methods {
         driver.get("https://demo.automationtesting.in/Windows.html");
         // Get parent window handle // it will give to current window
         String parentWindowHandle = driver.getWindowHandle();
+
         // Click the link/button to open a new window or tab
         driver.findElement(By.xpath("//button[@class='btn btn-info']")).click();
 
@@ -493,6 +494,17 @@ public class Selenium_other_methods {
 
         // Submit the file upload form
         driver.findElement(By.xpath("//input[@id='file-submit']")).click();
+        Thread.sleep(10000);
+    }
+
+    @Test(priority = 14, enabled = true)
+    public void file_upload_linux() throws InterruptedException, IOException {
+        ExtentTest test = extent.createTest("Excel file to read");
+        driver.get("https://the-internet.herokuapp.com/upload");
+        driver.manage().window().maximize();
+        WebElement fileInput = driver.findElement(By.cssSelector("input[type=file]"));
+        fileInput.sendKeys();
+        driver.findElement(By.id("file-submit")).click();
         Thread.sleep(10000);
     }
 

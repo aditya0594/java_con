@@ -2,28 +2,32 @@ package Java_Concept;
 
 public class constructor {
 
-    //constructor which didnt return any values
+    // Constructor execute block of code whenever the object is created.
+    // Constructor didn't return any values
+    // Name of the constructor should be the class name.
+    // Whenever we create an object constructor is called
+
     // default constructor does not have the parameters
     /// Compiler will call implicit constructor if you have not defined any contructor
     // if you have two constructor and paramaterized constructor and defined one constructor in main method then  it will call the defualt constructor because
     // compiler find the paramater are given or not
 
 
-    public constructor(){  //default constructor
+    public constructor(String str){  //default constructor
 
-        System.out.println("this is the first constructor");
+        System.out.println(str);
     }
 
-    // parameterized Constructor
 
-    public constructor(int a, int b){
 
-        System.out.println("this is the parameterized constructor");
+    public constructor(int a, int b){    // parameterized Constructor
+
+        System.out.println("this is the parameterized constructor" + "And parameter value :" + a + ", "+b );
     }
 
     public static void main(String[] arg){
-        constructor obj = new constructor();
-        constructor obj1 = new constructor(5,5);
+       constructor obj = new constructor("Hello");
+       constructor obj1 = new constructor(5,5);
 
     }
 

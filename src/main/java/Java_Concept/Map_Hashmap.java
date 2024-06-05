@@ -1,8 +1,6 @@
 package Java_Concept;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Map_Hashmap {
 
@@ -10,80 +8,79 @@ public class Map_Hashmap {
 
         //The Map is an interface, and HashMap is a class of the Java collection framework.
         //The HashMap class implements the Map interface.
-        //The Map interface can be implemented by using its implementing classes.
-        //The Map contains unique key-pair values.the HashMap can hold duplicate values.
+        //The HashMap contains unique key-pair values.the HashMap can hold duplicate values.
         //The Map does not allow null values. But the HashMap can have one null key and multiple null values.
-        //The Map has two implementations, which are HashMap and TreeMap. Whereas HashMap implements Map interface and extends AbstractMap class.
-        //There is no difference between the Map and HashMap objects.
-
-
+        //The Map has two implementations, which are HashMap, HashTable and TreeMap. Whereas HashMap implements Map interface and extends AbstractMap class.
+        // It does not guarantee the order of iteration, meaning the order of keys and values is not predictable.
+        //  HashMap is non-synchronized ---that means that the 5 five program access the hashmap concurrently simultaneously it will keep updating
 
         HashMap<Integer, String> value = new HashMap<>();
         value.put(1,"aditya");
         value.put(2,"12");
-        value.put(3,"tester");
+        value.put(null,null);
+        value.put(null,"13");
 
-        value.remove(1);
+
         // To get the value of the Key
-        for(HashMap.Entry<Integer,String> en : value.entrySet() ){
+        System.out.println("-----------for each loop ----------------------");
+        for(Map.Entry<Integer, String> original : value.entrySet()){
+            System.out.println("Keys is : "+ original.getKey());
+            System.out.println("Value is : "+ original.getValue());
 
-            System.out.println("All the keys : " + en.getKey());
-            System.out.println("All the values : "+ en.getValue());
         }
-        System.out.println("---------------------------------");
 
-
-
-        //System.out.println("---------------------------------");
+        System.out.println("---------------Replace-----------");
        // value.remove(1,"QA Consultant");
+        value.replace(2,"12","QA");
+        for(Map.Entry<Integer, String> original : value.entrySet()){
+            System.out.println("Keys is : "+ original.getKey() +"Value is : "+ original.getValue());
 
-        //System.out.println("---------------------------------");
-       // value.replace(2,"12","QA");
-
-        //System.out.println("---------------------------------");
-
-        //To get the all keys and value we have to user the EntrySet
-
-
-        // Q extracting the hashMap and pass date in set collection key and value using the Iterator
-/*
-
-        for(HashMap.Entry<Integer,String> en : value.entrySet() ){
-
-            System.out.println("All the keys : " + en.getKey());
-            System.out.println("All the values : "+ en.getValue());
         }
-        System.out.println("---------------------------------");
+        System.out.println("---------------Remove-----------");
+        value.remove(1);
+        for(Map.Entry<Integer, String> original : value.entrySet()){
+            System.out.println("Keys is : "+ original.getKey() +"Value is : "+ original.getValue());
 
+        }
+        System.out.println("-------------Using iterator--------------------");
+        // Q extracting the hashMap and pass date in set collection key and value using the Iterator
         Set sn = value.entrySet();
         Iterator i = sn.iterator();
-        while (i.hasNext()){
-*/
-
-          //  System.out.println(i.next());
-         //   Map.Entry mp = (Map.Entry) i.next();    // this for the separated the key and value
-           // System.out.println("All the keys : " + mp.getKey());
-           // System.out.println("All the values : "+ mp.getValue());
-
-       /* System.out.println("---------------------------------");
-
-        for(HashMap.Entry<Integer,String> nm : value.entrySet()){
-            System.out.println(nm.getKey());
-            System.out.println(nm.getValue());
+        while (i.hasNext()) {
+            System.out.println(i.next());
+            Map.Entry mp = (Map.Entry) i.next();    // this for the separated the key and value
+            System.out.println("All the keys : " + mp.getKey());
+            System.out.println("All the values : " + mp.getValue());
         }
-*/
-        HashMap<Integer, String> map1 = new HashMap<>();
-        value.put(1,"This is first value");
-        value.put(2,"This is second value");
-        value.put(3,"This is third value");
 
-        for(Map.Entry<Integer,String> en : map1.entrySet()){
-            System.out.println(en.getValue() + " " + en.getKey());
+        // hash table doesnt contains the null value
+        // This is faster then the hashmap
+        // HashTable is snychronized because if one program accessing it then other program have to wait to conplete first program 
+        Map<Integer,String> ht = new Hashtable<>();
+        ht.put(1,"first");
+        ht.put(2,"second");
+        ht.put(3,"Third");
+        ht.put(4,"Fourth") ;
+
+        for(Map.Entry<Integer,String> m : ht.entrySet()){
+            System.out.println("Keys : " + m.getKey() + "Values : " +m.getValue());
         }
-        System.out.println("-----------------Lamda---------------------");
+        // Using an Iterator
+        System.out.println("Using Iterator:");
+        Iterator<String> iterator = ht.values().iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
 
-        map1.forEach((key, values) -> System.out.println("Key: " + key + ", Value: " + values));
-
-        System.out.println("--------------------------------------");
+        // Using a for-each loop
+        System.out.println("Using for-each loop:");
+        for (String htvalue : ht.values()) {
+            System.out.println(htvalue);
+        }
+        // Using a for-each loop
+        System.out.println("Using for-each loop:");
+        for (Integer htvalue1 : ht.keySet()) {
+            System.out.println(htvalue1);
+        }
     }
 }

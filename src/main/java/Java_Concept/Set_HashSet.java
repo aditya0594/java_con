@@ -22,6 +22,8 @@ public class Set_HashSet {
         setlist.add("is");
         //duplicate value
         setlist.add("INDIA");
+
+
         System.out.println(setlist);
        //setlist.remove("UK");
 

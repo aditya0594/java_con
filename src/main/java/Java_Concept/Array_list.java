@@ -16,7 +16,7 @@ public class Array_list {
         //ArrayList maintains the order of the object in which they are inserted
         //ArrayList is index based we can retrieve object by calling get(index) method or remove objects by calling remove(index) method
         //ArrayList not apply any restriction, we can add any number of null value
-        // You can access and insert value in any index
+        //You can access and insert value in any index
 
         // ArrayList, LinkdedList, Vector ---implementing the List interface
 

@@ -4,18 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 25-05-2024">
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 28-05-2024 notes added">
+      <change afterPath="$PROJECT_DIR$/ChromeParallel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/DragAndDrop20240603033023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/DragAndDrop20240603044648.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20240603032756.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20240603034844.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20240603035830.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/palindrome_or_not.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Stream_program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Linkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/example_of_collection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Linked_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Linked_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Linkedlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Linkedlist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/example_of_collection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Linked_List.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Linked_List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,21 +83,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/Driver&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java",
+    "last_opened_file_path": "C:/Users/Aditya Pawar/eclipse-workspace/java_con/Driver",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeleniumTopic" />
@@ -84,9 +105,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Driver" />
+      <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con" />
+      <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Notes" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\Java_tutorial" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\main\resources" />
-      <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\Java_tutorial" />
@@ -99,13 +121,13 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.array">
-    <configuration name="Abstraction_Main_method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Abstraction_Main_method" />
+  <component name="RunManager" selected="Application.Class_B">
+    <configuration name="Class_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inharitance.Class_B" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="Inharitance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,19 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Array_list" />
-      <module name="Practice_programs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Map_Hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Map_Hashmap" />
+    <configuration name="Stream_program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.Stream_program" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="Java_Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,21 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Set_HashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Set_HashSet" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.array" />
+    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.constructor" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -178,21 +180,57 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Stream_program.streamFilter (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Streams" />
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.Stream_program" />
+      <option name="METHOD_NAME" value="streamFilter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stream_program.streamFilter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Streams" />
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.Stream_program" />
+      <option name="METHOD_NAME" value="streamFilter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Abstraction_Main_method" />
-      <item itemvalue="Application.array" />
-      <item itemvalue="Application.Map_Hashmap" />
-      <item itemvalue="Application.Set_HashSet" />
-      <item itemvalue="Application.Java" />
+      <item itemvalue="Application.Class_B" />
+      <item itemvalue="Application.Stream_program" />
+      <item itemvalue="Application.constructor" />
       <item itemvalue="Gradle.Unnamed" />
+      <item itemvalue="TestNG.Stream_program.streamFilter" />
+      <item itemvalue="TestNG.Stream_program.streamFilter (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.array" />
-        <item itemvalue="Application.Java" />
-        <item itemvalue="Application.Map_Hashmap" />
-        <item itemvalue="Application.Set_HashSet" />
-        <item itemvalue="Application.Abstraction_Main_method" />
+        <item itemvalue="Application.Class_B" />
+        <item itemvalue="Application.constructor" />
+        <item itemvalue="TestNG.Stream_program.streamFilter" />
+        <item itemvalue="TestNG.Stream_program.streamFilter (1)" />
+        <item itemvalue="Application.Stream_program" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716581414417</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated added 28-05-2024 notes added">
+      <created>1716836102437</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1716836102437</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +456,8 @@
     <MESSAGE value="updated added 21-05-2024" />
     <MESSAGE value="updated added 24-05-2024" />
     <MESSAGE value="updated added 25-05-2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 25-05-2024" />
+    <MESSAGE value="updated added 28-05-2024 notes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 28-05-2024 notes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

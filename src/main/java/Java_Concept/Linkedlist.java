@@ -19,8 +19,10 @@ public class Linkedlist {
         ref.add("grid");
         ref.add("appium");
 
+
         System.out.println(ref.get(1));
         System.out.println("===-------------------==--------------------");
+
         // To print all the values
 
         for(int i =0;i< ref.size();i++){
@@ -31,6 +33,12 @@ public class Linkedlist {
         for(String str : ref){
             System.out.println(str);
         }
+
+        System.out.println("===------------------Lamda--------------------");
+        ref.forEach(value -> System.out.println(value));
+
+        System.out.println("===------------------Remove the Object--------------------");
+        ref.remove("appium");
     }
 
 

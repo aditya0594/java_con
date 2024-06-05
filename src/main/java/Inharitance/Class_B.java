@@ -1,8 +1,21 @@
 package Inharitance;
 
 public class Class_B extends Class_A{
+
+    String Lastname = "This methodClass  B ";
     public void MethodClassB(){
-        String Lastname = "lastname";
         System.out.println(Lastname);
+        System.out.println(super.Name); // this calling the variable from the prarent class we have to user the super lkeyword
+
+    }
+    public void getdata(){
+        super.getdata();
+        System.out.println("I am in child class");
+    }
+
+    public static void main(String[] args){
+        Class_B obj = new Class_B();
+        obj.MethodClassB();
+        obj.getdata();
     }
 }

@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Linked_List {
+
     public static void main(String[] args) {
         LinkedList<Integer> ll = new LinkedList<Integer>();
         ll.add(10);
@@ -27,6 +28,8 @@ public class Linked_List {
             System.out.println("Print the value of ll :  "+ ll.get(num));
             num++;
         }
+        System.out.println("---------------LAMDA------------------");
+        ll.forEach(value -> System.out.println(value));
 
     }
 }
