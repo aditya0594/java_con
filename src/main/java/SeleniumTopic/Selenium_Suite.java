@@ -2,6 +2,7 @@ package SeleniumTopic;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -18,6 +19,8 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 @Listeners(ITestListener.class)
 public class Selenium_Suite {
@@ -138,7 +141,7 @@ public class Selenium_Suite {
 
 
         Actions actions = new Actions(driver);
-        WebElement rightClickElemen = driver.findElement(By.xpath("//img[@title='Automation Practice Site']"));
+        WebElement rightClickElemen = driver.findElement(By.xpath("//img[@title='Automation Practice ']"));
 
         actions.contextClick(rightClickElemen).build().perform();
 
@@ -150,7 +153,7 @@ public class Selenium_Suite {
     }
     @AfterTest
     public void endReport() {
-           extent.flush();
+       extent.flush();
     }
 
     @AfterMethod
@@ -161,10 +164,19 @@ public class Selenium_Suite {
             test = extent.createTest(result.getName() + " - Test Case Failed");
             test.log(Status.FAIL, result.getName() + " - Test Case Failed");
             test.log(Status.FAIL, result.getThrowable() + " - Test Case Failed");
-
-            // Capture screenshot
+            test.fail(result.getThrowable());
             String screenshotPath = Selenium_other_methods.getScreenShot(driver, result.getName());
-            test.fail("Test Case Failed Snapshot is below " + test.addScreenCaptureFromPath(screenshotPath));
+            // Log the screenshot path to ensure it's correct
+            System.out.println("Screenshot Path: " + screenshotPath);
+
+            // Verify if the screenshot file exists
+            File screenshotFile = new File(screenshotPath);
+            if (screenshotFile.exists()) {
+                test.fail("Test Case Failed Snapshot is below:", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+            } else {
+                test.fail("Screenshot not found at: " + screenshotPath);
+            }
+
 
         } else if(result.getStatus() == ITestResult.SKIP) {
             // Executed when a test method is skipped

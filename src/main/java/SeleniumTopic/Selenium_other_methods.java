@@ -76,14 +76,30 @@ public class Selenium_other_methods {
     @FindBy(xpath="user_login")WebElement userId;
 
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
-        String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+       /* String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         // after execution, you could see a folder "FailedTestsScreenshots" under src folder
         String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
         File finalDestination = new File(destination);
         FileUtils.copyFile(source, finalDestination);
-        return destination;
+        return destination;*/
+        String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+        TakesScreenshot ts = (TakesScreenshot) driver;
+        File source = ts.getScreenshotAs(OutputType.FILE);
+
+        // Ensure directory exists
+        File screenshotDir = new File(System.getProperty("user.dir") + "/Screenshots/");
+        if (!screenshotDir.exists()) {
+            screenshotDir.mkdirs();
+        }
+
+        // Save screenshot
+        String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
+        File finalDestination = new File(destination);
+        FileUtils.copyFile(source, finalDestination);
+
+        return finalDestination.getAbsolutePath();
     }
 
     @FindBy(id = "searchBox")
