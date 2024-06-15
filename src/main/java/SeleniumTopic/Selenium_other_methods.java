@@ -76,14 +76,7 @@ public class Selenium_other_methods {
     @FindBy(xpath="user_login")WebElement userId;
 
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
-       /* String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        File source = ts.getScreenshotAs(OutputType.FILE);
-        // after execution, you could see a folder "FailedTestsScreenshots" under src folder
-        String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
-        File finalDestination = new File(destination);
-        FileUtils.copyFile(source, finalDestination);
-        return destination;*/
+
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
@@ -114,7 +107,7 @@ public class Selenium_other_methods {
         test.pass("To verify username and password in chrome base browser ");
 
     }
-    @Test(priority = 1,enabled = true)
+    @Test(priority = 2,enabled = true)
     public void get_title(){
         ExtentTest test = extent.createTest("To verify Register Title");
         String ActualURL = ("https://demo.automationtesting.in/Register.html");
@@ -126,43 +119,27 @@ public class Selenium_other_methods {
         test.pass("Title passed successfully.");
 
     }
-    @Test(priority = 2,enabled = true)
+    @Test(priority = 3,enabled = true)
         public void image_present(){
         ExtentTest test = extent.createTest("To verify Image on the Register page");
         driver.get("https://demo.automationtesting.in/Register.html");
             Boolean img = driver.findElement(By.xpath("//img[@alt='image not displaying']")).isDisplayed();
             Assert.assertTrue(img);
         test.pass("To verify Image passed successfully.");
-
         }
 
-    @Test(priority = 3, enabled = true)
+    @Test(priority = 4, enabled = true)
     public void Selection_Dropdown() throws InterruptedException {
-        ExtentTest test = extent.createTest("Select the seletion in the dropdown ");
-        driver.get("https://demo.automationtesting.in/Register.html");
+        ExtentTest test = extent.createTest("Select the seletion in the dropdown.");
+        driver.get("https://the-internet.herokuapp.com/dropdown");
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("//*[@id=\"msdd\"]")).click();
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class ='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all']")));
-        //driver.findElement(By.xpath("//*[@class ='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all']");
-        driver.findElement(By.xpath("//*[@id=\"basicBootstrapForm\"]/div[7]/div/multi-select/div[2]/ul/li[8]")).click();
-        // scroll to the element on the page
+        WebElement dropdown  = driver.findElement(By.xpath("//select[@id='dropdown']"));
+        Select drop = new Select(dropdown);
+        drop.selectByValue("1");
         Thread.sleep(5000);
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        // scroll to the element on the page
-        WebElement element2 = driver.findElement(By.xpath("//input[@id='secondpassword']"));
-        js.executeScript("arguments[0].scrollIntoView();", element2);
-        Thread.sleep(5000);
-        Boolean Englishlang =driver.findElement(By.xpath("//div[@class='ui-autocomplete-multiselect-item']")).isDisplayed();
-        //div[@class='ui-autocomplete-multiselect-item']
-        Assert.assertTrue(Englishlang);
-        driver.findElement(By.xpath("//div[6]")).click();
-        test.log(Status.PASS,"The English language is selected in dropdown");
 
     }
-    @Test(priority = 4, enabled = true)
+    @Test(priority = 5, enabled = true)
     public void Scroll_using_javascript() throws InterruptedException {
         ExtentTest test = extent.createTest("Scroll using java script");
         driver.get("https://demo.automationtesting.in/Register.html");
@@ -190,7 +167,7 @@ public class Selenium_other_methods {
 
         test.pass("Scroll using java script");
     }
-    @Test(priority = 5, enabled = true)
+    @Test(priority = 6, enabled = true)
     public void DragAndDrop() throws InterruptedException {
         ExtentTest test = extent.createTest("Drag and drop element");
         driver.get("https://demo.automationtesting.in/Dynamic.html");
@@ -214,7 +191,7 @@ public class Selenium_other_methods {
 
         test.pass("Element draged properly");
     }
-    @Test(priority = 6, enabled = true)
+    @Test(priority = 7, enabled = true)
     public void Verify(){
         ExtentTest test = extent.createTest("Verify the soft assert");
 
@@ -230,7 +207,7 @@ public class Selenium_other_methods {
 
 
     }
-    @Test(priority = 7, enabled = true)
+    @Test(priority = 8, enabled = true)
     //@Given("^user is already on Login Page$")
     public void Frames_Switching() throws InterruptedException {
         ExtentTest test = extent.createTest("frames switching testcase ");
@@ -349,7 +326,7 @@ public class Selenium_other_methods {
                 };
 
     }
-    @Test(priority =10, enabled = true,dataProvider = "loginDataProviderExcel")
+    @Test(priority =11, enabled = true,dataProvider = "loginDataProviderExcel")
     public void Excel_Dataproviders(String username , String password){
 
         // DataProvider is like a container that passes
@@ -362,7 +339,7 @@ public class Selenium_other_methods {
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 
     }
-    @Test(priority = 11, enabled = true)
+    @Test(priority = 12, enabled = true)
     //@Given("^user is already on Login Page$")
     public void Windows_Switching() throws InterruptedException {
 
@@ -391,7 +368,7 @@ public class Selenium_other_methods {
 
 
     }
-    @Test(priority = 11, enabled = true)
+    @Test(priority = 13, enabled = true)
     public void FluentWait() throws InterruptedException {
         ExtentTest test = extent.createTest("Drag and drop element");
         driver.get("https://demo.automationtesting.in/Dynamic.html");
@@ -416,7 +393,7 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
         test.pass("Element draged properly");
     }
-    @Test(priority = 11, enabled = true)
+    @Test(priority = 14, enabled = true)
     public void ExcelFileRead() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
 
@@ -438,7 +415,7 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
         test.pass("Excel file to read");
     }
-    @Test(priority = 11, enabled = true)
+    @Test(priority = 15, enabled = true)
     public void Write_ExcelFile() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
 
@@ -464,7 +441,7 @@ public class Selenium_other_methods {
 
 
     }
-    @Test(priority = 12, enabled = true)
+    @Test(priority = 16, enabled = true)
     public void NAVIGATE() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
        // driver.get("www.google.com");
@@ -476,7 +453,7 @@ public class Selenium_other_methods {
 
 
     }
-    @Test(priority = 13, enabled = true)
+    @Test(priority = 17, enabled = true)
     public void ALERT() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
         driver.get("https://demo.automationtesting.in/Alerts.html");
@@ -492,7 +469,7 @@ public class Selenium_other_methods {
 
         Select select = new Select(driver.findElement(By.xpath("//*[@class='adb']")));
     }
-    @Test(priority = 14, enabled = true)
+    @Test(priority = 18, enabled = true)
     public void window_file() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
         driver.get("https://the-internet.herokuapp.com/upload");
@@ -513,7 +490,7 @@ public class Selenium_other_methods {
         Thread.sleep(10000);
     }
 
-    @Test(priority = 14, enabled = true)
+    @Test(priority = 19, enabled = true)
     public void file_upload_linux() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
         driver.get("https://the-internet.herokuapp.com/upload");
@@ -541,8 +518,29 @@ public class Selenium_other_methods {
             System.out.println("This is demo ");
         }
     }
+    @Test(priority = 20, enabled = true)
+    public void Screen_shot() throws IOException {
+        driver.get("https://www.softwaretestingmaterial.com/capture-screenshot-using-selenium-webdriver");
+        File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        // stored file in the local storage
+        FileUtils.copyFile(screenshotFile, new File("D:\\SoftwareTestingMaterial.png"));
+    }
 
+    @Test(priority = 21, enabled = true)
+    public void Scroll_moving_mouse() throws IOException {
+        driver.manage().window().maximize();
+        driver.get("https://www.softwaretestingmaterial.com/inheritance-in-java/");
+        Actions action = new Actions(driver);
+        WebElement ele = driver.findElement(By.xpath("//a[normalize-space()='Sitemap']"));
+        //action.moveToElement(ele);
+      //  action.perform();
 
+        // wheelAPI
+        action.scrollToElement(ele).perform();
+
+        //using send keys
+        action.sendKeys(Keys.PAGE_DOWN).perform();
+    }
 
 
     @AfterMethod

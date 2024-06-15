@@ -13,9 +13,9 @@ public class constructor {
     // compiler find the paramater are given or not
 
 
-    public constructor(String str){  //default constructor
-
-        System.out.println(str);
+    public constructor(){  //default constructor
+        String a = "default constructor";
+        System.out.println(a);
     }
 
 
@@ -26,7 +26,7 @@ public class constructor {
     }
 
     public static void main(String[] arg){
-       constructor obj = new constructor("Hello");
+       constructor obj = new constructor();
        constructor obj1 = new constructor(5,5);
 
     }

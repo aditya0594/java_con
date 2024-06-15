@@ -20,8 +20,6 @@ public class superchild extends superparent {
     public static void main(String[] args) {
         superchild obj = new superchild();
         obj.getData();
-
-
     }
 
 }

@@ -1,6 +1,6 @@
 package Inharitance;
 
-public class Class_A extends Class_C{
+public class Class_A{
     String Name = "aditya";
 
     public void MethodClassA(){

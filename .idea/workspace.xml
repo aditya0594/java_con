@@ -4,71 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 06-06-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/src/Java_tutorial/superparent.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 15-06-2024 notes added">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_41_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/chromedriver_binary.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Driver/selenium-server-4.21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selenium Grid Suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Convert_arrayList_in_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/InstanceOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Object_class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_Local_variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SQL_Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SeleniumGridTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChromeParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChromeParallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Dataproviders20240404121053.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Dataproviders20240404121104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/DragAndDrop20240603033023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/DragAndDrop20240603044648.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503082448.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503082915.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503083208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240503083545.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/ExcelFileRead20240512122125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Excel_Dataproviders20240512123325.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Frames_Switching20240219125315.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Frames_Switching20240501041953.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/NAVIGATE20240504102241.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/NAVIGATE20240504102530.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20240603032756.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20240603034844.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20240603035830.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20240521111039.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Windows_Switching20240501042109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Windows_Switching20240504121438.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/get_title20240404094233.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219023907.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219025002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219025238.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219025327.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219025712.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219025744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219025826.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219030718.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219030932.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219031159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219035232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219035541.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219035630.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219042507.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219042744.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219043304.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219043348.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219043449.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219044646.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219044750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219045320.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240219045555.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/image_upload20240501042027.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/rightClick20240503032437.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/rightClick20240503032502.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/window_file20240517020128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/window_file20240517022129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/window_file20240517022300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/window_file20240517125544.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/window_file20240517125757.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_tutorial/Super_child_demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_tutorial/superchild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_tutorial/Super_parent_demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_tutorial/superchild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_tutorial/superchild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/String_call.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Super_child_demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Super_parent_demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingChildClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingChildClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,13 +129,13 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.superchild">
-    <configuration name="Class_B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inharitance.Class_B" />
+  <component name="RunManager" selected="TestNG.Selenium_other_methods.Scroll_moving_mouse">
+    <configuration name="InstanceOF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.InstanceOF" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inharitance.*" />
+          <option name="PATTERN" value="Java_Concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,23 +143,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Super_parent_demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Super_parent_demo" />
+    <configuration name="main_method_without_static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.main_method_without_static" />
       <module name="Practice_programs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="superchild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="superchild" />
-      <module name="Practice_programs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="superparent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="superparent" />
-      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,10 +175,52 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="C:/Users/Aditya Pawar/eclipse-workspace/java_con/ChromeParallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/ChromeParallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.Scroll_moving_mouse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Scroll_moving_mouse" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -218,20 +228,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Super_parent_demo" />
-      <item itemvalue="Application.superchild" />
-      <item itemvalue="Application.superparent" />
-      <item itemvalue="Application.Class_B" />
+      <item itemvalue="Application.InstanceOF" />
+      <item itemvalue="Application.main_method_without_static" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.C:/Users/Aditya Pawar/eclipse-workspace/java_con/ChromeParallel.xml" />
+      <item itemvalue="TestNG.Practice" />
+      <item itemvalue="TestNG.Practice (1)" />
+      <item itemvalue="TestNG.Selenium_other_methods.Scroll_moving_mouse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.superchild" />
-        <item itemvalue="Application.superparent" />
-        <item itemvalue="Application.Super_parent_demo" />
-        <item itemvalue="TestNG.C:/Users/Aditya Pawar/eclipse-workspace/java_con/ChromeParallel.xml" />
-        <item itemvalue="Application.Class_B" />
+        <item itemvalue="TestNG.Selenium_other_methods.Scroll_moving_mouse" />
+        <item itemvalue="TestNG.Practice (1)" />
+        <item itemvalue="TestNG.Practice" />
+        <item itemvalue="Application.main_method_without_static" />
+        <item itemvalue="Application.InstanceOF" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +429,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717614228660</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="updated added 13-06-2024 notes added">
+      <created>1718255792287</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1718255792287</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updated added 13-06-2024 notes added">
+      <created>1718255821048</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718255821048</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -466,7 +490,9 @@
     <MESSAGE value="updated added 25-05-2024" />
     <MESSAGE value="updated added 28-05-2024 notes added" />
     <MESSAGE value="updated added 06-06-2024 notes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 06-06-2024 notes added" />
+    <MESSAGE value="updated added 13-06-2024 notes added" />
+    <MESSAGE value="updated added 15-06-2024 notes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 15-06-2024 notes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

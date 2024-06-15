@@ -2,8 +2,10 @@ package polymorphism;
 
 public class MethodOverridingChildClass extends MethodOverridingParentClass {
 
-    public void myMethod() {
-        System.out.println("I am a method from Child Class");
+
+    @Override
+    public void myMethodParent(){
+        System.out.println("this the overiding method");
     }
 
     public static void main(String[] args) {
@@ -14,14 +16,14 @@ public class MethodOverridingChildClass extends MethodOverridingParentClass {
          */
         MethodOverridingParentClass obj = new MethodOverridingChildClass();
         // It calls the child class method myMethod()
-        obj.myMethod();
+        obj.myMethodParent();
 
 
         /* When Parent class reference refers to the parent class object
          * then the method of parent class (overriden method) is called.
          */
         MethodOverridingParentClass obj1 = new MethodOverridingParentClass();
-        obj1.myMethod();
+        obj1.myMethodParent();
 
     }
 }

@@ -1,5 +1,7 @@
 package Java_Concept;
 
+import com.aventstack.extentreports.gherkin.model.ScenarioOutline;
+
 import java.util.*;
 
 public class Map_Hashmap {
@@ -53,7 +55,9 @@ public class Map_Hashmap {
             System.out.println("All the values : " + mp.getValue());
         }
 
-        // hash table doesnt contains the null value
+
+
+        // hash table doesn't contain the null value
         // This is faster then the hashmap
         // HashTable is snychronized because if one program accessing it then other program have to wait to conplete first program 
         Map<Integer,String> ht = new Hashtable<>();
@@ -73,14 +77,23 @@ public class Map_Hashmap {
         }
 
         // Using a for-each loop
-        System.out.println("Using for-each loop:");
+        System.out.println("Using for-each loop values:");
         for (String htvalue : ht.values()) {
             System.out.println(htvalue);
         }
         // Using a for-each loop
-        System.out.println("Using for-each loop:");
+        System.out.println("Using for-each loop Keys: ");
         for (Integer htvalue1 : ht.keySet()) {
             System.out.println(htvalue1);
+        }
+
+        System.out.println("Using Set map entry");
+        Set sk = ht.entrySet();
+        Iterator k = sk.iterator();
+        while (k.hasNext()){
+            System.out.println(k.next());
+            Map.Entry m1 = (Map.Entry) k.next();
+            System.out.println(m1.getKey() + " " + m1.getValue());
         }
     }
 }
