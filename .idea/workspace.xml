@@ -5,46 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 15-06-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_41_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/chromedriver_binary.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/selenium-server-4.21.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium Grid Suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Convert_arrayList_in_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/InstanceOF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Object_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_Local_variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SQL_Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SeleniumGridTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Split_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Three_String_concat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_tutorial/superchild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_tutorial/superchild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Encapsulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Remove_Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Remove_Space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_String.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Encapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Final_Finally_Finalize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Final_Finally_Finalize.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/String_call.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/accessModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/accessModifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/exception_Handing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/exception_Handing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Remove_Space.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Remove_Space.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingChildClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingChildClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testngPractices.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testngPractices.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,9 +117,9 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium_other_methods.Scroll_moving_mouse">
-    <configuration name="InstanceOF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.InstanceOF" />
+  <component name="RunManager" selected="Application.Reverse_String">
+    <configuration name="Final_Finally_Finalize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Final_Finally_Finalize" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -143,12 +131,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main_method_without_static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.main_method_without_static" />
+    <configuration name="Reverse_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.Reverse_String" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="Java_Program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Split_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.Split_String" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Three_String_concat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.Three_String_concat" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,41 +189,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Practice (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.Scroll_moving_mouse" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_other_methods.Selection_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -219,7 +199,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="Scroll_moving_mouse" />
+      <option name="METHOD_NAME" value="Selection_Dropdown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -228,20 +208,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InstanceOF" />
-      <item itemvalue="Application.main_method_without_static" />
+      <item itemvalue="Application.Final_Finally_Finalize" />
+      <item itemvalue="Application.Reverse_String" />
+      <item itemvalue="Application.Split_String" />
+      <item itemvalue="Application.Three_String_concat" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.Practice" />
-      <item itemvalue="TestNG.Practice (1)" />
-      <item itemvalue="TestNG.Selenium_other_methods.Scroll_moving_mouse" />
+      <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Selenium_other_methods.Scroll_moving_mouse" />
-        <item itemvalue="TestNG.Practice (1)" />
-        <item itemvalue="TestNG.Practice" />
-        <item itemvalue="Application.main_method_without_static" />
-        <item itemvalue="Application.InstanceOF" />
+        <item itemvalue="Application.Reverse_String" />
+        <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
+        <item itemvalue="Application.Three_String_concat" />
+        <item itemvalue="Application.Split_String" />
+        <item itemvalue="Application.Final_Finally_Finalize" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718255821048</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="updated added 15-06-2024 notes added">
+      <created>1718443823058</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1718443823058</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

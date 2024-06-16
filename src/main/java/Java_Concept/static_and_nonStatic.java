@@ -1,7 +1,9 @@
 package Java_Concept;
 
 public class static_and_nonStatic {
-
+         // To share a single copy of a variable among all instances of a class
+        //the static keyword in Java is used to share the same variable or method of a given class.
+         //When you want all instances of a class to share the same data.
          static int StaticVariable = 20;
 
           void nonStaticMethod() {

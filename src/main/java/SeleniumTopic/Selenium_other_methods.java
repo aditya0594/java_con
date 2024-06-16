@@ -136,6 +136,11 @@ public class Selenium_other_methods {
         WebElement dropdown  = driver.findElement(By.xpath("//select[@id='dropdown']"));
         Select drop = new Select(dropdown);
         drop.selectByValue("1");
+        List<WebElement> listOfOption = drop.getOptions();
+        for(Object w : listOfOption){
+            System.out.println("List of options : "+ w);
+        }
+
         Thread.sleep(5000);
 
     }
@@ -146,7 +151,7 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
 
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='secondpassword']")));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='secondpassword']")));
         Thread.sleep(10000);
 
         JavascriptExecutor js = (JavascriptExecutor)driver;

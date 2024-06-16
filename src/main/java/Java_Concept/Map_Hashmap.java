@@ -7,7 +7,6 @@ import java.util.*;
 public class Map_Hashmap {
 
     public static void main(String[] args) {
-
         //The Map is an interface, and HashMap is a class of the Java collection framework.
         //The HashMap class implements the Map interface.
         //The HashMap contains unique key-pair values.the HashMap can hold duplicate values.
@@ -55,16 +54,17 @@ public class Map_Hashmap {
             System.out.println("All the values : " + mp.getValue());
         }
 
-
+        System.out.println("-------------------------------------------HashTable--------------------------------------------------------------------");
 
         // hash table doesn't contain the null value
         // This is faster then the hashmap
-        // HashTable is snychronized because if one program accessing it then other program have to wait to conplete first program 
+        // HashTable is snychronized because if one program accessing it then other program have to wait to complete first program
         Map<Integer,String> ht = new Hashtable<>();
         ht.put(1,"first");
         ht.put(2,"second");
         ht.put(3,"Third");
-        ht.put(4,"Fourth") ;
+        //ht.put(4,null) ; // This will give the NullPointerException
+        ht.put(4,"fourth");
 
         for(Map.Entry<Integer,String> m : ht.entrySet()){
             System.out.println("Keys : " + m.getKey() + "Values : " +m.getValue());

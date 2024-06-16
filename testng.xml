@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/main/java/SeleniumTopic/Selenium_other_methods.java">
+        <!-- Alternative parameter -->
+      <!--  <parameter name="environment" />-->
+        <classes>
+            <class name="SeleniumTopic.Selenium_other_methods">
+
+                <methods>
+                    <exclude name="Window_Basic_Auth"/>
+                    <include name="get_title"/>
+                    <include name="image_present"/>
+                    <include name="Selection_Dropdown"/>
+                    <include name="Scroll_using_javascript"/>
+                    <include name="DragAndDrop"/>
+                    <include name="Verify"/>
+                    <include name="Frames_Switching"/>
+                    <include name="rightClick"/>
+                    <include name="image_upload"/>
+                    <include name="Dataproviders"/>
+                    <include name="Excel_Dataproviders"/>
+                    <include name="Windows_Switching"/>
+                    <include name="FluentWait"/>
+                    <include name="ExcelFileRead"/>
+                    <include name="Write_ExcelFile"/>
+                    <include name="NAVIGATE"/>
+                    <include name="ALERT"/>
+                    <include name="window_file"/>
+                    <include name="file_upload_linux"/>
+                    <include name="Screen_shot"/>
+                    <include name="Scroll_moving_mouse"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
