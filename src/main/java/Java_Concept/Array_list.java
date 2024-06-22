@@ -119,7 +119,7 @@ public class Array_list {
         // While Loop
         int num=0;
         while (ar6.size()>num){
-            System.out.println("Print the value of the ar4 : " + ar6.get(num));
+            System.out.println("Print the value of the ar6 : " + ar6.get(num));
             num++;
         }
 

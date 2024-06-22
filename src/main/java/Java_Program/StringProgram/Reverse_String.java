@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.StringProgram;
 
 public class Reverse_String {
     public static void main(String[] args) {

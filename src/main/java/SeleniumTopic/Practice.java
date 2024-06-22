@@ -36,7 +36,7 @@ public class Practice extends Selenium_other_methods{
         System.out.println(password);
     }
     @Test(priority =1)
-    public void screenshot() throws IOException {
+    public void screenshot() throws IOException, InterruptedException {
     File sc = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
     FileUtils.copyFile(sc, new File("Path"));
 

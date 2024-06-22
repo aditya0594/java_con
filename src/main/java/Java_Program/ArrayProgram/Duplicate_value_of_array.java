@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.ArrayProgram;
 
 public class Duplicate_value_of_array {
   /*  public static void main(String[] args) {

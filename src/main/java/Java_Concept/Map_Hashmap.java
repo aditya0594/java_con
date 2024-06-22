@@ -7,7 +7,7 @@ import java.util.*;
 public class Map_Hashmap {
 
     public static void main(String[] args) {
-        //The Map is an interface, and HashMap is a class of the Java collection framework.
+        //The Map is an interface, and HashMap class of the Java collection framework.
         //The HashMap class implements the Map interface.
         //The HashMap contains unique key-pair values.the HashMap can hold duplicate values.
         //The Map does not allow null values. But the HashMap can have one null key and multiple null values.
@@ -22,6 +22,7 @@ public class Map_Hashmap {
         value.put(null,"13");
 
 
+
         // To get the value of the Key
         System.out.println("-----------for each loop ----------------------");
         for(Map.Entry<Integer, String> original : value.entrySet()){
@@ -33,8 +34,8 @@ public class Map_Hashmap {
         System.out.println("---------------Replace-----------");
        // value.remove(1,"QA Consultant");
         value.replace(2,"12","QA");
-        for(Map.Entry<Integer, String> original : value.entrySet()){
-            System.out.println("Keys is : "+ original.getKey() +"Value is : "+ original.getValue());
+        for(Map.Entry<Integer, String> original1 : value.entrySet()){
+            System.out.println("Keys is : "+ original1.getKey() +"Value is : "+ original1.getValue());
 
         }
         System.out.println("---------------Remove-----------");
@@ -65,6 +66,7 @@ public class Map_Hashmap {
         ht.put(3,"Third");
         //ht.put(4,null) ; // This will give the NullPointerException
         ht.put(4,"fourth");
+
 
         for(Map.Entry<Integer,String> m : ht.entrySet()){
             System.out.println("Keys : " + m.getKey() + "Values : " +m.getValue());

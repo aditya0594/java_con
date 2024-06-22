@@ -10,8 +10,9 @@ public class Find_duplicate_element_in_Array {
         for(String l: arr){
 
             if(langs.add(l)==false){
-                System.out.println("found duplicate element : " + l);
                 flag =true;
+                System.out.println("found duplicate element : " + l);
+
             }
         }
             if(flag ==false){

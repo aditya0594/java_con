@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.StringProgram;
 
 public class Remove_Space {
 

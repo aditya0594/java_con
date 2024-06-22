@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.StringProgram;
 
 public class Split_String {
     public static void main(String[] args) {
@@ -6,6 +6,9 @@ public class Split_String {
         String[] str = s1.split("'");  // Split method will return the Array of string // Split is a array type of variable
         for(int i =0; i<str.length;i++){
             System.out.println(str[i]);
+        }
+        for(String s : str){
+            System.out.println(s);
         }
     }
 }

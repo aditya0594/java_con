@@ -1,15 +1,16 @@
 package Java_Concept;
 
 public class String_call_mutable_immutable {
-/*    public static void main( String[]args) {
-        // Example of using String
+   public static void main( String[]args) {
+        //Example of using String
         String str = "Hello";
-        //str += " World";
-        str.concat("world");// Concatenating strings // String is immutable because the value of the strinng can change
+        str += " World";
+        str.concat("world");// Concatenating strings // String in Java is an immutable (cannot grow)
+                               // object that means it is constant and cannot be changed once it is created.
         System.out.println(str); // Output: Hello World
 
-    }*/
-    public static void main( String[]args) {
+    }
+    /*public static void main( String[]args) {
        // Example of String builder class
         StringBuilder str = new StringBuilder();
         str.append("Hello");
@@ -17,7 +18,7 @@ public class String_call_mutable_immutable {
         String string = str.toString(); // Converting StringBuilder to String
         System.out.println(string); // Output: Hello World
 
-    }
+    }*/
  /*   public static void main(String[] args) {
         // Example of using StringBuffer
         StringBuffer sb = new StringBuffer();

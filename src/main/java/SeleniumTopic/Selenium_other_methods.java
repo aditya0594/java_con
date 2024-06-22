@@ -135,6 +135,7 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         WebElement dropdown  = driver.findElement(By.xpath("//select[@id='dropdown']"));
         Select drop = new Select(dropdown);
+        //drop.getOptions();
         drop.selectByValue("1");
         List<WebElement> listOfOption = drop.getOptions();
         for(Object w : listOfOption){
@@ -151,7 +152,7 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
 
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@id='secondpassword']")));
+        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='secondpassword']")));
         Thread.sleep(10000);
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
@@ -190,7 +191,7 @@ public class Selenium_other_methods {
         // actions.contextClick(from).build().perform();
         // actions.clickAndHold(from);
         // actions.doubleClick(from);
-        // actions.moveToElement(from).click().perform();
+        //actions.moveToElement(from).click().perform();
         Thread.sleep(5000);
 
 
@@ -200,6 +201,7 @@ public class Selenium_other_methods {
     public void Verify(){
         ExtentTest test = extent.createTest("Verify the soft assert");
 
+        // Verify
         SoftAssert softAssert = new SoftAssert();
         softAssert.fail("First fail");
 
@@ -237,7 +239,6 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         Thread.sleep(6000);
 
-
         Actions actions = new Actions(driver);
         WebElement rightClickElemen = driver.findElement(By.xpath("//img[@title='Automation Practice Site']"));
 
@@ -247,8 +248,6 @@ public class Selenium_other_methods {
 
 
         // actions.moveToElement(elementToHover).click().perform();    // Perform mouse hover and click
-
-
 
         Thread.sleep(1000);
         test.pass("Right click performed");
@@ -420,7 +419,7 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
         test.pass("Excel file to read");
     }
-    @Test(priority = 15, enabled = true)
+    @Test(priority = 15, enabled = true, groups = "excel")
     public void Write_ExcelFile() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
 
@@ -470,7 +469,6 @@ public class Selenium_other_methods {
         alert.accept();
         alert.dismiss();
         alert.sendKeys("");
-
 
         Select select = new Select(driver.findElement(By.xpath("//*[@class='adb']")));
     }

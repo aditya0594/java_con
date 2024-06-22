@@ -6,13 +6,21 @@ public class static_and_nonStatic {
          //When you want all instances of a class to share the same data.
          static int StaticVariable = 20;
 
-          void nonStaticMethod() {
+          public void nonStaticMethod() {
               int nonStaticVariable = 10;
             System.out.println("This is as non-static method." + StaticVariable);
         }
+        public static void myMethod(){
+            System.out.println("This is the static method");
+            //static_and_nonStatic obj1=new static_and_nonStatic();  // you can call the non-static method in static method but
+                                                                    //but by creating instance of it. not directly.
+            //obj1.nonStaticMethod();
+        }
+
 
         public static void main(String[] args) {
-            static_and_nonStatic obj = new static_and_nonStatic();
-            obj.nonStaticMethod();
+            myMethod();
+            /*static_and_nonStatic obj = new static_and_nonStatic();
+            obj.nonStaticMethod();*/
         }
     }

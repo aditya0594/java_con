@@ -33,10 +33,10 @@ public class Selenium_Suite {
            if(browser.equalsIgnoreCase("chrome")){
                System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
                ChromeOptions options = new ChromeOptions();
-               options.addArguments("--remote-allow-origins=*");
-               options.addArguments("--headless");  // Enable headless mode
-               options.addArguments("--disable-gpu"); // Applicable to Windows environment
-               options.addArguments("--window-size=1920,1080"); // Set the window size
+              options.addArguments("--remote-allow-origins=*");
+             //  options.addArguments("--headless");  // Enable headless mode
+              // options.addArguments("--disable-gpu"); // Applicable to Windows environment
+              // options.addArguments("--window-size=1920,1080"); // Set the window size
                driver = new ChromeDriver(options);
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
                driver.manage().window().maximize();
@@ -132,7 +132,7 @@ public class Selenium_Suite {
         System.out.print("failing second the excution");
         test.pass("Verified");
     }
-    @Test(priority = 6, enabled = true)
+    @Test(priority = 6, enabled = true,groups = "Smoke")
     //@Given("^user is already on Login Page$")
     public void rightClick() throws InterruptedException {
         ExtentTest test = extent.createTest("Right click on the element");

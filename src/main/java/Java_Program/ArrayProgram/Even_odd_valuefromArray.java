@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.ArrayProgram;
 
 public class Even_odd_valuefromArray {
     public static void main(String[] args) {

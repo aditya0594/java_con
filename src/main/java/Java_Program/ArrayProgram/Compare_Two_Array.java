@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.ArrayProgram;
 
 public class Compare_Two_Array {
     public static void main(String[] args) {

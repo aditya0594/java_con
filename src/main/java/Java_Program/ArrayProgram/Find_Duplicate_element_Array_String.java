@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.ArrayProgram;
 
 import java.util.HashSet;
 

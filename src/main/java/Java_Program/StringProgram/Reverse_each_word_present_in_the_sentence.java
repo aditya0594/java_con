@@ -1,8 +1,8 @@
-package Java_Program;
+package Java_Program.StringProgram;
 
 public class Reverse_each_word_present_in_the_sentence {
     public static void main(String[] args) {
-        String str = "Aditya Pawar";
+        String str = "Aditya Pawar this is Aditya";
         String[] words =str.split(" ");
         String reverseString ="";
         for(String w : words){

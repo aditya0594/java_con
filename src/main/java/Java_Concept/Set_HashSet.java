@@ -26,6 +26,7 @@ public class Set_HashSet {
         setlist.add("INDIA");
 
 
+
         System.out.println(setlist);
        //setlist.remove("UK");
 
@@ -48,7 +49,9 @@ public class Set_HashSet {
           System.out.println(i.next());
       }
 
-        System.out.println("--------------------------------------");
+
+
+        System.out.println("-----------------LinkedHashSet---------------------");
         LinkedHashSet<String> LinkedH = new LinkedHashSet<>();
         LinkedH.add("USA");
         LinkedH.add("INDIA");
