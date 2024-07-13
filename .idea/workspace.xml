@@ -5,68 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 15-06-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/Screenshots/rightClick20240616091923.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Selenium_methods.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/NewWindowActionSele4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/New_RelativeLocator_with.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/openBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/flipkart20240629041043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton_use.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Method_Overloading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Convert_arrayList_in_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Convert_arrayList_in_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Compare_Two_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Compare_Two_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Duplicate_value_of_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Even_odd_valuefromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Even_odd_valuefromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Maximum_Value_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Maximum_Value_of_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Remove_Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Remove_Space.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Reverse_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_each_word_present_in_the_sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Reverse_each_word_present_in_the_sentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Reverse_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_the_sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_the_sentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Split_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Split_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Stringtointeger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Stringtointeger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/practices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_childMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_childMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Compare_Two_Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Duplicate_value_of_array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Even_odd_valuefromArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_Duplicate_element_Array_String.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_duplicate_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Find_duplicate_element_in_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Remove_Space.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Reverse_String.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Reverse_each_word_present_in_the_sentence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Reverse_number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Reverse_the_sentence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Reverse_the_sentence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Stringtointeger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/practices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/API_Call/API_CALL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/API_Call/API_delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,35 +107,9 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Count_of_word_from_sentences_1">
-    <configuration name="Count_of_word_from_sentences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.Count_of_word_from_sentences" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.StringProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Count_of_word_from_sentences_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.Count_of_word_from_sentences_1" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.StringProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Default_Contructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Default_Contructor" />
+  <component name="RunManager" selected="Application.MethodOverridingChildClass">
+    <configuration name="Abstraction_Main_method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Abstraction_Main_method" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -192,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.Practice" />
+    <configuration name="MethodOverridingChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.MethodOverridingChildClass" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="PATTERN" value="polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,8 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.constructor" />
+    <configuration name="Method_Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.Method_Overloading" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_method_without_static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.main_method_without_static" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -237,21 +179,39 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Selenium_other_methods.flipkart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="flipkart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Count_of_word_from_sentences" />
-      <item itemvalue="Application.Count_of_word_from_sentences_1" />
-      <item itemvalue="Application.Practice" />
-      <item itemvalue="Application.Default_Contructor" />
-      <item itemvalue="Application.constructor" />
+      <item itemvalue="Application.Abstraction_Main_method" />
+      <item itemvalue="Application.MethodOverridingChildClass" />
+      <item itemvalue="Application.Method_Overloading" />
+      <item itemvalue="Application.main_method_without_static" />
       <item itemvalue="Gradle.Unnamed" />
+      <item itemvalue="TestNG.Selenium_other_methods.flipkart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Count_of_word_from_sentences_1" />
-        <item itemvalue="Application.Count_of_word_from_sentences" />
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.Default_Contructor" />
-        <item itemvalue="Application.constructor" />
+        <item itemvalue="Application.MethodOverridingChildClass" />
+        <item itemvalue="Application.Method_Overloading" />
+        <item itemvalue="Application.main_method_without_static" />
+        <item itemvalue="Application.Abstraction_Main_method" />
+        <item itemvalue="TestNG.Selenium_other_methods.flipkart" />
       </list>
     </recent_temporary>
   </component>

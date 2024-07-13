@@ -21,9 +21,6 @@ public class Array_list {
         // ArrayList, LinkdedList, Vector ---implementing the List interface
 
         System.out.println("----------------1111-----------------");
-
-
-
         List<String> ar = new ArrayList<String>();
         ar.add("10");
         ar.add("20");
@@ -39,7 +36,7 @@ public class Array_list {
         System.out.println(ar.indexOf("Aditya"));
         System.out.println(ar.isEmpty()); // boolean value  it will return.
 
-        System.out.println("--------------111111-------------------");
+        System.out.println("--------------222222222-------------------");
 
         System.out.println("Size of array is : "+ ar.size());
         System.out.println("Size of array is : "+ ar.get(0));

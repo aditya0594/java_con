@@ -544,6 +544,18 @@ public class Selenium_other_methods {
         //using send keys
         action.sendKeys(Keys.PAGE_DOWN).perform();
     }
+    @Test(priority = 22, enabled = true)
+    public void flipkart() throws InterruptedException {
+        driver.manage().window().maximize();
+        driver.get("https://www.flipkart.com/");
+        Actions action = new Actions(driver);
+        WebElement ele = driver.findElement(By.xpath("//div[@class='_1wE2Px']"));
+        action.moveToElement(ele).perform();
+        Thread.sleep(5000);
+
+        driver.findElement(By.xpath("//a[normalize-space()='Slingbags']")).click();
+        Thread.sleep(5000);
+    }
 
 
     @AfterMethod
