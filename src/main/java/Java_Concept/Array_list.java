@@ -3,9 +3,7 @@ package Java_Concept;
 
 import com.aventstack.extentreports.gherkin.model.ScenarioOutline;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class Array_list {
     public static void main(String[] args) {

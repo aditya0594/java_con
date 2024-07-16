@@ -15,7 +15,6 @@ public class array {
         arr[0]="aditya";
         arr[1]="aditya1";
 
-
         System.out.println(arr[0]);
         try {
             for (int i = 0; i<arr.length; i++) {

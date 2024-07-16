@@ -13,7 +13,7 @@ public class openBrowser {
     public void openBrowser(){
         System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
+       options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
 

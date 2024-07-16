@@ -60,6 +60,7 @@ public class Set_HashSet {
         LinkedH.add(null);
         //duplicate value
         LinkedH.add("INDIA");
+
         System.out.println("LinkedHashSet list : using the for-each loop");
         for(Object str : LinkedH){
             System.out.println(str);
@@ -67,17 +68,30 @@ public class Set_HashSet {
         System.out.println("LinkedHashSet list : using the Iterator");
 
         Iterator<String> k = LinkedH.iterator();
-        while(i.hasNext()){
-            System.out.println(i.next());
+        while(k.hasNext()){
+            System.out.println(k.next());
         }
         System.out.println("LinkedHashSet list : using the Lamba expression");
 
         LinkedH.forEach(values-> System.out.println(values));
 
 
+        Set<String> str = new HashSet<String>();
+        str.add("aditya");
+        str.add("software");
+        str.add("testing");
+        str.add("QA");
+        System.out.println(str);
+        str.remove("QA");
 
+        for(String s : str){
+            System.out.println("This is the str value : "+s);
+        }
 
-
+        Iterator<String> l = str.iterator();
+        while(l.hasNext()){
+            System.out.println(l.next());
+        }
 
 
 

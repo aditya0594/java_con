@@ -118,6 +118,7 @@ public class Selenium_Suite {
         //actions.moveToElement(from);
         //actions.doubleClick(from);
         //actions.clickAndHold().perform();
+        //actions.scrollToElement(from);
         Thread.sleep(5000);
         test.pass("Image Drag");
 
@@ -130,6 +131,7 @@ public class Selenium_Suite {
         System.out.println("Failing first the excution");
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
+        softAssert.assertAll();
         test.pass("Verified");
     }
     @Test(priority = 6, enabled = true,groups = "Smoke")

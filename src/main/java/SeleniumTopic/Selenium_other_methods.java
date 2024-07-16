@@ -60,7 +60,8 @@ public class Selenium_other_methods {
        /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));*/
 
-        Wait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
+        Wait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoAlertPresentException.class);
 
@@ -138,8 +139,8 @@ public class Selenium_other_methods {
         //drop.getOptions();
         drop.selectByValue("1");
         List<WebElement> listOfOption = drop.getOptions();
-        for(Object w : listOfOption){
-            System.out.println("List of options : "+ w);
+        for(WebElement w : listOfOption){
+            System.out.println("List of options : "+ w.getText());
         }
 
         Thread.sleep(5000);
@@ -171,6 +172,8 @@ public class Selenium_other_methods {
         // scroll by the specific pixels
         //js.executeScript("window.scrollBy(0,1000);");
 
+        //  js.executeScript("arguments[0].click();", element);
+
         test.pass("Scroll using java script");
     }
     @Test(priority = 6, enabled = true)
@@ -188,7 +191,7 @@ public class Selenium_other_methods {
         actions.dragAndDrop(from,to).perform();
 
         // actions.click(from).build().perform();
-        // actions.contextClick(from).build().perform();
+        // actions.contextClick(from).build().perform(); //RightClick
         // actions.clickAndHold(from);
         // actions.doubleClick(from);
         //actions.moveToElement(from).click().perform();
@@ -203,6 +206,7 @@ public class Selenium_other_methods {
 
         // Verify
         SoftAssert softAssert = new SoftAssert();
+
         softAssert.fail("First fail");
 
         System.out.println("Failing first the excution");
@@ -249,7 +253,7 @@ public class Selenium_other_methods {
 
         // actions.moveToElement(elementToHover).click().perform();    // Perform mouse hover and click
 
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         test.pass("Right click performed");
     }
     @Test(priority = 9, enabled = true)
@@ -270,7 +274,8 @@ public class Selenium_other_methods {
             System.out.println("not visible");
         }
         Thread.sleep(5000);
-        String filePath = "Utils/test_image.png";
+        String filePath = "C:\\Users\\Aditya Pawar\\eclipse-workspace\\java_con\\src\\main\\resources\\abstraction_Interface.png";
+
        // Copy file path to clipboard
         StringSelection stringSelection = new StringSelection(filePath);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection,null);
@@ -285,6 +290,7 @@ public class Selenium_other_methods {
         robot.keyRelease(KeyEvent.VK_ENTER);
 
     }
+
     @DataProvider(name = "loginDataProvider")
     public Object[] [] loginData(){
         return new Object [] []
@@ -308,12 +314,13 @@ public class Selenium_other_methods {
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 
     }
+    @Test(priority= 1, enabled=true)
     public static String excelreaddata(int datarow, int datacell) throws IOException{
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheetAt(0);
         Row row = sheet.getRow(datarow);
-        Cell cell = row.createCell(datacell);
+        Cell cell = row.getCell(datacell);
         return cell.getStringCellValue();
     }
 
@@ -338,7 +345,6 @@ public class Selenium_other_methods {
         ExtentTest test = extent.createTest("Right click on the element");
         driver.get("https://practice.automationtesting.in/my-account/");
         driver.manage().window().maximize();
-
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 
@@ -378,12 +384,18 @@ public class Selenium_other_methods {
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
 
-        //Fluent Wait
+        //Fluent Wait//
+        // FluentWait can define the maximum amount of time to wait
+        // for a specific condition and frequency with which to check the condition before
+        // throwing an “ElementNotVisibleException” exception.
 
         Wait wait = new FluentWait(driver)
                 .withTimeout(Duration.ofSeconds(45))
                 .pollingEvery(Duration.ofSeconds(1))
-                .ignoring(NoAlertPresentException.class);
+                .ignoring(NoSuchElementException.class);
+//Explicit wait
+//Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
+// visible, or clickable. This allows the script to pause execution until the dynamic element is ready.
 
         WebDriverWait explicit=  new WebDriverWait(driver,Duration.ofSeconds(10));
         explicit.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
@@ -392,15 +404,14 @@ public class Selenium_other_methods {
                 WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
 
-        Actions actions = new Actions(driver);
-        actions.dragAndDrop(from,to).perform();
+        Actions action = new Actions(driver);
+        action.dragAndDrop(from,to).perform();
         Thread.sleep(5000);
         test.pass("Element draged properly");
     }
     @Test(priority = 14, enabled = true)
     public void ExcelFileRead() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
-
         //I have placed an excel file 'Test.xlsx' in my D Driver
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
@@ -449,7 +460,7 @@ public class Selenium_other_methods {
     public void NAVIGATE() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
        // driver.get("www.google.com");
-        driver.navigate().to("https://www.google.com");
+        driver.navigate().to("https://www.google.com");//to launch a new web browser window and navigate to the specified URL
         driver.navigate().back();
         driver.navigate().forward();
         driver.navigate().refresh();
@@ -536,8 +547,7 @@ public class Selenium_other_methods {
         Actions action = new Actions(driver);
         WebElement ele = driver.findElement(By.xpath("//a[normalize-space()='Sitemap']"));
         //action.moveToElement(ele);
-      //  action.perform();
-
+        //action.perform();
         // wheelAPI
         action.scrollToElement(ele).perform();
 
@@ -552,7 +562,6 @@ public class Selenium_other_methods {
         WebElement ele = driver.findElement(By.xpath("//div[@class='_1wE2Px']"));
         action.moveToElement(ele).perform();
         Thread.sleep(5000);
-
         driver.findElement(By.xpath("//a[normalize-space()='Slingbags']")).click();
         Thread.sleep(5000);
     }

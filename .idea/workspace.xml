@@ -4,23 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 15-06-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/Screenshots/flipkart20240629041043.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton_use.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Method_Overloading.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 14-06-2024 notes added">
+      <change afterPath="$PROJECT_DIR$/Screenshots/Excelread20240715085116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/FluentWait20240716123659.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/chrom20240715114256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/chrome20240715114542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/chrome20240715114753.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Array_Arraylist_difference.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Arraylist_HashSet_difference.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/abstraction_Interface.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/NewWindowActionSele4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/NewWindowActionSele4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SQL_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SQL_Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingParentClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_childMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_childMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/openBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/openBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_duplicate_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Find_duplicate_element_in_Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingChildClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingChildClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/MethodOverridingParentClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,13 +120,13 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodOverridingChildClass">
-    <configuration name="Abstraction_Main_method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Abstraction_Main_method" />
+  <component name="RunManager" selected="Application.Find_duplicate_element_in_Array">
+    <configuration name="Find_duplicate_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.Find_duplicate_element_in_Array" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="Java_Program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodOverridingChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.MethodOverridingChildClass" />
+    <configuration name="Sort_Array_in_Alphabetically" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.Sort_Array_in_Alphabetically" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.*" />
+          <option name="PATTERN" value="Java_Program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method_Overloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="polymorphism.Method_Overloading" />
+    <configuration name="WebDriverManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.WebDriverManager" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="polymorphism.*" />
+          <option name="PATTERN" value="SeleniumTopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main_method_without_static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.main_method_without_static" />
+    <configuration name="palindrome_or_not" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.palindrome_or_not" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="Java_Program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,7 +192,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Selenium_other_methods.flipkart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_other_methods.FluentWait" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -189,7 +202,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="flipkart" />
+      <option name="METHOD_NAME" value="FluentWait" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -198,20 +211,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Abstraction_Main_method" />
-      <item itemvalue="Application.MethodOverridingChildClass" />
-      <item itemvalue="Application.Method_Overloading" />
-      <item itemvalue="Application.main_method_without_static" />
+      <item itemvalue="Application.Find_duplicate_element_in_Array" />
+      <item itemvalue="Application.Sort_Array_in_Alphabetically" />
+      <item itemvalue="Application.WebDriverManager" />
+      <item itemvalue="Application.palindrome_or_not" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.Selenium_other_methods.flipkart" />
+      <item itemvalue="TestNG.Selenium_other_methods.FluentWait" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodOverridingChildClass" />
-        <item itemvalue="Application.Method_Overloading" />
-        <item itemvalue="Application.main_method_without_static" />
-        <item itemvalue="Application.Abstraction_Main_method" />
-        <item itemvalue="TestNG.Selenium_other_methods.flipkart" />
+        <item itemvalue="Application.Find_duplicate_element_in_Array" />
+        <item itemvalue="Application.palindrome_or_not" />
+        <item itemvalue="Application.Sort_Array_in_Alphabetically" />
+        <item itemvalue="Application.WebDriverManager" />
+        <item itemvalue="TestNG.Selenium_other_methods.FluentWait" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718523736083</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="updated added 14-06-2024 notes added">
+      <created>1720903910380</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720903910380</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,14 +496,15 @@
     <MESSAGE value="updated added 06-06-2024 notes added" />
     <MESSAGE value="updated added 13-06-2024 notes added" />
     <MESSAGE value="updated added 15-06-2024 notes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 15-06-2024 notes added" />
+    <MESSAGE value="updated added 14-06-2024 notes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 14-06-2024 notes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java</url>
-          <line>44</line>
+          <line>71</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
