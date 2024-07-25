@@ -29,12 +29,13 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
+import java.util.Properties;
 import java.util.Set;
 
 
 @Listeners(ITestListener.class)
 public class Selenium_other_methods {
-    WebDriver driver;
+    static WebDriver driver;
     ExtentSparkReporter spark;
     ExtentReports extent;
 
@@ -63,7 +64,7 @@ public class Selenium_other_methods {
         Wait<WebDriver> wait = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(1))
-                .ignoring(NoAlertPresentException.class);
+                .ignoring(NoSuchElementException.class);
 
 
     }
@@ -112,7 +113,7 @@ public class Selenium_other_methods {
     public void get_title(){
         ExtentTest test = extent.createTest("To verify Register Title");
         String ActualURL = ("https://demo.automationtesting.in/Register.html");
-        driver.navigate().to("https://demo.automationtesting.in/Register.html");
+        driver.get("https://demo.automationtesting.in/Register.html");
 
         Assert.assertEquals(driver.getCurrentUrl(),ActualURL);
 
@@ -138,6 +139,8 @@ public class Selenium_other_methods {
         Select drop = new Select(dropdown);
         //drop.getOptions();
         drop.selectByValue("1");
+        //drop.selectByIndex(0);
+        //drop.selectByVisibleText();
         List<WebElement> listOfOption = drop.getOptions();
         for(WebElement w : listOfOption){
             System.out.println("List of options : "+ w.getText());
@@ -151,7 +154,9 @@ public class Selenium_other_methods {
         ExtentTest test = extent.createTest("Scroll using java script");
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
-
+      /*  WebDriverWait is used to wait for a certain condition to be true before proceeding with the next step in your test.
+         This is particularly useful for handling dynamic web pages where elements may take some time to load or become interactive.
+        WebDriverWait can help you avoid common issues such as NoSuchElementException and ElementNotInteractableException.*/
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='secondpassword']")));
         Thread.sleep(10000);
@@ -195,6 +200,8 @@ public class Selenium_other_methods {
         // actions.clickAndHold(from);
         // actions.doubleClick(from);
         //actions.moveToElement(from).click().perform();
+       // actions.release(from).build();
+
         Thread.sleep(5000);
 
 
@@ -213,7 +220,6 @@ public class Selenium_other_methods {
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
         softAssert.assertAll();
-
         test.pass("Verify the soft assert");
 
 
@@ -375,8 +381,6 @@ public class Selenium_other_methods {
         // Switch back to parent window
         driver.switchTo().window(parentWindowHandle);
         Thread.sleep(10000);
-
-
     }
     @Test(priority = 13, enabled = true)
     public void FluentWait() throws InterruptedException {
@@ -465,8 +469,6 @@ public class Selenium_other_methods {
         driver.navigate().forward();
         driver.navigate().refresh();
 
-
-
     }
     @Test(priority = 17, enabled = true)
     public void ALERT() throws InterruptedException, IOException {
@@ -514,14 +516,14 @@ public class Selenium_other_methods {
         driver.findElement(By.id("file-submit")).click();
         Thread.sleep(10000);
     }
-
+    @Test(priority = 20 , enabled = true)
     public void Find_all_links() {
         try {
             // Open the web page
-            driver.get("https://example.com");
+            driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
 
             // Find all link elements
-            List<WebElement> links = driver.findElements(By.tagName("Link"));
+            List<WebElement> links = driver.findElements(By.tagName("href"));
 
             // Print each link's URL
             for (WebElement link : links) {
@@ -565,6 +567,38 @@ public class Selenium_other_methods {
         driver.findElement(By.xpath("//a[normalize-space()='Slingbags']")).click();
         Thread.sleep(5000);
     }
+    @Test(priority = 23, enabled = true)
+    public static void read_properties() throws IOException {
+
+        FileInputStream file = new FileInputStream("src/main/resources/config.properties");
+        Properties prop = new Properties();
+        prop.load(file);
+        String browser ;
+        browser = prop.get("browserName").toString();
+        System.out.println(browser);
+    }
+    @Test(priority = 23, enabled = true)
+    public static void Slider_movetoElement() throws IOException, InterruptedException {
+
+        driver.get("https://the-internet.herokuapp.com/horizontal_slider");
+
+        // Locate the slider handle
+        WebElement sliderHandle = driver.findElement(By.xpath("//input[@type='range']"));
+
+        // Initialize the Actions class
+        Actions actions = new Actions(driver);
+
+        // Perform the drag-and-drop action
+        // Here, 100 is the distance to move the slider handle; adjust as needed
+        actions.clickAndHold(sliderHandle)
+                .moveByOffset(25, 0) // Move right by 100 pixels (you can adjust this value)
+                .release()
+                .build()
+                .perform();
+        Thread.sleep(5000);
+
+    }
+
 
 
     @AfterMethod

@@ -15,7 +15,7 @@ public class exception_Handing {
         }
         catch(Exception e){
             System.out.println("find inside the method");
-            throw e;
+            throw e;  // it will throw the exception name
         }
 
         finally {

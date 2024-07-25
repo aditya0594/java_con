@@ -13,6 +13,7 @@ public class WebDriverSingleton_use{
     }
     @AfterMethod
     public void tearDown() {
+
         WebDriverSingleton.quit();
     }
     @Test()

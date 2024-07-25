@@ -6,6 +6,6 @@ public class Default_Contructor {
     }
 
     public static void main(String[] args) {
-        constructor obj = new constructor();
+        constructor.getConstructor(20 , 30);
     }
 }

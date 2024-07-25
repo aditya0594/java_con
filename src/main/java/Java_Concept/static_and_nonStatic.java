@@ -5,6 +5,7 @@ public class static_and_nonStatic {
         //the static keyword in Java is used to share the same variable or method of a given class.
          //When you want all instances of a class to share the same data.
          static int StaticVariable = 20;
+         int instance = 10;
 
           public void nonStaticMethod() {
               int nonStaticVariable = 10;
@@ -20,7 +21,7 @@ public class static_and_nonStatic {
 
         public static void main(String[] args) {
             myMethod();
-            /*static_and_nonStatic obj = new static_and_nonStatic();
-            obj.nonStaticMethod();*/
+            static_and_nonStatic obj = new static_and_nonStatic();
+            obj.nonStaticMethod();
         }
     }

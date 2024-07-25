@@ -33,7 +33,9 @@ public class Find_duplicate_element_in_Array {
                 System.out.println("Found the duplicate value : "+ s);
             }
         }
-        if(flag ==false)
+        if(flag ==false){
+            System.out.println("No duplicate found");
+        }
 
 
 

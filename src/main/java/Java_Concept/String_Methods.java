@@ -27,7 +27,7 @@ public class String_Methods {
         String string1 = "Aditya";
         String string2 = "Pawar";
         String str22 = string1.concat(string2);
-        System.out.println("Concat String : "+ str);
+        System.out.println("Concat String : "+ str22);
 
         System.out.println("-----------.contains()----------");
         String string3 = "Aditya";

@@ -2,6 +2,7 @@ package Java_Concept;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
@@ -14,19 +15,21 @@ public class WebDriverSingleton {
     private static WebDriver driver;      // Private static variable of the single instance
 
    private WebDriverSingleton(){  // Private constructor to restrict instantiation from other classes
-       System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
-       driver = new ChromeDriver();
+       System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+       ChromeOptions options = new ChromeOptions();
+       options.addArguments("--remote-allow-origins=*");
+       driver = new ChromeDriver(options);
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
        driver.manage().window().maximize();
    }
-    public static WebDriver getInstance() {
-        if (driver == null) {
-            synchronized (WebDriverSingleton.class) {
+    public static WebDriver getInstance() {   //Public Static Method to Return Instance
+       // if (driver == null) {
+           // synchronized (WebDriverSingleton.class) {
                 if (driver == null) {
                     new WebDriverSingleton();
                 }
-            }
-        }
+          //  }
+       // }
         return driver;
     }
 

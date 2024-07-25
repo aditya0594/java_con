@@ -19,8 +19,20 @@ public class This_keyword {
     public static void main(String[] args) {
         // Create a new Person object
         This_keyword person = new This_keyword("John");
-
+        This_keyword personAge = new This_keyword(1);
         // Call the printName method
         person.printName();
+        personAge.getAge();
     }
+
+    private int age;
+
+    private This_keyword(int age){
+        this.age = age;
+    }
+    public void getAge(){
+        System.out.println(this.age);
+    }
+
+
 }

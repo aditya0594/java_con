@@ -12,7 +12,6 @@ public class accessModifier {
 
     private void abc2(){  // Private : if marked variable/method as a private, you can not access outside the class
 
-
     }
 
     protected  void abc3(){  // projected variable/method is having access which is belonged to the same class and

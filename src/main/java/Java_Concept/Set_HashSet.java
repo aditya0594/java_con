@@ -84,6 +84,9 @@ public class Set_HashSet {
         System.out.println(str);
         str.remove("QA");
 
+
+        str.forEach(values-> System.out.println(values));
+
         for(String s : str){
             System.out.println("This is the str value : "+s);
         }
