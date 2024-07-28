@@ -4,56 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 14-06-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20240721060831.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/read_properties20240724121544.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/read_properties20240724121847.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/read_properties20240724122510.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/rightClick20240721053701.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/rightClick20240721055644.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Usecase_TestScanario_Testcases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 15-06-2024 notes added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Smoke and Sanity.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Inheritance_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Inheritance_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_Main_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_Main_method.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton_use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton_use.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Extract_First_letter_of_sentance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Extract_First_letter_of_sentance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Split_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Split_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/accessModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/accessModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Extract_First_letter_of_sentance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Extract_First_letter_of_sentance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_duplicate_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Find_duplicate_element_in_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +96,7 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.static_and_nonStatic">
+  <component name="RunManager" selected="Application.Default_Contructor">
     <configuration name="Default_Contructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Concept.Default_Contructor" />
       <module name="Practice_programs" />
@@ -153,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_call_mutable_immutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.String_call_mutable_immutable" />
+    <configuration name="Waits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Waits" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="SeleniumTopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,20 +187,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Default_Contructor" />
-      <item itemvalue="Application.String_call_mutable_immutable" />
       <item itemvalue="Application.constructor" />
+      <item itemvalue="Application.Waits" />
+      <item itemvalue="Application.Default_Contructor" />
       <item itemvalue="Application.static_and_nonStatic" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Verify" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.static_and_nonStatic" />
-        <item itemvalue="TestNG.Selenium_other_methods.Verify" />
-        <item itemvalue="Application.String_call_mutable_immutable" />
         <item itemvalue="Application.Default_Contructor" />
         <item itemvalue="Application.constructor" />
+        <item itemvalue="Application.Waits" />
+        <item itemvalue="Application.static_and_nonStatic" />
+        <item itemvalue="TestNG.Selenium_other_methods.Verify" />
       </list>
     </recent_temporary>
   </component>

@@ -11,25 +11,31 @@ public class constructor {
     /// Compiler will call implicit constructor if you have not defined any constructor
     // if you have two constructor and paramaterized constructor and defined one constructor in main method then
     // it will call the default constructor because compiler find the paramater are given or not
+    private int a ;
+    private int b ;
 
 
-   private constructor(){  //default constructor
+    constructor(){  //default constructor
         String a = "default constructor";
         System.out.println(a);
+       System.out.println("Parent class default constructor called");
+    }
+
+    constructor(String Firstname){
+        System.out.println("this is the first name from the parent class");
     }
 
 
-    private int a ;
-    private int b ;
     private constructor(int a, int b){    // parameterized Constructor
         this.a = a;
         this.b = b;
-        System.out.println("this is the parameterized constructor" + "And parameter value :" + a + ", "+b );
+        System.out.println("this is the parameterized constructor" + " And parameter value :" + a + ", "+b );
     }
+
 
     public static constructor getConstructor(int a, int b)
     {
-      return new constructor(a, b);
+        return new constructor(a, b);
     }
 
 
