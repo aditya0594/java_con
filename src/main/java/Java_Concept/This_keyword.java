@@ -2,11 +2,17 @@ package Java_Concept;
 
 public class This_keyword {
     private String name;
-
+    private int age;
     // Constructor
     public This_keyword(String name) {
         // Use "this" to refer to the instance variable "name"
         this.name = name;
+    }
+    private This_keyword(int age){
+        this.age = age;
+    }
+    public void getAge(){
+        System.out.println(this.age);
     }
 
     // Method to print the name of the person
@@ -25,14 +31,7 @@ public class This_keyword {
         personAge.getAge();
     }
 
-    private int age;
 
-    private This_keyword(int age){
-        this.age = age;
-    }
-    public void getAge(){
-        System.out.println(this.age);
-    }
 
 
 }

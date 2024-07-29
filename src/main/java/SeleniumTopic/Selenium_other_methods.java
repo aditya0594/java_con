@@ -57,14 +57,6 @@ public class Selenium_other_methods {
         //Implicitly wait
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        //explicit wait
-       /* WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));*/
-
-        Wait<WebDriver> wait = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(10))
-                .pollingEvery(Duration.ofSeconds(1))
-                .ignoring(NoSuchElementException.class);
 
 
     }
@@ -353,7 +345,6 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
-
     }
     @Test(priority = 12, enabled = true)
     //@Given("^user is already on Login Page$")
