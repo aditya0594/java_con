@@ -9,12 +9,13 @@ public class EncapsulationClassOne {
     // getter method to access private variable
     public int getAge(){
        return age;
-
     }
     public String getName(){
+
         return Name;
     }
     public void setAge(int inputage){
+
         int age = inputage;
     }
     public void setName(String inputName){

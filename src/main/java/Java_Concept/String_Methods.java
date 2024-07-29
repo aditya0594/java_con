@@ -10,12 +10,13 @@ public class String_Methods {
 
         //2. by using the new keyword
         String s1 = new String("pawar");
-
-
         // Split method in java
         String s3 = "this is java";
         String[]  str = s3.split(" ");
 
+        char[] chars = {'s','t','r','i','n','g'};
+        String str1 = new String(chars);
+        System.out.println(str1);
 
 
         System.out.println("-----------charAt()----------");
