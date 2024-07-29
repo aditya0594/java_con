@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 25-07-2024 notes added">
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 15-06-2024 notes added">
       <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Smoke and Sanity.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,9 +96,9 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SQL_Connection.connection">
-    <configuration name="String_Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.String_Methods" />
+  <component name="RunManager" selected="Application.Default_Contructor">
+    <configuration name="Default_Contructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Default_Contructor" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="This_keyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.This_keyword" />
+    <configuration name="Waits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Waits" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.constructor" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -158,24 +168,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SQL_Connection.connection" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.SQL_Connection" />
-      <option name="METHOD_NAME" value="connection" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Selenium_other_methods.Verify" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -195,18 +187,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.String_Methods" />
-      <item itemvalue="Application.This_keyword" />
+      <item itemvalue="Application.constructor" />
+      <item itemvalue="Application.Waits" />
+      <item itemvalue="Application.Default_Contructor" />
       <item itemvalue="Application.static_and_nonStatic" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.SQL_Connection.connection" />
       <item itemvalue="TestNG.Selenium_other_methods.Verify" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SQL_Connection.connection" />
-        <item itemvalue="Application.String_Methods" />
-        <item itemvalue="Application.This_keyword" />
+        <item itemvalue="Application.Default_Contructor" />
+        <item itemvalue="Application.constructor" />
+        <item itemvalue="Application.Waits" />
         <item itemvalue="Application.static_and_nonStatic" />
         <item itemvalue="TestNG.Selenium_other_methods.Verify" />
       </list>
@@ -445,14 +437,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721144862958</updated>
     </task>
-    <task id="LOCAL-00033" summary="updated added 25-07-2024 notes added">
-      <created>1721918143619</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1721918143619</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,8 +487,7 @@
     <MESSAGE value="updated added 13-06-2024 notes added" />
     <MESSAGE value="updated added 15-06-2024 notes added" />
     <MESSAGE value="updated added 14-06-2024 notes added" />
-    <MESSAGE value="updated added 25-07-2024 notes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 25-07-2024 notes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 14-06-2024 notes added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
