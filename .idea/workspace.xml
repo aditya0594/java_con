@@ -4,13 +4,80 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 15-06-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Waits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Smoke and Sanity.png" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 25-07-2024 notes added">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcutil_jdk18on_1_76.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20240730125509.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testSoftAssert20240730010003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/testSoftAssert20240730125800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/SingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/how_to_duplicate_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/practices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/sum_Avg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Selenium_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/StreamMAp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Assert_Hard_Soft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Python_selenium_setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/priority_severity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_26_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_14_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk18on_1_76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk18on_1_76.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_parentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_parentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/static_Local_variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_Local_variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Maximum_Value_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Maximum_Value_of_element_in_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/palindrome_or_not.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/palindrome_or_not.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Streams/Stream_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Stream_program_filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDrivermanager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_parentMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_parentMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Maximum_Value_of_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Maximum_Value_of_element_in_Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/palindrome_or_not.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/palindrome_or_not.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Streams/Stream_program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/encapsulation/EncapsulationClassOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/encapsulation/EncapsulationClassOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,59 +163,7 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Default_Contructor">
-    <configuration name="Default_Contructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Default_Contructor" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Waits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Waits" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.constructor" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="static_and_nonStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.static_and_nonStatic" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Selenium_example.sort">
     <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,17 +183,88 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Selenium_other_methods.Verify" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_example.sort" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="PATTERN" value="Java_Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="Verify" />
+      <option name="PACKAGE_NAME" value="Java_Streams" />
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.Selenium_example" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMAp" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Streams" />
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.StreamMAp" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMAp.StreamCollect (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Streams" />
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.StreamMAp" />
+      <option name="METHOD_NAME" value="StreamCollect" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMAp.StreamCollect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Streams" />
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.StreamMAp" />
+      <option name="METHOD_NAME" value="StreamCollect" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMAp.StreamMap1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Streams" />
+      <option name="MAIN_CLASS_NAME" value="Java_Streams.StreamMAp" />
+      <option name="METHOD_NAME" value="StreamMap1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -187,20 +273,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.constructor" />
-      <item itemvalue="Application.Waits" />
-      <item itemvalue="Application.Default_Contructor" />
-      <item itemvalue="Application.static_and_nonStatic" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.Selenium_other_methods.Verify" />
+      <item itemvalue="TestNG.Selenium_example.sort" />
+      <item itemvalue="TestNG.StreamMAp" />
+      <item itemvalue="TestNG.StreamMAp.StreamCollect" />
+      <item itemvalue="TestNG.StreamMAp.StreamCollect (1)" />
+      <item itemvalue="TestNG.StreamMAp.StreamMap1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Default_Contructor" />
-        <item itemvalue="Application.constructor" />
-        <item itemvalue="Application.Waits" />
-        <item itemvalue="Application.static_and_nonStatic" />
-        <item itemvalue="TestNG.Selenium_other_methods.Verify" />
+        <item itemvalue="TestNG.Selenium_example.sort" />
+        <item itemvalue="TestNG.StreamMAp.StreamCollect" />
+        <item itemvalue="TestNG.StreamMAp" />
+        <item itemvalue="TestNG.StreamMAp.StreamCollect (1)" />
+        <item itemvalue="TestNG.StreamMAp.StreamMap1" />
       </list>
     </recent_temporary>
   </component>
@@ -490,15 +576,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated added 14-06-2024 notes added" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="SeleniumTopic.Selenium_other_methods" memberName="extent" />

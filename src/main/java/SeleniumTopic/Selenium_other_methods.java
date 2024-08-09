@@ -4,6 +4,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -45,7 +46,7 @@ public class Selenium_other_methods {
     @BeforeMethod
     public void Setup(){
 
-        System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
@@ -92,6 +93,7 @@ public class Selenium_other_methods {
     @FindBy(id = "searchBox")
     private WebElement searchBar;
 
+    By elementName = By.xpath("");
 
     @Test(priority = 1,enabled = true)
     public void Window_Basic_Auth(){
@@ -134,9 +136,10 @@ public class Selenium_other_methods {
         //drop.selectByIndex(0);
         //drop.selectByVisibleText();
         List<WebElement> listOfOption = drop.getOptions();
-        for(WebElement w : listOfOption){
+        listOfOption.forEach(values -> System.out.println(values.getText()));
+        /*for(WebElement w : listOfOption){
             System.out.println("List of options : "+ w.getText());
-        }
+        }*/
 
         Thread.sleep(5000);
 
@@ -193,6 +196,9 @@ public class Selenium_other_methods {
         // actions.doubleClick(from);
         //actions.moveToElement(from).click().perform();
        // actions.release(from).build();
+       // actions.scrollToElement(from).perform();
+
+
 
         Thread.sleep(5000);
 
@@ -226,7 +232,7 @@ public class Selenium_other_methods {
         Thread.sleep(10000);
 
         // String s = "iframe-container";
-        driver.switchTo().frame(1);   // index ,frameelement , name or ID
+        driver.switchTo().frame(1);   // index ,frameElement, name or ID
         Thread.sleep(10000);
 
 
@@ -247,8 +253,6 @@ public class Selenium_other_methods {
         actions.contextClick(rightClickElemen).build().perform();
 
         //actions.doubleClick(element).perform();  // To perform a double click, use the doubleClick method:
-
-
         // actions.moveToElement(elementToHover).click().perform();    // Perform mouse hover and click
 
         Thread.sleep(5000);
@@ -300,7 +304,7 @@ public class Selenium_other_methods {
 
     }
     @Test(priority =10, enabled = true,dataProvider = "loginDataProvider")
-    public void Dataproviders(String username , String password){
+    public void Dataproviders(String username ,String password){
 
        // DataProvider is like a container that passes
         //the data to our test methods so that our single test method can execute itself with multiple data sets.
@@ -396,7 +400,7 @@ public class Selenium_other_methods {
         explicit.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
 
 
-                WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
+        WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
 
         Actions action = new Actions(driver);
@@ -435,7 +439,7 @@ public class Selenium_other_methods {
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
         //I have added test data in the cell A1 as "SoftwareTestingMaterial.com"
-        XSSFSheet Sheet = workbook.getSheetAt(0);
+        Sheet Sheet = workbook.getSheetAt(0);
 
         //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
 
@@ -545,7 +549,9 @@ public class Selenium_other_methods {
         action.scrollToElement(ele).perform();
 
         //using send keys
-        action.sendKeys(Keys.PAGE_DOWN).perform();
+        //action.sendKeys(Keys.PAGE_DOWN).perform();
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].scrollIntoView(true)",ele);
     }
     @Test(priority = 22, enabled = true)
     public void flipkart() throws InterruptedException {

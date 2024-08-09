@@ -1,5 +1,7 @@
 package Java_Program;
 
+import org.openqa.selenium.interactions.Interaction;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,42 +10,18 @@ import java.util.List;
 
 public class Practice {
     public static void main(String[] args) {
-        String senten = "java is the language, we need to use java we have to use ";
-        int a = 0;
-        int i = 0;
-        int e = 0;
-        int u = 0;
-        int o = 0;
-
-        String[] str = senten.split("");
-        // Arrays.sort(str);
-        for(String abc : str){
-            System.out.print(str);
-        }
-        // List<String> vo = new ArrayList<>();
-    }
-}
-
-
-
-           /* if (arr[k].equals("a")) {
-                a++;
-            } else if (arr[k].equals("i")) {
-                i++;
-            } else if (arr[k].equals("e")) {
-                e++;
-            } else if (arr[k].equals("u")) {
-                u++;
-            } else if (arr[k].equals("u")) {
-                u++;
-            } else if (arr[k].equals("o")) {
-                o++;
+        int[] arr = {1,2,3,4,5,5};
+        boolean flag = false;
+        HashSet<Integer> hashvalue = new HashSet<>();
+        for(Integer value : arr){
+            if(hashvalue.add(value)==false){
+                System.out.println("This is duplicate value found "+ value);
+                flag = true;
             }
-            break;
-        }*/
-   /*     System.out.println(a);
-        System.out.println(i);
-        System.out.println(e);
-        System.out.println(u);
-        System.out.println(o);
-*/
+        }
+        if(flag==false){
+            System.out.println("No duplicate value found");
+        }
+    }
+
+}

@@ -1,5 +1,7 @@
 package Java_Program.StringProgram;
 
+import com.google.protobuf.MapEntry;
+
 import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,16 +25,32 @@ public class Count_of_word_from_sentences {
 
 
    public static void main(String[] args) {
-      String str = "this is the string and  string is immutable";
-      String[] words = str.split(" ");
-      int count = 0;
-      String tragetWord = "string";
-      for(String word : words){
-         if(word.equals(tragetWord)){
-            count++;
+
+      String str = "This the java language and java is good language";
+      char[] words = str.toCharArray();
+      String sentence = "";
+      for(int i = 0;i<words.length;i++){
+         if(words[i]!=' '){
+            sentence = sentence +words[i];
          }
       }
-      System.out.println(tragetWord + " "+ count);
+      System.out.println(sentence);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    }

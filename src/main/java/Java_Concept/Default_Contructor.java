@@ -18,6 +18,6 @@ public class Default_Contructor extends constructor{
 
     public static void main(String[] args) {
           //constructor.getConstructor(20 , 30);
-        Default_Contructor obj = new Default_Contructor("Aditya");
+        Default_Contructor obj = new Default_Contructor();
     }
 }

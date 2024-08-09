@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Set;
 
 public class Practice {
     static WebDriver driver;
@@ -68,6 +69,34 @@ public class Practice {
        driver.quit();
 
         }
+
+    @Test(priority = 1)
+    public void window() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
+        driver.get("https://www.softwaretestingmaterial.com/");
+
+        String parentWindow = driver.getWindowHandle();
+
+        driver.switchTo().newWindow(WindowType.TAB);
+        driver.get("https://www.google.com");
+        driver.switchTo().newWindow(WindowType.TAB);
+        driver.get("https://help.blazemeter.com/");
+
+
+        Set<String> childWindow = driver.getWindowHandles();
+        for(String windows : childWindow){
+            driver.switchTo().window(windows);
+            if(driver.getTitle().equals("Google"));
+            break;
+        }
+
+        Thread.sleep(10000);
+        driver.quit();
+
+    }
     }
 
 

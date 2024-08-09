@@ -15,6 +15,7 @@ public class static_Local_variable {
 
     }
     public void getAddress(){
+
         System.out.println(address + " " + city);
     }
 

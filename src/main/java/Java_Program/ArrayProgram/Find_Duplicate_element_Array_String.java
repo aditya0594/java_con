@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Find_Duplicate_element_Array_String {
 
-/*    public static void main(String[] args) {
+   public static void main(String[] args) {
         String str = "Aditya pawar aditya";
         String[] arr = str.split(" ");
        // int arr[] = {1,2,5,3,4,5};
@@ -23,8 +23,9 @@ public class Find_Duplicate_element_Array_String {
         }
 
     }
-    */
 
+
+/*
     public static void main(String[] args) {
         String str = "this java java";
         String[] word =str.split(" ");
@@ -41,6 +42,7 @@ public class Find_Duplicate_element_Array_String {
         }
 
     }
+*/
 
 
 

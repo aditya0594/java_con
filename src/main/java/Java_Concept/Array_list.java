@@ -117,13 +117,20 @@ public class Array_list {
             System.out.println("Print the value of the ar6 : " + ar6.get(num));
             num++;
         }
-
-
-
-
-
     }
-
-
-
 }
+/**
+ add(E e): Adds an element to the end of the list.
+ add(int index, E element): Inserts the specified element at the specified position in the list.
+ remove(int index): Removes the element at the specified position in the list.
+ remove(Object o): Removes the first occurrence of the specified element from the list.
+ get(int index): Returns the element at the specified position in the list.
+ set(int index, E element): Replaces the element at the specified position in the list with the specified element.
+ size(): Returns the number of elements in the list.
+ clear(): Removes all elements from the list.
+ contains(Object o): Returns true if the list contains the specified element.
+ isEmpty(): Returns true if the list contains no elements.
+ indexOf(Object o): Returns the index of the first occurrence of the specified element in the list, or -1 if the list does not contain the element.
+ lastIndexOf(Object o): Returns the index of the last occurrence of the specified element in the list, or -1 if the list does not contain the element.
+ toArray(): Returns an array containing all of the elements in the list in proper sequence.
+ **/

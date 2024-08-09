@@ -3,7 +3,7 @@ package Java_Program;
 import java.util.Scanner;
 
 public class palindrome_or_not {
-    public static void main(String[] args){
+   /* public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the String : " );
         String original = scanner.nextLine();
@@ -16,5 +16,21 @@ public class palindrome_or_not {
         }
     scanner.close();
 
-    }
-}
+    }*/
+   public static void main(String[] args) {
+        int num = 1234421;
+        String reversedStr="";
+        String numstr = Integer.toString(num);
+        for(int i=numstr.length()-1; i>=0;i--){
+            reversedStr += numstr.charAt(i);
+        }
+       System.out.println("Reverse number" +reversedStr);
+       if(numstr.equals(reversedStr)){
+           System.out.println("This is palindrom");
+       }
+       else {
+           System.out.println("Not a palindrom");
+       }
+       }
+
+   }

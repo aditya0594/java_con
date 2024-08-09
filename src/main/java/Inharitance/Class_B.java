@@ -8,10 +8,9 @@ public class Class_B extends Class_A{
     //
 
 
-    String Lastname = "This methodClass  B ";
+    String Lastname = "Pawar ";
     public void MethodClassB(){
-        System.out.println(Lastname);
-        System.out.println(super.Name); // this calling the variable from the prarent class we have to user the super lkeyword
+        System.out.println(super.Name +" "+ Lastname); // this calling the variable from the prarent class we have to user the super lkeyword
 
     }
     public void getdata(){

@@ -18,6 +18,7 @@ public class array {
         String[] arr1 = new String[5];
         arr1[0] = "one";
 
+        int[] arr3 = {1,2,3,5} ;
 
 
         System.out.println(arr[0]);

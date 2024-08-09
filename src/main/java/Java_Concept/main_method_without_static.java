@@ -3,6 +3,7 @@ package Java_Concept;
 public class main_method_without_static {
 
     public void myMain(String arg[]) {
+
         System.out.println("This is main method");
     }
 
