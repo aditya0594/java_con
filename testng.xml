@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/main/java/SeleniumTopic/Selenium_Suite.java">
+        <classes>
+            <class name="SeleniumTopic.Selenium_Suite">
+                <methods>
+                    <include name="Scroll_using_javascript"/>
+                    <include name="Scroll_using_javascript_bottom_page"/>
+                    <include name="Scroll_using_javascript_specific_pixels"/>
+                    <include name="DragAndDrop"/>
+                    <include name="Verify"/>
+                    <include name="rightClick"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
