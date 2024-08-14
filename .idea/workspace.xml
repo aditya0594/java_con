@@ -5,79 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 25-07-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcutil_jdk18on_1_76.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20240730125509.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testSoftAssert20240730010003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/testSoftAssert20240730125800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/SingletonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/how_to_duplicate_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/Star_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/palindrom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/practices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Calculation/sum_Avg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Selenium_example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/StreamMAp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Assert_Hard_Soft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Python_selenium_setup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/priority_severity.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_3_3_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_api_3_3_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_core_3_3_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_3_3_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_docker_java_docker_java_transport_httpclient5_3_3_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_bonigarcia_webdrivermanager_5_8_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_12_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_26_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk18on_1_76.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk18on_1_76.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_parentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_parentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/static_Local_variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_Local_variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Maximum_Value_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Maximum_Value_of_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/palindrome_or_not.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/palindrome_or_not.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Streams/Stream_program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Stream_program_filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDrivermanager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_parentMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_parentMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/This_keyword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Maximum_Value_of_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Maximum_Value_of_element_in_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/palindrome_or_not.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/palindrome_or_not.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Streams/Stream_program.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/encapsulation/EncapsulationClassOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/encapsulation/EncapsulationClassOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,9 +38,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-20/lib/src.zip!/java.base/java/lang/ArithmeticException.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -124,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java",
+    "last_opened_file_path": "D:/Projects/eclipse-workspace/java_con",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeleniumTopic" />
