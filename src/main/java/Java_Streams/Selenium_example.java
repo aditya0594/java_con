@@ -27,24 +27,17 @@ public class Selenium_example {
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
         Thread.sleep(3000);
 
-        List<WebElement> elements = driver.findElements(By.xpath("//tr/td[1]"));
-        List<String> original =elements.stream().map(s-> s.getText()).collect(Collectors.toList());//.forEach(s-> System.out.println("Before filter list " + s));
-        List<String> sortedlist = original.stream().sorted().collect(Collectors.toList());
+        // to capture all the element of table
 
-        driver.findElement(By.xpath("//span[normalize-space()='Veg/fruit name']")).click();
+        List<WebElement> elementsList = driver.findElements(By.xpath("//tr/td[1]"));
 
-        Thread.sleep(3000);
-        List<WebElement> elements1 = driver.findElements(By.xpath("//tr/td[1]"));
-        List<String> original1 =elements.stream().map(s-> s.getText()).collect(Collectors.toList());//.forEach(s-> System.out.println("Before filter list " + s));
+        // to Capture all the element text form the table
 
-        Assert.assertEquals(sortedlist,original1);
+        List<String> originalList =elementsList.stream().map(s-> s.getText()).collect(Collectors.toList());//.forEach(s-> System.out.println("Before filter list " + s));
+        // sort the list of the element
 
-
-
-
-
-
-
+        List<String> sortedlist = originalList.stream().sorted().collect(Collectors.toList());
+        Assert.assertEquals(sortedlist,originalList);
         driver.quit();
     }
 }
