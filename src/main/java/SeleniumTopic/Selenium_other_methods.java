@@ -40,9 +40,13 @@ public class Selenium_other_methods {
     ExtentSparkReporter spark;
     ExtentReports extent;
 
+    //https://rahulshettyacademy.com/AutomationPractice/
     //https://the-internet.herokuapp.com/
     //https://demo.automationtesting.in/Register.html
     //https://googlechromelabs.github.io/chrome-for-testing/
+    //
+
+
     @BeforeMethod
     public void Setup(){
 
@@ -68,7 +72,7 @@ public class Selenium_other_methods {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
     }
-    @FindBy(xpath="user_login")WebElement userId;
+    @FindBy(xpath="user_login")WebElement userId; // this is depricated
 
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
 
@@ -185,8 +189,6 @@ public class Selenium_other_methods {
         WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
 
 
-
-
         Actions actions = new Actions(driver);
         actions.dragAndDrop(from,to).perform();
 
@@ -195,7 +197,7 @@ public class Selenium_other_methods {
         // actions.clickAndHold(from);
         // actions.doubleClick(from);
         //actions.moveToElement(from).click().perform();
-       // actions.release(from).build();
+       // actions.release(from).perform();
        // actions.scrollToElement(from).perform();
 
 
@@ -219,8 +221,6 @@ public class Selenium_other_methods {
         System.out.print("failing second the excution");
         softAssert.assertAll();
         test.pass("Verify the soft assert");
-
-
     }
     @Test(priority = 8, enabled = true)
     //@Given("^user is already on Login Page$")
@@ -257,40 +257,6 @@ public class Selenium_other_methods {
 
         Thread.sleep(5000);
         test.pass("Right click performed");
-    }
-    @Test(priority = 9, enabled = true)
-    public void image_upload() throws AWTException, InterruptedException {
-        driver.get("https://demo.automationtesting.in/FileUpload.html");
-        driver.manage().window().maximize();
-        //By upload = By.id("//*[@id='imagesrc']");
-      //  WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-      //  WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='input-4']")));
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement uploadInput = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("input-4")));
-        boolean element = driver.findElement(By.xpath("//*[@id='input-4']")).isDisplayed();
-        if(element = true){
-            System.out.println("visible");
-            driver.findElement(By.xpath("//*[@id='input-4']")).click();
-        }
-        else {
-            System.out.println("not visible");
-        }
-        Thread.sleep(5000);
-        String filePath = "C:\\Users\\Aditya Pawar\\eclipse-workspace\\java_con\\src\\main\\resources\\abstraction_Interface.png";
-
-       // Copy file path to clipboard
-        StringSelection stringSelection = new StringSelection(filePath);
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection,null);
-
-        Robot robot = new Robot();
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_V);
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
-
     }
 
     @DataProvider(name = "loginDataProvider")

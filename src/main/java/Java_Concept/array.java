@@ -20,6 +20,11 @@ public class array {
 
         int[] arr3 = {1,2,3,5} ;
 
+        System.out.println("---------String----------");
+        for(String m : arr){
+            System.out.println(m);
+        }
+
 
         System.out.println(arr[0]);
         try {
@@ -32,7 +37,9 @@ public class array {
         }
         System.out.println("--------------lamba----------------");
         Arrays.stream(arr).forEach(value->System.out.println(value));
+
     }
+
 
 
 

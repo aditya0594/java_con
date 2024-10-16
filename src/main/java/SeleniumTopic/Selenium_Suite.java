@@ -38,24 +38,25 @@
         @BeforeMethod
         public void Setup(String browser) {
             if (browser.equalsIgnoreCase("chrome")) {
-                System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+                WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");
                 driver = new ChromeDriver(options);
             } else if (browser.equalsIgnoreCase("firefox")) {
-                System.setProperty("webdriver.gecko.driver", "Driver/geckodriver.exe");
+                WebDriverManager.chromedriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
                 driver = new FirefoxDriver(options);
             } else if (browser.equalsIgnoreCase("IE")) {
-                System.setProperty("webdriver.ie.driver", "Driver/IEDriverServer.exe");
+                WebDriverManager.chromedriver().setup();
                 InternetExplorerOptions options = new InternetExplorerOptions();
                 options.ignoreZoomSettings();
                 options.introduceFlakinessByIgnoringSecurityDomains();
                 driver = new InternetExplorerDriver(options);
             } else if (browser.equalsIgnoreCase("webdrivermanager")) {
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--remote-allow-origins=*");
+                driver = new ChromeDriver(options);
             }
             ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/SuiteReport.html");
             extent = new ExtentReports();

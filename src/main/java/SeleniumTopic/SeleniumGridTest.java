@@ -21,7 +21,9 @@ public class SeleniumGridTest {
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 
         // URL of the Hub
-        WebDriver driver = new RemoteWebDriver(new URL("http://192.168.29.155:4444"), capabilities);
+        WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.142:4444"), capabilities);
+        //java -jar selenium-server-standalone-<version>.jar hub
+        //java -jar selenium-server-standalone-<version>.jar node -hub http://<hub_ip_address>:4444/grid/register
 
         // Your test code here
         driver.get("https://www.example.com");

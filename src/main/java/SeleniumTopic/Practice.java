@@ -1,6 +1,7 @@
 package SeleniumTopic;
 
 import com.aventstack.extentreports.ExtentTest;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -20,22 +21,20 @@ import java.util.Set;
 
 public class Practice {
     static WebDriver driver;
-   @DataProvider(name = "Login")
-    public Object[][] Login(){
-            return new Object[][]
-            {
-                    {"Adityapawar@gmail.com","Password@123"}
+   @DataProvider(name = "test")
+   public Object[][] data(){
+       return new Object[][]{
+           {"adityapawar","aditya@123"},
 
-            };
-
-       }
-    @Test(priority =10, enabled = true,dataProvider = "Login")
+       };
+   }
+    @Test(priority =10, enabled = true,dataProvider = "test")
     public void Dataproviders(String username , String password) {
-
-       System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origin=*");
-        WebDriver driver = new ChromeDriver();
+        options.addArguments("--remote-allow-origins=*");
+        driver = new ChromeDriver(options);
+        driver.get("https://www.google.com");
         System.out.println(username);
         System.out.println(password);
     }
@@ -82,7 +81,7 @@ public class Practice {
 
         driver.switchTo().newWindow(WindowType.TAB);
         driver.get("https://www.google.com");
-        driver.switchTo().newWindow(WindowType.TAB);
+        driver.switchTo().newWindow(WindowType.WINDOW);
         driver.get("https://help.blazemeter.com/");
 
 

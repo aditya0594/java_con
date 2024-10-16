@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Count_of_word_from_sentences {
-   /* public static void main(String[] args) {
+   public static void main(String[] args) {
         String str = "This the java language and java is good language";
         String[] words = str.split(" ");
 
@@ -21,20 +21,6 @@ public class Count_of_word_from_sentences {
         }
         System.out.println("Count : " + targetWordCount );
     }
-*/
-
-
-   public static void main(String[] args) {
-
-      String str = "This the java language and java is good language";
-      char[] words = str.toCharArray();
-      String sentence = "";
-      for(int i = 0;i<words.length;i++){
-         if(words[i]!=' '){
-            sentence = sentence +words[i];
-         }
-      }
-      System.out.println(sentence);
 
 
 
@@ -54,4 +40,3 @@ public class Count_of_word_from_sentences {
 
 
    }
-}
