@@ -35,36 +35,24 @@ import java.util.Set;
 
 
 @Listeners(ITestListener.class)
-public class Selenium_other_methods {
-    static WebDriver driver;
-    ExtentSparkReporter spark;
-    ExtentReports extent;
+public class Selenium_other_methods extends Base_Driver_driver {
+
 
     //https://rahulshettyacademy.com/AutomationPractice/
     //https://the-internet.herokuapp.com/
     //https://demo.automationtesting.in/Register.html
     //https://googlechromelabs.github.io/chrome-for-testing/
-    //
-
+    ExtentSparkReporter spark;
+    ExtentReports extent;
+    public Selenium_other_methods() {
+        super("chrome");  // Calling the parent class constructor to initialize Chrome browser
+    }
 
     @BeforeMethod
-    public void Setup(){
-
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver(options);
-
-      /*  WebDriverManager.chromedriver().driverVersion("121.0.6167.161").setup();
-        ChromeOptions options = new ChromeOptions();
-        driver = new ChromeDriver(options);*/
-
-        //Implicitly wait
-
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-
+    public void Setup() {
+      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
     }
+
     @BeforeTest
     public void report(){
 
@@ -144,7 +132,6 @@ public class Selenium_other_methods {
         /*for(WebElement w : listOfOption){
             System.out.println("List of options : "+ w.getText());
         }*/
-
         Thread.sleep(5000);
 
     }
@@ -159,25 +146,16 @@ public class Selenium_other_methods {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='secondpassword']")));
         Thread.sleep(10000);
-
         JavascriptExecutor js = (JavascriptExecutor)driver;
-
         // scroll to the element on the page
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
-
         js.executeScript("arguments[0].scrollIntoView(true);",element2 );
-
         Thread.sleep(10000);
-
-
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
-
         // scroll by the specific pixels
         //js.executeScript("window.scrollBy(0,1000);");
-
         //  js.executeScript("arguments[0].click();", element);
-
         test.pass("Scroll using java script");
     }
     @Test(priority = 6, enabled = true)
@@ -191,7 +169,6 @@ public class Selenium_other_methods {
 
         Actions actions = new Actions(driver);
         actions.dragAndDrop(from,to).perform();
-
         // actions.click(from).build().perform();
         // actions.contextClick(from).build().perform(); //RightClick
         // actions.clickAndHold(from);
@@ -199,9 +176,6 @@ public class Selenium_other_methods {
         //actions.moveToElement(from).click().perform();
        // actions.release(from).perform();
        // actions.scrollToElement(from).perform();
-
-
-
         Thread.sleep(5000);
 
 
@@ -540,7 +514,7 @@ public class Selenium_other_methods {
         browser = prop.get("browserName").toString();
         System.out.println(browser);
     }
-    @Test(priority = 23, enabled = true)
+  /*  @Test(priority = 23, enabled = true)
     public static void Slider_movetoElement() throws IOException, InterruptedException {
 
         driver.get("https://the-internet.herokuapp.com/horizontal_slider");
@@ -561,7 +535,7 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
 
     }
-
+*/
 
 
     @AfterMethod

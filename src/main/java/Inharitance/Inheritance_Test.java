@@ -32,7 +32,7 @@ public class Inheritance_Test {
   Encapsulation: One of the key principles of OOP is encapsulation,
  which ensures that a class's implementation details are hidden from other classes.
  Allowing parent classes to inherit from child classes would break encapsulation by exposing child class details to the parent class.
-  Polymorphism: Polymorphism allows objects to be treated as instances of their parent class rather than their actual class.
+ Polymorphism: Polymorphism allow`s objects to be treated as instances of their parent class rather than their actual class.
  This principle relies on the unidirectional inheritance hierarchy, where the child class can be treated as the parent class,
  but not vice versa.
  **/

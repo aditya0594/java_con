@@ -10,6 +10,7 @@ public class EncapsulationClassOne {
     public int getAge(){
        return age;
     }
+
     public String getName(){
 
         return Name;

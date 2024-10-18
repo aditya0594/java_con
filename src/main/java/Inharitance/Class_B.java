@@ -15,7 +15,7 @@ public class Class_B extends Class_A{
     }
     public void getdata(){
         super.getdata();
-        System.out.println("I am in child class");
+        System.out.println("I am in child class B get data");
     }
 
     public static void main(String[] args){

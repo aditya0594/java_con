@@ -4,9 +4,9 @@ public class Class_A{
     String Name = "aditya";
 
     public void MethodClassA(){
-        System.out.println(Name);
+        System.out.println("This is a class A method with the name :" + Name);
     }
     public void getdata(){
-        System.out.println("I am parent class ");
+        System.out.println("I am parent class A getdata ");
     }
 }

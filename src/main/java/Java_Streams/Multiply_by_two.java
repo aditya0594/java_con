@@ -15,7 +15,7 @@ public class Multiply_by_two {
     @Test
     public void Grace()
     {
-        List<Integer> arr = List.of(25,86,36,96,,6,7,8,9);
+        List<Integer> arr = List.of(25,86,36,96,88,6,7,8,9);
 
     }
 

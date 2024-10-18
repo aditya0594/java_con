@@ -1,4 +1,4 @@
-package Java_Program;
+package Java_Program.ArrayProgram;
 
 public class Sum_of_element_in_Array {
     public static void main(String[] args) {

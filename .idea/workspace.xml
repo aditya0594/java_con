@@ -5,62 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 14-07-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20240903042354.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abtraction_use_sele.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Postfix_Prefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/cnver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/with_main_method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_and_average_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/remove_duplicate_value_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_prime_no.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Custom_Method_map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Filters_functionality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Pagination_findElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/selenium-server-4.24.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_largest_shortest_word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Insert_value_at_end_of_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Replace_array_value.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Base_Driver_driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_Main_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_Main_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_childMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_childMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Abstraction_parentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_parentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/Default_Contructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_childMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_childMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Class_C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inharitance/Inheritance_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inharitance/Inheritance_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Compare_Two_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Compare_Two_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Practice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/New_RelativeLocator_with.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/New_RelativeLocator_with.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SeleniumGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SeleniumGridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/how_to_duplicate_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_duplicate_element_in_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Sum_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_of_element_in_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Streams/Multiply_by_two.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Streams/Multiply_by_two.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/WebDrivermanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Webdrivermanager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/openBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/openBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_Main_method.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_childMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Abstraction_parentMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Default_Contructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/SingletonDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/constructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/openBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/encapsulation/EncapsulationClassOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/encapsulation/EncapsulationClassOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Inharitance/Class_C.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Compare_Two_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Compare_Two_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Streams/Selenium_example.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Streams/Selenium_example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/New_RelativeLocator_with.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/New_RelativeLocator_with.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/SeleniumGridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/SeleniumGridTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/how_to_duplicate_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_duplicate_element_in_Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Sum_of_element_in_Array.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/WebDrivermanager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/WebDrivermanager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/openBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/openBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/openBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/encapsulation/EncapsulationClassOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/encapsulation/EncapsulationClassOne.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +67,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -104,21 +80,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java",
-    "last_opened_file_path": "D:/eclipse-workspace/RestAssured",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/eclipse-workspace/RestAssured&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeleniumTopic" />
@@ -143,7 +119,7 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Compare_Two_Array">
+  <component name="RunManager" selected="Application.Find_largest_shortest_word">
     <configuration name="Compare_Two_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Compare_Two_Array" />
       <module name="Practice_programs" />
@@ -157,12 +133,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.array" />
+    <configuration name="Find_largest_shortest_word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_largest_shortest_word" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Insert_value_at_end_of_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Insert_value_at_end_of_array" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Replace_array_value" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Replace_array_value" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="how_to_duplicate_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.how_to_duplicate_array" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,75 +204,21 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Practice.Dataproviders" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
-      <option name="METHOD_NAME" value="Dataproviders" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.Selection_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="Selection_Dropdown" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Webdrivermanager.webddriver" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Webdrivermanager" />
-      <option name="METHOD_NAME" value="webddriver" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Find_largest_shortest_word" />
+      <item itemvalue="Application.Insert_value_at_end_of_array" />
+      <item itemvalue="Application.Replace_array_value" />
+      <item itemvalue="Application.how_to_duplicate_array" />
       <item itemvalue="Application.Compare_Two_Array" />
-      <item itemvalue="Application.array" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.Practice.Dataproviders" />
-      <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
-      <item itemvalue="TestNG.Webdrivermanager.webddriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find_largest_shortest_word" />
         <item itemvalue="Application.Compare_Two_Array" />
-        <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
-        <item itemvalue="TestNG.Practice.Dataproviders" />
-        <item itemvalue="TestNG.Webdrivermanager.webddriver" />
-        <item itemvalue="Application.array" />
+        <item itemvalue="Application.how_to_duplicate_array" />
+        <item itemvalue="Application.Insert_value_at_end_of_array" />
+        <item itemvalue="Application.Replace_array_value" />
       </list>
     </recent_temporary>
   </component>
