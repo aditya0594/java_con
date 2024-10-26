@@ -8,6 +8,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
+import java.time.Duration;
+import java.util.Collection;
+import java.util.Collections;
+
 public class Base_Driver_driver {
     public WebDriver driver;
 
@@ -21,7 +25,9 @@ public class Base_Driver_driver {
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");
+                options.setExperimentalOption("excludeSwitches", Collections.singleton("enable-automation"));
                 driver = new ChromeDriver(options);
+                driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
                 break;
             case "firefox":
                 WebDriverManager.firefoxdriver().setup();
@@ -36,8 +42,6 @@ public class Base_Driver_driver {
         }
     }
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+            driver.close();
     }
 }

@@ -1,27 +1,27 @@
 package Java_Program.StringProgram;
 
 import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class pratices {
 
     public static void main(String[] args) {
-        int a = 0;
-        int b = 1;
-        int c = 1;
-        int count = 5;
-        for(int i = 1; i<=count;i++){
-            System.out.print(a + " ");
-            a=b;
-            b=c;
-            c=a+b;
+
+        String str = "this is aditya aditya";
+        String[] word = str.split(" ");
+        HashMap<String,Integer> hash = new HashMap<>();
+        for(String w : word){
+            if(hash.containsKey(w)){
+                hash.put(w,hash.get(w)+1);
+            }
+            else {
+                hash.put(w,1);
+            }
+            for(Map.Entry<String,Integer> m : hash.entrySet()){
+                System.out.println(m.getKey() +" : " + m.getValue());
+            }
         }
-
-
-
     }
 }
 

@@ -48,10 +48,10 @@ public class Selenium_other_methods extends Base_Driver_driver {
         super("chrome");  // Calling the parent class constructor to initialize Chrome browser
     }
 
-    @BeforeMethod
-    public void Setup() {
-      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
-    }
+//    @BeforeMethod
+//    public void Setup() {
+//      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
+//    }
 
     @BeforeTest
     public void report(){
@@ -108,11 +108,16 @@ public class Selenium_other_methods extends Base_Driver_driver {
 
     }
     @Test(priority = 3,enabled = true)
-        public void image_present(){
+        public void image_present() throws IOException {
         ExtentTest test = extent.createTest("To verify Image on the Register page");
         driver.get("https://demo.automationtesting.in/Register.html");
             Boolean img = driver.findElement(By.xpath("//img[@alt='image not displaying']")).isDisplayed();
             Assert.assertTrue(img);
+
+            WebElement element = driver.findElement(By.xpath("//img[@alt='image not displaying']"));
+            File getelemetscreenshot = element.getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(getelemetscreenshot, new File("Screenshots/imageelement.png"));
+
         test.pass("To verify Image passed successfully.");
         }
 

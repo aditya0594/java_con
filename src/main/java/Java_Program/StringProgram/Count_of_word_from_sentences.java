@@ -6,7 +6,8 @@ import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Count_of_word_from_sentences {
+public class
+ Count_of_word_from_sentences {
    public static void main(String[] args) {
         String str = "This the java language and java is good language";
         String[] words = str.split(" ");
