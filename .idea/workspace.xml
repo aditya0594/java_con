@@ -4,52 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 19-10-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/Screenshots/imageelement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imageelement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/anagram_string.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Webdriver_Architecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Soft_assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/typwCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Selenium_Webdriver_Architecture.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 26-10-2024 notes added">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jenkins" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Excelread20240715085116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/FluentWait20240716123659.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Slider_movetoElement20240724112313.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20240721060831.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20240724031534.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20240730125509.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20240903042354.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/chrom20240715114256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/chrome20240715114542.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/chrome20240715114753.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/flipkart20240629041043.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/read_properties20240724121544.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/read_properties20240724121847.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/read_properties20240724122510.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/read_properties20240724122636.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/rightClick20240616091923.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/rightClick20240721053701.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/rightClick20240721055644.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/testHardAssert20240730010115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/testSoftAssert20240730010003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/testSoftAssert20240730125800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Base_Driver_driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Base_Driver_driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SeleniumGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/SeleniumGridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Base_Driver_driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Base_Driver_driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +59,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/eclipse-workspace/RestAssured&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditya Pawar/Downloads/rest-api-bdd-test-main/rest-api-bdd-test-main&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -528,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729316498946</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updated added 26-10-2024 notes added">
+      <created>1729923557774</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1729923557774</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Array collection" />
     <MESSAGE value="Array collection 12-08-2023" />
     <MESSAGE value="Array collection 18-08-2023" />
     <MESSAGE value="programs 23-08-2023" />
@@ -581,7 +544,8 @@
     <MESSAGE value="updated added 14-07-2024 notes added" />
     <MESSAGE value="updated added 18-10-2024 notes added" />
     <MESSAGE value="updated added 19-10-2024 notes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 19-10-2024 notes added" />
+    <MESSAGE value="updated added 26-10-2024 notes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 26-10-2024 notes added" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
