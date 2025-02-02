@@ -22,9 +22,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
-import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
+
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -44,6 +42,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
     //https://googlechromelabs.github.io/chrome-for-testing/
     ExtentSparkReporter spark;
     ExtentReports extent;
+
     public Selenium_other_methods() {
         super("chrome");  // Calling the parent class constructor to initialize Chrome browser
     }
@@ -54,20 +53,21 @@ public class Selenium_other_methods extends Base_Driver_driver {
 //    }
 
     @BeforeTest
-    public void report(){
+    public void report() {
 
         ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/STMExtentReport.html");
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
     }
-    @FindBy(xpath="user_login")WebElement userId; // this is depricated
+
+    @FindBy(xpath = "user_login")
+    WebElement userId; // this is depricated
 
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
 
         String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
-
         // Ensure directory exists
         File screenshotDir = new File(System.getProperty("user.dir") + "/Screenshots/");
         if (!screenshotDir.exists()) {
@@ -87,52 +87,55 @@ public class Selenium_other_methods extends Base_Driver_driver {
 
     By elementName = By.xpath("");
 
-    @Test(priority = 1,enabled = true)
-    public void Window_Basic_Auth(){
+    @Test(priority = 1, enabled = true)
+    public void Window_Basic_Auth() {
         ExtentTest test = extent.createTest("To verify username and password in chrome base browser ");
         //driver.get("https://demo.automationtesting.in/Register.html");
         driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/basic_auth");
         test.pass("To verify username and password in chrome base browser ");
 
     }
-    @Test(priority = 2,enabled = true)
-    public void get_title(){
+
+    @Test(priority = 2, enabled = true)   // How to get title of the page in the selenium
+    public void get_title() {
         ExtentTest test = extent.createTest("To verify Register Title");
         String ActualURL = ("https://demo.automationtesting.in/Register.html");
         driver.get("https://demo.automationtesting.in/Register.html");
 
-        Assert.assertEquals(driver.getCurrentUrl(),ActualURL);
-
-        Assert.assertEquals(driver.getTitle(),"Register");
+        Assert.assertEquals(driver.getCurrentUrl(), ActualURL);
+        Assert.assertEquals(driver.getTitle(), "Register");
         test.pass("Title passed successfully.");
 
     }
-    @Test(priority = 3,enabled = true)
-        public void image_present() throws IOException {
+
+    @Test(priority = 3, enabled = true)  // How to see that the image is present of not using the selenium
+    public void image_present() throws IOException {
         ExtentTest test = extent.createTest("To verify Image on the Register page");
         driver.get("https://demo.automationtesting.in/Register.html");
-            Boolean img = driver.findElement(By.xpath("//img[@alt='image not displaying']")).isDisplayed();
-            Assert.assertTrue(img);
+        Boolean img = driver.findElement(By.xpath("//img[@alt='image not displaying']")).isDisplayed();
+        Assert.assertTrue(img);
 
-            WebElement element = driver.findElement(By.xpath("//img[@alt='image not displaying']"));
-            File getelemetscreenshot = element.getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(getelemetscreenshot, new File("Screenshots/imageelement.png"));
+        WebElement element = driver.findElement(By.xpath("//img[@alt='image not displaying']"));
+        File getelemetscreenshot = element.getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(getelemetscreenshot, new File("Screenshots/imageelement.png"));
 
         test.pass("To verify Image passed successfully.");
-        }
+    }
 
-    @Test(priority = 4, enabled = true)
+    @Test(priority = 4, enabled = true)  // How to select the value from the DROPDOWN ?
     public void Selection_Dropdown() throws InterruptedException {
         ExtentTest test = extent.createTest("Select the seletion in the dropdown.");
         driver.get("https://the-internet.herokuapp.com/dropdown");
         driver.manage().window().maximize();
-        WebElement dropdown  = driver.findElement(By.xpath("//select[@id='dropdown']"));
+
+
+        WebElement dropdown = driver.findElement(By.xpath("//select[@id='dropdown']"));
         Select drop = new Select(dropdown);
         //drop.getOptions();
         drop.selectByValue("1");
         //drop.selectByIndex(0);
         //drop.selectByVisibleText();
-        List<WebElement> listOfOption = drop.getOptions();
+        List<WebElement> listOfOption = drop.getOptions();  // this is use for get all the options and it return the list
         listOfOption.forEach(values -> System.out.println(values.getText()));
         /*for(WebElement w : listOfOption){
             System.out.println("List of options : "+ w.getText());
@@ -140,7 +143,9 @@ public class Selenium_other_methods extends Base_Driver_driver {
         Thread.sleep(5000);
 
     }
-    @Test(priority = 5, enabled = true)
+
+    @Test(priority = 5, enabled = true) // scroll using the javascript executor
+
     public void Scroll_using_javascript() throws InterruptedException {
         ExtentTest test = extent.createTest("Scroll using java script");
         driver.get("https://demo.automationtesting.in/Register.html");
@@ -148,13 +153,13 @@ public class Selenium_other_methods extends Base_Driver_driver {
       /*  WebDriverWait is used to wait for a certain condition to be true before proceeding with the next step in your test.
          This is particularly useful for handling dynamic web pages where elements may take some time to load or become interactive.
         WebDriverWait can help you avoid common issues such as NoSuchElementException and ElementNotInteractableException.*/
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='secondpassword']")));
         Thread.sleep(10000);
-        JavascriptExecutor js = (JavascriptExecutor)driver;
+        JavascriptExecutor js = (JavascriptExecutor) driver;
         // scroll to the element on the page
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
-        js.executeScript("arguments[0].scrollIntoView(true);",element2 );
+        js.executeScript("arguments[0].scrollIntoView(true);", element2);
         Thread.sleep(10000);
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
@@ -163,31 +168,33 @@ public class Selenium_other_methods extends Base_Driver_driver {
         //  js.executeScript("arguments[0].click();", element);
         test.pass("Scroll using java script");
     }
-    @Test(priority = 6, enabled = true)
+
+    @Test(priority = 6, enabled = true)  // Mouse action using the Actions class
     public void DragAndDrop() throws InterruptedException {
         ExtentTest test = extent.createTest("Drag and drop element");
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
-        WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
-        WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
+        WebElement from = driver.findElement(By.xpath("//img[@src='logo.png']"));
+        WebElement to = driver.findElement(By.xpath("//div[@id='droparea']"));
 
 
         Actions actions = new Actions(driver);
-        actions.dragAndDrop(from,to).perform();
+        actions.dragAndDrop(from, to).perform();
         // actions.click(from).build().perform();
         // actions.contextClick(from).build().perform(); //RightClick
         // actions.clickAndHold(from);
         // actions.doubleClick(from);
         //actions.moveToElement(from).click().perform();
-       // actions.release(from).perform();
-       // actions.scrollToElement(from).perform();
+        // actions.release(from).perform();
+        // actions.scrollToElement(from).perform();
         Thread.sleep(5000);
 
 
         test.pass("Element draged properly");
     }
+
     @Test(priority = 7, enabled = true)
-    public void Verify(){
+    public void Verify() {
         ExtentTest test = extent.createTest("Verify the soft assert");
 
         // Verify
@@ -201,6 +208,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         softAssert.assertAll();
         test.pass("Verify the soft assert");
     }
+
     @Test(priority = 8, enabled = true)
     //@Given("^user is already on Login Page$")
     public void Frames_Switching() throws InterruptedException {
@@ -239,19 +247,20 @@ public class Selenium_other_methods extends Base_Driver_driver {
     }
 
     @DataProvider(name = "loginDataProvider")
-    public Object[] [] loginData(){
-        return new Object [] []
+    public Object[][] loginData() {
+        return new Object[][]
                 {
-                        {"aditya@gmail.com","Aditya@123"},
-                        {"aditya1@gmail.com","Aditya@123"},
-                        {"aditya1@gmail.com","Aditya@123"},
+                        {"aditya@gmail.com", "Aditya@123"},
+                        {"aditya1@gmail.com", "Aditya@123"},
+                        {"aditya1@gmail.com", "Aditya@123"},
                 };
 
     }
-    @Test(priority =10, enabled = true,dataProvider = "loginDataProvider")
-    public void Dataproviders(String username ,String password){
 
-       // DataProvider is like a container that passes
+    @Test(priority = 10, enabled = true, dataProvider = "loginDataProvider")
+    public void Dataproviders(String username, String password) {
+
+        // DataProvider is like a container that passes
         //the data to our test methods so that our single test method can execute itself with multiple data sets.
         ExtentTest test = extent.createTest("Right click on the element");
         driver.get("https://practice.automationtesting.in/my-account/");
@@ -261,8 +270,9 @@ public class Selenium_other_methods extends Base_Driver_driver {
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 
     }
-    @Test(priority= 1, enabled=true)
-    public static String excelreaddata(int datarow, int datacell) throws IOException{
+
+    @Test(priority = 1, enabled = true)
+    public static String excelreaddata(int datarow, int datacell) throws IOException {
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheetAt(0);
@@ -272,20 +282,21 @@ public class Selenium_other_methods extends Base_Driver_driver {
     }
 
     @DataProvider(name = "loginDataProviderExcel")
-    public Object[] [] excel_loginData() throws IOException {
+    public Object[][] excel_loginData() throws IOException {
 
-        String userEmail  = excelreaddata(0,0);
-        String userPassword  = excelreaddata(0,1);
-        System.out.println("Details : " + userEmail +" "+userPassword);
-        return new Object [] []
+        String userEmail = excelreaddata(0, 0);
+        String userPassword = excelreaddata(0, 1);
+        System.out.println("Details : " + userEmail + " " + userPassword);
+        return new Object[][]
 
                 {
-                        {userEmail,userPassword}
+                        {userEmail, userPassword}
                 };
 
     }
-    @Test(priority =11, enabled = true,dataProvider = "loginDataProviderExcel")
-    public void Excel_Dataproviders(String username , String password){
+
+    @Test(priority = 11, enabled = true, dataProvider = "loginDataProviderExcel")
+    public void Excel_Dataproviders(String username, String password) {
 
         // DataProvider is like a container that passes
         //the data to our test methods so that our single test method can execute itself with multiple data sets.
@@ -295,6 +306,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
     }
+
     @Test(priority = 12, enabled = true)
     //@Given("^user is already on Login Page$")
     public void Windows_Switching() throws InterruptedException {
@@ -322,7 +334,8 @@ public class Selenium_other_methods extends Base_Driver_driver {
         driver.switchTo().window(parentWindowHandle);
         Thread.sleep(10000);
     }
-    @Test(priority = 13, enabled = true)
+
+    @Test(priority = 13, enabled = true)  //Fluent wait
     public void FluentWait() throws InterruptedException {
         ExtentTest test = extent.createTest("Drag and drop element");
         driver.get("https://demo.automationtesting.in/Dynamic.html");
@@ -333,7 +346,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         // for a specific condition and frequency with which to check the condition before
         // throwing an “ElementNotVisibleException” exception.
 
-        Wait wait = new FluentWait(driver)
+        Wait wait1 = new FluentWait(driver)
                 .withTimeout(Duration.ofSeconds(45))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
@@ -341,18 +354,19 @@ public class Selenium_other_methods extends Base_Driver_driver {
 //Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
 // visible, or clickable. This allows the script to pause execution until the dynamic element is ready.
 
-        WebDriverWait explicit=  new WebDriverWait(driver,Duration.ofSeconds(10));
+        WebDriverWait explicit = new WebDriverWait(driver, Duration.ofSeconds(10));
         explicit.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
 
 
-        WebElement from =driver.findElement(By.xpath("//img[@src='logo.png']"));
-        WebElement to =driver.findElement(By.xpath("//div[@id='droparea']"));
+        WebElement from = driver.findElement(By.xpath("//img[@src='logo.png']"));
+        WebElement to = driver.findElement(By.xpath("//div[@id='droparea']"));
 
         Actions action = new Actions(driver);
-        action.dragAndDrop(from,to).perform();
+        action.dragAndDrop(from, to).perform();
         Thread.sleep(5000);
         test.pass("Element draged properly");
     }
+
     @Test(priority = 14, enabled = true)
     public void ExcelFileRead() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
@@ -374,6 +388,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         Thread.sleep(5000);
         test.pass("Excel file to read");
     }
+
     @Test(priority = 15, enabled = true, groups = "excel")
     public void Write_ExcelFile() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
@@ -400,16 +415,18 @@ public class Selenium_other_methods extends Base_Driver_driver {
 
 
     }
+
     @Test(priority = 16, enabled = true)
     public void NAVIGATE() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
-       // driver.get("www.google.com");
+        // driver.get("www.google.com");
         driver.navigate().to("https://www.google.com");//to launch a new web browser window and navigate to the specified URL
         driver.navigate().back();
         driver.navigate().forward();
         driver.navigate().refresh();
 
     }
+
     @Test(priority = 17, enabled = true)
     public void ALERT() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
@@ -425,6 +442,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
 
         Select select = new Select(driver.findElement(By.xpath("//*[@class='adb']")));
     }
+
     @Test(priority = 18, enabled = true)
     public void window_file() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
@@ -456,7 +474,8 @@ public class Selenium_other_methods extends Base_Driver_driver {
         driver.findElement(By.id("file-submit")).click();
         Thread.sleep(10000);
     }
-    @Test(priority = 20 , enabled = true)
+
+    @Test(priority = 20, enabled = true)
     public void Find_all_links() {
         try {
             // Open the web page
@@ -470,14 +489,15 @@ public class Selenium_other_methods extends Base_Driver_driver {
                 System.out.println(link.getAttribute("href"));
             }
 
-        }catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println("This is demo ");
         }
     }
+
     @Test(priority = 20, enabled = true)
     public void Screen_shot() throws IOException {
         driver.get("https://www.softwaretestingmaterial.com/capture-screenshot-using-selenium-webdriver");
-        File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         // stored file in the local storage
         FileUtils.copyFile(screenshotFile, new File("D:\\SoftwareTestingMaterial.png"));
     }
@@ -496,8 +516,9 @@ public class Selenium_other_methods extends Base_Driver_driver {
         //using send keys
         //action.sendKeys(Keys.PAGE_DOWN).perform();
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].scrollIntoView(true)",ele);
+        js.executeScript("arguments[0].scrollIntoView(true)", ele);
     }
+
     @Test(priority = 22, enabled = true)
     public void flipkart() throws InterruptedException {
         driver.manage().window().maximize();
@@ -509,16 +530,32 @@ public class Selenium_other_methods extends Base_Driver_driver {
         driver.findElement(By.xpath("//a[normalize-space()='Slingbags']")).click();
         Thread.sleep(5000);
     }
+
     @Test(priority = 23, enabled = true)
     public static void read_properties() throws IOException {
 
         FileInputStream file = new FileInputStream("src/main/resources/config.properties");
         Properties prop = new Properties();
         prop.load(file);
-        String browser ;
+        String browser;
         browser = prop.get("browserName").toString();
         System.out.println(browser);
     }
+    @Test(priority = 24, enabled = true)
+    public void linkText_parcialLinkText() throws InterruptedException {
+
+        // DataProvider is like a container that passes
+        //the data to our test methods so that our single test method can execute itself with multiple data sets.
+        ExtentTest test = extent.createTest("Right click on the element");
+        driver.get("https://demo.automationtesting.in/Accordion.html");
+        driver.manage().window().maximize();
+        Thread.sleep(3000);
+       WebElement elem =  driver.findElement(By.linkText("#collapse2"));
+        elem.click();
+        Thread.sleep(5000);
+    }
+
+
   /*  @Test(priority = 23, enabled = true)
     public static void Slider_movetoElement() throws IOException, InterruptedException {
 

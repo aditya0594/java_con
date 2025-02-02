@@ -15,7 +15,7 @@ public class Compare_Two_Array {
 //        }*/
 
         int[] arr1 = {1,2,3,4,5};
-        int[] arr2 = {1,2,4,5};
+        int[] arr2 = {1,2,4,5,5};
         boolean status = false;
         if(arr1.length == arr2.length){
             for(int i=0; i< arr1.length;i++){
@@ -32,5 +32,21 @@ public class Compare_Two_Array {
         else{
             System.out.println("array is not equal");
         }
+
+
+
+        Boolean flag = false;
+        int[] arr3 = {1,2,3,4,5};
+        int[] arr4 = {1,2,4,5,5};
+        if(arr3.length==arr4.length){
+            for(int i=0;i<arr1.length;i++){
+                flag = true;
+                break;
+            }
+        }
+
+
     }
+
+
 }
