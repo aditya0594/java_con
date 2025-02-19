@@ -271,6 +271,27 @@ public class Selenium_other_methods extends Base_Driver_driver {
 
     }
 
+    @Test(priority = 14, enabled = true)
+    public void ExcelFileRead() throws InterruptedException, IOException {
+        ExtentTest test = extent.createTest("Excel file to read");
+        //I have placed an excel file 'Test.xlsx' in my D Driver
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        //I have added test data in the cell A1 as "SoftwareTestingMaterial.com"
+        XSSFSheet Sheet = workbook.getSheetAt(0);
+        //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
+
+        Row row = Sheet.getRow(0);
+        Cell cell = row.getCell(0);
+
+        System.out.println(cell);
+        System.out.println("-----------------------------------------------");
+        System.out.println(Sheet.getRow(0).getCell(0));
+        //String cellval = cell.getStringCellValue();
+        //System.out.println(cellval);
+        Thread.sleep(5000);
+        test.pass("Excel file to read");
+    }
     @Test(priority = 1, enabled = true)
     public static String excelreaddata(int datarow, int datacell) throws IOException {
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
@@ -367,27 +388,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         test.pass("Element draged properly");
     }
 
-    @Test(priority = 14, enabled = true)
-    public void ExcelFileRead() throws InterruptedException, IOException {
-        ExtentTest test = extent.createTest("Excel file to read");
-        //I have placed an excel file 'Test.xlsx' in my D Driver
-        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
-        //I have added test data in the cell A1 as "SoftwareTestingMaterial.com"
-        XSSFSheet Sheet = workbook.getSheetAt(0);
-        //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
 
-        Row row = Sheet.getRow(0);
-        Cell cell = row.getCell(0);
-
-        System.out.println(cell);
-        System.out.println("-----------------------------------------------");
-        System.out.println(Sheet.getRow(0).getCell(0));
-        //String cellval = cell.getStringCellValue();
-        //System.out.println(cellval);
-        Thread.sleep(5000);
-        test.pass("Excel file to read");
-    }
 
     @Test(priority = 15, enabled = true, groups = "excel")
     public void Write_ExcelFile() throws InterruptedException, IOException {
@@ -434,7 +435,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//button[@class='btn btn-danger']")).click();
         Thread.sleep(3000);
-
+        // Alert is a class to handle webbased or javascript based popups
         Alert alert = driver.switchTo().alert();
         alert.accept();
         alert.dismiss();
@@ -469,8 +470,9 @@ public class Selenium_other_methods extends Base_Driver_driver {
         ExtentTest test = extent.createTest("Excel file to read");
         driver.get("https://the-internet.herokuapp.com/upload");
         driver.manage().window().maximize();
-        WebElement fileInput = driver.findElement(By.cssSelector("input[type=file]"));
-        fileInput.sendKeys();
+        WebElement fileInput = driver.findElement(By.xpath("//input[@name='file']"));
+        fileInput.sendKeys("D:\\Projects\\eclipse-workspace\\java_con\\src\\main\\resources\\abstraction_Interface.png");
+        Thread.sleep(3000);
         driver.findElement(By.id("file-submit")).click();
         Thread.sleep(10000);
     }
@@ -480,15 +482,12 @@ public class Selenium_other_methods extends Base_Driver_driver {
         try {
             // Open the web page
             driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
-
             // Find all link elements
             List<WebElement> links = driver.findElements(By.tagName("href"));
-
-            // Print each link's URL
+            // print each link's URL
             for (WebElement link : links) {
                 System.out.println(link.getAttribute("href"));
             }
-
         } catch (ArithmeticException e) {
             System.out.println("This is demo ");
         }

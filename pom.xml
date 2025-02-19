@@ -93,6 +93,13 @@
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.41.2.1</version> <!-- Use the latest version available -->
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version> <!-- Use latest version -->
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
 
@@ -101,5 +108,6 @@
         <maven.compiler.target>20</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     
 </project>

@@ -11,9 +11,9 @@ public class Split_String {
         }
         Arrays.stream(str).forEach(value-> System.out.println(value));
 
-        for(String s : str){
-            System.out.println(s);
-        }
+//        for(String s : str){
+//            System.out.println(s);
+//        }
 
     }
 }

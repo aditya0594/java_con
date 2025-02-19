@@ -14,37 +14,38 @@ public class Compare_Two_Array {
 //            System.out.println("Not eqaul array");
 //        }*/
 
-        int[] arr1 = {1,2,3,4,5};
-        int[] arr2 = {1,2,4,5,5};
-        boolean status = false;
-        if(arr1.length == arr2.length){
-            for(int i=0; i< arr1.length;i++){
-                status = true;
+        int[] arr1 = {1,2,8,4,5};
+        int[] arr2 = {1,2,3,4,5};
+        boolean status = true;
+
+        if(arr1.length != arr2.length){
+            status=false;
+        }
+        else{
+            for(int i =0;i<arr1.length;i++){
+                status=false;
                 break;
             }
         }
-        else {
-            status = false;
-        }
         if(status==true){
-            System.out.println("array is equal");
+            System.out.println("Array is equal");
         }
         else{
-            System.out.println("array is not equal");
+            System.out.println("Array is not equal");
         }
 
-
-
+/*
         Boolean flag = false;
         int[] arr3 = {1,2,3,4,5};
         int[] arr4 = {1,2,4,5,5};
         if(arr3.length==arr4.length){
-            for(int i=0;i<arr1.length;i++){
+            for(int i=0;i<arr4.length;i++){
                 flag = true;
                 break;
             }
         }
 
+*/
 
     }
 

@@ -19,14 +19,25 @@ public class Duplicate_value_of_array {
 
 
         int[] arr = {1,2,3,4,4};
-        boolean flag = false;
+//        boolean flag = false;
+//        HashSet<Integer> hash = new HashSet<>();
+//        for(Integer w : arr){
+//            if(hash.add(w)==false){
+//                flag = true;
+//                System.out.println("This duplicate value " +w);
+//            }
+//            if(flag=false){
+//                System.out.println("Duplicate value not found");
+//            }
+
         HashSet<Integer> hash = new HashSet<>();
+        boolean flag = false;
         for(Integer w : arr){
             if(hash.add(w)==false){
-                flag = true;
-                System.out.println("This duplicate value " +w);
+                flag=true;
+                System.out.println("This is the duplicate value : "+ w);
             }
-            if(flag=false){
+            if(flag==false){
                 System.out.println("Duplicate value not found");
             }
 

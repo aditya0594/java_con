@@ -4,27 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 26-10-2024 notes added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/aeiob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Git_Concepts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Interview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Authentication_authorization.png" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 18-02-2025">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/imageelement.png" beforeDir="false" afterPath="$PROJECT_DIR$/Screenshots/imageelement.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Compare_Two_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Compare_Two_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_prime_no.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_prime_no.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Assert_Hard_Soft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Assert_Hard_Soft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Webdriver_Architecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_Webdriver_Architecture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Duplicate_value_of_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Split_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Split_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/New_RelativeLocator_with.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/New_RelativeLocator_with_sele4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Soft_assert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_prime_no.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Find_prime_no.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Assert_Hard_Soft.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Assert_Hard_Soft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Base_Driver_driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Base_Driver_driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/SeleniumGridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/SeleniumGridTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/Default_Contructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Compare_Two_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Compare_Two_Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Duplicate_value_of_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Duplicate_value_of_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Split_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Split_String.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/New_RelativeLocator_with.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contructor/Default_Contructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contructor/Default_Contructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contructor/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contructor/constructor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +117,13 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.aeiob">
-    <configuration name="Find_prime_no" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.Find_prime_no" />
+  <component name="RunManager" selected="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml">
+    <configuration name="Compare_Two_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Compare_Two_Array" />
       <module name="Selenium_Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Program.*" />
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +131,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aeiob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.aeiob" />
+    <configuration name="Default_Contructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contructor.Default_Contructor" />
       <module name="Selenium_Advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="contructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Duplicate_value_of_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Duplicate_value_of_array" />
+      <module name="Selenium_Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pratices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.pratices" />
+      <module name="Selenium_Advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.StringProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,54 +189,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Interview.Window_Basic_Auth" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Projects/eclipse-workspace/java_con/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Interview" />
-      <option name="METHOD_NAME" value="Window_Basic_Auth" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.image_present" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="image_present" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.linkText_parcialLinkText" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="linkText_parcialLinkText" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -209,20 +200,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.aeiob" />
-      <item itemvalue="Application.Find_prime_no" />
+      <item itemvalue="Application.Compare_Two_Array" />
+      <item itemvalue="Application.Default_Contructor" />
+      <item itemvalue="Application.Duplicate_value_of_array" />
+      <item itemvalue="Application.pratices" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.Selenium_other_methods.linkText_parcialLinkText" />
-      <item itemvalue="TestNG.Interview.Window_Basic_Auth" />
-      <item itemvalue="TestNG.Selenium_other_methods.image_present" />
+      <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.aeiob" />
-        <item itemvalue="TestNG.Selenium_other_methods.linkText_parcialLinkText" />
-        <item itemvalue="TestNG.Selenium_other_methods.image_present" />
-        <item itemvalue="TestNG.Interview.Window_Basic_Auth" />
-        <item itemvalue="Application.Find_prime_no" />
+        <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+        <item itemvalue="Application.Default_Contructor" />
+        <item itemvalue="Application.pratices" />
+        <item itemvalue="Application.Duplicate_value_of_array" />
+        <item itemvalue="Application.Compare_Two_Array" />
       </list>
     </recent_temporary>
   </component>
@@ -508,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731848521182</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="updated added 02-02-2025">
+      <created>1738497872421</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1738497872421</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,8 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Array collection 12-08-2023" />
-    <MESSAGE value="Array collection 18-08-2023" />
     <MESSAGE value="programs 23-08-2023" />
     <MESSAGE value="programs 25-08-2023" />
     <MESSAGE value="java_com_ 19-01-2024" />
@@ -561,7 +557,9 @@
     <MESSAGE value="updated added 18-10-2024 notes added" />
     <MESSAGE value="updated added 19-10-2024 notes added" />
     <MESSAGE value="updated added 26-10-2024 notes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 26-10-2024 notes added" />
+    <MESSAGE value="updated added 02-02-2025" />
+    <MESSAGE value="updated added 18-02-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated added 18-02-2025" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

@@ -21,7 +21,7 @@ public class constructor {
        System.out.println("Parent class default constructor called");
     }
 
-    public constructor(String Firstname){
+    public constructor(String Firstname){ //pparameterized constructor
         System.out.println("this is the first name from the parent class");
     }
 
@@ -29,7 +29,8 @@ public class constructor {
     private constructor(int a, int b){    // parameterized Constructor
         this.a = a;
         this.b = b;
-        System.out.println("this is the parameterized constructor" + " And parameter value :" + a + ", "+b );
+        int c= a+b;
+        System.out.println("this is the parameterized constructor : " + c + " And parameter value :" + a + ", "+b );
     }
 
 

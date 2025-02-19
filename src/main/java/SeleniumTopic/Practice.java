@@ -30,13 +30,12 @@ public class Practice {
    }
     @Test(priority =10, enabled = true,dataProvider = "test")
     public void Dataproviders(String username , String password) {
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver(options);
-        driver.get("https://www.google.com");
-        System.out.println(username);
-        System.out.println(password);
+      WebDriverManager.chromedriver().setup();
+      ChromeOptions options = new ChromeOptions();
+      options.addArguments("--remote-allow-origins=*");
+      WebDriver driver = new ChromeDriver(options);
+      driver.get("https://www.google.com");
+
     }
     @Test(priority =1)
     public void screenshot() throws IOException, InterruptedException {
@@ -71,7 +70,7 @@ public class Practice {
 
     @Test(priority = 1)
     public void window() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
@@ -87,14 +86,23 @@ public class Practice {
 
         Set<String> childWindow = driver.getWindowHandles();
         for(String windows : childWindow){
-            driver.switchTo().window(windows);
             if(driver.getTitle().equals("Google"));
+            driver.switchTo().window(windows);
             break;
         }
-
         Thread.sleep(10000);
         driver.quit();
 
+    }
+    @Test
+    public void practic(){
+       String str=  "Aditya";
+       
+       String rev = "";
+       for(int i = str.length()-1; i>=0;i--){
+          rev = rev + str.charAt(i);
+       }
+        System.out.println(rev);
     }
     }
 
