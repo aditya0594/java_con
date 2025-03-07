@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Selenium_Advanced" />
+        <module name="Practice_programs" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Practice_programs" target="20" />
       <module name="Selenium_Advanced" target="20" />
     </bytecodeTargetLevel>
   </component>
