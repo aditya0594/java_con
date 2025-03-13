@@ -10,7 +10,7 @@ public class Map_Hashmap {
         //The Map is an interface, and HashMap class of the Java collection framework.
         //The HashMap class implements the Map interface.
         //The HashMap contains unique key-pair values.the HashMap can hold duplicate values.
-        //The Map does not allow null values. But the HashMap can have one null key and multiple null values.
+        //The Map does not allow null values. But the HashMap can have "one null" key and "multiple null values".
         //The Map has two implementations, which are HashMap, HashTable and TreeMap. Whereas HashMap implements Map interface and extends AbstractMap class.
         // It does not guarantee the order of iteration, meaning the order of keys and values is not predictable.
         //  HashMap is non-synchronized ---that means that the 5 five program access the hashmap concurrently simultaneously it will keep updating

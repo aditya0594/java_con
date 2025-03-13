@@ -3,7 +3,7 @@ package Java_Concept;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Linkedlist {
+public class Array_Linkedlist {
 
     public static void main(String[] args) {
 
