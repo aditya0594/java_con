@@ -3,6 +3,8 @@ package Java_Program.ArrayProgram;
 import java.util.Arrays;
 
 public class Find_Largest_two_value {
+
+        // Find the largest two value of the array
     public static void main(String[] args) {
 
                 int[] input = {3, 9, 50, 15, 99, 7, 98, 65};

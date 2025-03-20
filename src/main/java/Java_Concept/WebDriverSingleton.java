@@ -3,6 +3,7 @@ package Java_Concept;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
@@ -10,12 +11,12 @@ import java.util.concurrent.TimeUnit;
 public class WebDriverSingleton {
     //private static Instance Variable
     //Private Constructor
-   // Public Static Method to Return Instance
+   //Public Static Method to Return Instance
 
     private static WebDriver driver;      // Private static variable of the single instance
 
    private WebDriverSingleton(){  // Private constructor to restrict instantiation from other classes
-       System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
+       //System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
        ChromeOptions options = new ChromeOptions();
        options.addArguments("--remote-allow-origins=*");
        driver = new ChromeDriver(options);
@@ -31,6 +32,10 @@ public class WebDriverSingleton {
           //  }
        // }
         return driver;
+    }
+    @Test(enabled = true)
+    public void startdriver(){
+       driver.get("https://www.goggle.com");
     }
 
     public static void quit() {

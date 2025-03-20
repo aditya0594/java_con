@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated added 22-02-2025 listeners added for the failed testcases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_TreeMap.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_treeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_minimum_maximum_value_of_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Reverse_array_without_using_addition_array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_Linkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/Count_of_word_from_sentences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_and_average_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_and_average_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_of_element_in_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Linkedlist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/WebDriverSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/WebDriverSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Largest_two_value.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Largest_two_value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_and_average_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_and_average_array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_of_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_of_element_in_Array.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,9 +111,35 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Map_HashTable">
-    <configuration name="Array_Linkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Array_Linkedlist" />
+  <component name="RunManager" selected="Application.Reverse_array_without_using_addition_array">
+    <configuration name="Find_minimum_maximum_value_of_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_minimum_maximum_value_of_array" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reverse_array_without_using_addition_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Reverse_array_without_using_addition_array" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Set_treeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Set_treeSet" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -120,51 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count_of_word_from_sentences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.Count_of_word_from_sentences" />
+    <configuration name="Sum_and_average_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Sum_and_average_array" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Program.StringProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Map_HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Map_HashTable" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reverse_each_word_present_in_the_sentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.Reverse_each_word_present_in_the_sentence" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.StringProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.array" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,21 +183,39 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="WebDriverSingleton.startdriver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Concept" />
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.WebDriverSingleton" />
+      <option name="METHOD_NAME" value="startdriver" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Array_Linkedlist" />
-      <item itemvalue="Application.Map_HashTable" />
-      <item itemvalue="Application.array" />
-      <item itemvalue="Application.Count_of_word_from_sentences" />
-      <item itemvalue="Application.Reverse_each_word_present_in_the_sentence" />
+      <item itemvalue="Application.Find_minimum_maximum_value_of_array" />
+      <item itemvalue="Application.Reverse_array_without_using_addition_array" />
+      <item itemvalue="Application.Sum_and_average_array" />
+      <item itemvalue="Application.Set_treeSet" />
       <item itemvalue="Gradle.Unnamed" />
+      <item itemvalue="TestNG.WebDriverSingleton.startdriver" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Map_HashTable" />
-        <item itemvalue="Application.Array_Linkedlist" />
-        <item itemvalue="Application.array" />
-        <item itemvalue="Application.Reverse_each_word_present_in_the_sentence" />
-        <item itemvalue="Application.Count_of_word_from_sentences" />
+        <item itemvalue="Application.Reverse_array_without_using_addition_array" />
+        <item itemvalue="Application.Find_minimum_maximum_value_of_array" />
+        <item itemvalue="Application.Sum_and_average_array" />
+        <item itemvalue="TestNG.WebDriverSingleton.startdriver" />
+        <item itemvalue="Application.Set_treeSet" />
       </list>
     </recent_temporary>
   </component>
@@ -505,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741332149466</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added">
+      <created>1741849327481</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1741849327481</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +550,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="programs 25-08-2023" />
     <MESSAGE value="java_com_ 19-01-2024" />
     <MESSAGE value="java_com_ 26-01-2024" />
     <MESSAGE value="java_com_ extent reportes and listener added 07-02-2024" />
@@ -558,7 +574,8 @@
     <MESSAGE value="updated added 02-02-2025" />
     <MESSAGE value="updated added 18-02-2025" />
     <MESSAGE value="updated added 22-02-2025 listeners added for the failed testcases" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated added 22-02-2025 listeners added for the failed testcases" />
+    <MESSAGE value="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
