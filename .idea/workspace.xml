@@ -4,23 +4,196 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_LinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_treeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_minimum_maximum_value_of_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Reverse_array_without_using_addition_array.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Added the array programs">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_5_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_07.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_auto_common_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_auto_service_auto_service_annotations_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_21_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dev_failsafe_failsafe_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_6_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_epoll_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_classes_kqueue_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_60_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_87_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_api_logs_1_22_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_context_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_exporter_logging_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_common_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_22_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_logs_1_22_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_metrics_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_sdk_trace_1_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_opentelemetry_opentelemetry_semconv_1_22_0_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_ous_jtoml_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava3_rxjava_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_client5_httpclient5_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_core5_httpcore5_h2_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_5_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_5_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_lite_5_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_brotli_dec_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openpnp_opencv_3_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chromium_driver_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v107_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v108_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v109_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_devtools_v85_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_http_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_json_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_manager_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_4_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_41_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Difference_between_String_StringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Array_palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value_loopAndSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/search_element_in_Array_return_its_index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Assert_Hard_Soft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Base_Driver_driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Git_Concepts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/ITestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/NewWindowActionSele4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/New_RelativeLocator_with_sele4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SQL_Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SeleniumGridTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Webdriver_Architecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Waits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Webdrivermanager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/extend_report_example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Authentication_authorization.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_Linkedlist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_HashTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_TreeMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_LinkedHashSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_treeSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Concept/aeiob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_minimum_maximum_value_of_array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Reverse_array_without_using_addition_array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/anagram_string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Python_selenium_setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Git_Concepts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Interview.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/New_RelativeLocator_with_sele4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Webdriver_Architecture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Selenium_Webdriver_Architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jenkins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/typwCasting.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_and_average_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_and_average_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_of_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Sum_of_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Linkedlist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/WebDriverSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/WebDriverSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Largest_two_value.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Largest_two_value.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_and_average_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_and_average_array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_of_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Sum_of_element_in_Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/cnver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Even_odd_valuefromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Even_odd_valuefromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Largest_two_value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/cnver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Even_odd_valuefromArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Even_odd_valuefromArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Largest_two_value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_tutorial/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_tutorial/Book_runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_tutorial/MotorBike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_tutorial/MotorRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Maven_Info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StaticVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/superchild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/superparent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,32 +245,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aditya Pawar/Downloads/rest-api-bdd-test-main/rest-api-bdd-test-main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java",
+    "last_opened_file_path": "D:/Projects/eclipse-workspace/java_con/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeleniumTopic" />
       <recent name="Java_Concept" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\eclipse-workspace\java_con\src\test\java" />
       <recent name="D:\Projects\eclipse-workspace\java_con\src\main\resources" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\main\resources" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Driver" />
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con" />
-      <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\Notes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aditya Pawar\eclipse-workspace\java_con\src\Java_tutorial" />
@@ -111,9 +284,9 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reverse_array_without_using_addition_array">
-    <configuration name="Find_minimum_maximum_value_of_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_minimum_maximum_value_of_array" />
+  <component name="RunManager" selected="TestNG.Selenium_other_methods.get_title">
+    <configuration name="Array_palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Array_palindrome" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -125,34 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse_array_without_using_addition_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Reverse_array_without_using_addition_array" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Set_treeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Set_treeSet" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum_and_average_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Sum_and_average_array" />
+    <configuration name="Find_Largest_two_value_loopAndSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_Largest_two_value_loopAndSorting" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -183,17 +330,77 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WebDriverSingleton.startdriver" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTopic" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="SeleniumTopic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Concept" />
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.WebDriverSingleton" />
-      <option name="METHOD_NAME" value="startdriver" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.Window_Basic_Auth" type="TestNG" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Window_Basic_Auth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.get_title" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="get_title" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -202,20 +409,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Find_minimum_maximum_value_of_array" />
-      <item itemvalue="Application.Reverse_array_without_using_addition_array" />
-      <item itemvalue="Application.Sum_and_average_array" />
-      <item itemvalue="Application.Set_treeSet" />
+      <item itemvalue="Application.Array_palindrome" />
+      <item itemvalue="Application.Find_Largest_two_value_loopAndSorting" />
       <item itemvalue="Gradle.Unnamed" />
-      <item itemvalue="TestNG.WebDriverSingleton.startdriver" />
+      <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
+      <item itemvalue="TestNG.Selenium_other_methods" />
+      <item itemvalue="TestNG.Selenium_other_methods.get_title" />
+      <item itemvalue="TestNG.SeleniumTopic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reverse_array_without_using_addition_array" />
-        <item itemvalue="Application.Find_minimum_maximum_value_of_array" />
-        <item itemvalue="Application.Sum_and_average_array" />
-        <item itemvalue="TestNG.WebDriverSingleton.startdriver" />
-        <item itemvalue="Application.Set_treeSet" />
+        <item itemvalue="TestNG.Selenium_other_methods.get_title" />
+        <item itemvalue="TestNG.Selenium_other_methods" />
+        <item itemvalue="TestNG.SeleniumTopic" />
+        <item itemvalue="Application.Array_palindrome" />
+        <item itemvalue="Application.Find_Largest_two_value_loopAndSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741849327481</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added">
+      <created>1742484968641</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1742484968641</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +765,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java_com_ 19-01-2024" />
     <MESSAGE value="java_com_ 26-01-2024" />
     <MESSAGE value="java_com_ extent reportes and listener added 07-02-2024" />
     <MESSAGE value=" reportes and listener added 19-02-2024" />
@@ -575,9 +789,19 @@
     <MESSAGE value="updated added 18-02-2025" />
     <MESSAGE value="updated added 22-02-2025 listeners added for the failed testcases" />
     <MESSAGE value="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added" />
+    <MESSAGE value="Added the array programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the array programs" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="SeleniumTopic.Selenium_other_methods" memberName="extent" />
