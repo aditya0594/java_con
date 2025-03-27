@@ -7,7 +7,7 @@ public class accessModifier {
 
      void abc(){  // default modifier : Access modifier anywhere only in the package
     }
-    public void abc1(){  // public : varible/method as a public : You will have access across package that is anywhere
+    public void abc1(){  // public : variable/method as a public : You will have access across package that is anywhere
     }
 
     private void abc2(){  // Private : if marked variable/method as a private, you can not access outside the class

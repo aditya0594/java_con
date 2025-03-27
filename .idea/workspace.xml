@@ -6,6 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="setup the selenium tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/accessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Even_odd_valuefromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Even_odd_valuefromArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Even_odd_valuefromArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Even_odd_valuefromArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Assert_Hard_Soft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Base_Driver_driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Git_Concepts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/ITestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Interview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/NewWindowActionSele4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/New_RelativeLocator_with_sele4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/RetryAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/SQL_Connection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/SeleniumGridTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_Webdriver_Architecture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/Waits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/WebDrivermanager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumTopic/extend_report_example.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +83,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java",
-    "last_opened_file_path": "D:/Projects/eclipse-workspace/java_con/src/test/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/eclipse-workspace/java_con/src/test/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SeleniumTopic" />
@@ -96,9 +122,22 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium_other_methods.get_title">
-    <configuration name="Array_palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Array_palindrome" />
+  <component name="RunManager" selected="Application.Array_list">
+    <configuration name="Array_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Array_list" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Find_Duplicate_element_Array_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_Duplicate_element_Array_String" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -110,12 +149,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Find_Largest_two_value_loopAndSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_Largest_two_value_loopAndSorting" />
+    <configuration name="Set_HashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Set_HashSet" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Set_LinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Set_LinkedHashSet" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Set_treeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Set_treeSet" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,48 +207,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTopic" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Selenium_other_methods.Window_Basic_Auth" type="TestNG" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -202,40 +225,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_other_methods.get_title" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="get_title" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Array_palindrome" />
-      <item itemvalue="Application.Find_Largest_two_value_loopAndSorting" />
+      <item itemvalue="Application.Array_list" />
+      <item itemvalue="Application.Find_Duplicate_element_Array_String" />
+      <item itemvalue="Application.Set_HashSet" />
+      <item itemvalue="Application.Set_LinkedHashSet" />
+      <item itemvalue="Application.Set_treeSet" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
-      <item itemvalue="TestNG.Selenium_other_methods" />
-      <item itemvalue="TestNG.Selenium_other_methods.get_title" />
-      <item itemvalue="TestNG.SeleniumTopic" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Selenium_other_methods.get_title" />
-        <item itemvalue="TestNG.Selenium_other_methods" />
-        <item itemvalue="TestNG.SeleniumTopic" />
-        <item itemvalue="Application.Array_palindrome" />
-        <item itemvalue="Application.Find_Largest_two_value_loopAndSorting" />
+        <item itemvalue="Application.Array_list" />
+        <item itemvalue="Application.Find_Duplicate_element_Array_String" />
+        <item itemvalue="Application.Set_treeSet" />
+        <item itemvalue="Application.Set_LinkedHashSet" />
+        <item itemvalue="Application.Set_HashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +561,21 @@
       <option name="project" value="LOCAL" />
       <updated>1742556767967</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="setup the selenium tests">
+      <created>1742636532350</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1742636532350</updated>
+    </task>
+    <task id="LOCAL-00046" summary="setup the selenium tests">
+      <created>1742636586185</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1742636586185</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

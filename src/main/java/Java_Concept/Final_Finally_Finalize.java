@@ -25,7 +25,7 @@ public class Final_Finally_Finalize {
             throw e;
         }
 
-        finally {  // use of finally is in the try-catch block and we can use the finally if we want ot print run after the try-catch block
+        finally {  // use of finally is in the try-catch block and we can use the finally if we want to print run after the try-catch block
             System.out.println("this is finally block");
         }
 

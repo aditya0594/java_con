@@ -1,6 +1,9 @@
 package Java_Program.ArrayProgram;
 
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Find_Duplicate_element_Array_String {
 
@@ -13,7 +16,7 @@ public class Find_Duplicate_element_Array_String {
         for(String l: arr) {
             if (hasint.add(l)==false)
             {
-                System.out.print("Found duplicate integer :"+ l);
+                System.out.println("Found duplicate integer :"+ l);
                 flag= true;
             }
         }
@@ -21,6 +24,11 @@ public class Find_Duplicate_element_Array_String {
 
             System.out.println("Not content duplicate");
         }
+
+
+       System.out.println("--------------------using the stream function to remove the duplicate element --------------");
+        List list = Arrays.stream(arr).distinct().collect(Collectors.toList());
+       System.out.println(list);
 
     }
 

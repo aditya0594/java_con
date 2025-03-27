@@ -28,7 +28,7 @@ public class Array_list {
         System.out.println(ar);
         ar.add(0, "first");
         System.out.println(ar);
-        ar.remove(1);
+        ar.remove(1);  //To remove the element
         System.out.println(ar);
         System.out.println(ar.contains("10")); //boolean value it will return..
         System.out.println(ar.indexOf("Aditya"));

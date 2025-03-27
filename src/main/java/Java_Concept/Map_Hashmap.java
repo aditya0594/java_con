@@ -12,8 +12,8 @@ public class Map_Hashmap {
         //The HashMap contains unique key-pair values.the HashMap can hold duplicate values.
         //The Map does not allow null values. But the HashMap can have "one null" key and "multiple null values".
         //The Map has two implementations, which are HashMap, HashTable and TreeMap. Whereas HashMap implements Map interface and extends AbstractMap class.
-        // It does not guarantee the order of iteration, meaning the order of keys and values is not predictable.
-        //  HashMap is non-synchronized ---that means that the 5 five program access the hashmap concurrently simultaneously it will keep updating
+        //It does not guarantee the order of iteration, meaning the order of keys and values is not predictable.
+        //HashMap is non-synchronized ---that means that the 5 five program access the hashmap concurrently simultaneously it will keep updating
 
         HashMap<Integer, String> value = new HashMap<>();
         value.put(1,"aditya");
@@ -21,14 +21,11 @@ public class Map_Hashmap {
         value.put(null,null);
         value.put(null,"13");
 
-
-
         // To get the value of the Key
         System.out.println("-----------for each loop ----------------------");
         for(Map.Entry<Integer, String> original : value.entrySet()){
             System.out.println("Keys is : "+ original.getKey());
             System.out.println("Value is : "+ original.getValue());
-
         }
 
         System.out.println("---------------Replace-----------");
