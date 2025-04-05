@@ -32,7 +32,7 @@ import java.util.Set;
 
 
 @Listeners(ITestListener.class)
-public class Selenium_other_methods extends Base_Driver_driver {
+public class Selenium_other_methods {
 
 
     //https://rahulshettyacademy.com/AutomationPractice/
@@ -41,15 +41,15 @@ public class Selenium_other_methods extends Base_Driver_driver {
     //https://googlechromelabs.github.io/chrome-for-testing/
     ExtentSparkReporter spark;
     ExtentReports extent;
-
-    public Selenium_other_methods() {
-        super("chrome");  // Calling the parent class constructor to initialize Chrome browser
+    protected WebDriver driver;
+  @BeforeMethod
+  public void setup(){
+      driver = Base_Driver_driver.driverInstance("Chrome");
+  }
+    @AfterMethod
+    public void teardown(){
+        Base_Driver_driver.quit();
     }
-
-//    @BeforeMethod
-//    public void Setup() {
-//      driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
-//    }
 
     @BeforeTest
     public void report() {
@@ -58,6 +58,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
     }
+
 
     @FindBy(xpath = "user_login")
     WebElement userId; // this is depricated
@@ -83,7 +84,6 @@ public class Selenium_other_methods extends Base_Driver_driver {
 
     @FindBy(id = "searchBox")
     private WebElement searchBar;
-
     By elementName = By.xpath("");
 
     @Test(priority = 1, enabled = true,retryAnalyzer = RetryAnalyzer.class)
@@ -100,7 +100,6 @@ public class Selenium_other_methods extends Base_Driver_driver {
         ExtentTest test = extent.createTest("To verify Register Title");
         String ActualURL = ("https://demo.automationtesting.in/Register.html");
         driver.get("https://demo.automationtesting.in/Register.html");
-
         Assert.assertEquals(driver.getCurrentUrl(), ActualURL);
         Assert.assertEquals(driver.getTitle(), "Register");
         test.pass("Title passed successfully.");
@@ -130,7 +129,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
 
         WebElement dropdown = driver.findElement(By.xpath("//select[@id='dropdown']"));
         Select drop = new Select(dropdown);
-        //drop.getOptions();
+
         drop.selectByValue("1");
         //drop.selectByIndex(0);
         //drop.selectByVisibleText();
@@ -149,12 +148,11 @@ public class Selenium_other_methods extends Base_Driver_driver {
         ExtentTest test = extent.createTest("Scroll using java script");
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
-      /*  WebDriverWait is used to wait for a certain condition to be true before proceeding with the next step in your test.
-         This is particularly useful for handling dynamic web pages where elements may take some time to load or become interactive.
-        WebDriverWait can help you avoid common issues such as NoSuchElementException and ElementNotInteractableException.*/
+
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@id='secondpassword']")));
         Thread.sleep(10000);
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         // scroll to the element on the page
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
@@ -167,6 +165,7 @@ public class Selenium_other_methods extends Base_Driver_driver {
         //  js.executeScript("arguments[0].click();", element);
         test.pass("Scroll using java script");
     }
+
 
     @Test(priority = 6, enabled = true)  // Mouse action using the Actions class
     public void DragAndDrop() throws InterruptedException {
@@ -361,21 +360,29 @@ public class Selenium_other_methods extends Base_Driver_driver {
         driver.get("https://demo.automationtesting.in/Dynamic.html");
         driver.manage().window().maximize();
 
-        //Fluent Wait//
-        // FluentWait can define the maximum amount of time to wait
-        // for a specific condition and frequency with which to check the condition before
-        // throwing an “ElementNotVisibleException” exception.
+        /** Fluent Wait
+        FluentWait can define the maximum amount of time to wait for a specific condition and frequency with which to check the condition before
+        throwing an “ElementNotVisibleException” exception.
+
+
+         Dynamic Waiting: It checks for the element at every pollingEvery interval instead of waiting the full timeout.
+         Exception Handling: It ignores NoSuchElementException while waiting.
+         Better than Implicit Waits: Works well with dynamically loaded elements.
+         */
 
         Wait wait1 = new FluentWait(driver)
                 .withTimeout(Duration.ofSeconds(45))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
-//Explicit wait
-//Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
-// visible, or clickable. This allows the script to pause execution until the dynamic element is ready.
 
-        WebDriverWait explicit = new WebDriverWait(driver, Duration.ofSeconds(10));
-        explicit.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
+
+
+        /**Explicit wait
+        //Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
+        // visible, or clickable. This allows the script to pause execution until the dynamic element is ready. */
+
+        WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait2.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
 
 
         WebElement from = driver.findElement(By.xpath("//img[@src='logo.png']"));

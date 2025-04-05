@@ -1,13 +1,21 @@
 package SeleniumTopic;
 
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Interview extends Base_Driver_driver {
+public class Interview {
 
-    public Interview() {
-        super("chrome");  // Calling the parent class constructor to initialize Chrome browser
+    protected WebDriver driver;
+    @BeforeMethod
+    public void setup(){
+        driver = Base_Driver_driver.driverInstance("Chrome");
     }
-
+    @AfterMethod
+    public void teardown(){
+        Base_Driver_driver.quit();
+    }
     @Test(priority = 1,enabled = true)
     public void Window_Basic_Auth(){
         //driver.get("https://demo.automationtesting.in/Register.html");
@@ -65,7 +73,8 @@ public class Interview extends Base_Driver_driver {
      what is different between the findelement and findelements?
 
      findElement	WebElement	Returns the first matching element found on the page.
-     findElements	List<WebElement>	Returns a list of all matching elements found on the page. If no elements are found, returns an empty list.
+     findElements	List<WebElement>	Returns a list of all matching elements found on the page. If no elements are found,
+     returns an empty list.
                         FindElement                             Findelements
      Single Match	  Finds the first matching element only. 	        Finds all matching elements.
      No Match Found	  Throws a NoSuchElementException.	                Returns an empty list (List<WebElement>).
