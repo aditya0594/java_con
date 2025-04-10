@@ -12,17 +12,24 @@
     import org.openqa.selenium.WebElement;
     import org.openqa.selenium.chrome.ChromeDriver;
     import org.openqa.selenium.chrome.ChromeOptions;
+    import org.openqa.selenium.edge.EdgeOptions;
     import org.openqa.selenium.firefox.FirefoxDriver;
     import org.openqa.selenium.firefox.FirefoxOptions;
     import org.openqa.selenium.ie.InternetExplorerDriver;
     import org.openqa.selenium.ie.InternetExplorerOptions;
     import org.openqa.selenium.interactions.Actions;
+    import org.openqa.selenium.remote.RemoteWebDriver;
     import org.testng.ITestResult;
     import org.testng.annotations.*;
     import org.testng.asserts.SoftAssert;
 
     import java.io.File;
+    import java.net.MalformedURLException;
+    import java.net.URL;
     import java.time.Duration;
+    import java.util.HashMap;
+    import java.util.Map;
+
     @Listeners(ITestListener.class)
     public class Selenium_Suite {
         WebDriver driver;
@@ -37,13 +44,70 @@
         }
         @Parameters("browser")
         @BeforeMethod
-        public void Setup(String browser) {
+        public void Setup(String browser) throws MalformedURLException {
             if (browser.equalsIgnoreCase("chrome")) {
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");
                 driver = new ChromeDriver(options);
-            } else if (browser.equalsIgnoreCase("firefox")) {
+            }
+            else if(browser.equalsIgnoreCase("Remote_Chrome")){
+                    ChromeOptions browserOptions = new ChromeOptions();
+                    browserOptions.setPlatformName("Windows 11");
+                    browserOptions.setBrowserVersion("latest");
+                    Map<String, Object> sauceOptions = new HashMap<>();
+                    sauceOptions.put("username", "oauth-adityapawar180-d07bc");
+                    sauceOptions.put("accessKey", "9fa283b2-0e5f-41f7-8dcb-d178f729608a");
+                    sauceOptions.put("build", "selenium-build-O3A6O");
+                    sauceOptions.put("name", "<Java Con>");
+                    browserOptions.setCapability("sauce:options", sauceOptions);
+                    URL url = new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub");
+                     driver = new RemoteWebDriver(url, browserOptions);
+
+            }
+            else if(browser.equalsIgnoreCase("Remote_Firefox")){
+                FirefoxOptions browserOptions = new FirefoxOptions();
+                browserOptions.setPlatformName("Windows 11");
+                browserOptions.setBrowserVersion("latest");
+                Map<String, Object> sauceOptions = new HashMap<>();
+                sauceOptions.put("username", "oauth-adityapawar180-d07bc");
+                sauceOptions.put("accessKey", "9fa283b2-0e5f-41f7-8dcb-d178f729608a");
+                sauceOptions.put("build", "selenium-build-O3A6O");
+                sauceOptions.put("name", "<Java Con>");
+                browserOptions.setCapability("sauce:options", sauceOptions);
+                URL url = new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub");
+                driver = new RemoteWebDriver(url, browserOptions);
+
+            }
+            else if(browser.equalsIgnoreCase("Remote_Edge")){
+                EdgeOptions browserOptions = new EdgeOptions();
+                browserOptions.setPlatformName("Windows 11");
+                browserOptions.setBrowserVersion("latest");
+                Map<String, Object> sauceOptions = new HashMap<>();
+                sauceOptions.put("username", "oauth-adityapawar180-d07bc");
+                sauceOptions.put("accessKey", "9fa283b2-0e5f-41f7-8dcb-d178f729608a");
+                sauceOptions.put("build", "selenium-build-O3A6O");
+                sauceOptions.put("name", "<Java Con>");
+                browserOptions.setCapability("sauce:options", sauceOptions);
+                URL url = new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub");
+                driver = new RemoteWebDriver(url, browserOptions);
+
+            }
+            else if(browser.equalsIgnoreCase("Remote_Firefox")){
+                FirefoxOptions browserOptions = new FirefoxOptions();
+                browserOptions.setPlatformName("Windows 11");
+                browserOptions.setBrowserVersion("latest");
+                Map<String, Object> sauceOptions = new HashMap<>();
+                sauceOptions.put("username", "oauth-adityapawar180-d07bc");
+                sauceOptions.put("accessKey", "9fa283b2-0e5f-41f7-8dcb-d178f729608a");
+                sauceOptions.put("build", "selenium-build-O3A6O");
+                sauceOptions.put("name", "<Java Con>");
+                browserOptions.setCapability("sauce:options", sauceOptions);
+                URL url = new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub");
+                driver = new RemoteWebDriver(url, browserOptions);
+
+            }
+            else if (browser.equalsIgnoreCase("firefox")) {
                 WebDriverManager.chromedriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");

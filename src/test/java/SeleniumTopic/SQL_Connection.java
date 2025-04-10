@@ -2,10 +2,12 @@ package SeleniumTopic;
 
 import org.testng.annotations.Test;
 
-import java.sql.*;
+
 
 public class SQL_Connection {
-    @Test(enabled = true)
+}
+
+ /*   @Test(enabled = true)
     public void connection() throws ClassNotFoundException, SQLException {
 
         // Path to the SQLite database file
@@ -15,9 +17,9 @@ public class SQL_Connection {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-           /* String url = "jdbc:mysql://localhost:3306/your_database";
+           *//* String url = "jdbc:mysql://localhost:3306/your_database";
             String user = "your_username";
-            String password = "your_password";*/
+            String password = "your_password";*//*
              connection = DriverManager.getConnection(url);
              // Create a statement object to execute the query
             Statement statement = connection.createStatement();
@@ -51,3 +53,4 @@ public class SQL_Connection {
         }
     }
 }
+*/

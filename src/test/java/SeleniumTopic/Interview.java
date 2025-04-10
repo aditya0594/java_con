@@ -5,11 +5,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+
 public class Interview {
 
     protected WebDriver driver;
     @BeforeMethod
-    public void setup(){
+    public void setup() throws MalformedURLException {
         driver = Base_Driver_driver.driverInstance("Chrome");
     }
     @AfterMethod

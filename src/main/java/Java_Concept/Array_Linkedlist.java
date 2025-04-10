@@ -11,7 +11,8 @@ public class Array_Linkedlist {
        // LinkedList is used to create an empty linked list.
         // LinkedList class maintains insertion order.
         //LinkedList class is non synchronized.
-        //In LinkedList class, manipulation is fast because shifting is not required when new element is inserted or deleted from the list.
+        //In LinkedList class, manipulation is fast because shifting is not required
+        // when new element is inserted or deleted from the list.
 
 
         List<String> ref = new LinkedList<>();

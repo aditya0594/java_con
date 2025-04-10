@@ -4,27 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Updated 27-03-2025">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/ChromeOptions.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="remote sause lab is added">
+      <change afterPath="$PROJECT_DIR$/Screenshots/DragAndDrop20250410012336.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/DragAndDrop20250410025220.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410011031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410012354.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410013036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410013251.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410013451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410025232.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_LinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/WindowSwitchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/jenkins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/SeleniumTopic.SeleniumGridTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/SeleniumTopic.SeleniumGridTest/Command line test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/SeleniumTopic.SeleniumGridTest/Command line test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/SeleniumTopic.SeleniumGridTest/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-SeleniumTopic.SeleniumGridTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SeleniumTopic.SeleniumGridTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/Command line test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/SeleniumTopic.SeleniumGridTest/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/ChromeOptions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/WebDriverSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/WebDriverSingleton_use.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/WebDriverSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/WebDriverSingleton_use.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/WebDriverSingleton_use.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_Linkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_Linkedlist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Base_Driver_driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Base_Driver_driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Interview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Interview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SQL_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SQL_Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Practice_programs-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/WebDriverSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/WebDriverSingleton_use.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_Linkedlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_Linkedlist.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Base_Driver_driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Base_Driver_driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Interview.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Interview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/SQL_Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/SQL_Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,59 +159,7 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Selenium_other_methods.Window_Basic_Auth">
-    <configuration name="Array_list" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Array_list" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ChromeOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.ChromeOptions" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Find_Duplicate_element_Array_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_Duplicate_element_Array_String" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Set_treeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Set_treeSet" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml">
     <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,6 +179,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="D:/Projects/eclipse-workspace/java_con/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.Selection_Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Selection_Dropdown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selenium_other_methods.Window_Basic_Auth" type="TestNG" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -205,7 +225,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverSingleton_use" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_other_methods.datatablelist" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -214,7 +234,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.WebDriverSingleton_use" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="datatablelist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowSwitchTask" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.WindowSwitchTask" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -222,22 +260,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowSwitchTask.testMultipleTabsAndWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.WindowSwitchTask" />
+      <option name="METHOD_NAME" value="testMultipleTabsAndWindows" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ChromeOptions" />
-      <item itemvalue="Application.Array_list" />
-      <item itemvalue="Application.Find_Duplicate_element_Array_String" />
-      <item itemvalue="Application.Set_treeSet" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
-      <item itemvalue="TestNG.WebDriverSingleton_use" />
+      <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+      <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
+      <item itemvalue="TestNG.Selenium_other_methods.datatablelist" />
+      <item itemvalue="TestNG.WindowSwitchTask" />
+      <item itemvalue="TestNG.WindowSwitchTask.testMultipleTabsAndWindows" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WebDriverSingleton_use" />
-        <item itemvalue="Application.ChromeOptions" />
-        <item itemvalue="Application.Array_list" />
-        <item itemvalue="Application.Find_Duplicate_element_Array_String" />
-        <item itemvalue="Application.Set_treeSet" />
+        <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+        <item itemvalue="TestNG.Selenium_other_methods.datatablelist" />
+        <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
+        <item itemvalue="TestNG.WindowSwitchTask.testMultipleTabsAndWindows" />
+        <item itemvalue="TestNG.WindowSwitchTask" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1743072097673</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Updated 27-03-2025">
+      <created>1743831158168</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1743831158168</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,8 +670,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=" reportes and listener added 19-02-2024" />
-    <MESSAGE value="updated added 26-02-2024" />
     <MESSAGE value="updated added 03-04-2024" />
     <MESSAGE value="updated added 24-04-2024" />
     <MESSAGE value="updated added 10-05-2024" />
@@ -632,7 +693,9 @@
     <MESSAGE value="Added the array programs" />
     <MESSAGE value="setup the selenium tests" />
     <MESSAGE value="Updated 27-03-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated 27-03-2025" />
+    <MESSAGE value="LinnkedHashMap added" />
+    <MESSAGE value="remote sause lab is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="remote sause lab is added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

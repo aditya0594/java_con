@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -43,7 +44,7 @@ public class Selenium_other_methods {
     ExtentReports extent;
     protected WebDriver driver;
   @BeforeMethod
-  public void setup(){
+  public void setup() throws MalformedURLException {
       driver = Base_Driver_driver.driverInstance("Chrome");
   }
     @AfterMethod
@@ -135,11 +136,29 @@ public class Selenium_other_methods {
         //drop.selectByVisibleText();
         List<WebElement> listOfOption = drop.getOptions();  // this is use for get all the options and it return the list
         listOfOption.forEach(values -> System.out.println(values.getText()));
-        /*for(WebElement w : listOfOption){
+        for(WebElement w : listOfOption){
             System.out.println("List of options : "+ w.getText());
-        }*/
+        }
         Thread.sleep(5000);
 
+    }
+    @Test(enabled = true)
+    public void datatablelist(){
+        driver.get("https://the-internet.herokuapp.com/tables#delete");
+
+        // Example 1
+        String element = driver.findElement(By.xpath("(//table[@id='table1']/tbody/tr/td[3])[2]")).getText();
+        System.out.println(" this is the element value " + element);
+
+        // Example 2
+        List<WebElement> dues = driver.findElements(By.xpath("//td[@class='dues']"));
+//        for (WebElement due : dues) {
+//            System.out.println(due.getText());
+//        }
+
+        for(int i=0;i<dues.size();i++){
+            System.out.println(dues.get(i).getText());
+        }
     }
 
     @Test(priority = 5, enabled = true) // scroll using the javascript executor
