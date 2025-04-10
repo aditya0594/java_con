@@ -3,7 +3,7 @@
 <suite name="All Test Suite" parallel="tests" thread-count="5">
 
     <test name="Run on Chrome">
-        <parameter name="browser" value="Remote_Chrome"/>
+        <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="SeleniumTopic.Selenium_Suite">
                 <methods>
