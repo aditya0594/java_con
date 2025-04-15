@@ -59,8 +59,10 @@ public class Waits {
  When to Use FluentWait
  FluentWait is useful when you need to:
 
- Wait for a condition with a custom time interval: If you want to check the condition at specific intervals instead of continuously, FluentWait allows you to set this interval.
-  Handle specific exceptions: You can specify which exceptions to ignore during the wait period. This is helpful when certain exceptions are expected during the wait (e.g., NoSuchElementException).
+ Wait for a condition with a custom time interval: If you want to check the condition at specific intervals instead of continuously,
+ FluentWait allows you to set this interval.
+ Handle specific exceptions: You can specify which exceptions to ignore during the wait period.
+ This is helpful when certain exceptions are expected during the wait (e.g., NoSuchElementException).
 
 
  **/

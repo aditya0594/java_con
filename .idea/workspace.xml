@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="remote sause lab is added">
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410111051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Annotation_Squence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/jenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/jenkins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/exception_Handing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/exception_Handing.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +101,20 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml">
+  <component name="RunManager" selected="Application.exception_Handing">
+    <configuration name="exception_Handing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.exception_Handing" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,23 +198,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowSwitchTask" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.WindowSwitchTask" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WindowSwitchTask.testMultipleTabsAndWindows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -217,21 +217,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.exception_Handing" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
       <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
       <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
       <item itemvalue="TestNG.Selenium_other_methods.datatablelist" />
-      <item itemvalue="TestNG.WindowSwitchTask" />
       <item itemvalue="TestNG.WindowSwitchTask.testMultipleTabsAndWindows" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exception_Handing" />
         <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
         <item itemvalue="TestNG.Selenium_other_methods.datatablelist" />
         <item itemvalue="TestNG.Selenium_other_methods.Selection_Dropdown" />
         <item itemvalue="TestNG.WindowSwitchTask.testMultipleTabsAndWindows" />
-        <item itemvalue="TestNG.WindowSwitchTask" />
       </list>
     </recent_temporary>
   </component>
@@ -243,13 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Array collection">
-      <created>1691586903643</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691586903643</updated>
     </task>
     <task id="LOCAL-00003" summary="Array collection 12-08-2023">
       <created>1691856582532</created>
@@ -587,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744281211273</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="remote sause lab is added">
+      <created>1744307085607</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1744307085608</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -647,7 +647,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java</url>
-          <line>9</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

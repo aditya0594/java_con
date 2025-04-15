@@ -1,5 +1,9 @@
 package Java_Concept;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 import static com.google.common.primitives.UnsignedInts.divide;
 
 public class exception_Handing {
@@ -22,8 +26,17 @@ public class exception_Handing {
         System.out.println("this is finally block");
          }
     }
-    public static void main(String[] args) {
+    public static void main(String[] args)throws IOException{
+
+        try {
+            FileReader file = new FileReader("file.txt");
+        }catch (FileNotFoundException e){
+            System.out.println("This file is not found");
+        }
         exception_Handing obj = new exception_Handing();
         obj.fun();
+
+
+
     }
 }
