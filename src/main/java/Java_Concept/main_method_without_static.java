@@ -20,11 +20,14 @@ public class main_method_without_static {
 
 
   /*  In Java, the main method is the entry point of any standalone Java application.
-    It is defined with the static keyword to allow the Java Virtual Machine (JVM) to call it without creating an instance of the class.
+    It is defined with the static keyword to allow the Java Virtual Machine (JVM)
+    to call it without creating an instance of the class.
    */
-   /** public: This is an access modifier that means the method can be called from outside the class. It's necessary because the JVM needs to call this method to start the application.
+   /** public: This is an access modifier that means the method can be called from outside the class.
+     It's necessary because the JVM needs to call this method to start the application.
 
-    static: This means the method belongs to the class rather than an instance of the class. This is necessary because the JVM invokes the main method without creating an instance of the class.
+    static: This means the method belongs to the class rather than an instance of the class.
+    This is necessary because the JVM invokes the main method without creating an instance of the class.
 
     void: This means the method does not return any value.
 

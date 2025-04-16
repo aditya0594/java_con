@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="remote sause lab is added">
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250410111051.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Annotation_Squence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/exception_Handing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/exception_Handing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/exception_Handing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/main_method_without_static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Annotation_Squence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/TestNG_Annotation_Squence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,13 +241,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Array collection 12-08-2023">
-      <created>1691856582532</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691856582532</updated>
     </task>
     <task id="LOCAL-00004" summary="Array collection 16-08-2023">
       <created>1692194123755</created>
@@ -587,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744307085608</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="remote sause lab is added">
+      <created>1744727484635</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1744727484636</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
