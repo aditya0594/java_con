@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class Find_prime_no {
     public void checkPrime(int input) {
-
         int mid = input / 2;
         boolean flag = false;
         if (input == 0 || input == 1) {

@@ -7,6 +7,28 @@ import java.util.*;
 
 public class Array_list {
     public static void main(String[] args) {
+
+
+        /**
+         java.lang.Object
+         └── java.util.Collection (Interface)
+         ├── List (Interface)
+         │     ├── ArrayList
+         │     ├── LinkedList
+         │     └── Vector
+         │           └── Stack
+         ├── Set (Interface)
+         │     ├── HashSet
+         │     │     └── LinkedHashSet
+         │     └── TreeSet (implements NavigableSet)
+         └── Queue (Interface)
+         ├── PriorityQueue
+         └── ArrayDeque
+
+         */
+
+
+
         // non-generic
 
         //ArrayList Class implements List interface.

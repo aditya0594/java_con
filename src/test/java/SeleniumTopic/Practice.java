@@ -10,12 +10,15 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Set;
 
 public class Practice {
@@ -42,6 +45,9 @@ public class Practice {
     FileUtils.copyFile(sc, new File("Path"));
 
     }
+
+
+
     @Test(priority =1)
     public void Excelread() throws IOException, InterruptedException {
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
@@ -103,6 +109,21 @@ public class Practice {
        }
         System.out.println(rev);
     }
+    @Test
+    public void chromeDriver(){
+       WebDriver driver;
+       WebDriverManager.chromedriver().setup();
+       ChromeOptions options = new ChromeOptions();
+       options.addArguments("--remote-allow-origins=*");
+       options.addArguments("--disable-notifications");
+       options.addArguments("--disable-popup-blocking");
+        options.addExtensions(new File("D:\\Projects\\eclipse-workspace\\java_con\\src\\main\\resources\\GIGHMMPIOBKLFEPJOCNAMGKKBIGLIDOM_6_18_0_0.crx"));
+       driver=new ChromeDriver(options);
+
+       driver.get("https://demo.automationtesting.in/Dynamic.html");
+
+
     }
+}
 
 

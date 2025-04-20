@@ -108,12 +108,12 @@
 
             }
             else if (browser.equalsIgnoreCase("firefox")) {
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
                 options.addArguments("--headless");
                 driver = new FirefoxDriver(options);
             } else if (browser.equalsIgnoreCase("IE")) {
-                WebDriverManager.chromedriver().setup();
+                WebDriverManager.iedriver().setup();
                 InternetExplorerOptions options = new InternetExplorerOptions();
                 options.ignoreZoomSettings();
                 options.introduceFlakinessByIgnoringSecurityDomains();
@@ -158,7 +158,7 @@
                 extent.flush();
             }
         }
-        @Test(priority = 1, enabled = true)
+        @Test(priority = 1, enabled = true, groups = {"Smoke", "Regression"})
         public void Scroll_using_javascript() throws InterruptedException {
             test = extent.createTest("This the javascript for scrolling");
             driver.get("https://demo.automationtesting.in/Register.html");
@@ -170,7 +170,7 @@
             test.pass("Scrolled to the element");
         }
 
-        @Test(priority = 2, enabled = true)
+        @Test(priority = 2, enabled = true, groups = {"Regression"})
         public void Scroll_using_javascript_bottom_page() throws InterruptedException {
             test = extent.createTest("This the javascript to the bottom of page");
             driver.get("https://demo.automationtesting.in/Register.html");
@@ -180,7 +180,7 @@
             test.pass("Scrolled javascript to the bottom of page");
         }
 
-        @Test(priority = 3, enabled = true)
+        @Test(priority = 3, enabled = true, groups = {"Regression"})
         public void Scroll_using_javascript_specific_pixels() throws InterruptedException {
             test = extent.createTest("This the javascript to the specific pixel");
             driver.get("https://demo.automationtesting.in/Register.html");
@@ -190,7 +190,7 @@
             test.pass("Scrolled javascript to the specific pixel");
         }
 
-        @Test(priority = 4, enabled = true, invocationCount = 1)
+        @Test(priority = 4, enabled = true, groups = {"Smoke", "UI"},invocationCount = 2)
         public void DragAndDrop() throws InterruptedException {
             test = extent.createTest("Drag and drop image");
             driver.get("https://demo.automationtesting.in/Dynamic.html");
@@ -202,19 +202,27 @@
             test.pass("Image Drag");
         }
 
-        @Test(priority = 5, enabled = true)
+        @Test(priority = 5, enabled = true, groups = {"Regression"})
         public void Verify() {
             test = extent.createTest("Verify functions");
             SoftAssert softAssert = new SoftAssert();
-            softAssert.fail("First fail");
+
             System.out.println("Failing first the execution");
+            softAssert.fail("First fail");
+
+            System.out.println("Failing second the execution");
             softAssert.fail("Second fail");
-            System.out.print("Failing second the execution");
-            softAssert.assertAll();
-            test.pass("Verified");
+
+            try {
+                softAssert.assertAll();
+                test.pass("All soft assertions passed");
+            } catch (AssertionError e) {
+                test.fail("Soft assertion failures: " + e.getMessage());
+                throw e; // Re-throw to mark test as failed in TestNG
+            }
         }
 
-        @Test(priority = 6, enabled = true, groups = "Smoke")
+        @Test(priority = 6, enabled = true, groups = {"Smoke"}, dependsOnMethods = {"DragAndDrop"})
         public void rightClick() throws InterruptedException {
             test = extent.createTest("Right click on the element");
             driver.get("https://practice.automationtesting.in/");

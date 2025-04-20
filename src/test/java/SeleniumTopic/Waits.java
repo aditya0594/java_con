@@ -21,13 +21,14 @@ public class Waits {
         driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
 
-        // Explicit wait
+        // Implicitly wait
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 
-        //Implicit wait
+        //Explicitly wait
         WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(10));
         wait1.until(ExpectedConditions.elementToBeClickable(By.id("Element locator")));
+
 
         // Fluent wait
 
@@ -35,6 +36,8 @@ public class Waits {
                 .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(Exception.class);
+
+
     }
 }
 

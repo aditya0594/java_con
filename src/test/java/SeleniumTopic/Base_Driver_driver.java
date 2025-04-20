@@ -58,13 +58,13 @@ public class Base_Driver_driver {
                 sauceOptions.put("name", "<Java Con>");
                 browserOptions.setCapability("sauce:options", sauceOptions);
                 URL url = new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub");
-                RemoteWebDriver driver = new RemoteWebDriver(url, browserOptions);
+                 driver = new RemoteWebDriver(url, browserOptions);
                 break;
             case "chrome":
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");
-                options.setExperimentalOption("excludeSwitches", Collections.singleton("enable-automation"));
+               // options.setExperimentalOption("excludeSwitches", Collections.singleton("enable-automation"));
                 driver = new ChromeDriver(options);
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
                 break;

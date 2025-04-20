@@ -2,15 +2,26 @@ package Java_Concept;
 
 import com.aventstack.extentreports.gherkin.model.ScenarioOutline;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 public class Map_Hashmap {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+/**
+                java.util.Map (Interface)
+           ├── HashMap
+           │     └── LinkedHashMap
+           ├── TreeMap (implements NavigableMap)
+           └── Hashtable
+                 └── Properties */
+
         //The Map is an interface, and HashMap class of the Java collection framework.
         //The HashMap class implements the Map interface.
         //The HashMap contains unique key-pair values.the HashMap can hold duplicate values.
-        //The Map does not allow null values. But the HashMap can have "one null" key and "multiple null values".
+        //HashMap can have "one null" key and "multiple null values".
         //The Map has two implementations, which are HashMap, HashTable and TreeMap. Whereas HashMap implements Map interface and extends AbstractMap class.
         //It does not guarantee the order of iteration, meaning the order of keys and values is not predictable.
         //HashMap is non-synchronized ---that means that the 5 five program access the hashmap concurrently simultaneously it will keep updating
@@ -61,7 +72,7 @@ public class Map_Hashmap {
         ht.put(1,"first");
         ht.put(2,"second");
         ht.put(3,"Third");
-        //ht.put(4,null) ; // This will give the NullPointerException
+       // ht.put(5,null) ; // This will give the NullPointerException
         ht.put(4,"fourth");
 
 
@@ -94,5 +105,13 @@ public class Map_Hashmap {
             Map.Entry m1 = (Map.Entry) k.next();
             System.out.println(m1.getKey() + " " + m1.getValue());
         }
+
+
+        System.out.println("-------------------------------------------Properties --------------------------------------------------------------------");
+        Properties pro = new Properties();
+        FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
+        pro.load(fis);
+        System.out.println("This is the file name :" + pro.getProperty("firstname"));
+
     }
 }

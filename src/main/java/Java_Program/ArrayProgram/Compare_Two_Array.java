@@ -38,23 +38,23 @@ public class Compare_Two_Array {
 
 
         int[] a1 = {1,2,3,4,5};
-        int[] a2 = {1,2,3,4,5};
-        boolean flag = true;
+        int[] a2 = {1,2,8,4,5};
+        boolean flag =true;
         if(a1.length!=a2.length){
             flag = false;
-        }
-        else{
-            for(int i=0;i<a1.length;i++){
+        }else{
+            for(int i=0; i<a1.length;i++){
                 if(a1[i]!=a2[i]){
-                    flag =false;
+                    flag = false;
+                    break;
                 }
             }
-        }
+            if(flag){
+                System.out.println("Array is compared");
+            }else{
+                System.out.println("Array is not same");
+            }
 
-        if(flag){
-            System.out.println("array is equal");
-        }else {
-            System.out.println("array is not equal");
         }
     }
 }

@@ -3,7 +3,7 @@ package Java_Program;
 public class Reverse_the_sentence {
         //string is given
     // 1. Create method with the String
-    // 2. We have convert string in the string array "words"
+    // 2. We have convert string in the string array "words" using the split method
     // 3. then String result variable which is give the result
     // 4. then for loop for we have to start form the end
     //    so the i = words.length-1 becasue we have to travel from the last i>=0 then i--

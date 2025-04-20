@@ -8,12 +8,13 @@ public class Set_HashSet {
         //HashSet implements Set interface in Java.
         //HashSet doesn’t allow duplicates values.
         //HashSet allows one null value but no duplicates.
-        //HashSet is an unordered collection and does maintain any order.
+        //HashSet is an unordered collection and does not maintain any order.
         //HashSet is completely object based. HashSet does not provide get() method.
         //There is no guarantee element stored in the sequential order .. They may store in random order.
         //HashSet , treeSet, LinkedHashSet implements the Set interface.
         // .add(), .remove(),
-        // You can add a null value to a HashSet, However, since HashSet does not allow duplicate elements, you can only have one null value in the set.
+        // You can add a null value to a HashSet, However, since HashSet does not allow duplicate elements,
+        // you can only have one null value in the set.
 
 
         HashSet<String> setlist = new HashSet<String>();

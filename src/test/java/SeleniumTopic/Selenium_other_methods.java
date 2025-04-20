@@ -10,6 +10,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.tools.ant.taskdefs.Java;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -45,7 +46,7 @@ public class Selenium_other_methods {
     protected WebDriver driver;
   @BeforeMethod
   public void setup() throws MalformedURLException {
-      driver = Base_Driver_driver.driverInstance("Chrome");
+      driver = Base_Driver_driver.driverInstance("chrome");
   }
     @AfterMethod
     public void teardown(){
@@ -193,18 +194,23 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         WebElement from = driver.findElement(By.xpath("//img[@src='logo.png']"));
         WebElement to = driver.findElement(By.xpath("//div[@id='droparea']"));
+        WebElement element = driver.findElement(By.xpath("//a[@class='link linkedin']"));
 
 
         Actions actions = new Actions(driver);
-        actions.dragAndDrop(from, to).perform();
+        //actions.dragAndDrop(from, to).perform();
         // actions.click(from).build().perform();
         // actions.contextClick(from).build().perform(); //RightClick
         // actions.clickAndHold(from);
         // actions.doubleClick(from);
         //actions.moveToElement(from).click().perform();
         // actions.release(from).perform();
-        // actions.scrollToElement(from).perform();
-        Thread.sleep(5000);
+         actions.scrollToElement(element).perform();
+
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+
+
+        Thread.sleep(10000);
 
 
         test.pass("Element draged properly");

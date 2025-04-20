@@ -21,7 +21,7 @@ public class Check_unchecked_exception {
      InterruptedException
      */
     //Example  :
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
         try {
             FileReader file = new FileReader("test.txt"); // Might throw FileNotFoundException
             BufferedReader br = new BufferedReader(file);
@@ -29,8 +29,6 @@ public class Check_unchecked_exception {
             br.close();
             Thread.sleep(5000);
         } catch (IOException e) {
-            System.out.println("An error occurred: " + e.getMessage());
-        } catch (InterruptedException e) {
             System.out.println("An error occurred: " + e.getMessage());
         }
 

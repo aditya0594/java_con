@@ -8,7 +8,7 @@ public abstract class Abstraction_parentMethod {
     public abstract void myMethod();
 
     // myMethod() is not a abstract method, It is the concrete method
-    void myMethod(int x){
+   public void myMethod(int x){
         System.out.println("I am in Super class and I am not an abstract method. I am a concrete method");
     }
 
