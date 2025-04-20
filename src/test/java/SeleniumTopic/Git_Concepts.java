@@ -32,29 +32,23 @@ public class Git_Concepts {
              Method 1: Using git revert (Safe Approach)
              This creates a new commit that undoes the changes without altering commit history.
 
-             bash
-             Copy
-             Edit
              git revert <commit-hash>
              git push origin <branch-name>
+
              Method 2: Using git reset (Destructive Approach)
              If you want to remove commits and rewrite history (use with caution):
 
-             bash
-             Copy
-             Edit
+
              git reset --hard <commit-hash>  # Reset to a previous commit
              git push origin <branch-name> --force  # Force push changes
              ⚠️ Be cautious, as force-pushing can overwrite history and impact other developers.
 
      Method 3: Deleting the branch and recreating it (if necessary)
 
-             bash
-             Copy
-             Edit
              git push origin --delete <branch-name>
              git checkout -b <branch-name>
              git push origin <branch-name>
+
              3. When do you commit your code? After committing, how do you validate that everyone has the updated code?
              When to commit:
 
@@ -65,45 +59,29 @@ public class Git_Concepts {
 
              Push the changes to the remote repository (git push).
              Ask team members to pull the latest changes using:
-             bash
-             Copy
-             Edit
+
              git pull origin <branch-name>
              Verify the commit history using:
-             bash
-             Copy
-             Edit
              git log --oneline
              Check for merge conflicts and resolve if needed.
+
+
      4. How to merge stashed changes in a local repository?
      To merge stashed changes:
 
                  View stashes:
-
-                 bash
-                 Copy
-                 Edit
                  git stash list
                  Apply the latest stash:
-
-                 bash
-                 Copy
-                 Edit
                  git stash apply
                  This applies the changes but keeps the stash for future use.
                  Apply and delete the stash:
 
-                 bash
-                 Copy
-                 Edit
                  git stash pop
                  This applies the changes and removes the stash.
                  Apply a specific stash (if multiple exist):
-
-                 bash
-                 Copy
-                 Edit
                  git stash apply stash@{1}
+
+
      5. Why do we need a .gitignore file? How do you add files to it?
                  Purpose of .gitignore:
 
