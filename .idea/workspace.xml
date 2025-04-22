@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="22-04-2026">
-      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423120851.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423121053.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250423121020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423122327.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423122432.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250423122311.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250423122409.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ExcelFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExcelFile.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -250,20 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00009" summary="java_com_ 19-01-2024">
-      <created>1705688060493</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1705688060493</updated>
-    </task>
-    <task id="LOCAL-00010" summary="java_com_ 26-01-2024">
-      <created>1706280971286</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1706280971286</updated>
     </task>
     <task id="LOCAL-00011" summary="java_com_ extent reportes and listener added 07-02-2024">
       <created>1707304864788</created>
@@ -594,7 +581,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745328548151</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="22-04-2026">
+      <created>1745347328876</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1745347328876</updated>
+    </task>
+    <task id="LOCAL-00059" summary="22-04-2026">
+      <created>1745347360542</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1745347360543</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

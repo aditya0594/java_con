@@ -169,7 +169,6 @@ import java.util.Map;
             ExtentTest extentTest = extent.createTest("Scroll to bottom using javascript");
             test.set(extentTest);
             WebDriver localDriver = getDriver();
-
             localDriver.get("https://demo.automationtesting.in/Register.html");
             JavascriptExecutor js = (JavascriptExecutor) localDriver;
             js.executeScript("window.scrollTo(0, document.body.scrollHeight)");

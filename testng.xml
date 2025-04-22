@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="methods" thread-count="10">
-  <!--  <test name="Run on Chrome">
-        <parameter name="browser" value="chrome"/>
-        <groups>
-            <run>
-                <include name="UI"/>
-                <include name="Regression"/>
-                <include name="ui"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="SeleniumTopic.Selenium_Suite"/>
-        </classes>
-    </test>-->
+<!--    <test name="Run on Chrome">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="UI"/>-->
+<!--                <include name="Regression"/>-->
+<!--                <include name="ui"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="SeleniumTopic.Selenium_Suite_parallel"/>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test name="Run on Chrome">
         <parameter name="browser" value="Chrome"/>
         <classes>
@@ -29,9 +29,8 @@
             </class>
         </classes>
     </test>
-
-  <!--<test name="Run on Firefox">
-        <parameter name="browser" value="Chrome"/>
+  <test name="Run on Firefox">
+        <parameter name="browser" value="firefox"/>
         <classes>
             <class name="SeleniumTopic.Selenium_Suite_parallel">
                 <methods>
@@ -44,7 +43,7 @@
                 </methods>
             </class>
         </classes>
-    </test>-->
+    </test>
 
   <!--  <test name="Run on Edge">
         <parameter name="browser" value="Remote_Edge"/>

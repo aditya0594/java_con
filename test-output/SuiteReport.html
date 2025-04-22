@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 23, 2025 12:10:06 am</span></a>
+<a href="#"><span class="badge badge-primary">Apr 23, 2025 12:22:59 am</span></a>
 </li>
 </ul>
 </div>
@@ -75,25 +75,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Scroll to bottom using javascript</p>
+            <p class="name">Soft assertions verification</p>
             <p class="text-sm">
-              <span>12:10:20 am</span> / <span>00:00:15:427</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:23:11 am</span> / <span>00:00:01:245</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Scroll to bottom using javascript</h5>
-<span class='badge badge-success'>04.23.2025 12:10:20 am</span>
-<span class='badge badge-danger'>04.23.2025 12:10:35 am</span>
-<span class='badge badge-default'>00:00:15:427</span>
+<h5 class="test-status text-fail">Soft assertions verification</h5>
+<span class='badge badge-success'>04.23.2025 12:23:11 am</span>
+<span class='badge badge-danger'>04.23.2025 12:23:12 am</span>
+<span class='badge badge-default'>00:00:01:245</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -104,17 +104,39 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:10:35 am</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:11 am</td>
         <td>
-          Scrolled to the bottom of the page
+          Soft assertion failures: The following asserts failed:
+	First failure,
+	Second failure
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:10:35 am</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:11 am</td>
         <td>
-          Scroll_using_javascript_bottom_page - Test Case PASSED
+          Verify - Test Case Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:11 am</td>
+        <td>
+          java.lang.AssertionError: The following asserts failed:
+	First failure,
+	Second failure - Test Case Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:12 am</td>
+        <td>
+          Test Case Failed Snapshot is below:
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\Projects\eclipse-workspace\java_con\Screenshots\Verify20250423122311.png' src="D:\Projects\eclipse-workspace\java_con\Screenshots\Verify20250423122311.png">
+    
+    </div></div>
         </td>
       </tr>
   </tbody>
@@ -122,25 +144,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="2"
+        <li class="test-item"  status="pass" test-id="2"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Soft assertions verification</p>
+            <p class="name">Scroll to bottom using javascript</p>
             <p class="text-sm">
-              <span>12:10:20 am</span> / <span>00:00:02:816</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:23:12 am</span> / <span>00:00:09:731</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Soft assertions verification</h5>
-<span class='badge badge-success'>04.23.2025 12:10:20 am</span>
-<span class='badge badge-danger'>04.23.2025 12:10:22 am</span>
-<span class='badge badge-default'>00:00:02:816</span>
+<h5 class="test-status text-pass">Scroll to bottom using javascript</h5>
+<span class='badge badge-success'>04.23.2025 12:23:12 am</span>
+<span class='badge badge-danger'>04.23.2025 12:23:22 am</span>
+<span class='badge badge-default'>00:00:09:731</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -151,39 +173,17 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:10:20 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:22 am</td>
         <td>
-          Soft assertion failures: The following asserts failed:
-	First failure,
-	Second failure
+          Scrolled to the bottom of the page
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:10:20 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:22 am</td>
         <td>
-          Verify - Test Case Failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:10:20 am</td>
-        <td>
-          java.lang.AssertionError: The following asserts failed:
-	First failure,
-	Second failure - Test Case Failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:10:22 am</td>
-        <td>
-          Test Case Failed Snapshot is below:
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\Projects\eclipse-workspace\java_con\Screenshots\Verify20250423121020.png' src="D:\Projects\eclipse-workspace\java_con\Screenshots\Verify20250423121020.png">
-    
-    </div></div>
+          Scroll_using_javascript_bottom_page - Test Case PASSED
         </td>
       </tr>
   </tbody>
@@ -196,9 +196,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Drag and drop image</p>
+            <p class="name">Scroll to specific pixel using javascript</p>
             <p class="text-sm">
-              <span>12:10:20 am</span> / <span>00:00:23:540</span>
+              <span>12:23:13 am</span> / <span>00:00:20:254</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -206,10 +206,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Drag and drop image</h5>
-<span class='badge badge-success'>04.23.2025 12:10:20 am</span>
-<span class='badge badge-danger'>04.23.2025 12:10:44 am</span>
-<span class='badge badge-default'>00:00:23:540</span>
+<h5 class="test-status text-pass">Scroll to specific pixel using javascript</h5>
+<span class='badge badge-success'>04.23.2025 12:23:13 am</span>
+<span class='badge badge-danger'>04.23.2025 12:23:33 am</span>
+<span class='badge badge-default'>00:00:20:254</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -221,16 +221,16 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:10:44 am</td>
+        <td>12:23:33 am</td>
         <td>
-          Drag and drop successful
+          Scrolled by 1000 pixels
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:10:44 am</td>
+        <td>12:23:33 am</td>
         <td>
-          DragAndDrop - Test Case PASSED
+          Scroll_using_javascript_specific_pixels - Test Case PASSED
         </td>
       </tr>
   </tbody>
@@ -238,25 +238,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="4"
+        <li class="test-item"  status="pass" test-id="4"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">This is the javascript for scrolling</p>
+            <p class="name">Drag and drop image</p>
             <p class="text-sm">
-              <span>12:10:23 am</span> / <span>00:00:34:213</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>12:23:13 am</span> / <span>00:00:19:432</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">This is the javascript for scrolling</h5>
-<span class='badge badge-success'>04.23.2025 12:10:23 am</span>
-<span class='badge badge-danger'>04.23.2025 12:10:57 am</span>
-<span class='badge badge-default'>00:00:34:213</span>
+<h5 class="test-status text-pass">Drag and drop image</h5>
+<span class='badge badge-success'>04.23.2025 12:23:13 am</span>
+<span class='badge badge-danger'>04.23.2025 12:23:32 am</span>
+<span class='badge badge-default'>00:00:19:432</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -267,36 +267,17 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:10:53 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:32 am</td>
         <td>
-          Scroll_using_javascript - Test Case Failed
+          Drag and drop successful
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:10:53 am</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:23:32 am</td>
         <td>
-          org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//buttn[@id='Button1']"}
-  (Session info: chrome=135.0.7049.96)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.0', revision: '267030adea'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0b8c8377b1feddb2029438f8d49ae20f, findElement {using=xpath, value=//buttn[@id='Button1']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ADITYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55747/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>12:10:57 am</td>
-        <td>
-          Test Case Failed Snapshot is below:
-    <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='D:\Projects\eclipse-workspace\java_con\Screenshots\Scroll_using_javascript20250423121053.png' src="D:\Projects\eclipse-workspace\java_con\Screenshots\Scroll_using_javascript20250423121053.png">
-    
-    </div></div>
+          DragAndDrop - Test Case PASSED
         </td>
       </tr>
   </tbody>
@@ -304,25 +285,25 @@ Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
 </div>
           </div>
         </li>
-        <li class="test-item"  status="pass" test-id="5"
+        <li class="test-item"  status="fail" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Scroll to specific pixel using javascript</p>
+            <p class="name">This is the javascript for scrolling</p>
             <p class="text-sm">
-              <span>12:10:23 am</span> / <span>00:00:11:279</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:23:13 am</span> / <span>00:00:14:474</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Scroll to specific pixel using javascript</h5>
-<span class='badge badge-success'>04.23.2025 12:10:23 am</span>
-<span class='badge badge-danger'>04.23.2025 12:10:35 am</span>
-<span class='badge badge-default'>00:00:11:279</span>
+<h5 class="test-status text-fail">This is the javascript for scrolling</h5>
+<span class='badge badge-success'>04.23.2025 12:23:13 am</span>
+<span class='badge badge-danger'>04.23.2025 12:23:27 am</span>
+<span class='badge badge-default'>00:00:14:474</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -333,17 +314,36 @@ Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:10:35 am</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:27 am</td>
         <td>
-          Scrolled by 1000 pixels
+          Scroll_using_javascript - Test Case Failed
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:10:35 am</td>
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:27 am</td>
         <td>
-          Scroll_using_javascript_specific_pixels - Test Case PASSED
+          org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//buttn[@id='Button1']"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ad9e820611d64672d86ad6cd2793caa, findElement {using=xpath, value=//buttn[@id='Button1']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.95 (de2eb485a195..., userDataDir: C:\Users\ADITYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56140}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56140/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ad9e820611d64672d86ad6cd2793caa - Test Case Failed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:23:27 am</td>
+        <td>
+          Test Case Failed Snapshot is below:
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='D:\Projects\eclipse-workspace\java_con\Screenshots\Scroll_using_javascript20250423122327.png' src="D:\Projects\eclipse-workspace\java_con\Screenshots\Scroll_using_javascript20250423122327.png">
+    
+    </div></div>
         </td>
       </tr>
   </tbody>
@@ -358,7 +358,7 @@ Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
           <div class="test-detail">
             <p class="name">Drag and drop image</p>
             <p class="text-sm">
-              <span>12:10:52 am</span> / <span>00:00:28:905</span>
+              <span>12:23:36 am</span> / <span>00:00:07:959</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -367,9 +367,9 @@ Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Drag and drop image</h5>
-<span class='badge badge-success'>04.23.2025 12:10:52 am</span>
-<span class='badge badge-danger'>04.23.2025 12:11:21 am</span>
-<span class='badge badge-default'>00:00:28:905</span>
+<span class='badge badge-success'>04.23.2025 12:23:36 am</span>
+<span class='badge badge-danger'>04.23.2025 12:23:44 am</span>
+<span class='badge badge-default'>00:00:07:959</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -381,14 +381,14 @@ Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:11:21 am</td>
+        <td>12:23:44 am</td>
         <td>
           Drag and drop successful
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>12:11:21 am</td>
+        <td>12:23:44 am</td>
         <td>
           DragAndDrop - Test Case PASSED
         </td>
@@ -412,13 +412,13 @@ Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 23, 2025 12:10:06 am</h3>
+<h3>Apr 23, 2025 12:22:59 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 23, 2025 12:11:22 am</h3>
+<h3>Apr 23, 2025 12:23:45 am</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -488,7 +488,7 @@ Session ID: 0b8c8377b1feddb2029438f8d49ae20f - Test Case Failed
 </div></div>
 <script>
 var timeline = {
-"Scroll to bottom using javascript":15.427,"Soft assertions verification":2.816,"Drag and drop image":23.54,"This is the javascript for scrolling":34.213,"Scroll to specific pixel using javascript":11.279,"Drag and drop image":28.905
+"Soft assertions verification":1.245,"Scroll to bottom using javascript":9.731,"Scroll to specific pixel using javascript":20.254,"Drag and drop image":19.432,"This is the javascript for scrolling":14.474,"Drag and drop image":7.959
 };
 </script>
 <div class="row">
