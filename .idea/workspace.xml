@@ -4,32 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Parallel excution added">
-      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073633.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073635.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420052853.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420052934.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420073723.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420073806.png" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="22-04-2026">
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423120851.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423121053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250423121020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SQL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ExcelFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ExcelFile.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Git_Concepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Git_Concepts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SQL_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SQL_Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/WindowSwitchTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/WindowSwitchTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Final_Finally_Finalize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Final_Finally_Finalize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/SQL_Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/SQL_Connection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/WindowSwitchTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/WindowSwitchTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ExcelFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExcelFile.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
@@ -122,7 +103,7 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Practice.chromeDriver">
+  <component name="RunManager" selected="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml">
     <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,6 +123,16 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="D:/Projects/eclipse-workspace/java_con/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Practice.chromeDriver" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -153,24 +144,6 @@
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
       <option name="METHOD_NAME" value="chromeDriver" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Practice.excel_all_Column" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
-      <option name="METHOD_NAME" value="excel_all_Column" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -254,18 +227,18 @@
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
       <item itemvalue="TestNG.Practice.chromeDriver" />
-      <item itemvalue="TestNG.Practice.excel_all_Column" />
       <item itemvalue="TestNG.Practice.window" />
       <item itemvalue="TestNG.Practice.window (1)" />
       <item itemvalue="TestNG.Selenium_other_methods.Scroll_using_javascript" />
+      <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
         <item itemvalue="TestNG.Practice.chromeDriver" />
         <item itemvalue="TestNG.Selenium_other_methods.Scroll_using_javascript" />
         <item itemvalue="TestNG.Practice.window" />
         <item itemvalue="TestNG.Practice.window (1)" />
-        <item itemvalue="TestNG.Practice.excel_all_Column" />
       </list>
     </recent_temporary>
   </component>
@@ -277,13 +250,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00008" summary="java_com_ 19-01-2024">
-      <created>1705662704354</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1705662704354</updated>
     </task>
     <task id="LOCAL-00009" summary="java_com_ 19-01-2024">
       <created>1705688060493</created>
@@ -621,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745140540699</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="22-04-2026">
+      <created>1745328548150</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1745328548151</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -649,7 +622,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated added 21-05-2024" />
     <MESSAGE value="updated added 24-05-2024" />
     <MESSAGE value="updated added 25-05-2024" />
     <MESSAGE value="updated added 28-05-2024 notes added" />
@@ -674,7 +646,8 @@
     <MESSAGE value="17-04-2025" />
     <MESSAGE value="18-04-2025" />
     <MESSAGE value="Parallel excution added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parallel excution added" />
+    <MESSAGE value="22-04-2026" />
+    <option name="LAST_COMMIT_MESSAGE" value="22-04-2026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
