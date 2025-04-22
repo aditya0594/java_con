@@ -4,6 +4,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -11,6 +12,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.apache.tools.ant.taskdefs.Java;
+import org.apache.tools.ant.taskdefs.condition.Http;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -24,7 +26,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -166,6 +170,7 @@ public class Selenium_other_methods {
 
     public void Scroll_using_javascript() throws InterruptedException {
         ExtentTest test = extent.createTest("Scroll using java script");
+
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
@@ -174,16 +179,35 @@ public class Selenium_other_methods {
         Thread.sleep(10000);
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        // scroll to the element on the page
+
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
-        js.executeScript("arguments[0].scrollIntoView(true);", element2);
-        Thread.sleep(10000);
+
+
+        // to block the add
+        js.executeScript("document.querySelectorAll('[id*=ad], [class*=ad]').forEach(el => el.remove());");
+
+
+
+        // scroll to the element on the page
+         js.executeScript("arguments[0].scrollIntoView(true);", element2);
+       // Thread.sleep(10000);
+
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
-        // scroll by the specific pixels
-        //js.executeScript("window.scrollBy(0,1000);");
+
+         //scroll by the specific pixels
+        //js.executeScript("window.scrollBy(0,1000)");
+
         //  js.executeScript("arguments[0].click();", element);
+        Thread.sleep(10000);
+
+
         test.pass("Scroll using java script");
+    }
+
+    @Test(priority=1)
+    public void addblock(){
+
     }
 
 
@@ -585,6 +609,88 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
     }
 
+    @Test(priority = 25, enabled = true)
+    public void findAll_Link_text() throws InterruptedException {
+
+        // DataProvider is like a container that passes
+        //the data to our test methods so that our single test method can execute itself with multiple data sets.
+        ExtentTest test = extent.createTest("Right click on the element");
+        driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
+        driver.manage().window().maximize();
+        Thread.sleep(3000);
+        List<WebElement> ls =  driver.findElements(By.xpath("//*[@href]"));
+        for(WebElement w :ls ){
+            if(w.getText().isBlank()){
+                continue;
+            }
+            String listofname = w.getText();
+            System.out.println("Link text : " + listofname);
+        }
+    }
+
+    @Test(priority = 26, enabled = true)
+    public void findBrokenLink() throws IOException {
+        driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
+
+        List<WebElement> links = driver.findElements(By.xpath("//*[@href]"));
+
+        for(WebElement w : links) {
+            String url = w.getAttribute("href");
+            if (url == null || url.isEmpty()) {
+                continue;
+            }
+           try {
+               HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+
+               conn.setRequestMethod("HEAD");
+               conn.connect();
+               int response = conn.getResponseCode();
+               if (response >= 400) {
+                   System.out.println(url + "this is brokenlink" + "Response Code is : " + response);
+               } else {
+                   System.out.println(url + "This is the valid url");
+               }
+           }
+           catch (Exception e){
+               System.out.println(url + "This is the broken link " + "Exception : "+ e.getMessage());
+           }
+
+        }
+
+
+
+
+
+
+
+
+//            try {
+//                HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+//                conn.setRequestMethod("HEAD");
+//                conn.connect();
+//                int responseCode = conn.getResponseCode();
+//
+//                if (responseCode >= 400) {
+//                    System.out.println(url + " is a broken link. Response Code: " + responseCode);
+//                } else {
+//                    System.out.println(url + " is valid.");
+//                }
+//            } catch (Exception e) {
+//                System.out.println(url + " is a broken link. Exception: " + e.getMessage());
+//            }
+/*
+
+            HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+            conn.setRequestMethod("Head");
+            conn.connect();
+            int resonseCode = conn.getResponseCode();
+            if(resonseCode>=400){
+                System.out.println(url + " is a broken link  : "+" Response code is : " + resonseCode);
+            }else{
+                System.out.println("Url is broken ");
+            }
+*/
+    }
 
   /*  @Test(priority = 23, enabled = true)
     public static void Slider_movetoElement() throws IOException, InterruptedException {

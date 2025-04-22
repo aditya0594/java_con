@@ -6,6 +6,7 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.bouncycastle.oer.Switch;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,7 +20,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
+
+import static org.apache.groovy.json.internal.Type.STRING;
+import static org.apache.poi.ss.usermodel.CellType.BOOLEAN;
+import static org.apache.poi.ss.usermodel.CellType.NUMERIC;
 
 public class Practice {
     static WebDriver driver;
@@ -33,9 +40,7 @@ public class Practice {
     @Test(priority =10, enabled = true,dataProvider = "test")
     public void Dataproviders(String username , String password) {
       WebDriverManager.chromedriver().setup();
-      ChromeOptions options = new ChromeOptions();
-      options.addArguments("--remote-allow-origins=*");
-      WebDriver driver = new ChromeDriver(options);
+      WebDriver driver = new ChromeDriver();
       driver.get("https://www.google.com");
 
     }
@@ -56,6 +61,57 @@ public class Practice {
         Row row = sheet.getRow(0);
         Cell cell = row.getCell(0);
         System.out.println(cell);
+    }
+
+    @Test(priority= 2)
+    public void excel_all_row() throws IOException{
+
+       FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+       XSSFWorkbook workbook = new XSSFWorkbook(fis);
+       Sheet sheet = workbook.getSheetAt(0);
+       for(Row row : sheet){
+           for(Cell cell : row){
+             switch (cell.getCellType()){
+                 case STRING :
+                     System.out.println(cell.getStringCellValue()+ " ");
+                     break;
+                 case NUMERIC:
+                     System.out.println(cell.getNumericCellValue()+ " ");
+                     break;
+                 case BOOLEAN:
+                     System.out.println(cell.getBooleanCellValue()+" ");
+             }
+           }
+           System.out.println();
+       }
+       workbook.close();
+       fis.close();
+    }
+
+    @Test(priority= 2)
+    public void excel_all_Column () throws IOException{
+
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        Sheet sheet = workbook.getSheetAt(0);
+        for(Row row : sheet){
+            Cell cell = row.getCell(0);//here we have to specify the index of the column
+            if(cell!=null){
+                switch (cell.getCellType()){
+                    case STRING :
+                        System.out.println(cell.getStringCellValue()+ " ");
+                        break;
+                    case NUMERIC:
+                        System.out.println(cell.getNumericCellValue()+ " ");
+                        break;
+                    case BOOLEAN:
+                        System.out.println(cell.getBooleanCellValue()+" ");
+                }
+            }
+            System.out.println();
+        }
+        workbook.close();
+        fis.close();
     }
     @Test(priority = 1)
     public void chrome(){
@@ -85,18 +141,23 @@ public class Practice {
 
         driver.switchTo().newWindow(WindowType.TAB);
         driver.get("https://www.google.com");
+        System.out.println("This is the title of google : " + driver.getTitle() );
         driver.switchTo().newWindow(WindowType.WINDOW);
         driver.get("https://help.blazemeter.com/");
+        System.out.println("This is the title of blazemeter : " + driver.getTitle());
 
 
         Set<String> childWindow = driver.getWindowHandles();
-        for(String windows : childWindow){
-            if(driver.getTitle().equals("Google"));
+        for(String windows : childWindow) {
             driver.switchTo().window(windows);
-            break;
+            if (driver.getTitle().equals("Google")) {
+                driver.switchTo().window(windows);
+                System.out.println("This is the driver title :" + driver.getTitle());
+                break;
+            }
         }
-        Thread.sleep(10000);
-        driver.quit();
+            Thread.sleep(10000);
+            driver.quit();
 
     }
     @Test
@@ -110,17 +171,18 @@ public class Practice {
         System.out.println(rev);
     }
     @Test
-    public void chromeDriver(){
+    public void chromeDriver() throws InterruptedException {
        WebDriver driver;
        WebDriverManager.chromedriver().setup();
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("profile.managed_default_content_settings.images", 2);
        ChromeOptions options = new ChromeOptions();
        options.addArguments("--remote-allow-origins=*");
-       options.addArguments("--disable-notifications");
-       options.addArguments("--disable-popup-blocking");
-        options.addExtensions(new File("D:\\Projects\\eclipse-workspace\\java_con\\src\\main\\resources\\GIGHMMPIOBKLFEPJOCNAMGKKBIGLIDOM_6_18_0_0.crx"));
-       driver=new ChromeDriver(options);
-
-       driver.get("https://demo.automationtesting.in/Dynamic.html");
+       options.setExperimentalOption("prefs",prefs);
+       driver = new ChromeDriver(options);
+        driver.get("https://demo.automationtesting.in/Register.html");
+        driver.manage().window().maximize();
+        Thread.sleep(10000);
 
 
     }

@@ -19,13 +19,13 @@ import java.util.Set;
 public class WindowSwitchTask {
     private WebDriver driver;
     @BeforeClass
-    public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        org.openqa.selenium.chrome.ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver(options);
-        driver.manage().window().maximize();
 
+        public void setUp() {
+            WebDriverManager.chromedriver().setup();
+            org.openqa.selenium.chrome.ChromeOptions options = new ChromeOptions();
+            options.addArguments("--remote-allow-origins=*");
+            driver = new ChromeDriver(options);
+            driver.manage().window().maximize();
     }
     @Test
     public void testMultipleTabsAndWindows() throws InterruptedException {

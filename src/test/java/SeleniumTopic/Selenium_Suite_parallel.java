@@ -3,6 +3,7 @@ package SeleniumTopic;
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.edge.EdgeOptions;
@@ -16,9 +17,12 @@ import org.testng.asserts.SoftAssert;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -74,6 +78,18 @@ import java.util.Map;
                 options.introduceFlakinessByIgnoringSecurityDomains();
                 localDriver = new InternetExplorerDriver(options);
             }
+            else if (browser.equalsIgnoreCase("grid_chrome")) {
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--remote-allow-origins=*");
+                URL gridUrl = new URL("http://172.28.0.1:5555");
+                localDriver = new RemoteWebDriver(gridUrl, options);
+            }
+
+            else if (browser.equalsIgnoreCase("grid_firefox")) {
+                FirefoxOptions options = new FirefoxOptions();
+                URL gridUrl = new URL("http://172.28.0.1:5555");
+                localDriver = new RemoteWebDriver(gridUrl, options);
+            }
 
             localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
             localDriver.manage().window().maximize();
@@ -81,6 +97,24 @@ import java.util.Map;
             driver.set(localDriver);
         }
 
+        public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
+
+            String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+            TakesScreenshot ts = (TakesScreenshot) driver;
+            File source = ts.getScreenshotAs(OutputType.FILE);
+            // Ensure directory exists
+            File screenshotDir = new File(System.getProperty("user.dir") + "/Screenshots/");
+            if (!screenshotDir.exists()) {
+                screenshotDir.mkdirs();
+            }
+
+            // Save screenshot
+            String destination = System.getProperty("user.dir") + "/Screenshots/" + screenshotName + dateName + ".png";
+            File finalDestination = new File(destination);
+            FileUtils.copyFile(source, finalDestination);
+
+            return finalDestination.getAbsolutePath();
+        }
         @AfterMethod
         public void getResult(ITestResult result) throws Exception {
             ExtentTest extentTest = test.get();
@@ -89,7 +123,7 @@ import java.util.Map;
             if (result.getStatus() == ITestResult.FAILURE) {
                 extentTest.log(Status.FAIL, result.getName() + " - Test Case Failed");
                 extentTest.log(Status.FAIL, result.getThrowable() + " - Test Case Failed");
-                String screenshotPath = Selenium_other_methods.getScreenShot(localDriver, result.getName());
+                String screenshotPath = Selenium_Suite_parallel.getScreenShot(localDriver, result.getName());
                 File screenshotFile = new File(screenshotPath);
                 if (screenshotFile.exists()) {
                     extentTest.fail("Test Case Failed Snapshot is below:", MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
@@ -124,7 +158,7 @@ import java.util.Map;
 
             localDriver.get("https://demo.automationtesting.in/Register.html");
             JavascriptExecutor js = (JavascriptExecutor) localDriver;
-            WebElement element2 = localDriver.findElement(By.xpath("//button[@id='Button1']"));
+            WebElement element2 = localDriver.findElement(By.xpath("//buttn[@id='Button1']"));
             js.executeScript("arguments[0].scrollIntoView();", element2);
             Thread.sleep(5000);
             extentTest.pass("Scrolled to the element");
@@ -201,4 +235,5 @@ import java.util.Map;
 
             extentTest.pass("Right click performed successfully");
         }
+
     }

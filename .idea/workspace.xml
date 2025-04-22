@@ -4,52 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="18-04-2025">
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420010211.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420010556.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420123933.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420125423.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/aeiou.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/GIGHMMPIOBKLFEPJOCNAMGKKBIGLIDOM_6_18_0_0.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Parallel excution added">
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073633.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073635.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420052853.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420052934.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420073723.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250420073806.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_childMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_childMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_parentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_parentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Array_list.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_Hashmap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Set_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/String_call_mutable_immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/aeiob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/static_and_nonStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Compare_Two_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Compare_Two_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Find_prime_no.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Find_prime_no.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_the_sentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/Reverse_the_sentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Base_Driver_driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Base_Driver_driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Final_Finally_Finalize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/ExcelFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ExcelFile.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Git_Concepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Git_Concepts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SQL_Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/SQL_Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/jenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/jenkins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_childMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_childMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_parentMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_parentMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Array_list.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Map_Hashmap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Set_HashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/String_call_mutable_immutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/String_call_mutable_immutable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/aeiob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/static_and_nonStatic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Compare_Two_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Compare_Two_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Duplicate_value_of_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Duplicate_value_of_array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/Find_prime_no.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/Find_prime_no.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Base_Driver_driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Base_Driver_driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/WindowSwitchTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/WindowSwitchTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Final_Finally_Finalize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Final_Finally_Finalize.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/SQL_Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/SQL_Connection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Waits.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Waits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/WindowSwitchTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/WindowSwitchTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
@@ -143,59 +122,7 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml">
-    <configuration name="Compare_Two_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Compare_Two_Array" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Find_prime_no" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.Find_prime_no" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="aeiou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.aeiou" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pratices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.pratices" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.StringProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Practice.chromeDriver">
     <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,10 +142,90 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="D:/Projects/eclipse-workspace/java_con/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice.chromeDriver" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
+      <option name="METHOD_NAME" value="chromeDriver" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.excel_all_Column" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
+      <option name="METHOD_NAME" value="excel_all_Column" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.window (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
+      <option name="METHOD_NAME" value="window" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice.window" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Practice" />
+      <option name="METHOD_NAME" value="window" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.Scroll_using_javascript" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Scroll_using_javascript" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -244,21 +251,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Compare_Two_Array" />
-      <item itemvalue="Application.Find_prime_no" />
-      <item itemvalue="Application.aeiou" />
-      <item itemvalue="Application.pratices" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
-      <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+      <item itemvalue="TestNG.Practice.chromeDriver" />
+      <item itemvalue="TestNG.Practice.excel_all_Column" />
+      <item itemvalue="TestNG.Practice.window" />
+      <item itemvalue="TestNG.Practice.window (1)" />
+      <item itemvalue="TestNG.Selenium_other_methods.Scroll_using_javascript" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
-        <item itemvalue="Application.Find_prime_no" />
-        <item itemvalue="Application.Compare_Two_Array" />
-        <item itemvalue="Application.pratices" />
-        <item itemvalue="Application.aeiou" />
+        <item itemvalue="TestNG.Practice.chromeDriver" />
+        <item itemvalue="TestNG.Selenium_other_methods.Scroll_using_javascript" />
+        <item itemvalue="TestNG.Practice.window" />
+        <item itemvalue="TestNG.Practice.window (1)" />
+        <item itemvalue="TestNG.Practice.excel_all_Column" />
       </list>
     </recent_temporary>
   </component>
@@ -270,20 +277,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00006" summary="programs 23-08-2023">
-      <created>1692814659076</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1692814659076</updated>
-    </task>
-    <task id="LOCAL-00007" summary="programs 25-08-2023">
-      <created>1692980465228</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1692980465228</updated>
     </task>
     <task id="LOCAL-00008" summary="java_com_ 19-01-2024">
       <created>1705662704354</created>
@@ -614,7 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744868180117</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Parallel excution added">
+      <created>1745140453955</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1745140453955</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Parallel excution added">
+      <created>1745140540699</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1745140540699</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -642,7 +649,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated added 13-05-2024" />
     <MESSAGE value="updated added 21-05-2024" />
     <MESSAGE value="updated added 24-05-2024" />
     <MESSAGE value="updated added 25-05-2024" />
@@ -667,7 +673,8 @@
     <MESSAGE value="16-04-2025" />
     <MESSAGE value="17-04-2025" />
     <MESSAGE value="18-04-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="18-04-2025" />
+    <MESSAGE value="Parallel excution added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parallel excution added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

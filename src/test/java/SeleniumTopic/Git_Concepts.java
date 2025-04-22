@@ -91,9 +91,7 @@ public class Git_Concepts {
 
                  Open or create the .gitignore file in the root of the repository.
                  Add the filenames or patterns to ignore, e.g.:
-                 bash
-                 Copy
-                 Edit
+
                  node_modules/
                  .env
                  *.log
