@@ -28,16 +28,13 @@ public class array {
         for(String m : arr1){
             System.out.println(m);
         }
-        System.out.println("---------------------------");
-
-        System.out.println(arr[0]);
+        System.out.println("-------------Reverse the array--------------");
         try {
-            for (int i = 0; i<arr.length; i++) {
+            for (int i =arr.length-1;i>=0 ;i--) {
                 System.out.println(arr[i]);
             }
         }catch (IndexOutOfBoundsException e){
             System.out.println("out of bound occured");
-
         }
         System.out.println("--------------lamba----------------");
         Arrays.stream(arr).forEach(value->System.out.println(value));

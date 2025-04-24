@@ -11,9 +11,8 @@ public class Final_Finally_Finalize {
 
         // final variable
         final int b = 6;
-        //b++;  // Immediately gives Compile Time error.
-        System.out.println("Print a value : "+ b);
-        // modifying the non final variable : Allowed
+        //b++;                           // Immediately gives Compile Time error.
+        System.out.println("Print a value : "+ b);  // modifying the non final variable : Allowed
 
         //b++;
         try {
@@ -39,7 +38,7 @@ public class Final_Finally_Finalize {
 
  What is the difference between throw and throws? How do they relate to try-catch?
  ✅ Answer: throw is used to explicitly throw an exception.
- throws is used to declare that a method might throw an exception.
+ "throws" Keyword is used to declare that a method might throw an exception.
  If a method uses throws, you must handle that exception with a try-catch or propagate it further.
  
 

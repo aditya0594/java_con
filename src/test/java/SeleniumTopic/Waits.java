@@ -1,5 +1,6 @@
 package SeleniumTopic;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,34 +9,42 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 
 public class Waits {
 
-    public static <wait> void main(String[] args) {
+   @Test
+    public void NumberOfWaits(){
+
         WebDriver driver;
-        System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
+        
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.google.com");
+        driver.findElement(By.xpath("//buttn[@id='Button1']")).click();
 
         // Implicitly wait
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+       // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 
         //Explicitly wait
-        WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(10));
-        wait1.until(ExpectedConditions.elementToBeClickable(By.id("Element locator")));
+       // WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(10));
 
+     //  wait1.until(ExpectedConditions.elementToBeClickable(By.id("Element locator")));
+        //wait1.until(ExpectedConditions.presenceOfElementLocated(By.id("Element locator")));
+       // wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("Element locator")));
 
         // Fluent wait
 
-        Wait wait2 = new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(10))
-                .pollingEvery(Duration.ofSeconds(1))
-                .ignoring(Exception.class);
+//        Wait wait2 = new FluentWait<>(driver)
+//                .withTimeout(Duration.ofSeconds(10))
+//                .pollingEvery(Duration.ofSeconds(1))
+//                .ignoring(Exception.class);
 
 
     }

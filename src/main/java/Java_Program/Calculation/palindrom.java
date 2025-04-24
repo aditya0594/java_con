@@ -15,21 +15,21 @@ public class palindrom {
         }
     }
 
-   /* public static void main(String[] args) {
-        int num = 1234421;
-        String reversedStr="";
-        String numstr = Integer.toString(num);
-        for(int i=numstr.length()-1; i>=0;i--){
-            reversedStr += numstr.charAt(i);
-        }
-        System.out.println("Reverse number" +reversedStr);
-        if(numstr.equals(reversedStr)){
-            System.out.println("This is palindrom");
-        }
-        else {
-            System.out.println("Not a palindrom");
-        }
-    }*/
+//    public static void main(String[] args) {
+//        int num = 1234321;
+//        String reversedStr="";
+//        String numstr = Integer.toString(num);
+//        for(int i=numstr.length()-1; i>=0;i--){
+//            reversedStr += numstr.charAt(i);
+//        }
+//        System.out.println("Reverse number" +reversedStr);
+//        if(numstr.equals(reversedStr)){
+//            System.out.println("This is palindrom");
+//        }
+//        else {
+//            System.out.println("Not a palindrom");
+//        }
+//    }
 
 
 }

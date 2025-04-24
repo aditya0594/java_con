@@ -4,15 +4,12 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.apache.tools.ant.taskdefs.Java;
-import org.apache.tools.ant.taskdefs.condition.Http;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -92,7 +89,7 @@ public class Selenium_other_methods {
     private WebElement searchBar;
     By elementName = By.xpath("");
 
-    @Test(priority = 1, enabled = true,retryAnalyzer = RetryAnalyzer.class)
+    @Test(priority = 1, enabled = true,retryAnalyzer = RetryAnalyzer_IRetryAnalyzer.class)
     public void Window_Basic_Auth() {
         ExtentTest test = extent.createTest("To verify username and password in chrome base browser ");
         //driver.get("https://demo.automationtesting.in/Register.html");
@@ -348,7 +345,56 @@ public class Selenium_other_methods {
         Cell cell = row.getCell(datacell);
         return cell.getStringCellValue();
     }
+    @Test(priority= 2)
+    public void excel_all_row() throws IOException{
 
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        Sheet sheet = workbook.getSheetAt(0);
+        for(Row row : sheet){
+            for(Cell cell : row){
+                switch (cell.getCellType()){
+                    case STRING :
+                        System.out.println(cell.getStringCellValue()+ " ");
+                        break;
+                    case NUMERIC:
+                        System.out.println(cell.getNumericCellValue()+ " ");
+                        break;
+                    case BOOLEAN:
+                        System.out.println(cell.getBooleanCellValue()+" ");
+                }
+            }
+            System.out.println();
+        }
+        workbook.close();
+        fis.close();
+    }
+
+    @Test(priority= 2)
+    public void excel_all_Column () throws IOException{
+
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        Sheet sheet = workbook.getSheetAt(0);
+        for(Row row : sheet){
+            Cell cell = row.getCell(0);//here we have to specify the index of the column
+            if(cell!=null){
+                switch (cell.getCellType()){
+                    case STRING :
+                        System.out.println(cell.getStringCellValue()+ " ");
+                        break;
+                    case NUMERIC:
+                        System.out.println(cell.getNumericCellValue()+ " ");
+                        break;
+                    case BOOLEAN:
+                        System.out.println(cell.getBooleanCellValue()+" ");
+                }
+            }
+            System.out.println();
+        }
+        workbook.close();
+        fis.close();
+    }
     @DataProvider(name = "loginDataProviderExcel")
     public Object[][] excel_loginData() throws IOException {
 

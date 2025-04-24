@@ -28,7 +28,7 @@ public class Check_unchecked_exception {
             System.out.println(br.readLine());
             br.close();
             Thread.sleep(5000);
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println("An error occurred: " + e.getMessage());
         }
 

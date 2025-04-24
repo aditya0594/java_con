@@ -17,8 +17,8 @@ public class constructor {
 
      constructor(){  //default constructor
         String a = "default constructor";
-        System.out.println(a);
-       System.out.println("Parent class default constructor called");
+
+       System.out.println("Parent class default constructor called   : "+ "Variable value : "+ a );
     }
 
     public constructor(String Firstname){ //pparameterized constructor
@@ -50,6 +50,12 @@ public class constructor {
 }
 
 /**
+ Constructor in Java is used in the creation of an Object that is an instance of a Class.
+ Constructor name should be same as class name. It looks like a method but its not a method.
+ It wont return any value. We have seen that methods may return a value.
+ If there is no constructor in a class, then compiler automatically creates a default constructor.
+
+
  Question: Why does the MyClass obj1 = new MyClass(5, 5); line cause a compilation error?
  Answer: The MyClass(int a, int b) constructor is private, meaning it cannot be accessed from outside the MyClass class.
  This line will cause a compilation error because the constructor is not visible.
@@ -65,7 +71,7 @@ public class constructor {
 
  Question: What is constructor overloading?
  Answer: Constructor overloading is the process of defining multiple constructors in a class with different parameter lists.
- This allows the creation of objects in different ways, prov0
+ This allows the creation of objects in different ways, prove
 
  Question: How can you call a private constructor from outside the class?
  Answer: You cannot directly call a private constructor from outside the class.

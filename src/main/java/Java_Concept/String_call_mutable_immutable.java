@@ -9,10 +9,11 @@ public class String_call_mutable_immutable {
                                 // object that means it is constant and cannot be changed once it is created.
         System.out.println(str); // Output: Hello World
 
+    StringBuffer strbuffer = new StringBuffer("aditya");
+    strbuffer.append(" ");
+    strbuffer.append("Pawar");
 
-       StringBuffer sbf = new StringBuffer("Hello");
-       sbf.append(" World");
-       System.out.println(sbf); // Output: Hello World
+    System.out.println(strbuffer);
 
     }
     /*public static void main( String[]args) {

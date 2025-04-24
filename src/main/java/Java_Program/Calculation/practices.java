@@ -1,21 +1,35 @@
 package Java_Program.Calculation;
 
+import java.util.Scanner;
+
 public class practices {
     public static void main(String[] args) {
-        /**
-         * * * *
-         *     *
-         *     *
-         * * * *
-         **/
+        //Find the prime number
 
-        int n = 4;
-        int m = 4;
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Please Enter Number : ");
+//      int num = sc.nextInt();
+
+        int[] number = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        for (Integer num : number) {
+            boolean flag = false;
+
+            int mid = num / 2;
+            if (num == 0 || num == 1) {
+                flag = false;
+            } else {
+                for (int i = 2; i <= mid; i++) {
+                    if (num % 2 == 0) {
+                        System.out.println(num + " : this is not prime number");
+                        flag = true;
+                        break;
+                    }
+                }
             }
-            System.out.println("");
+            if (flag == false) {
+                System.out.println(num + ": This is the prime number");
+            }
         }
     }
+
 }

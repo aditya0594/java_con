@@ -7,7 +7,11 @@ public class static_and_nonStatic {
          static int StaticVariable = 20;
          int instance = 10;
 
+         public static void method(){
+             System.out.println("This is static method call in the nonstatic method");
+         }
           public void nonStaticMethod() {
+             method();
               int nonStaticVariable = 10;
               System.out.println("Add the variable " + instance + nonStaticVariable);
             System.out.println("This is as non-static method with the static variable : " + StaticVariable);
@@ -15,8 +19,7 @@ public class static_and_nonStatic {
         public static void myMethod(){
             System.out.println("This is the static method");
            static_and_nonStatic obj1=new static_and_nonStatic();  // you can call the non-static method in static method but
-                                                                    // but by creating instance of it. not directly.
-
+            // but by creating instance of it. not directly
             obj1.nonStaticMethod();
         }
 
