@@ -8,7 +8,7 @@ public class static_Local_variable {
 
 
 
-    public static_Local_variable(String name,String address){ // this is local variable
+    public static_Local_variable(String name,String address ){ // this is local variable
 
         this.name = name;
         this.address = address;

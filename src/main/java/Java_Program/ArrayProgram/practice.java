@@ -11,11 +11,14 @@ public class practice {
     public static void main(String[] args) {
         String str = "Aditya pawar Aditya";
         char[] chars = str.toCharArray();
-        String str1 = "";
-      for(int i=0;i<chars.length;i++){
-            if(chars[i]!=' '){
-                str1 = str1 + str.charAt(i);
+        String sentence ="";
+        for(int i = 0;i<= chars.length; i++){
+            if(chars[i]!= ' '){
+               sentence = sentence+ chars[i];
             }
-          }
+        }
+        System.out.println("Removed space : " + sentence);
+
+
         }
     }

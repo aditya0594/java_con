@@ -1,19 +1,24 @@
 package Java_Program.ArrayProgram;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Find_Duplicate_element_Array_String {
 
    public static void main(String[] args) {
-        String str = "Aditya pawar Aditya";
-        String[] arr = str.split(" ");
-       // int arr[] = {1,2,5,3,4,5};
+      //  String str = "Aditya pawar Aditya";
+      //  String[] arr = str.split(" ");
+        int arr[] = {1,2,5,3,4,5};
         boolean flag = false;
-        HashSet<String> hasint = new HashSet<String>();
-        for(String l: arr) {
+        HashSet<Integer> hasint = new HashSet<>();
+       HashMap<Integer,Integer> hashMap = new HashMap<>();
+        for(Integer l: arr) {
+            if(hashMap.containsKey(l)){
+                hashMap.put(l,hashMap.get(l)+1);
+            }
+            else{
+                hashMap.put(l,1);
+            }
             if (hasint.add(l)==false)
             {
                 System.out.println("Found duplicate integer :"+ l);
@@ -24,11 +29,14 @@ public class Find_Duplicate_element_Array_String {
 
             System.out.println("Not content duplicate");
         }
+        for(Map.Entry<Integer,Integer> ls : hashMap.entrySet()){
+            System.out.println(" The number : " + ls.getKey() + " Count is : "+ ls.getValue());
+        }
 
 
        System.out.println("--------------------using the stream function to remove the duplicate element --------------");
-        List list = Arrays.stream(arr).distinct().collect(Collectors.toList());
-       System.out.println(list);
+      //  List list = Arrays.stream(arr).distinct().collect(Collectors.toList());
+      // System.out.println(list);
 
     }
 

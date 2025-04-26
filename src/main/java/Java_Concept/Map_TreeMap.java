@@ -15,10 +15,11 @@ public class Map_TreeMap {
         TreeMap<Integer, String> treeMap = new TreeMap<>();
         treeMap.put(1, "Alice");
         treeMap.put(3, "Charlie");
+        treeMap.put(6, null);
         treeMap.put(2, "Bob");
         treeMap.put(5, "Eve");
         treeMap.put(4, "David");
-        treeMap.put(6, null); // Allows null values
+         // Allows null values
         // treeMap.put(null, "Frank"); // This will throw a NullPointerException
 
         System.out.println("-----------Using for-each loop----------------------");

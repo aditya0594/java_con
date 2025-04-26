@@ -22,6 +22,17 @@ public class Convert_arrayList_in_array {
             System.out.println(a);
         }
 
+        int[] arr1 = new int[2];
+        arr1[0] = 2;
+        arr1[1] =4;
 
-     }
+        ArrayList<Integer> arraylist1 = new ArrayList<>();
+        for (int num : arr1) {
+            arraylist1.add(num); // add each element
+        }
+        System.out.println(arraylist1);
+
+
+
+    }
 }

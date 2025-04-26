@@ -20,12 +20,11 @@ public class Git_Concepts {
              Push the committed changes to GitHub using git push origin <branch-name>.
              Example Workflow:
 
-             bash
-             Copy
-             Edit
              git add .
              git commit -m "Added new feature"
              git push origin main
+
+
      2. Is it possible to revert changes in a remote repository? If yes, how?
              Yes, you can revert changes in a remote repository using the following methods:
 

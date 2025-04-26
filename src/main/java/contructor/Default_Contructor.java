@@ -9,20 +9,11 @@ public class Default_Contructor extends constructor{
     Default_Contructor(){
         System.out.println("Child class default constructor called");
     }
-    Default_Contructor(String Firstname){
-        super(Firstname);
-        this.Firstname = Firstname;
-        System.out.println("This is the child class constructor" + Firstname);
-    }
 
-    int number;
-    Default_Contructor(int number){
-        this.number = number;
-    }
 
     public static void main(String[] args) {
-          //constructor.getConstructor(20 , 30);
+
         Default_Contructor obj = new Default_Contructor();
-        getConstructor(10,20);
+
     }
 }

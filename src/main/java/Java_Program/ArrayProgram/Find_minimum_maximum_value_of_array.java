@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Find_minimum_maximum_value_of_array {
     public static void main(String[] args) {
-        int[] input = {0,3, 9, 50, 15, 99, 7, 98, 65};
+        int[] input = {3, 9, 50, 15, 99, 7, 98, 65};
 
         // Initialize min and max with the first element
         int min = input[0];

@@ -16,8 +16,6 @@ public class Map_LinkedHashMap {
 // LinkedHashMap is **non-synchronized**, meaning it is **not thread-safe**. External synchronization is needed for concurrent access.
 // It provides better performance than HashMap when iteration order is important, but slightly slower than HashMap for insertions
 // and deletions due to the linked list overhead.
-// LinkedHashMap has a special constructor that allows it to operate in **access-order** mode instead of insertion order —
-// useful for implementing **LRU (Least Recently Used) caches**.
 
 
     public static void main(String[] args) {
