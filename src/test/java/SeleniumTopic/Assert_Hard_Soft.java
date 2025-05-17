@@ -11,6 +11,9 @@ public class Assert_Hard_Soft extends Selenium_other_methods {
 
             // This assertion will fail, and the next line will not be executed
             Assert.assertEquals(1, 2, "Numbers are not equal!");
+          //  Assert.assertNotEquals();
+          //  Assert.assertFalse();
+          //  Assert.assertTrue();
             System.out.println("After Hard Assert"); // This line will not be executed
         }
 

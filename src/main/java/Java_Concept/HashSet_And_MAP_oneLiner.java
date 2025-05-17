@@ -6,7 +6,7 @@ public class HashSet_And_MAP_oneLiner {
      Map Implementations:
 
      HashMap – Unordered, allows one null key, not thread-safe.
-     Hashtable – Unordered, no null key allowed, thread-safe (synchronized).
+     Hashtable – Unordered, no null key allowed, thread-safe (synchronized8='6;p/.
      LinkedHashMap – Maintains insertion order, allows one null key, not thread-safe.
      TreeMap – Sorted by keys (natural order or custom comparator), no null key, not thread-safe.
 

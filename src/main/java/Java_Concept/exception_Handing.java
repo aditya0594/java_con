@@ -21,7 +21,6 @@ public class exception_Handing {
             System.out.println("find inside the method");
             throw e;  // it will throw the exception name
         }
-
         finally {
         System.out.println("this is finally block");
          }

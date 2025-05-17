@@ -15,10 +15,12 @@ public class Map_TreeMap {
         TreeMap<Integer, String> treeMap = new TreeMap<>();
         treeMap.put(1, "Alice");
         treeMap.put(3, "Charlie");
-        treeMap.put(6, null);
+       // treeMap.put(null, "Frank"); // This will throw a NullPointerException
         treeMap.put(2, "Bob");
         treeMap.put(5, "Eve");
         treeMap.put(4, "David");
+
+
          // Allows null values
         // treeMap.put(null, "Frank"); // This will throw a NullPointerException
 
@@ -73,5 +75,24 @@ public class Map_TreeMap {
         System.out.println("-------------Higher and Lower Key Example--------------------");
         System.out.println("Higher Key than 2: " + treeMap.higherKey(2));
         System.out.println("Lower Key than 4: " + treeMap.lowerKey(4));
+
+
+
+        TreeMap<String, String> treeMapABC = new TreeMap<>();
+        treeMapABC.put("A", "Alice");
+        treeMapABC.put("C", "Charlie");
+        // treeMap.put(null, "Frank"); // This will throw a NullPointerException
+        treeMapABC.put("B", "Bob");
+        treeMapABC.put("E", "Eve");
+        treeMapABC.put("D", "David");
+
+
+        // Allows null values
+        // treeMap.put(null, "Frank"); // This will throw a NullPointerException
+
+        System.out.println("-----------Ordered alphabet----------------------");
+        for (Map.Entry<String, String> entry : treeMapABC.entrySet()) {
+            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+        }
     }
 }

@@ -1,6 +1,10 @@
 package Java_Program.ArrayProgram;
 
+import org.apache.commons.collections4.map.HashedMap;
+import org.bouncycastle.jcajce.provider.digest.MD2;
+
 import java.util.HashSet;
+import java.util.Map;
 
 public class Duplicate_value_of_array {
     public static void main(String[] args) {
@@ -18,47 +22,35 @@ public class Duplicate_value_of_array {
             }*/
 
 
-        int[] arr = {1,2,3,4,4};
-//        boolean flag = false;
-//        HashSet<Integer> hash = new HashSet<>();
-//        for(Integer w : arr){
-//            if(hash.add(w)==false){
-//                flag = true;
-//                System.out.println("This duplicate value " +w);
-//            }
-//            if(flag=false){
-//                System.out.println("Duplicate value not found");
-//            }
+        int[] arr = {1, 2, 3, 4, 4};
+        HashSet<Integer> hashSet = new HashSet<>();
+        HashedMap<Integer,Integer > hashedMap = new HashedMap<>();
 
-        HashSet<Integer> hash = new HashSet<>();
         boolean flag = false;
-        for(Integer w : arr){
-            if(hash.add(w)==false){
-                flag=true;
-                System.out.println("This is the duplicate value : "+ w);
+        for(Integer values : arr ) {
+            if(hashedMap.containsKey(values)){
+                hashedMap.put(values,hashedMap.get(values)+1);
+            }else {
+                hashedMap.put(values,1);
             }
-            if(flag==false){
-                System.out.println("Duplicate value not found");
+            if (hashSet.add(values) == false) {
+                System.out.println("Duplicate value found " + values);
+                flag = true;
+                break;
             }
-
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        if(flag==false) {
+            System.out.println("No duplicate found");
         }
+        for(Map.Entry<Integer,Integer> map : hashedMap.entrySet()){
+            System.out.println("the count of the element "+  map.getKey()+ " is : "+ map.getValue() );
+        }
+
     }
+}
+
+
+
 

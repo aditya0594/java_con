@@ -6,11 +6,13 @@ import java.util.stream.Collectors;
 public class pratices {
 
     public static void main(String[] args) {
-            String word = "Aditya is a good boy";
-            for(int i=word.length()-1;i>=0;i--){
-                System.out.print(word.charAt(i));
-            }
+        String str = "Aditya is a good boy";
 
+        String reverse = "";
+        for(int i=str.length()-1;i>=0;i--){
+            reverse = reverse + str.charAt(i);
         }
+        System.out.println(reverse);
+    }
 
     }

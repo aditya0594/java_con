@@ -22,7 +22,7 @@ public class WindowSwitchTask {
 
         public void setUp() {
             WebDriverManager.chromedriver().setup();
-            org.openqa.selenium.chrome.ChromeOptions options = new ChromeOptions();
+           ChromeOptions options = new ChromeOptions();
             options.addArguments("--remote-allow-origins=*");
             driver = new ChromeDriver(options);
             driver.manage().window().maximize();
@@ -107,6 +107,8 @@ public class WindowSwitchTask {
             System.out.println("List of options : "+ w.getText());
         }
         Thread.sleep(5000);
+        //drop.getAllSelectedOptions();
+        //drop.getFirstSelectedOption();
 
     }
     @AfterClass

@@ -4,13 +4,14 @@ public class jenkins {
 
     /**
 
-      To start the jeinkins : java -jar jenkins.war
-     start on this port : http://localhost:8080
+      To start the jeinkins : java -jar jenkins.war --httpPort=8081
+     start on this port : http://localhost:8081
 
 
 
      To start on the different port : java -jar jenkins.war --httpPort=9090
 
+     // Build trigger
 
      Cron job timing format is :
      5 → Minute (i.e., 5 minutes past)
@@ -25,16 +26,18 @@ public class jenkins {
      they’ll run at different minutes past 2 PM (like 2:07 PM and 2:41 PM), depending on their names.
      This ensures load balancing across Jenkins jobs.
 
+
+     In the Build Steps
+
+     apache-maven -3.9.6
      clean test -Dsurefire.suiteXmlFiles=testng.xml
 
      This is a Maven command that does two things:
-
      1. clean –
-     It cleans the old project files (like deleting the target folder where compiled code and reports are stored), so the project starts fresh.
-
+     It cleans the old project files (like deleting the target folder where compiled code and reports are stored)
+     , so the project starts fresh.
      2. test –
-     It runs the test cases in the project using the test framework you’ve set up (like TestNG).
-
+     Ite runs the test cases in the project using the test framework you’ve set up (like TestNG).
      3. -Dsurefire.suiteXmlFiles=testng.xml –
      This tells Maven:
      👉 "Hey, use this specific file called testng.xml to run the tests."

@@ -21,10 +21,10 @@ public class main_method_explain {
      Why is main method public?	 : So that JVM can access it from outside the class.
      Why is main method static?	 : So JVM doesn't need to create an object to run it.
      Why is the return type void?	Because main doesn't need to return anything to JVM.
-     What is String[] args? : 	It is used to accept input from the command line.String[] args is a single-dimensional array — it means:
+     What is String[] args? : 	It is used to accept input from the command line.
+     String[] args is a single-dimensional array — it means:
      It can hold multiple String values in a single line (one dimension).
      Example: ["apple", "banana", "cherry"]
-
      Each value can be accessed like args[0], args[1], etc.
      Can we change the name main?	No, JVM specifically looks for main.
      Can we remove String[] args?	No, it's part of the required method signature.

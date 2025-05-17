@@ -23,7 +23,8 @@ public class main_method_without_static {
     It is defined with the static keyword to allow the Java Virtual Machine (JVM)
     to call it without creating an instance of the class.
    */
-   /** public: This is an access modifier that means the method can be called from outside the class.
+   /**
+    * public: This is an access modifier that means the method can be called from outside the class.
      It's necessary because the JVM needs to call this method to start the application.
 
     static: This means the method belongs to the class rather than an instance of the class.
@@ -51,7 +52,6 @@ public class main_method_without_static {
     used as the entry point of the application by the JVM.
 
     3. What happens if the main method is not public?
-    Question: What if the main method is not public?
 
     Answer: If the main method is not public, the JVM will not be able to access it and will throw a runtime error:
     Main method not found in class <ClassName>, please define the main method as: public static void main(String[] args).
@@ -63,21 +63,17 @@ public class main_method_without_static {
     If you change the parameter type or remove it, the JVM will not recognize it as the entry point of the program.
 
     5. What is the significance of String[] args?
-    Question: What is the significance of String[] args?
 
     Answer: String[] args allows the program to accept command-line arguments.
     These arguments can be used to pass information into the program at runtime.
     For example, if you run java MyClass arg1 arg2, args will be an array containing ["arg1", "arg2"].
 
     6. What happens if there is no main method in a Java class?
-    Question: What happens if there is no main method in a Java class?
-
     Answer: If a Java class does not have a main method with the signature public static void main(String[] args),
     the JVM will throw a runtime error: Main method not found in class <ClassName>,
     please define the main method as: public static void main(String[] args).
 
     7. Can we override the main method?
-    Question: Can we override the main method?
 
     Answer: No, the main method cannot be overridden because it is static.
     Static methods belong to the class, not instances of the class, and thus do not participate in polymorphism.

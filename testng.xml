@@ -4,31 +4,28 @@
     <listeners>
         <listener class-name="SeleniumTopic.RetryAnalyzer_IAnnotationTranformer"/>
     </listeners>
-
-<!--    <test name="Run on Chrome">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="UI"/>-->
-<!--                <include name="Regression"/>-->
-<!--                <include name="ui"/>-->
-<!--            </run>-->
-<!--        </groups>-->
-<!--        <classes>-->
-<!--            <class name="SeleniumTopic.Selenium_Suite_parallel"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-    <test name="Run on Chrome">
+<!--    <test name="Run on Chrome">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="SeleniumTopic.Selenium_Suite_parallel"/>
+        </classes>
+    </test>-->
+<test name="Run on Chrome">
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="SeleniumTopic.Selenium_Suite_parallel">
                 <methods>
                     <include name="Scroll_using_javascript"/>
-                <!--    <include name="Scroll_using_javascript_bottom_page"/>
+                    <include name="Scroll_using_javascript_bottom_page"/>
                     <include name="Scroll_using_javascript_specific_pixels"/>
                     <include name="DragAndDrop"/>
                     <include name="Verify"/>
-                    <include name="rightClick"/>-->
+                    <include name="rightClick"/>
                 </methods>
             </class>
         </classes>

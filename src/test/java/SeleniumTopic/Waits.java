@@ -36,13 +36,13 @@ public class Waits {
         //Explicitly wait
        WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(10));
 
-      wait1.until(ExpectedConditions.elementToBeClickable(By.id("Element locator")));
+        wait1.until(ExpectedConditions.elementToBeClickable(By.id("Element locator")));
         //wait1.until(ExpectedConditions.presenceOfElementLocated(By.id("Element locator")));
        // wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("Element locator")));
 
         // Fluent wait
 
-    FluentWait<WebDriver> wait = new FluentWait<>(driver)
+    Wait wait = new FluentWait<>(driver)
             .withTimeout(Duration.ofSeconds(5))
             .pollingEvery(Duration.ofSeconds(1))
             .ignoring(NoSuchElementException.class);

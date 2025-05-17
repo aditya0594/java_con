@@ -3,6 +3,8 @@ package Java_Concept;
 import static com.google.common.primitives.UnsignedInts.divide;
 
 public class Final_Finally_Finalize {
+
+
     public static void main(String[] args) {
         // Non final variable
         int a = 5;
@@ -10,6 +12,15 @@ public class Final_Finally_Finalize {
         System.out.println("Print a value : "+ a);
 
         // final variable
+        // final is a keyword.
+        //Variable	: You cannot change its value after it is assigned.
+       // Method : You cannot override it in a child class.
+       // Class	 : You cannot extend (inherit) it.
+
+
+
+
+
         final int b = 6;
         //b++;                           // Immediately gives Compile Time error.
         System.out.println("Print a value : "+ b);  // modifying the non final variable : Allowed
@@ -24,8 +35,8 @@ public class Final_Finally_Finalize {
             throw e;
         }
 
-        finally {  // use of finally is in the try-catch block and we can use the finally
-            // if we want to print run after the try-catch block
+        finally {        // use of finally is in the try-catch block and we can use the finally
+                         // if we want to print after the try-catch block
             System.out.println("this is finally block");
         }
 

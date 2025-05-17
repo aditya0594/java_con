@@ -15,7 +15,7 @@ public class constructor {
     private int b ;
 
 
-     constructor(){  //default constructor
+    constructor(){  //default constructor
         String a = "default constructor";
 
        System.out.println("Parent class default constructor called   : "+ "Variable value : "+ a );

@@ -110,7 +110,7 @@
             else if (browser.equalsIgnoreCase("firefox")) {
                 WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
-                options.addArguments("--headless");
+                //options.addArguments("--headless");
                 driver = new FirefoxDriver(options);
             } else if (browser.equalsIgnoreCase("IE")) {
                 WebDriverManager.iedriver().setup();

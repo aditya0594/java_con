@@ -14,8 +14,8 @@ public class accessModifier {
 
     }
 
-    protected  void abc3(){  // projected variable/method is having access which is belonged to the same class and
-         //for the outside call we need to extends the class.
+    protected  void abc3(){  // protected variable/method is having access which is belonged to the same class and
+                             //for the outside call we need to extends the class.
 
     }
 

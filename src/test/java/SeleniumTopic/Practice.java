@@ -1,10 +1,12 @@
 package SeleniumTopic;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import net.sf.cglib.util.StringSwitcher;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.bouncycastle.oer.Switch;
 import org.openqa.selenium.*;
@@ -37,13 +39,18 @@ public class Practice {
 
        };
    }
-    @Test(priority =10, enabled = true,dataProvider = "test")
-    public void Dataproviders(String username , String password) {
-      WebDriverManager.chromedriver().setup();
-      WebDriver driver = new ChromeDriver();
-      driver.get("https://www.google.com");
+    @Test(priority =10, enabled = true)
+    public void Dataproviders() throws IOException {
 
-    }
+       FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+       XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        XSSFSheet sheet = workbook.getSheetAt(0);
+        Row row = sheet.getRow(0);
+        Cell cell = row.getCell(1);
+        System.out.println("This is the cell value : "+ cell);
+
+        }
+
     @Test(priority =1)
     public void screenshot() throws IOException, InterruptedException {
     File sc = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

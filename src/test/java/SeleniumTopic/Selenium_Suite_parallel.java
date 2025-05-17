@@ -93,7 +93,6 @@ import java.util.Map;
 
             localDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
             localDriver.manage().window().maximize();
-
             driver.set(localDriver);
         }
 
@@ -150,7 +149,7 @@ import java.util.Map;
             }
         }
 
-        @Test(priority = 1, enabled = true, groups = {"Smoke", "Regression"})
+        @Test(priority = 1, enabled = true, groups = {"Smoke"})
         public void Scroll_using_javascript() throws InterruptedException {
             ExtentTest extentTest = extent.createTest("This is the javascript for scrolling");
             test.set(extentTest);
@@ -220,7 +219,7 @@ import java.util.Map;
             }
         }
 
-        @Test(priority = 6, enabled = true, groups = {"Smoke"}, dependsOnMethods = {"Verify"})
+        @Test(priority = 6, enabled = true)
         public void rightClick() throws InterruptedException {
             ExtentTest extentTest = extent.createTest("Right click on element");
             test.set(extentTest);

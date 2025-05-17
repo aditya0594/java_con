@@ -19,10 +19,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -117,6 +114,7 @@ public class Selenium_other_methods {
         Assert.assertTrue(img);
 
         WebElement element = driver.findElement(By.xpath("//img[@alt='image not displaying']"));
+        TakesScreenshot ts = (TakesScreenshot) element.getScreenshotAs(OutputType.FILE);
         File getelemetscreenshot = element.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(getelemetscreenshot, new File("Screenshots/imageelement.png"));
 
@@ -180,13 +178,9 @@ public class Selenium_other_methods {
         WebElement element2 = driver.findElement(By.xpath("//button[@id='submitbtn']"));
 
 
-        // to block the add
-        js.executeScript("document.querySelectorAll('[id*=ad], [class*=ad]').forEach(el => el.remove());");
-
-
-
         // scroll to the element on the page
          js.executeScript("arguments[0].scrollIntoView(true);", element2);
+
        // Thread.sleep(10000);
 
         // scroll to the bottom of the page
@@ -198,14 +192,64 @@ public class Selenium_other_methods {
         //  js.executeScript("arguments[0].click();", element);
         Thread.sleep(10000);
 
-
         test.pass("Scroll using java script");
     }
 
     @Test(priority=1)
-    public void addblock(){
+    public void DatePicker() throws InterruptedException{
+        driver.get("https://demo.automationtesting.in/Datepicker.html");
+        driver.manage().window().maximize();
+        driver.findElement(By.xpath("//*[@class='imgdp']")).click();
+        String expectedMonth = "April";
+        String expectedYear = "2021";
+        String expecteddate = "5";
+        while(true){
+            WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
+            String[] monthyear = monthyearTitle.getText().split(" ");
+            String currentyear = monthyear[1];
+            if(currentyear.equals(expectedYear)){
+                break;
+            }
+            else{
+                if(Integer.parseInt(currentyear)>Integer.parseInt(expectedYear)){
+                    driver.findElement(By.xpath("//a[@title='Prev']")).click();
+                }
+                else{
+                    driver.findElement(By.xpath("//a[@title='Next']")).click();
+                }
+            }
+        }
+        while (true){
+            WebElement monthYearElement = driver.findElement(By.className("ui-datepicker-title"));
+            String[] monthYear = monthYearElement.getText().split(" ");
+            String currentMonth = monthYear[0];
 
-    }
+                if (currentMonth.equals(expectedMonth)) {
+                    break;
+                } else {
+                    driver.findElement(By.xpath("//a[@title='Next']")).click();
+                }
+            }
+        driver.findElement(By.xpath("//a[text()='"+expecteddate+"']")).click(); // Example: Selecting 15th
+        WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
+        System.out.println("This is the month and year : "+ monthyearTitle.getText());
+        }
+
+
+
+        /*while(true){
+            WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
+            String displayMonthYear = monthyearTitle.getText();
+            if(displayMonthYear.equals(expectedMonthYear)){
+                break;
+            }
+            else{
+                driver.findElement(By.xpath("//a[@title='Next']")).click();
+            }
+            driver.findElement(By.xpath("//a[text()='05']")).click(); // Example: Selecting 15th
+            Thread.sleep(10000);
+        }*/
+
 
 
     @Test(priority = 6, enabled = true)  // Mouse action using the Actions class
@@ -226,7 +270,9 @@ public class Selenium_other_methods {
         // actions.doubleClick(from);
         //actions.moveToElement(from).click().perform();
         // actions.release(from).perform();
+
          actions.scrollToElement(element).perform();
+
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
@@ -243,14 +289,15 @@ public class Selenium_other_methods {
 
         // Verify
         SoftAssert softAssert = new SoftAssert();
-
         softAssert.fail("First fail");
-
         System.out.println("Failing first the excution");
         softAssert.fail("Second fail");
         System.out.print("failing second the excution");
         softAssert.assertAll();
         test.pass("Verify the soft assert");
+
+
+        // hard asser
     }
 
     @Test(priority = 8, enabled = true)
@@ -521,7 +568,12 @@ public class Selenium_other_methods {
     @Test(priority = 16, enabled = true)
     public void NAVIGATE() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
+        //Waits for the page to fully load.
         // driver.get("www.google.com");
+
+
+        //But behaves like you are clicking a link or typing in the address bar.
+        //Does not wait strictly for the full page load
         driver.navigate().to("https://www.google.com");//to launch a new web browser window and navigate to the specified URL
         driver.navigate().back();
         driver.navigate().forward();
@@ -536,13 +588,14 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//button[@class='btn btn-danger']")).click();
         Thread.sleep(3000);
-        // Alert is a class to handle webbased or javascript based popups
+        // Alert is a interface to handle webbased or javascript based popups
         Alert alert = driver.switchTo().alert();
-        alert.accept();
-        alert.dismiss();
-        alert.sendKeys("");
+       // alert.accept();
+       // alert.dismiss();
+       // alert.sendKeys("");
+        String message = alert.getText();
+        System.out.println(message);
 
-        Select select = new Select(driver.findElement(By.xpath("//*[@class='adb']")));
     }
 
     @Test(priority = 18, enabled = true)
@@ -553,17 +606,9 @@ public class Selenium_other_methods {
         Thread.sleep(2000);
 
         // Click on the file upload input to open the file dialog
-        driver.findElement(By.xpath("//input[@id='file-upload']")).click();
+        driver.findElement(By.xpath("//input[@id='file-upload']")).sendKeys("");
         Thread.sleep(2000);
 
-        // Create and start the process using ProcessBuilder
-        ProcessBuilder processBuilder = new ProcessBuilder("C:/GAED/src/resources/FileUpload.exe");
-        Process process = processBuilder.start();
-        process.waitFor(); // Ensure the process completes
-
-        // Submit the file upload form
-        driver.findElement(By.xpath("//input[@id='file-submit']")).click();
-        Thread.sleep(10000);
     }
 
     @Test(priority = 19, enabled = true)
@@ -679,7 +724,7 @@ public class Selenium_other_methods {
         driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
 
         List<WebElement> links = driver.findElements(By.xpath("//*[@href]"));
-
+       BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/STM.txt"));
         for(WebElement w : links) {
             String url = w.getAttribute("href");
             if (url == null || url.isEmpty()) {
@@ -687,18 +732,19 @@ public class Selenium_other_methods {
             }
            try {
                HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
-
                conn.setRequestMethod("HEAD");
                conn.connect();
                int response = conn.getResponseCode();
                if (response >= 400) {
                    System.out.println(url + "this is brokenlink" + "Response Code is : " + response);
+                   writer.newLine();
                } else {
                    System.out.println(url + "This is the valid url");
                }
            }
            catch (Exception e){
                System.out.println(url + "This is the broken link " + "Exception : "+ e.getMessage());
+               writer.newLine();
            }
 
         }
