@@ -4,17 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="FIx for the jenkins runner parallelbrowser for chrome and firefox">
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated changes">
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250518113314.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250518113307.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_duplicate_element_in_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_duplicate_element_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Duplicate_value_of_array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Duplicate_value_of_array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_duplicate_element_in_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_duplicate_element_in_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_largest_shortest_word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_largest_shortest_word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenkinsFile" beforeDir="false" afterPath="$PROJECT_DIR$/JenkinsFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Call/API_delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Call/API_delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/SuiteReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SuiteReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +106,9 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Java_Concept" />
       <recent name="SeleniumTopic" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Java_Program.StringProgram" />
@@ -191,7 +201,7 @@
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,13 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00016" summary="updated added 10-05-2024">
-      <created>1715284524262</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1715284524262</updated>
     </task>
     <task id="LOCAL-00017" summary="updated added 13-05-2024">
       <created>1715576351011</created>
@@ -576,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747462339441</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="updated changes">
+      <created>1747547921802</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1747547921802</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -604,7 +614,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated added 25-05-2024" />
     <MESSAGE value="updated added 28-05-2024 notes added" />
     <MESSAGE value="updated added 06-06-2024 notes added" />
     <MESSAGE value="updated added 13-06-2024 notes added" />
@@ -629,7 +638,8 @@
     <MESSAGE value="Parallel excution added" />
     <MESSAGE value="22-04-2026" />
     <MESSAGE value="FIx for the jenkins runner parallelbrowser for chrome and firefox" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIx for the jenkins runner parallelbrowser for chrome and firefox" />
+    <MESSAGE value="updated changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,7 +5,6 @@ SeleniumTopic\ChromeOptions.class
 SeleniumTopic\extend_report_example.class
 SeleniumTopic\RetryAnalyzer_IAnnotationTranformer.class
 SeleniumTopic\RetryAnalyzer_IRetryAnalyzer.class
-SeleniumTopic\Selenium_Suite.class
 API_Call\API_CALL.class
 SeleniumTopic\New_RelativeLocator_with_sele4.class
 SeleniumTopic\Practice.class
@@ -16,6 +15,7 @@ SeleniumTopic\WebDriverSingleton.class
 SeleniumTopic\Git_Concepts.class
 SeleniumTopic\ITestListener.class
 SeleniumTopic\SQL_Connection.class
+Selenium_Suite.class
 SeleniumTopic\Base_Driver_driver.class
 SeleniumTopic\SeleniumGridTest.class
 SeleniumTopic\Selenium_other_methods$1.class

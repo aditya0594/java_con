@@ -1,42 +1,34 @@
- pipeline {
+pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.8.6'  // This must match the name of the Maven version installed in Jenkins
-        jdk 'Java 20'        // This must match the JDK name in Jenkins Global Tools config
-    }
-
-    environment {
-        REPORT_DIR = 'test-output' // or your custom report path
+        maven 'Maven 3.8.1'
+        jdk 'JDK 20'
     }
 
     stages {
-        stage('Checkout Code') {
+        stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/your-repo.git' // Replace with your Git repo
+                git 'https://github.com/aditya0594/java_con.git'
             }
         }
 
-        stage('Build and Test') {
+        stage('Build') {
             steps {
-                sh 'mvn clean test'
+                sh 'mvn clean install'
             }
         }
 
-        stage('Archive Reports') {
+        stage('Test') {
             steps {
-                archiveArtifacts artifacts: "${REPORT_DIR}/**", allowEmptyArchive: true
-                junit "${REPORT_DIR}/**/testng-results.xml"
+                sh 'mvn test'
             }
         }
-    }
 
-    post {
-        always {
-            echo 'Pipeline execution completed.'
-        }
-        failure {
-            echo 'Build failed!'
+        stage('Deploy') {
+            steps {
+                sh 'mvn deploy'
+            }
         }
     }
 }

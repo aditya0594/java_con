@@ -31,7 +31,6 @@ Java_Concept\main_method_explain.class
 Java_Program\Calculation\Star_2.class
 Java_Concept\Set_HashSet.class
 Java_Streams\even_element_of_ArrayList.class
-Java_Concept\static_and_nonStatic.class
 Java_Concept\Array_Linkedlist.class
 contructor\Child.class
 Java_Program\Calculation\sum_Avg.class
@@ -118,6 +117,5 @@ Java_Concept\Array_list.class
 Java_Concept\Map_TreeMap.class
 Java_Program\ArrayProgram\Insert_value_at_end_of_array.class
 encapsulation\EncapsulationClassTwo.class
-Java_Concept\static_Local_variable.class
 Java_Concept\debug_program.class
 Java_Program\StringProgram\Reverse_String.class
