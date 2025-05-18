@@ -11,6 +11,7 @@ import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.ie.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
@@ -26,7 +27,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+
+//@Test(priority = 2, enabled = true, groups = {"Regression"},retryAnalyzer = IRetryAnalyzer.class
+//or
+// @Listerners(IRetryAnalyzer)
     @Listeners(ITestListener.class)
+
     public class Selenium_Suite_parallel {
 
         private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
@@ -39,7 +45,7 @@ import java.util.Map;
 
         @BeforeClass
         public static void setUpReport() {
-            ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/SuiteReport.html");
+            ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ParallelSuiteReport.html");
             extent = new ExtentReports();
             extent.attachReporter(htmlReporter);
         }
@@ -157,13 +163,13 @@ import java.util.Map;
 
             localDriver.get("https://demo.automationtesting.in/Register.html");
             JavascriptExecutor js = (JavascriptExecutor) localDriver;
-            WebElement element2 = localDriver.findElement(By.xpath("//buttn[@id='Button1']"));
+            WebElement element2 = localDriver.findElement(By.xpath("//button[@id='Button1']"));
             js.executeScript("arguments[0].scrollIntoView();", element2);
             Thread.sleep(5000);
             extentTest.pass("Scrolled to the element");
         }
 
-        @Test(priority = 2, enabled = true, groups = {"Regression"})
+        @Test(priority = 2, enabled = true, groups = {"Regression"},retryAnalyzer = RetryAnalyzer_IRetryAnalyzer.class)
         public void Scroll_using_javascript_bottom_page() {
             ExtentTest extentTest = extent.createTest("Scroll to bottom using javascript");
             test.set(extentTest);

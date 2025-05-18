@@ -43,6 +43,7 @@ Java_Program\Three_String_concat.class
 Java_Program\extract_Last_charater_from_a_string.class
 contructor\Parent.class
 Java_Program\fibonacci.class
+static_NonStatic\static_and_nonStatic.class
 Java_Program\StringProgram\pratices.class
 Java_Concept\Employee.class
 Java_Program\Maximum_Value_of_element_in_Array.class
@@ -56,6 +57,7 @@ Java_Concept\array.class
 Java_Concept\Map_HashTable.class
 Java_Program\ArrayProgram\Compare_Two_Array.class
 Java_Concept\aeiou.class
+Java_Concept\Read_File_BufferedReader_Scanner.class
 Inharitance\Class_C.class
 Java_Streams\Selenium_example.class
 Abstraction\Abstraction_parentMethod.class
@@ -74,11 +76,13 @@ Java_Concept\Set_LinkedHashSet.class
 Java_Concept\with_main_method.class
 Java_Program\star_program.class
 Java_Program\Reverse_the_sentence.class
+static_NonStatic\Called_method.class
 Interface\InterfaceMain.class
 Java_Program\Full_pyramid.class
 polymorphism\Method_Overloading.class
 Java_Concept\HashSet_And_MAP_oneLiner.class
 Java_Concept\Postfix_Prefix.class
+static_NonStatic\static_Local_variable.class
 Java_Streams\Custom_Method_map.class
 Java_Program\StringProgram\Reverse_each_word_present_in_the_sentence.class
 Java_Streams\Multiply_by_two.class
@@ -90,6 +94,7 @@ Java_Program\StringProgram\excelread.class
 Java_Program\ArrayProgram\Array_palindrome.class
 Abstraction\Abstraction_childMethod.class
 Inharitance\Class_A.class
+Java_Program\StringProgram\Find_Duplicate_word_in_String.class
 polymorphism\MethodOverridingParentClass.class
 Java_Program\StringProgram\Stringtointeger.class
 Java_Concept\This_keyword.class
@@ -107,6 +112,7 @@ Abstraction\Abtraction_use_sele.class
 Java_Program\ArrayProgram\Duplicate_value_of_array.class
 Java_Concept\Map_LinkedHashMap.class
 Java_Program\StringProgram\Count_of_word_from_sentences.class
+Java_Concept\Read_File_Scanner.class
 Java_Program\StringProgram\Remove_Space.class
 Java_Concept\Final_Finally_Finalize.class
 Java_Concept\Set_treeSet.class

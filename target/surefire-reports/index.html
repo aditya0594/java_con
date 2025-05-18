@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 2 failed,  6 skipped,  5 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,  3 skipped,  6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
                     </span>
                     <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="Scroll_using_javascript">Scroll_using_javascript</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="Verify">Verify</a> <!-- method navigator-link -->
@@ -120,21 +115,6 @@
                       <a href="#" panel-name="suite-All_Test_Suite" class="show-methods skipped suite-All_Test_Suite"> (show)</a> <!-- show-methods skipped suite-All_Test_Suite -->
                     </span>
                     <div class="method-list-content skipped suite-All_Test_Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="Scroll_using_javascript">Scroll_using_javascript</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="Scroll_using_javascript">Scroll_using_javascript</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="Scroll_using_javascript">Scroll_using_javascript</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="Verify">Verify</a> <!-- method navigator-link -->
@@ -167,6 +147,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="DragAndDrop">DragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="SeleniumTopic.Selenium_Suite_parallel" class="method navigator-link" hash-for-method="Scroll_using_javascript">Scroll_using_javascript</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -204,50 +189,15 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Scroll_using_javascript">
-                  </a> <!-- Scroll_using_javascript -->
-                  <span class="method-name">Scroll_using_javascript</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//buttn[@id=&apos;Button1&apos;]&quot;}
-  (Session info: chrome=136.0.7103.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8c854d397e998aee1c0304c5d9364414, findElement {value=//buttn[@id=&apos;Button1&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\ADITYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49395}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49395/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8c854d397e998aee1c0304c5d9364414
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at SeleniumTopic.Selenium_Suite_parallel.Scroll_using_javascript(Selenium_Suite_parallel.java:160)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="Verify">
                   </a> <!-- Verify -->
                   <span class="method-name">Verify</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	First failure,
 	Second failure
-	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:214)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 12 stack frames
+	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:220)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -261,100 +211,15 @@ Session ID: 8c854d397e998aee1c0304c5d9364414
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Scroll_using_javascript">
-                  </a> <!-- Scroll_using_javascript -->
-                  <span class="method-name">Scroll_using_javascript</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//buttn[@id=&apos;Button1&apos;]&quot;}
-  (Session info: chrome=136.0.7103.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b5dd9dc1e115d99b21543be046c51f18, findElement {value=//buttn[@id=&apos;Button1&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\ADITYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49217/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b5dd9dc1e115d99b21543be046c51f18
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at SeleniumTopic.Selenium_Suite_parallel.Scroll_using_javascript(Selenium_Suite_parallel.java:160)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Scroll_using_javascript">
-                  </a> <!-- Scroll_using_javascript -->
-                  <span class="method-name">Scroll_using_javascript</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//buttn[@id=&apos;Button1&apos;]&quot;}
-  (Session info: chrome=136.0.7103.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e7a55d0aff0e4cfacb4742bfcc80b315, findElement {value=//buttn[@id=&apos;Button1&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\ADITYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49327}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49327/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e7a55d0aff0e4cfacb4742bfcc80b315
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at SeleniumTopic.Selenium_Suite_parallel.Scroll_using_javascript(Selenium_Suite_parallel.java:160)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Scroll_using_javascript">
-                  </a> <!-- Scroll_using_javascript -->
-                  <span class="method-name">Scroll_using_javascript</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//buttn[@id=&apos;Button1&apos;]&quot;}
-  (Session info: chrome=136.0.7103.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [99b93d502a0b3564fdd13bff94ff047e, findElement {value=//buttn[@id=&apos;Button1&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\ADITYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65349/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 99b93d502a0b3564fdd13bff94ff047e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at SeleniumTopic.Selenium_Suite_parallel.Scroll_using_javascript(Selenium_Suite_parallel.java:160)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 13 stack frames
+                  <a name="Verify">
+                  </a> <!-- Verify -->
+                  <span class="method-name">Verify</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	First failure,
+	Second failure
+	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:220)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -366,11 +231,9 @@ Session ID: 99b93d502a0b3564fdd13bff94ff047e
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	First failure,
 	Second failure
-	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:214)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 12 stack frames
+	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:220)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -382,27 +245,9 @@ Session ID: 99b93d502a0b3564fdd13bff94ff047e
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	First failure,
 	Second failure
-	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:214)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 12 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Verify">
-                  </a> <!-- Verify -->
-                  <span class="method-name">Verify</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	First failure,
-	Second failure
-	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:214)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1623)
-... Removed 12 stack frames
+	at SeleniumTopic.Selenium_Suite_parallel.Verify(Selenium_Suite_parallel.java:220)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -426,6 +271,13 @@ Session ID: 99b93d502a0b3564fdd13bff94ff047e
                   <a name="DragAndDrop">
                   </a> <!-- DragAndDrop -->
                   <span class="method-name">DragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scroll_using_javascript">
+                  </a> <!-- Scroll_using_javascript -->
+                  <span class="method-name">Scroll_using_javascript</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -460,11 +312,11 @@ Session ID: 99b93d502a0b3564fdd13bff94ff047e
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;10&quot; parallel=&quot;methods&quot; name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;SeleniumTopic.RetryAnalyzer_IAnnotationTranformer&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;10&quot; parallel=&quot;methods&quot; name=&quot;Run on Chrome&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;10&quot; name=&quot;Run on Chrome&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;SeleniumTopic.Selenium_Suite_parallel&quot;&gt;
@@ -548,64 +400,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(13);
+data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'DragAndDrop')
 data.setCell(0, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(0, 3, 33492);
+data.setCell(0, 3, 27917);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'rightClick')
 data.setCell(1, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(1, 3, 30982);
+data.setCell(1, 3, 11256);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'DragAndDrop')
+data.setCell(2, 1, 'Scroll_using_javascript')
 data.setCell(2, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(2, 3, 30092);
+data.setCell(2, 3, 8616);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Scroll_using_javascript_specific_pixels')
+data.setCell(3, 1, 'DragAndDrop')
 data.setCell(3, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(3, 3, 29716);
+data.setCell(3, 3, 7118);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Scroll_using_javascript')
+data.setCell(4, 1, 'Scroll_using_javascript_bottom_page')
 data.setCell(4, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(4, 3, 26017);
+data.setCell(4, 3, 4399);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Scroll_using_javascript_bottom_page')
+data.setCell(5, 1, 'Scroll_using_javascript_specific_pixels')
 data.setCell(5, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(5, 3, 20068);
+data.setCell(5, 3, 3978);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Scroll_using_javascript')
+data.setCell(6, 1, 'Verify')
 data.setCell(6, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(6, 3, 15224);
+data.setCell(6, 3, 17);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Scroll_using_javascript')
+data.setCell(7, 1, 'Verify')
 data.setCell(7, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(7, 3, 11643);
+data.setCell(7, 3, 3);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Scroll_using_javascript')
+data.setCell(8, 1, 'Verify')
 data.setCell(8, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(8, 3, 7514);
+data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'Verify')
 data.setCell(9, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(9, 3, 51);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Verify')
-data.setCell(10, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(10, 3, 2);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Verify')
-data.setCell(11, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(11, 3, 2);
-data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Verify')
-data.setCell(12, 2, 'SeleniumTopic.Selenium_Suite_parallel')
-data.setCell(12, 3, 1);
+data.setCell(9, 3, 1);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -638,167 +478,129 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">1324 ms</span>
+                <span class="method-start">644 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">1325 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">1327 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">1327 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">1329 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">1332 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">Scroll_using_javascript_specific_pixels</span>
-                <span class="method-start">22476 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Scroll_using_javascript_bottom_page</span>
-                <span class="method-start">22476 ms</span>
-              </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Scroll_using_javascript</span>
-                <span class="method-start">22501 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Verify</span>
-                <span class="method-start">22533 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">rightClick</span>
-                <span class="method-start">22578 ms</span>
+                <span class="method-start">8489 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=Verify status=SKIP method=Selenium_Suite_parallel.Verify()[pri:5, instance:Selenium...)</span>
-                <span class="method-start">22593 ms</span>
+                <span class="method-name">getResult([TestResult name=Scroll_using_javascript status=SUCCESS method=Selenium_Suite_parallel.Scroll_using_...)</span>
+                <span class="method-start">17113 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup(Chrome)</span>
+                <span class="method-start">21035 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">DragAndDrop</span>
-                <span class="method-start">24094 ms</span>
+                <span class="method-name">Scroll_using_javascript_bottom_page</span>
+                <span class="method-start">23071 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=Scroll_using_javascript_bottom_page status=SUCCESS method=Selenium_Suite_parallel.S...)</span>
-                <span class="method-start">42548 ms</span>
+                <span class="method-start">27475 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=Scroll_using_javascript status=SKIP method=Selenium_Suite_parallel.Scroll_using_jav...)</span>
-                <span class="method-start">48525 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup(Chrome)</span>
+                <span class="method-start">28205 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Scroll_using_javascript_specific_pixels</span>
+                <span class="method-start">30216 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=Scroll_using_javascript_specific_pixels status=SUCCESS method=Selenium_Suite_parall...)</span>
-                <span class="method-start">52196 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=rightClick status=SUCCESS method=Selenium_Suite_parallel.rightClick()[pri:6, instan...)</span>
-                <span class="method-start">53570 ms</span>
+                <span class="method-start">34195 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">55111 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=DragAndDrop status=SUCCESS method=Selenium_Suite_parallel.DragAndDrop()[pri:4, inst...)</span>
-                <span class="method-start">57588 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">57739 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">Verify</span>
-                <span class="method-start">60520 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=Verify status=SKIP method=Selenium_Suite_parallel.Verify()[pri:5, instance:Selenium...)</span>
-                <span class="method-start">60523 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Scroll_using_javascript</span>
-                <span class="method-start">60812 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=Scroll_using_javascript status=SKIP method=Selenium_Suite_parallel.Scroll_using_jav...)</span>
-                <span class="method-start">76038 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">78019 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">78241 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">79164 ms</span>
+                <span class="method-start">34668 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">DragAndDrop</span>
-                <span class="method-start">82078 ms</span>
+                <span class="method-start">36501 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DragAndDrop status=SUCCESS method=Selenium_Suite_parallel.DragAndDrop()[pri:4, inst...)</span>
+                <span class="method-start">43620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup(Chrome)</span>
+                <span class="method-start">44098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DragAndDrop</span>
+                <span class="method-start">45563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=DragAndDrop status=SUCCESS method=Selenium_Suite_parallel.DragAndDrop()[pri:4, inst...)</span>
+                <span class="method-start">73482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup(Chrome)</span>
+                <span class="method-start">73832 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Verify</span>
-                <span class="method-start">85117 ms</span>
+                <span class="method-start">75591 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=Verify status=SKIP method=Selenium_Suite_parallel.Verify()[pri:5, instance:Selenium...)</span>
-                <span class="method-start">85120 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">Scroll_using_javascript</span>
-                <span class="method-start">86602 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=Scroll_using_javascript status=SKIP method=Selenium_Suite_parallel.Scroll_using_jav...)</span>
-                <span class="method-start">94117 ms</span>
+                <span class="method-start">75609 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">96652 ms</span>
+                <span class="method-start">76286 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Scroll_using_javascript</span>
-                <span class="method-start">98944 ms</span>
+                <span class="method-name">Verify</span>
+                <span class="method-start">78097 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Verify status=SKIP method=Selenium_Suite_parallel.Verify()[pri:5, instance:Selenium...)</span>
+                <span class="method-start">78101 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Setup(Chrome)</span>
-                <span class="method-start">100496 ms</span>
+                <span class="method-start">78615 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify</span>
+                <span class="method-start">80285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Verify status=SKIP method=Selenium_Suite_parallel.Verify()[pri:5, instance:Selenium...)</span>
+                <span class="method-start">80287 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup(Chrome)</span>
+                <span class="method-start">80873 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Verify</span>
-                <span class="method-start">103816 ms</span>
+                <span class="method-start">82289 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=Verify status=FAILURE method=Selenium_Suite_parallel.Verify()[pri:5, instance:Selen...)</span>
-                <span class="method-start">103834 ms</span>
+                <span class="method-start">82307 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup(Chrome)</span>
+                <span class="method-start">83546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rightClick</span>
+                <span class="method-start">85034 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=Scroll_using_javascript status=FAILURE method=Selenium_Suite_parallel.Scroll_using_...)</span>
-                <span class="method-start">110589 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=DragAndDrop status=SUCCESS method=Selenium_Suite_parallel.DragAndDrop()[pri:4, inst...)</span>
-                <span class="method-start">112172 ms</span>
+                <span class="method-name">getResult([TestResult name=rightClick status=SUCCESS method=Selenium_Suite_parallel.rightClick()[pri:6, instan...)</span>
+                <span class="method-start">96296 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">endReport</span>
-                <span class="method-start">112932 ms</span>
+                <span class="method-start">97712 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

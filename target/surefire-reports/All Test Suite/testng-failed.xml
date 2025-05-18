@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="10" parallel="methods" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+<suite thread-count="10" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="SeleniumTopic.RetryAnalyzer_IAnnotationTranformer"/>
   </listeners>
-  <test thread-count="10" parallel="methods" name="Run on Chrome(failed)" verbose="0">
+  <test thread-count="10" name="Run on Chrome(failed)" verbose="0">
     <parameter name="browser" value="Chrome"/>
     <classes>
       <class name="SeleniumTopic.Selenium_Suite_parallel">
@@ -12,7 +12,6 @@
           <include name="Setup"/>
           <include name="Verify"/>
           <include name="endReport"/>
-          <include name="Scroll_using_javascript"/>
           <include name="getResult"/>
           <include name="setUpReport"/>
         </methods>

@@ -22,6 +22,12 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
+             post {
+                    always {
+                        archiveArtifacts artifacts: 'target/surefire-reports/*.*', allowEmptyArchive: true
+                        archiveArtifacts artifacts: 'test-output/ExtentReport.html', allowEmptyArchive: true
+                    }
+             }
         }
 
         stage('Deploy') {
