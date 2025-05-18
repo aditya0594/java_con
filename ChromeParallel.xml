@@ -3,7 +3,7 @@
     <test name="ChromeTests">
         <parameter name="browser" value="chrome" />
         <classes>
-            <class name="SeleniumTopic.Selenium_Suite" />
+            <class name="Selenium_Suite" />
         </classes>
     </test>
 </suite>

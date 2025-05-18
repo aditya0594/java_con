@@ -51,7 +51,7 @@
   <!--  <test name="Run on Edge">
         <parameter name="browser" value="Remote_Edge"/>
         <classes>
-            <class name="SeleniumTopic.Selenium_Suite">
+            <class name="Selenium_Suite">
                 <methods>
                     <include name="Scroll_using_javascript"/>
                     <include name="Scroll_using_javascript_bottom_page"/>

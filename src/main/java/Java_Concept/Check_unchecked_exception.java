@@ -1,9 +1,6 @@
 package Java_Concept;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class Check_unchecked_exception {
 
@@ -21,16 +18,19 @@ public class Check_unchecked_exception {
      InterruptedException
      */
     //Example  :
-    public static void main(String[] args) throws InterruptedException{
-        try {
-            FileReader file = new FileReader("test.txt"); // Might throw FileNotFoundException
+    public static void main(String[] args) {
+
+        try{
+        FileReader file = new FileReader("test.txt");// Might throw FileNotFoundException
+        FileInputStream fis = new FileInputStream(" ");
             BufferedReader br = new BufferedReader(file);
             System.out.println(br.readLine());
             br.close();
             Thread.sleep(5000);
-        } catch (Exception e) {
-            System.out.println("An error occurred: " + e.getMessage());
+        }catch( Exception e ) {
+            System.out.println("This is the exception " + e);
         }
+
 
         /***
          Unchecked Exceptions (Runtime Exceptions)
