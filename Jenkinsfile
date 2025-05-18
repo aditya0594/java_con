@@ -12,7 +12,6 @@ pipeline {
                 git 'https://github.com/aditya0594/java_con.git'
             }
         }
-
         stage('Build') {
             steps {
                 echo 'Code pushed! Running pipeline...'
