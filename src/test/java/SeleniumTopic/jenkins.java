@@ -7,6 +7,8 @@ public class jenkins {
       To start the jeinkins : java -jar jenkins.war --httpPort=8081
      start on this port : http://localhost:8081
 
+     To to the public install the ngrok and follow the steps from the ngrok website
+
 
 
      To start on the different port : java -jar jenkins.war --httpPort=9090
@@ -45,26 +47,26 @@ public class jenkins {
 
 
 
-     What is Jenkins?
+     1. What is Jenkins?
 
      Answer: Jenkins is an open-source automation server that facilitates continuous integration and continuous delivery (CI/CD)
      by automating the building, testing, and deployment of software projects
 
 
-     What are Jenkins agents, and how do they contribute to distributed builds?
+     2. What are Jenkins agents, and how do they contribute to distributed builds?
 
      Answer: Jenkins agents are secondary machines that run build jobs,
      allowing Jenkins to distribute workloads across multiple systems, thereby improving build performance and scalability
 
 
 
-     How can Jenkins integrate with Docker?
+    3.  How can Jenkins integrate with Docker?
 
      Answer: Jenkins can build and publish Docker images, run builds inside Docker containers,
      and use Docker agents to create consistent build environments.
 
 
-     What is the purpose of the 'Jenkinsfile'?
+     4. What is the purpose of the 'Jenkinsfile'?
 
      Answer: A 'Jenkinsfile' is a text file that contains
      the definition of a Jenkins Pipeline and is checked into source control, enabling pipeline as code.
