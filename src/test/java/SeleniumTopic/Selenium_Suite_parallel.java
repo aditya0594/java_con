@@ -45,7 +45,7 @@ import java.util.Map;
 
         @BeforeClass
         public static void setUpReport() {
-            ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ParallelSuiteReport.html");
+            ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
             extent = new ExtentReports();
             extent.attachReporter(htmlReporter);
         }
