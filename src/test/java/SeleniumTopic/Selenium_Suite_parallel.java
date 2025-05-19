@@ -46,6 +46,13 @@ import java.util.Map;
         @BeforeClass
         public static void setUpReport() {
             ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+            // Save everything locally (not from CDN)
+            htmlReporter.config().setTimelineEnabled(true);
+            htmlReporter.config().setEncoding("utf-8");
+            htmlReporter.config().setReportName("Test Report");
+            htmlReporter.config().setDocumentTitle("Automation Test Results");
+
+
             extent = new ExtentReports();
             extent.attachReporter(htmlReporter);
         }

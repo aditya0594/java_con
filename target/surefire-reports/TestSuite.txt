@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 82.51 s <<< FAILURE! -- in TestSuite
-SeleniumTopic.Selenium_Suite_parallel.Verify -- Time elapsed: 0.001 s <<< FAILURE!
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 325.8 s <<< FAILURE! -- in TestSuite
+SeleniumTopic.Selenium_Suite_parallel.Verify -- Time elapsed: 0.219 s <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	First failure,

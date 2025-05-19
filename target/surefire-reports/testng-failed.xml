@@ -9,6 +9,7 @@
     <classes>
       <class name="SeleniumTopic.Selenium_Suite_parallel">
         <methods>
+          <include name="Scroll_using_javascript_specific_pixels"/>
           <include name="Setup"/>
           <include name="Verify"/>
           <include name="endReport"/>
