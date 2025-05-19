@@ -22,12 +22,6 @@ pipeline {
             steps {
                 bat 'mvn test'
             }
-             post {
-                    always {
-                        archiveArtifacts artifacts: 'target/surefire-reports/*.*', allowEmptyArchive: true
-                        archiveArtifacts artifacts: 'test-output/ExtentReport.html', allowEmptyArchive: true
-                    }
-             }
         }
 
         stage('Deploy') {
@@ -36,4 +30,22 @@ pipeline {
             }
         }
     }
+      post {
+            always {
+                // Archive Surefire Reports
+                archiveArtifacts artifacts: 'target/surefire-reports/*.*', allowEmptyArchive: true
+
+                // Archive Extent Report
+                archiveArtifacts artifacts: 'test-output/ExtentReport.html', allowEmptyArchive: true
+
+                // (Optional) Publish HTML Report in Jenkins
+                publishHTML (target: [
+                    allowMissing: true,
+                    alwaysLinkToLastBuild: true,
+                    keepAll: true,
+                    reportDir: 'test-output',
+                    reportFiles: 'ExtentReport.html',
+                    reportName: 'Extent Report'
+                ])
+            }
 }
