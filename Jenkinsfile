@@ -40,7 +40,7 @@ pipeline {
 
                 // (Optional) Publish HTML Report in Jenkins
                 publishHTML (target: [
-                    allowMissing: true,
+                  allowMissing: true,
                     alwaysLinkToLastBuild: true,
                     keepAll: true,
                     reportDir: 'test-output',
