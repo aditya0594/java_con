@@ -232,7 +232,7 @@ import java.util.Map;
             }
         }
 
-        @Test(priority = 6, enabled = true)
+        @Test(priority = 6, enabled = true,dependsOnMethods = {"Verify"})
         public void rightClick() throws InterruptedException {
             ExtentTest extentTest = extent.createTest("Right click on element");
             test.set(extentTest);

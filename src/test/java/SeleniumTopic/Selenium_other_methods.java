@@ -35,33 +35,18 @@ import java.util.Set;
 public class Selenium_other_methods {
 
 
+    protected WebDriver driver;
     //https://rahulshettyacademy.com/AutomationPractice/
     //https://the-internet.herokuapp.com/
     //https://demo.automationtesting.in/Register.html
     //https://googlechromelabs.github.io/chrome-for-testing/
     ExtentSparkReporter spark;
     ExtentReports extent;
-    protected WebDriver driver;
-  @BeforeMethod
-  public void setup() throws MalformedURLException {
-      driver = Base_Driver_driver.driverInstance("chrome");
-  }
-    @AfterMethod
-    public void teardown(){
-        Base_Driver_driver.quit();
-    }
-
-    @BeforeTest
-    public void report() {
-
-        ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/STMExtentReport.html");
-        extent = new ExtentReports();
-        extent.attachReporter(htmlReporter);
-    }
-
-
     @FindBy(xpath = "user_login")
     WebElement userId; // this is depricated
+    By elementName = By.xpath("");
+    @FindBy(id = "searchBox")
+    private WebElement searchBar;
 
     public static String getScreenShot(WebDriver driver, String screenshotName) throws IOException {
 
@@ -82,16 +67,68 @@ public class Selenium_other_methods {
         return finalDestination.getAbsolutePath();
     }
 
-    @FindBy(id = "searchBox")
-    private WebElement searchBar;
-    By elementName = By.xpath("");
+    @Test(priority = 1, enabled = true)
+    public static String excelreaddata(int datarow, int datacell) throws IOException {
+        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        Sheet sheet = workbook.getSheetAt(0);
+        Row row = sheet.getRow(datarow);
+        Cell cell = row.getCell(datacell);
+        return cell.getStringCellValue();
+    }
 
-    @Test(priority = 1, enabled = true,retryAnalyzer = RetryAnalyzer_IRetryAnalyzer.class)
+    @Test(priority = 23, enabled = true)
+    public static void read_properties() throws IOException {
+
+        FileInputStream file = new FileInputStream("src/main/resources/config.properties");
+        Properties prop = new Properties();
+        prop.load(file);
+        String browser;
+        browser = prop.get("browserName").toString();
+        System.out.println(browser);
+    }
+
+    @BeforeMethod
+    public void setup() throws MalformedURLException {
+        driver = Base_Driver_driver.driverInstance("chrome");
+    }
+
+    @AfterMethod
+    public void teardown() {
+        Base_Driver_driver.quit();
+    }
+
+    @BeforeTest
+    public void report() {
+
+        ExtentSparkReporter htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/STMExtentReport.html");
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
+    }
+
+    @Test(priority = 1, enabled = true, retryAnalyzer = RetryAnalyzer_IRetryAnalyzer.class)
     public void Window_Basic_Auth() {
         ExtentTest test = extent.createTest("To verify username and password in chrome base browser ");
         //driver.get("https://demo.automationtesting.in/Register.html");
         driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/basic_auth");
         test.pass("To verify username and password in  base browser ");
+
+    }
+
+    @Test(priority = 1, enabled = true)
+    public void VerifyLink200() throws IOException {
+        driver.get("https://practice.automationtesting.in/");
+        List<WebElement> links = driver.findElements(By.tagName("link"));
+        for(WebElement element : links){
+            String url = element.getAttribute("href");
+            HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+            conn.setRequestMethod("GET");
+            conn.connect();
+            int statusCode = conn.getResponseCode();
+            if(statusCode!= 200){
+                System.out.println("This link is broken " + url);
+            }
+        }
 
     }
 
@@ -136,14 +173,30 @@ public class Selenium_other_methods {
         //drop.selectByVisibleText();
         List<WebElement> listOfOption = drop.getOptions();  // this is use for get all the options and it return the list
         listOfOption.forEach(values -> System.out.println(values.getText()));
-        for(WebElement w : listOfOption){
-            System.out.println("List of options : "+ w.getText());
+        for (WebElement w : listOfOption) {
+            System.out.println("List of options : " + w.getText());
         }
         Thread.sleep(5000);
 
     }
+
+
+
+        /*while(true){
+            WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
+            String displayMonthYear = monthyearTitle.getText();
+            if(displayMonthYear.equals(expectedMonthYear)){
+                break;
+            }
+            else{
+                driver.findElement(By.xpath("//a[@title='Next']")).click();
+            }
+            driver.findElement(By.xpath("//a[text()='05']")).click(); // Example: Selecting 15th
+            Thread.sleep(10000);
+        }*/
+
     @Test(enabled = true)
-    public void datatablelist(){
+    public void datatablelist() {
         driver.get("https://the-internet.herokuapp.com/tables#delete");
 
         // Example 1
@@ -156,7 +209,7 @@ public class Selenium_other_methods {
 //            System.out.println(due.getText());
 //        }
 
-        for(int i=0;i<dues.size();i++){
+        for (int i = 0; i < dues.size(); i++) {
             System.out.println(dues.get(i).getText());
         }
     }
@@ -179,14 +232,14 @@ public class Selenium_other_methods {
 
 
         // scroll to the element on the page
-         js.executeScript("arguments[0].scrollIntoView(true);", element2);
+        js.executeScript("arguments[0].scrollIntoView(true);", element2);
 
-       // Thread.sleep(10000);
+        // Thread.sleep(10000);
 
         // scroll to the bottom of the page
         //js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
 
-         //scroll by the specific pixels
+        //scroll by the specific pixels
         //js.executeScript("window.scrollBy(0,1000)");
 
         //  js.executeScript("arguments[0].click();", element);
@@ -195,62 +248,43 @@ public class Selenium_other_methods {
         test.pass("Scroll using java script");
     }
 
-    @Test(priority=1)
-    public void DatePicker() throws InterruptedException{
+    @Test(priority = 1)
+    public void DatePicker() throws InterruptedException {
         driver.get("https://demo.automationtesting.in/Datepicker.html");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@class='imgdp']")).click();
         String expectedMonth = "April";
         String expectedYear = "2021";
         String expecteddate = "5";
-        while(true){
+        while (true) {
             WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
             String[] monthyear = monthyearTitle.getText().split(" ");
             String currentyear = monthyear[1];
-            if(currentyear.equals(expectedYear)){
+            if (currentyear.equals(expectedYear)) {
                 break;
-            }
-            else{
-                if(Integer.parseInt(currentyear)>Integer.parseInt(expectedYear)){
+            } else {
+                if (Integer.parseInt(currentyear) > Integer.parseInt(expectedYear)) {
                     driver.findElement(By.xpath("//a[@title='Prev']")).click();
-                }
-                else{
-                    driver.findElement(By.xpath("//a[@title='Next']")).click();
-                }
-            }
-        }
-        while (true){
-            WebElement monthYearElement = driver.findElement(By.className("ui-datepicker-title"));
-            String[] monthYear = monthYearElement.getText().split(" ");
-            String currentMonth = monthYear[0];
-
-                if (currentMonth.equals(expectedMonth)) {
-                    break;
                 } else {
                     driver.findElement(By.xpath("//a[@title='Next']")).click();
                 }
             }
-        driver.findElement(By.xpath("//a[text()='"+expecteddate+"']")).click(); // Example: Selecting 15th
-        WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
-        System.out.println("This is the month and year : "+ monthyearTitle.getText());
         }
+        while (true) {
+            WebElement monthYearElement = driver.findElement(By.className("ui-datepicker-title"));
+            String[] monthYear = monthYearElement.getText().split(" ");  // This is spliting the Mar 2024 here [0] is a month
+            String currentMonth = monthYear[0];
 
-
-
-        /*while(true){
-            WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
-            String displayMonthYear = monthyearTitle.getText();
-            if(displayMonthYear.equals(expectedMonthYear)){
+            if (currentMonth.equals(expectedMonth)) {
                 break;
-            }
-            else{
+            } else {
                 driver.findElement(By.xpath("//a[@title='Next']")).click();
             }
-            driver.findElement(By.xpath("//a[text()='05']")).click(); // Example: Selecting 15th
-            Thread.sleep(10000);
-        }*/
-
-
+        }
+        driver.findElement(By.xpath("//a[text()='" + expecteddate + "']")).click(); // Example: Selecting 15th
+        WebElement monthyearTitle = driver.findElement(By.className("ui-datepicker-title"));
+        System.out.println("This is the month and year : " + monthyearTitle.getText());
+    }
 
     @Test(priority = 6, enabled = true)  // Mouse action using the Actions class
     public void DragAndDrop() throws InterruptedException {
@@ -271,7 +305,7 @@ public class Selenium_other_methods {
         //actions.moveToElement(from).click().perform();
         // actions.release(from).perform();
 
-         actions.scrollToElement(element).perform();
+        actions.scrollToElement(element).perform();
 
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -338,7 +372,7 @@ public class Selenium_other_methods {
     }
 
     @DataProvider(name = "loginDataProvider")
-    public Object[][] loginData() {
+    public Object[][] loginData() {  // which give you the two dimensional array
         return new Object[][]
                 {
                         {"aditya@gmail.com", "Aditya@123"},
@@ -383,32 +417,24 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
         test.pass("Excel file to read");
     }
-    @Test(priority = 1, enabled = true)
-    public static String excelreaddata(int datarow, int datacell) throws IOException {
-        FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
-        Sheet sheet = workbook.getSheetAt(0);
-        Row row = sheet.getRow(datarow);
-        Cell cell = row.getCell(datacell);
-        return cell.getStringCellValue();
-    }
-    @Test(priority= 2)
-    public void excel_all_row() throws IOException{
+
+    @Test(priority = 2)
+    public void excel_all_row() throws IOException {
 
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheetAt(0);
-        for(Row row : sheet){
-            for(Cell cell : row){
-                switch (cell.getCellType()){
-                    case STRING :
-                        System.out.println(cell.getStringCellValue()+ " ");
+        for (Row row : sheet) {
+            for (Cell cell : row) {
+                switch (cell.getCellType()) {
+                    case STRING:
+                        System.out.println(cell.getStringCellValue() + " ");
                         break;
                     case NUMERIC:
-                        System.out.println(cell.getNumericCellValue()+ " ");
+                        System.out.println(cell.getNumericCellValue() + " ");
                         break;
                     case BOOLEAN:
-                        System.out.println(cell.getBooleanCellValue()+" ");
+                        System.out.println(cell.getBooleanCellValue() + " ");
                 }
             }
             System.out.println();
@@ -417,24 +443,24 @@ public class Selenium_other_methods {
         fis.close();
     }
 
-    @Test(priority= 2)
-    public void excel_all_Column () throws IOException{
+    @Test(priority = 2)
+    public void excel_all_Column() throws IOException {
 
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         Sheet sheet = workbook.getSheetAt(0);
-        for(Row row : sheet){
+        for (Row row : sheet) {
             Cell cell = row.getCell(0);//here we have to specify the index of the column
-            if(cell!=null){
-                switch (cell.getCellType()){
-                    case STRING :
-                        System.out.println(cell.getStringCellValue()+ " ");
+            if (cell != null) {
+                switch (cell.getCellType()) {
+                    case STRING:
+                        System.out.println(cell.getStringCellValue() + " ");
                         break;
                     case NUMERIC:
-                        System.out.println(cell.getNumericCellValue()+ " ");
+                        System.out.println(cell.getNumericCellValue() + " ");
                         break;
                     case BOOLEAN:
-                        System.out.println(cell.getBooleanCellValue()+" ");
+                        System.out.println(cell.getBooleanCellValue() + " ");
                 }
             }
             System.out.println();
@@ -442,6 +468,7 @@ public class Selenium_other_methods {
         workbook.close();
         fis.close();
     }
+
     @DataProvider(name = "loginDataProviderExcel")
     public Object[][] excel_loginData() throws IOException {
 
@@ -503,8 +530,8 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
 
         /** Fluent Wait
-        FluentWait can define the maximum amount of time to wait for a specific condition and frequency with which to check the condition before
-        throwing an “ElementNotVisibleException” exception.
+         FluentWait can define the maximum amount of time to wait for a specific condition and frequency with which to check the condition before
+         throwing an “ElementNotVisibleException” exception.
 
 
          Dynamic Waiting: It checks for the element at every pollingEvery interval instead of waiting the full timeout.
@@ -518,10 +545,9 @@ public class Selenium_other_methods {
                 .ignoring(NoSuchElementException.class);
 
 
-
         /**Explicit wait
-        //Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
-        // visible, or clickable. This allows the script to pause execution until the dynamic element is ready. */
+         //Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
+         // visible, or clickable. This allows the script to pause execution until the dynamic element is ready. */
 
         WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait2.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
@@ -535,8 +561,6 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
         test.pass("Element draged properly");
     }
-
-
 
     @Test(priority = 15, enabled = true, groups = "excel")
     public void Write_ExcelFile() throws InterruptedException, IOException {
@@ -590,9 +614,9 @@ public class Selenium_other_methods {
         Thread.sleep(3000);
         // Alert is a interface to handle webbased or javascript based popups
         Alert alert = driver.switchTo().alert();
-       // alert.accept();
-       // alert.dismiss();
-       // alert.sendKeys("");
+        // alert.accept();
+        // alert.dismiss();
+        // alert.sendKeys("");
         String message = alert.getText();
         System.out.println(message);
 
@@ -676,16 +700,6 @@ public class Selenium_other_methods {
         Thread.sleep(5000);
     }
 
-    @Test(priority = 23, enabled = true)
-    public static void read_properties() throws IOException {
-
-        FileInputStream file = new FileInputStream("src/main/resources/config.properties");
-        Properties prop = new Properties();
-        prop.load(file);
-        String browser;
-        browser = prop.get("browserName").toString();
-        System.out.println(browser);
-    }
     @Test(priority = 24, enabled = true)
     public void linkText_parcialLinkText() throws InterruptedException {
 
@@ -695,7 +709,7 @@ public class Selenium_other_methods {
         driver.get("https://demo.automationtesting.in/Accordion.html");
         driver.manage().window().maximize();
         Thread.sleep(3000);
-       WebElement elem =  driver.findElement(By.linkText("#collapse2"));
+        WebElement elem = driver.findElement(By.linkText("#collapse2"));
         elem.click();
         Thread.sleep(5000);
     }
@@ -709,9 +723,9 @@ public class Selenium_other_methods {
         driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
         driver.manage().window().maximize();
         Thread.sleep(3000);
-        List<WebElement> ls =  driver.findElements(By.xpath("//*[@href]"));
-        for(WebElement w :ls ){
-            if(w.getText().isBlank()){
+        List<WebElement> ls = driver.findElements(By.xpath("//*[@href]"));
+        for (WebElement w : ls) {
+            if (w.getText().isBlank()) {
                 continue;
             }
             String listofname = w.getText();
@@ -724,94 +738,37 @@ public class Selenium_other_methods {
         driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
 
         List<WebElement> links = driver.findElements(By.xpath("//*[@href]"));
-       BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/STM.txt"));
-        for(WebElement w : links) {
+        BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/STM.txt"));
+        for (WebElement w : links) {
             String url = w.getAttribute("href");
             if (url == null || url.isEmpty()) {
                 continue;
             }
-           try {
-               HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
-               conn.setRequestMethod("HEAD");
-               conn.connect();
-               int response = conn.getResponseCode();
-               if (response >= 400) {
-                   System.out.println(url + "this is brokenlink" + "Response Code is : " + response);
-                   writer.newLine();
-               } else {
-                   System.out.println(url + "This is the valid url");
-               }
-           }
-           catch (Exception e){
-               System.out.println(url + "This is the broken link " + "Exception : "+ e.getMessage());
-               writer.newLine();
-           }
+            try {
+                HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+                conn.setRequestMethod("HEAD");
+                conn.connect();
+                int response = conn.getResponseCode();
+                if (response >= 400) {
+                    System.out.println(url + "this is brokenlink" + "Response Code is : " + response);
+                    writer.newLine();
+                } else {
+                    System.out.println(url + "This is the valid url");
+                }
+            } catch (Exception e) {
+                System.out.println(url + "This is the broken link " + "Exception : " + e.getMessage());
+                writer.newLine();
+            }
 
         }
 
-
-
-
-
-
-
-
-//            try {
-//                HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
-//                conn.setRequestMethod("HEAD");
-//                conn.connect();
-//                int responseCode = conn.getResponseCode();
-//
-//                if (responseCode >= 400) {
-//                    System.out.println(url + " is a broken link. Response Code: " + responseCode);
-//                } else {
-//                    System.out.println(url + " is valid.");
-//                }
-//            } catch (Exception e) {
-//                System.out.println(url + " is a broken link. Exception: " + e.getMessage());
-//            }
-/*
-
-            HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
-            conn.setRequestMethod("Head");
-            conn.connect();
-            int resonseCode = conn.getResponseCode();
-            if(resonseCode>=400){
-                System.out.println(url + " is a broken link  : "+" Response code is : " + resonseCode);
-            }else{
-                System.out.println("Url is broken ");
-            }
-*/
     }
-
-  /*  @Test(priority = 23, enabled = true)
-    public static void Slider_movetoElement() throws IOException, InterruptedException {
-
-        driver.get("https://the-internet.herokuapp.com/horizontal_slider");
-
-        // Locate the slider handle
-        WebElement sliderHandle = driver.findElement(By.xpath("//input[@type='range']"));
-
-        // Initialize the Actions class
-        Actions actions = new Actions(driver);
-
-        // Perform the drag-and-drop action
-        // Here, 100 is the distance to move the slider handle; adjust as needed
-        actions.clickAndHold(sliderHandle)
-                .moveByOffset(25, 0) // Move right by 100 pixels (you can adjust this value)
-                .release()
-                .build()
-                .perform();
-        Thread.sleep(5000);
-
-    }
-*/
 
 
     @AfterMethod
-    public void getResult(ITestResult result) throws Exception{
+    public void getResult(ITestResult result) throws Exception {
         ExtentTest test;
-        if(result.getStatus() == ITestResult.FAILURE) {
+        if (result.getStatus() == ITestResult.FAILURE) {
             // Executed when a test method fails
             test = extent.createTest(result.getName() + " - Test Case Failed");
             test.log(Status.FAIL, result.getName() + " - Test Case Failed");
@@ -821,11 +778,11 @@ public class Selenium_other_methods {
             String screenshotPath = getScreenShot(driver, result.getName());
             test.fail("Test Case Failed Snapshot is below " + test.addScreenCaptureFromPath(screenshotPath));
 
-        } else if(result.getStatus() == ITestResult.SKIP) {
+        } else if (result.getStatus() == ITestResult.SKIP) {
             // Executed when a test method is skipped
             test = extent.createTest(result.getName() + " - Test Case Skipped");
             test.log(Status.SKIP, result.getName() + " - Test Case Skipped");
-        } else if(result.getStatus() == ITestResult.SUCCESS) {
+        } else if (result.getStatus() == ITestResult.SUCCESS) {
             // Executed when a test method passes
             test = extent.createTest(result.getName() + " - Test Case PASSED");
             test.log(Status.PASS, result.getName() + " - Test Case PASSED");
