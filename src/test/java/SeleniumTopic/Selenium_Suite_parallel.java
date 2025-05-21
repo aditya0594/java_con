@@ -149,7 +149,7 @@ import java.util.Map;
             }
         }
 
-        @Test(priority = 1, enabled = true, groups = {"Smoke"})
+        @Test(priority = 1, enabled = true, groups = {"Smoke"},retryAnalyzer = RetryAnalyzer_IRetryAnalyzer.class)
         public void Scroll_using_javascript() throws InterruptedException {
             ExtentTest extentTest = extent.createTest("This is the javascript for scrolling");
             test.set(extentTest);

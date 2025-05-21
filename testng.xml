@@ -16,7 +16,7 @@
         </classes>
     </test>-->
 <test name="Run on Chrome">
-        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser" value="Remote_Chrome"/>
         <classes>
             <class name="SeleniumTopic.Selenium_Suite_parallel">
                 <methods>

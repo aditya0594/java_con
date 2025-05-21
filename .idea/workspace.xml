@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Added the ci of ci.yml file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/missing_values_from_sorted_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/remove_duplicate_characters_from_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/second_highest_element_from_HashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,19 +107,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml">
-    <configuration name="Array_palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Array_palindrome" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ComparableInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Concept.ComparableInterface" />
       <module name="Practice_programs" />
@@ -128,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Duplicate_value_of_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Duplicate_value_of_array" />
+    <configuration name="Find_duplicate_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_duplicate_element_in_Array" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -141,12 +133,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Find_duplicate_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_duplicate_element_in_Array" />
+    <configuration name="remove_duplicate_characters_from_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.remove_duplicate_characters_from_String" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
+          <option name="PATTERN" value="Java_Program.StringProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="second_highest_element_from_HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.second_highest_element_from_HashMap" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.StringProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,10 +207,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.remove_duplicate_characters_from_String" />
+      <item itemvalue="Application.second_highest_element_from_HashMap" />
       <item itemvalue="Application.ComparableInterface" />
-      <item itemvalue="Application.Duplicate_value_of_array" />
       <item itemvalue="Application.Find_duplicate_element_in_Array" />
-      <item itemvalue="Application.Array_palindrome" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
       <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
@@ -213,10 +218,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+        <item itemvalue="Application.remove_duplicate_characters_from_String" />
+        <item itemvalue="Application.second_highest_element_from_HashMap" />
         <item itemvalue="Application.ComparableInterface" />
         <item itemvalue="Application.Find_duplicate_element_in_Array" />
-        <item itemvalue="Application.Duplicate_value_of_array" />
-        <item itemvalue="Application.Array_palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -228,13 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00025" summary="updated added 06-06-2024 notes added">
-      <created>1717614228659</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1717614228660</updated>
     </task>
     <task id="LOCAL-00026" summary="updated added 13-06-2024 notes added">
       <created>1718255792287</created>
@@ -572,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747742808473</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Added the ci of ci.yml file">
+      <created>1747743063955</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1747743063955</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
