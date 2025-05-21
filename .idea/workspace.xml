@@ -229,13 +229,6 @@
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
     </task>
-    <task id="LOCAL-00031" summary="updated added 14-06-2024 notes added">
-      <created>1721144844523</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1721144844523</updated>
-    </task>
     <task id="LOCAL-00032" summary="updated added 14-06-2024 notes added">
       <created>1721144862958</created>
       <option name="number" value="00032" />
@@ -572,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747856217351</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Added the ci of ci.yml file">
+      <created>1747856576368</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1747856576369</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
