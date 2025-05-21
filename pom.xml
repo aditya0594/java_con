@@ -108,8 +108,6 @@
                 <version>3.5.3</version> <!-- Latest stable version -->
                 <configuration>
                     <suiteXmlFiles>
-                        <source>20</source>
-                        <target>20</target>
                         <suiteXmlFile>testng.xml</suiteXmlFile>  <!-- Path to your testng.xml -->
                     </suiteXmlFiles>
                 </configuration>
