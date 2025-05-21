@@ -37,4 +37,3 @@ jobs:
           name: extent-report
           path: |
             test-output/ExtentReport.html
-            test-output/ExtentReports/
