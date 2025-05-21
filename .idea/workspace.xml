@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Added the ci of ci.yml file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/missing_values_from_sorted_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/remove_duplicate_characters_from_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/second_highest_element_from_HashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,13 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00026" summary="updated added 13-06-2024 notes added">
-      <created>1718255792287</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1718255792287</updated>
     </task>
     <task id="LOCAL-00027" summary="updated added 13-06-2024 notes added">
       <created>1718255821048</created>
@@ -577,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747743063955</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Added the ci of ci.yml file">
+      <created>1747854907068</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1747854907072</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
