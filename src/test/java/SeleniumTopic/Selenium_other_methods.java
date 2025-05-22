@@ -305,6 +305,8 @@ public class Selenium_other_methods {
         //actions.moveToElement(from).click().perform();
         // actions.release(from).perform();
 
+        actions.keyDown(Keys.ARROW_DOWN).perform();
+        actions.sendKeys(Keys.ARROW_DOWN).perform();
         actions.scrollToElement(element).perform();
 
 

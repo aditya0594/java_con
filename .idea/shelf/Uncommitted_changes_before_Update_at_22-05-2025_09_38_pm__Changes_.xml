@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_Update_at_22-05-2025_09_38_pm_[Changes]" date="1747930123631" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22-05-2025_09_38_pm_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 22-05-2025 09:38 pm [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/SeleniumTopic/Waits.class" />
+    <option name="AFTER_PATH" value="target/test-classes/SeleniumTopic/Waits.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22-05-2025_09_38_pm_[Changes]/Waits.class" />
+  </binary>
+</changelist>

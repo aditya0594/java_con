@@ -6,6 +6,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.ie.*;
@@ -90,6 +91,10 @@ import java.util.Map;
                 options.ignoreZoomSettings();
                 options.introduceFlakinessByIgnoringSecurityDomains();
                 localDriver = new InternetExplorerDriver(options);
+            }
+            else if (browser.equalsIgnoreCase("Edge")) {
+                WebDriverManager.edgedriver().setup();
+                localDriver = new EdgeDriver();
             }
             else if (browser.equalsIgnoreCase("grid_chrome")) {
                 ChromeOptions options = new ChromeOptions();
