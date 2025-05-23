@@ -5,8 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Added the ci of ci.yml file">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/logoscreenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/screenshootgoogle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/DragAndDrop20250410012336.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/DragAndDrop20250410025220.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073635.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423120851.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423121053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423122327.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423122432.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423124212.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250426063601.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250427070558.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250518112335.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250518113314.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250522125343.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410011031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410012354.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410013036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410013251.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410013451.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410025232.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410111051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420010211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420010556.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420022142.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420022223.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420052853.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420052934.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420073723.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420073806.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420123933.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420125423.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423121020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122311.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122409.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122649.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122746.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250427070529.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250518112315.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250518113307.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250520025107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250522125302.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshots/imageelement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/STM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/STM.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/STM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/STM.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,52 +155,13 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml">
-    <configuration name="ComparableInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.ComparableInterface" />
+  <component name="RunManager" selected="Application.Map_HashTable">
+    <configuration name="Map_HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.Map_HashTable" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_Concept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Find_duplicate_element_in_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.ArrayProgram.Find_duplicate_element_in_Array" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.ArrayProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="remove_duplicate_characters_from_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.remove_duplicate_characters_from_String" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.StringProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="second_highest_element_from_HashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.second_highest_element_from_HashMap" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Program.StringProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,10 +188,18 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="D:/Projects/eclipse-workspace/java_con/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Selenium_other_methods.Find_all_links" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Find_all_links" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -201,22 +224,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium_other_methods.file_upload_linux" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="file_upload_linux" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.findAll_Link_text" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="findAll_Link_text" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_other_methods.findBrokenLink" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="findBrokenLink" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.remove_duplicate_characters_from_String" />
-      <item itemvalue="Application.second_highest_element_from_HashMap" />
-      <item itemvalue="Application.ComparableInterface" />
-      <item itemvalue="Application.Find_duplicate_element_in_Array" />
+      <item itemvalue="Application.Map_HashTable" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
-      <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+      <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
+      <item itemvalue="TestNG.Selenium_other_methods.file_upload_linux" />
+      <item itemvalue="TestNG.Selenium_other_methods.findAll_Link_text" />
+      <item itemvalue="TestNG.Selenium_other_methods.findBrokenLink" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
-        <item itemvalue="Application.remove_duplicate_characters_from_String" />
-        <item itemvalue="Application.second_highest_element_from_HashMap" />
-        <item itemvalue="Application.ComparableInterface" />
-        <item itemvalue="Application.Find_duplicate_element_in_Array" />
+        <item itemvalue="Application.Map_HashTable" />
+        <item itemvalue="TestNG.Selenium_other_methods.findBrokenLink" />
+        <item itemvalue="TestNG.Selenium_other_methods.findAll_Link_text" />
+        <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
+        <item itemvalue="TestNG.Selenium_other_methods.file_upload_linux" />
       </list>
     </recent_temporary>
   </component>
@@ -228,13 +305,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00032" summary="updated added 14-06-2024 notes added">
-      <created>1721144862958</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1721144862958</updated>
     </task>
     <task id="LOCAL-00033" summary="updated added 14-07-2024 notes added">
       <created>1723648804545</created>
@@ -572,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747856576369</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Added the ci of ci.yml file">
+      <created>1747856986368</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1747856986368</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

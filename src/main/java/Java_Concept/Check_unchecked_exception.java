@@ -16,9 +16,31 @@ public class Check_unchecked_exception {
      SQLException (e.g., database access errors)
      FileNotFoundException
      InterruptedException
+
+
+     what is difference between throw and throws
+     Feature	throw	                              throws
+     Purpose	Used to actually throw an exception	  Declares that a method may throw an exception
+     Location	Used inside a method	              Used in method signature
+     Usage	    Followed by an exception object	      Followed by exception class name(s)
+     Count	    Can throw one exception at a time	  Can declare multiple exceptions
+     Example	throw new IOException();	          public void read() throws IOException
+
      */
-    //Example  :
-    public static void main(String[] args) {
+
+
+
+    public void myMethod() throws InterruptedException {  //Example of throw
+        Thread.sleep(1000);
+        throw new InterruptedException();
+    }
+
+    public void myMethod1() throws InterruptedException {
+        Thread.sleep(1000);
+    }
+
+
+    public static void main(String[] args) throws InterruptedIOException, InterruptedException {
 
         try{
         FileReader file = new FileReader("test.txt");// Might throw FileNotFoundException

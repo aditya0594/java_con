@@ -16,8 +16,8 @@
             hashtable.put(2, "Bob");
             hashtable.put(3, "Charlie");
             hashtable.put(4, "john");
-            // hashtable.put(null, "Eve"); // This will throw a NullPointerException
-            // hashtable.put(5, null); // This will also throw a NullPointerException
+          //  hashtable.put(null, "Eve"); // This will throw a NullPointerException
+          //  hashtable.put(5, null); // This will also throw a NullPointerException
 
             System.out.println("-----------Using for-each loop----------------------");
             for (Map.Entry<Integer, String> entry : hashtable.entrySet()) {

@@ -22,6 +22,7 @@ import org.testng.asserts.SoftAssert;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -86,6 +87,17 @@ public class Selenium_other_methods {
     private WebElement searchBar;
     By elementName = By.xpath("");
 
+    @Test(priority= 1,enabled = true)
+    public void ScreenShot_practics() throws IOException {
+        driver.get("https://www.google.com");
+        File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(screenshot,new File("Screenshots/screenshootgoogle.png"));
+
+        WebElement googleLogo = driver.findElement(By.xpath("//*[@class='lnXdpd']"));
+        File screenshotlogo = googleLogo.getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(screenshotlogo, new File("Screenshots/logoscreenshot.png"));
+    }
+
     @Test(priority = 1, enabled = true,retryAnalyzer = RetryAnalyzer_IRetryAnalyzer.class)
     public void Window_Basic_Auth() {
         ExtentTest test = extent.createTest("To verify username and password in chrome base browser ");
@@ -96,9 +108,9 @@ public class Selenium_other_methods {
     }
 
     @Test(priority = 2, enabled = true)   // How to get title of the page in the selenium
-    public void get_title() {
+    public void get_page_title() {
         ExtentTest test = extent.createTest("To verify Register Title");
-        String ActualURL = ("https://demo.automationtesting.in/Register.html");
+        String ActualURL = "https://demo.automationtesting.in/Register.html";
         driver.get("https://demo.automationtesting.in/Register.html");
         Assert.assertEquals(driver.getCurrentUrl(), ActualURL);
         Assert.assertEquals(driver.getTitle(), "Register");
@@ -127,7 +139,6 @@ public class Selenium_other_methods {
         driver.get("https://the-internet.herokuapp.com/dropdown");
         driver.manage().window().maximize();
 
-
         WebElement dropdown = driver.findElement(By.xpath("//select[@id='dropdown']"));
         Select drop = new Select(dropdown);
 
@@ -136,13 +147,14 @@ public class Selenium_other_methods {
         //drop.selectByVisibleText();
         List<WebElement> listOfOption = drop.getOptions();  // this is use for get all the options and it return the list
         listOfOption.forEach(values -> System.out.println(values.getText()));
+
         for(WebElement w : listOfOption){
             System.out.println("List of options : "+ w.getText());
         }
         Thread.sleep(5000);
 
     }
-    @Test(enabled = true)
+    @Test(priority = 1,enabled = true)
     public void datatablelist(){
         driver.get("https://the-internet.herokuapp.com/tables#delete");
 
@@ -165,7 +177,6 @@ public class Selenium_other_methods {
 
     public void Scroll_using_javascript() throws InterruptedException {
         ExtentTest test = extent.createTest("Scroll using java script");
-
         driver.get("https://demo.automationtesting.in/Register.html");
         driver.manage().window().maximize();
 
@@ -263,19 +274,15 @@ public class Selenium_other_methods {
 
 
         Actions actions = new Actions(driver);
-        //actions.dragAndDrop(from, to).perform();
+        actions.dragAndDrop(from, to).perform();
         // actions.click(from).build().perform();
         // actions.contextClick(from).build().perform(); //RightClick
-        // actions.clickAndHold(from);
-        // actions.doubleClick(from);
-        //actions.moveToElement(from).click().perform();
+        // actions.clickAndHold(from).perform();
+        // actions.doubleClick(from).perform();
+        // actions.moveToElement(from).click().perform();
         // actions.release(from).perform();
 
-         actions.scrollToElement(element).perform();
-
-
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-
+       //  actions.scrollToElement(element).perform();
 
         Thread.sleep(10000);
 
@@ -306,15 +313,14 @@ public class Selenium_other_methods {
         ExtentTest test = extent.createTest("frames switching testcase ");
         driver.get("https://demo.automationtesting.in/Frames.html");
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("//div[@class='tabpane']/ul/li[2]")).click();
+        driver.findElement(By.xpath("//a[@href='#Single']")).click();
         Thread.sleep(10000);
 
         // String s = "iframe-container";
-        driver.switchTo().frame(1);   // index ,frameElement, name or ID
+        driver.switchTo().frame("singleframe");   // index ,frameElement, name or ID
         Thread.sleep(10000);
 
-
-        driver.findElement(By.xpath("//div[@class=\"col-xs-6 col-xs-offset-5\"]//input")).sendKeys("aditya");
+        driver.findElement(By.xpath("//div[@class='col-xs-6 col-xs-offset-5']//input")).sendKeys("aditya");
         test.pass("frames switching testcase ");
     }
 
@@ -329,6 +335,10 @@ public class Selenium_other_methods {
         WebElement rightClickElemen = driver.findElement(By.xpath("//img[@title='Automation Practice Site']"));
 
         actions.contextClick(rightClickElemen).build().perform();
+        actions.keyDown(Keys.ARROW_DOWN).perform();
+        actions.keyDown(Keys.ARROW_DOWN).perform();
+        actions.keyDown(Keys.ARROW_DOWN).perform();
+
 
         //actions.doubleClick(element).perform();  // To perform a double click, use the doubleClick method:
         // actions.moveToElement(elementToHover).click().perform();    // Perform mouse hover and click
@@ -356,7 +366,6 @@ public class Selenium_other_methods {
         ExtentTest test = extent.createTest("Right click on the element");
         driver.get("https://practice.automationtesting.in/my-account/");
         driver.manage().window().maximize();
-
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
 
@@ -366,18 +375,21 @@ public class Selenium_other_methods {
     public void ExcelFileRead() throws InterruptedException, IOException {
         ExtentTest test = extent.createTest("Excel file to read");
         //I have placed an excel file 'Test.xlsx' in my D Driver
+
         FileInputStream fis = new FileInputStream("src/main/resources/ExcelFile.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
+
         //I have added test data in the cell A1 as "SoftwareTestingMaterial.com"
         XSSFSheet Sheet = workbook.getSheetAt(0);
-        //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
 
+        //Cell A1 = row 0 and column 0. It reads first row as 0 and Column A as 0.
         Row row = Sheet.getRow(0);
         Cell cell = row.getCell(0);
 
         System.out.println(cell);
         System.out.println("-----------------------------------------------");
         System.out.println(Sheet.getRow(0).getCell(0));
+
         //String cellval = cell.getStringCellValue();
         //System.out.println(cellval);
         Thread.sleep(5000);
@@ -488,7 +500,7 @@ public class Selenium_other_methods {
                 break;
             }
         }
-// Perform actions in child window
+        // Perform actions in child window
         driver.findElement(By.xpath("//div[@class='collapse navbar-collapse justify-content-end']/ul/li[4]")).click();
         Thread.sleep(10000);
         // Switch back to parent window
@@ -503,7 +515,8 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
 
         /** Fluent Wait
-        FluentWait can define the maximum amount of time to wait for a specific condition and frequency with which to check the condition before
+        FluentWait can define the maximum amount of time to wait for a specific condition and frequency with
+         which to check the condition before
         throwing an “ElementNotVisibleException” exception.
 
 
@@ -517,14 +530,20 @@ public class Selenium_other_methods {
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
 
+        FluentWait<WebDriver> wait2 = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(1))
+                .pollingEvery(Duration.ofSeconds(1)).ignoring(NoSuchFrameException.class);
+
 
 
         /**Explicit wait
         //Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
         // visible, or clickable. This allows the script to pause execution until the dynamic element is ready. */
+        WebElement element = driver.findElement(By.xpath("//div[@id='droparea']"));
+        WebDriverWait wait4= new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait2.until(ExpectedConditions.elementToBeClickable(element));
+        element.click();
 
-        WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait2.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//div[@id='droparea']"))));
 
 
         WebElement from = driver.findElement(By.xpath("//img[@src='logo.png']"));
@@ -624,20 +643,26 @@ public class Selenium_other_methods {
     }
 
     @Test(priority = 20, enabled = true)
-    public void Find_all_links() {
-        try {
+    public void Find_all_links() throws IOException {
             // Open the web page
             driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
             // Find all link elements
             List<WebElement> links = driver.findElements(By.tagName("href"));
             // print each link's URL
+        BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/STM.txt"));
             for (WebElement link : links) {
-                System.out.println(link.getAttribute("href"));
+                String url = link.getAttribute("href");
+                System.out.println("URL found : "+ url);
+                HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
+                conn.setRequestMethod("HEAD");
+                int statusCode = conn.getResponseCode();
+
+                if(statusCode!=200){
+                    writer.newLine();
+                    System.out.println("This link is broken");
+                }
             }
-        } catch (ArithmeticException e) {
-            System.out.println("This is demo ");
         }
-    }
 
     @Test(priority = 20, enabled = true)
     public void Screen_shot() throws IOException {
@@ -731,6 +756,7 @@ public class Selenium_other_methods {
                 continue;
             }
            try {
+               URI uri = URI.create(url);
                HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
                conn.setRequestMethod("HEAD");
                conn.connect();
