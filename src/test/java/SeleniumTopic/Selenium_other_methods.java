@@ -97,6 +97,49 @@ public class Selenium_other_methods {
         File screenshotlogo = googleLogo.getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshotlogo, new File("Screenshots/logoscreenshot.png"));
     }
+    @Test(priority= 1,enabled = true)
+    public void getListFromTable() throws IOException {
+        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+        List<WebElement> listOfCourse = driver.findElements(By.xpath("//*[contains(@name,'courses')] //tr/td[2]"));
+        for(WebElement list : listOfCourse){
+            System.out.println("List of course : ");
+            System.out.println( list.getText());
+            if(list.getText().contains("Database Testing from Scratch")){
+                System.out.println("Found Course ");
+                break;
+            }
+        }
+    }
+
+    @Test(priority= 1,enabled = true)
+    public void getinfoFromName() throws IOException {
+        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+
+        // Locate all rows in the fixed header table
+        List<WebElement> rows = driver.findElements(By.xpath("//div[@class='tableFixHead']//tbody/tr"));
+
+        for (WebElement row : rows) {
+            List<WebElement> cells = row.findElements(By.tagName("td")); // Get all columns in this row
+            if (!cells.isEmpty() && cells.get(0).getText().equalsIgnoreCase("Jack")) {
+                System.out.println("Information of Jack is:");
+                for (WebElement cell : cells) {
+                    System.out.println(cell.getText());
+                }
+                break; // Exit loop once Jack is found
+            }
+        }
+    }
+    @Test(priority= 1,enabled = true)
+    public void Hideandshow() throws IOException {
+        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+
+        driver.findElement(By.xpath("//input[@id='show-textbox']")).click();
+        boolean textbox = driver.findElement(By.xpath("//input[@id='displayed-text']")).isEnabled();
+        Assert.assertTrue(textbox,"Text box displayed");
+        driver.findElement(By.xpath("//input[@id='hide-textbox']")).click();
+        Assert.assertTrue(textbox,"Text box not found or not displayed");
+    }
+
 
     @Test(priority = 1, enabled = true,retryAnalyzer = RetryAnalyzer_IRetryAnalyzer.class)
     public void Window_Basic_Auth() {
@@ -530,7 +573,7 @@ public class Selenium_other_methods {
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
 
-        FluentWait<WebDriver> wait2 = new FluentWait<>(driver)
+        Wait wait2 = new FluentWait<>(driver)
                 .withTimeout(Duration.ofSeconds(1))
                 .pollingEvery(Duration.ofSeconds(1)).ignoring(NoSuchFrameException.class);
 
@@ -543,7 +586,12 @@ public class Selenium_other_methods {
         WebDriverWait wait4= new WebDriverWait(driver, Duration.ofSeconds(10));
         wait2.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
-
+       // wait2.until(ExpectedConditions.presenceOfElementLocated(element));
+       // element.click();
+       // wait2.until(ExpectedConditions.visibilityOfElementLocated(element));
+       // element.click();
+       // wait2.until(ExpectedConditions.textToBePresentInElement(element));
+        //element.click();
 
 
         WebElement from = driver.findElement(By.xpath("//img[@src='logo.png']"));
@@ -647,7 +695,7 @@ public class Selenium_other_methods {
             // Open the web page
             driver.get("https://www.softwaretestingmaterial.com/explain-test-automation-framework/");
             // Find all link elements
-            List<WebElement> links = driver.findElements(By.tagName("href"));
+            List<WebElement> links = driver.findElements(By.tagName("link"));
             // print each link's URL
         BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/STM.txt"));
             for (WebElement link : links) {
@@ -659,7 +707,7 @@ public class Selenium_other_methods {
 
                 if(statusCode!=200){
                     writer.newLine();
-                    System.out.println("This link is broken");
+                    System.out.println("This link is broken : " + url);
                 }
             }
         }
@@ -756,7 +804,6 @@ public class Selenium_other_methods {
                 continue;
             }
            try {
-               URI uri = URI.create(url);
                HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
                conn.setRequestMethod("HEAD");
                conn.connect();

@@ -50,7 +50,7 @@ public class Check_unchecked_exception {
             br.close();
             Thread.sleep(5000);
         }catch( Exception e ) {
-            System.out.println("This is the exception " + e);
+           throw new InterruptedException();
         }
 
 

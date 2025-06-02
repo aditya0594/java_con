@@ -7,26 +7,28 @@ public class constructor {
     // Name of the constructor should be the class name.
     // Whenever we create an object constructor is called
 
+    // There are two type of constructor
     // default constructor does not have the parameters
-    /// Compiler will call implicit constructor if you have not defined any constructor
+    // Compiler will call implicit constructor if you have not defined any constructor
     // if you have two constructor and parameterized constructor and defined one constructor in main method then
     // it will call the default constructor because compiler find the paramater are given or not
     private int a ;
     private int b ;
+    private String Firstname;
 
 
     constructor(){  //default constructor
         String a = "default constructor";
-
        System.out.println("Parent class default constructor called   : "+ "Variable value : "+ a );
     }
 
-    public constructor(String Firstname){ //pparameterized constructor
-        System.out.println("this is the first name from the parent class");
+    public constructor(String Firstname){ //parameterized constructor with one argument
+      this.Firstname = Firstname;
+        System.out.println("this is the first name from parameterized constructor : " + Firstname);
     }
 
 
-    private constructor(int a, int b){    // parameterized Constructor
+    private constructor(int a, int b){    // parameterized Constructor with two argument
         this.a = a;
         this.b = b;
         int c= a+b;
@@ -44,6 +46,7 @@ public class constructor {
     public static void main(String[] arg){
        constructor obj = new constructor();
        constructor obj1 = new constructor(5,5);
+       constructor obj2 = new constructor("aditya");
     }
 
 

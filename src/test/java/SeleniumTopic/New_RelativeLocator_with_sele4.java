@@ -34,6 +34,7 @@ public class New_RelativeLocator_with_sele4 {
         driver.get("https://rahulshettyacademy.com/angularpractice/");
         WebElement nameEditBox = driver.findElement(By.name("name"));
         String getname = driver.findElement(with(By.tagName("label")).above(nameEditBox)).getText();
+        driver.findElement(with(By.xpath("")).toLeftOf(By.xpath(""))).click();
     }
     @Test
     public void Relative_below() {

@@ -6,6 +6,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.ie.*;
@@ -55,17 +56,17 @@ import java.util.Map;
                options.addArguments("--remote-allow-origins=*");
                 localDriver = new ChromeDriver(options);
             } else if (browser.equalsIgnoreCase("Remote_Chrome")) {
-                ChromeOptions browserOptions = new ChromeOptions();
-                browserOptions.setPlatformName("Windows 11");
-                browserOptions.setBrowserVersion("latest");
+                ChromeOptions Options = new ChromeOptions();
+                Options.setPlatformName("Windows 11");
+                Options.setBrowserVersion("latest");
                 Map<String, Object> sauceOptions = new HashMap<>();
                 sauceOptions.put("username", "oauth-adityapawar180-d07bc");
                 sauceOptions.put("accessKey", "9fa283b2-0e5f-41f7-8dcb-d178f729608a");
                 sauceOptions.put("build", "selenium-build-O3A6O");
                 sauceOptions.put("name", "Java Con");
-                browserOptions.setCapability("sauce:options", sauceOptions);
+                Options.setCapability("sauce:options", sauceOptions);
                 URL url = new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub");
-                localDriver = new RemoteWebDriver(url, browserOptions);
+                localDriver = new RemoteWebDriver(url, Options);
             } else if (browser.equalsIgnoreCase("firefox")) {
                 WebDriverManager.firefoxdriver().setup();
                 FirefoxOptions options = new FirefoxOptions();
@@ -77,7 +78,11 @@ import java.util.Map;
                 options.ignoreZoomSettings();
                 options.introduceFlakinessByIgnoringSecurityDomains();
                 localDriver = new InternetExplorerDriver(options);
-            }
+        } else if (browser.equalsIgnoreCase("edge")) {
+            WebDriverManager.iedriver().setup();
+            EdgeOptions options = new EdgeOptions();
+            localDriver = new EdgeDriver(options);
+        }
             else if (browser.equalsIgnoreCase("grid_chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");

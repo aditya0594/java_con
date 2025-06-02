@@ -7,6 +7,7 @@ public class Default_Contructor extends constructor{
 
 
     Default_Contructor(){
+        super();
         System.out.println("Child class default constructor called");
     }
 

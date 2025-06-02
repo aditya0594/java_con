@@ -13,6 +13,17 @@
             <artifactId>selenium-java</artifactId>
             <version>4.25.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.20.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.16.1</version>
+        </dependency>
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -91,6 +102,7 @@
             <version>1.18.30</version> <!-- Use latest version -->
             <scope>provided</scope>
         </dependency>
+
 
     </dependencies>
 

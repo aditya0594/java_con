@@ -1,6 +1,8 @@
 package polymorphism;
 
 public class Method_Overloading {
+    //we have seen method signature. At compile time, Java knows which method to invoke by checking the method signatures.
+    // So this is called compile time polymorphism or static binding.
 
     public void myMethod(int a , String b){
         System.out.println("This accept the two parameter of int and string  :" + a +" "+ b);

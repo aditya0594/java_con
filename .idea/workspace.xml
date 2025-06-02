@@ -4,58 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="Added the ci of ci.yml file">
-      <change afterPath="$PROJECT_DIR$/Screenshots/logoscreenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/screenshootgoogle.png" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated 30-05-2025">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_ci_environment_10_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_core_7_20_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_expressions_17_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_7_20_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_gherkin_messages_7_20_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_java_7_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_plugin_7_20_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_cucumber_testng_7_20_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_datatable_7_20_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_docstring_7_20_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_gherkin_28_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_html_formatter_21_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_junit_xml_formatter_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_messages_24_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_query_12_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_tag_expressions_6_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_cucumber_testng_xml_formatter_0_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Find_all_links20250526055427.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Find_all_links20250526055608.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/getinfoFromName20250525085342.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Merge_two_array_in_one.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Read_properties_File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinationPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-05-2025_11_42_am_[Changes]/Duplicate_value_of_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-05-2025_11_42_am_[Changes]/Find_largest_shortest_word.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-05-2025_11_42_am_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-05-2025_11_42_am__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/DragAndDrop20250410012336.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/DragAndDrop20250410025220.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073633.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250420073635.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423120851.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423121053.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423122327.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423122432.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250423124212.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250426063601.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250427070558.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250518112335.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250518113314.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250522125343.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410011031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410012354.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410013036.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410013251.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410013451.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410025232.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250410111051.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420010211.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420010556.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420022142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420022223.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420052853.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420052934.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420073723.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420073806.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420123933.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250420125423.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423121020.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122311.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122409.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122649.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250423122746.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250427070529.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250518112315.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250518113307.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250520025107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/Verify20250522125302.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshots/imageelement.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_Main_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_Main_method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_parentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_parentMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Map_HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/STM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/STM.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/Default_Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/Default_Contructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/Method_Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Method_Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/New_RelativeLocator_with_sele4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/New_RelativeLocator_with_sele4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_Main_method.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_Main_method.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_parentMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Abstraction/Abstraction_parentMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/STM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/STM.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contructor/Default_Contructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contructor/Default_Contructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contructor/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contructor/constructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/Method_Overloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/Method_Overloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/~$ExcelFile.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-04-26T18-34-53_747.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-05-18T11-31-18_671.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-05-19T15-47-01_717.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Run on Chrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Run on Chrome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SeleniumTopic.Selenium_Suite_parallel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/Run on Chrome.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/New_RelativeLocator_with_sele4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/New_RelativeLocator_with_sele4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
@@ -80,6 +121,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -119,7 +161,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Aditya Pawar/eclipse-workspace/java_con/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/eclipse-workspace/java_con/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/eclipse-workspace/java_con/src/test/java/StepDefination&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -155,13 +197,32 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Map_HashTable">
-    <configuration name="Map_HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Concept.Map_HashTable" />
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="Read_properties_File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Read_properties_File" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Concept.*" />
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Practice" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Practice.feature" />
+      <option name="GLUE" value="StepDefination" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Practice_programs" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Practice" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,6 +267,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selenium_other_methods.Hideandshow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
+      <option name="METHOD_NAME" value="Hideandshow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selenium_other_methods.Window_Basic_Auth" type="TestNG" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -224,54 +303,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selenium_other_methods.file_upload_linux" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="PATTERN" value="Cucumber.Options.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="file_upload_linux" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.findAll_Link_text" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="findAll_Link_text" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.findBrokenLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="findBrokenLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="Cucumber.Options" />
+      <option name="MAIN_CLASS_NAME" value="Cucumber.Options.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -279,21 +321,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Map_HashTable" />
+      <item itemvalue="Application.Read_properties_File" />
+      <item itemvalue="Cucumber Java.Feature: Practice" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
       <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
-      <item itemvalue="TestNG.Selenium_other_methods.file_upload_linux" />
-      <item itemvalue="TestNG.Selenium_other_methods.findAll_Link_text" />
-      <item itemvalue="TestNG.Selenium_other_methods.findBrokenLink" />
+      <item itemvalue="TestNG.Selenium_other_methods.Hideandshow" />
+      <item itemvalue="TestNG.TestRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Map_HashTable" />
-        <item itemvalue="TestNG.Selenium_other_methods.findBrokenLink" />
-        <item itemvalue="TestNG.Selenium_other_methods.findAll_Link_text" />
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: Practice" />
+        <item itemvalue="Application.Read_properties_File" />
         <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
-        <item itemvalue="TestNG.Selenium_other_methods.file_upload_linux" />
+        <item itemvalue="TestNG.Selenium_other_methods.Hideandshow" />
       </list>
     </recent_temporary>
   </component>
@@ -305,13 +347,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00033" summary="updated added 14-07-2024 notes added">
-      <created>1723648804545</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1723648804545</updated>
     </task>
     <task id="LOCAL-00034" summary="updated added 14-07-2024 notes added">
       <created>1723648835084</created>
@@ -649,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1747856986368</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Added the ci of ci.yml file">
+      <created>1747986580479</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1747986580479</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -677,7 +719,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated added 06-06-2024 notes added" />
     <MESSAGE value="updated added 13-06-2024 notes added" />
     <MESSAGE value="updated added 15-06-2024 notes added" />
     <MESSAGE value="updated added 14-06-2024 notes added" />
@@ -702,7 +743,8 @@
     <MESSAGE value="FIx for the jenkins runner parallelbrowser for chrome and firefox" />
     <MESSAGE value="updated changes" />
     <MESSAGE value="Added the ci of ci.yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the ci of ci.yml file" />
+    <MESSAGE value="updated 30-05-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated 30-05-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,6 +2,7 @@ package Abstraction;
 
 public class Abstraction_Main_method extends Abstraction_childMethod{
     public static void main(String[] args) {
+
         Abstraction_childMethod obj = new Abstraction_childMethod();
         obj.myMethod();
         obj.myMethod(10);
@@ -9,7 +10,18 @@ public class Abstraction_Main_method extends Abstraction_childMethod{
     }
 }
 
-/** In a Selenium framework, abstract classes are typically used to define common behaviors and attributes
+
+/**
+
+
+ “We use abstraction in our Selenium automation framework by following the Page Object Model design.
+ Each page class exposes only necessary methods like login() or addToCart() while hiding the element locators and WebDriver logic.
+ We also use an abstract base class to set up and tear down WebDriver sessions. Utility classes further abstract common logic like waits,
+ screenshots, and dropdown handling to keep test code clean and maintainable.”
+
+
+
+ In a Selenium framework, abstract classes are typically used to define common behaviors and attributes
  * that can be shared across multiple test classes or components. Here are some common uses of abstract classes in a Selenium framework:
 
  1. Base Page Class
