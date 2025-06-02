@@ -58,10 +58,34 @@ public class constructor {
  It wont return any value. We have seen that methods may return a value.
  If there is no constructor in a class, then compiler automatically creates a default constructor.
 
+ Question : What happens if you declare all constructors private?
+ Answer:
+ If all constructors are private, the class cannot be instantiated from outside the class.
+ It can only be instantiated from within the class itself, often through static methods.
 
- Question: Why does the MyClass obj1 = new MyClass(5, 5); line cause a compilation error?
- Answer: The MyClass(int a, int b) constructor is private, meaning it cannot be accessed from outside the MyClass class.
- This line will cause a compilation error because the constructor is not visible.
+
+ Explain how access modifiers affect constructor visibility.
+ Answer:
+ public: Constructor is accessible from anywhere.
+ protected: Accessible within the same package and subclasses in other packages.
+ default (no modifier): Accessible only within the same package.
+ private: Accessible only within the same class.
+
+
+ Questions : If a class has a protected constructor, where can you create its object?
+ Answer:
+ You can create the object:
+ Within the same package.
+ In subclasses (even if they're in different packages).
+ Outside the package and not in a subclass — you cannot instantiate it directly.
+
+
+ Question : Can you overload constructors with different access modifiers?
+ Answer:
+ Yes, constructor overloading allows different constructors with different parameter lists and access modifiers.
+ This is useful to provide multiple ways to create an object with varying levels of access.
+
+
 
  Question: What is the purpose of a private constructor in Java?
  Answer: A private constructor is used to restrict the instantiation of a class.
