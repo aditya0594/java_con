@@ -6,7 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = "src/test/java/Features",glue = "StepDefination",plugin = {
         "pretty",
         "html:target/cucumber-reports/cucumber.html",
-        "json:target/cucumber-reports/cucumber.json"}/*tags = "@radio or ~@DynamicDropdown"*/)
+        "json:target/cucumber-reports/cucumber.json"}
+        , tags= "@dropdownWithDatatable")
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 }

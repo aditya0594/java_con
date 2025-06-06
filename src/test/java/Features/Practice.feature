@@ -61,7 +61,7 @@ Feature: Practicing the all the functions of selenium
 #    And Hover to Download
 #    And Click on Pdf
 
-  @dropdown
+  @dropdownWithDatatable
   Scenario: To perform the value from the dropdown
     Given Open the url
     When Select the option from the dropdown

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated 02-06-2025">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Cucumber/Options/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cucumber/Options/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: To perform the value from the dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Practice.feature" />
+      <option name="GLUE" value="StepDefination" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Practice_programs" />
+      <option name="NAME_FILTER" value="^To perform the value from the dropdown$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^To perform the value from the dropdown$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: To perform the value from the dropdown" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -164,24 +191,6 @@
       <option name="PACKAGE_NAME" value="SeleniumTopic" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
       <option name="METHOD_NAME" value="Find_all_links" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selenium_other_methods.Hideandshow" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="Hideandshow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -227,19 +236,19 @@
     <list>
       <item itemvalue="Application.Read_properties_File" />
       <item itemvalue="Cucumber Java.Feature: Practice" />
+      <item itemvalue="Cucumber Java.Scenario: To perform the value from the dropdown" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
       <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
-      <item itemvalue="TestNG.Selenium_other_methods.Hideandshow" />
       <item itemvalue="TestNG.TestRunner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: To perform the value from the dropdown" />
         <item itemvalue="Cucumber Java.Feature: Practice" />
         <item itemvalue="Application.Read_properties_File" />
         <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
-        <item itemvalue="TestNG.Selenium_other_methods.Hideandshow" />
       </list>
     </recent_temporary>
   </component>
@@ -251,13 +260,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00036" summary="updated added 18-10-2024 notes added">
-      <created>1729316472901</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1729316472901</updated>
     </task>
     <task id="LOCAL-00037" summary="updated added 19-10-2024 notes added">
       <created>1729316498946</created>
@@ -595,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748851208143</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="updated 02-06-2025">
+      <created>1748851332558</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1748851332558</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
