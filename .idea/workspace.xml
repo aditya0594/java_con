@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated 06-06-2025">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/reverse_Sentence_word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,13 +250,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00038" summary="updated added 26-10-2024 notes added">
-      <created>1729923557774</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1729923557774</updated>
     </task>
     <task id="LOCAL-00039" summary="updated added 26-10-2024 notes added">
       <created>1731848521182</created>
@@ -593,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749192180934</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="updated 06-06-2025">
+      <created>1749377247713</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1749377247716</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class array {
 
 
-    //Collection of similar type of elements is known as Array.
+    // Collection of similar type of elements is known as Array.
     // Array in Java is an Object that holds fixed number of values of a similar data types
     // which means an array of int will contain only integers, an array of string will contain only strings etc..
     // The length of an array is define when the array is created.
