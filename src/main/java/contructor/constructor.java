@@ -59,10 +59,6 @@ public class constructor {
  If there is no constructor in a class, then compiler automatically creates a default constructor.
 
 
- Question: Why does the MyClass obj1 = new MyClass(5, 5); line cause a compilation error?
- Answer: The MyClass(int a, int b) constructor is private, meaning it cannot be accessed from outside the MyClass class.
- This line will cause a compilation error because the constructor is not visible.
-
  Question: What is the purpose of a private constructor in Java?
  Answer: A private constructor is used to restrict the instantiation of a class.
  It is often used in singleton design patterns to ensure that only one instance of the class is created.

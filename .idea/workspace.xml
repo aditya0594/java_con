@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated 02-06-2025">
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated 06-06-2025">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/reverse_Sentence_word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cucumber/Options/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cucumber/Options/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +102,26 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner">
+  <component name="RunManager" selected="Application.reverse_Sentence_word">
     <configuration name="Read_properties_File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Read_properties_File" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reverse_Sentence_word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.reverse_Sentence_word" />
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Program.StringProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,24 +187,6 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Selenium_other_methods.Find_all_links" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumTopic" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_other_methods" />
-      <option name="METHOD_NAME" value="Find_all_links" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Selenium_other_methods.Window_Basic_Auth" type="TestNG" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -234,21 +223,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.reverse_Sentence_word" />
       <item itemvalue="Application.Read_properties_File" />
       <item itemvalue="Cucumber Java.Feature: Practice" />
       <item itemvalue="Cucumber Java.Scenario: To perform the value from the dropdown" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
-      <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
       <item itemvalue="TestNG.TestRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverse_Sentence_word" />
         <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: To perform the value from the dropdown" />
         <item itemvalue="Cucumber Java.Feature: Practice" />
         <item itemvalue="Application.Read_properties_File" />
-        <item itemvalue="TestNG.Selenium_other_methods.Find_all_links" />
       </list>
     </recent_temporary>
   </component>
@@ -260,13 +249,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00037" summary="updated added 19-10-2024 notes added">
-      <created>1729316498946</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1729316498946</updated>
     </task>
     <task id="LOCAL-00038" summary="updated added 26-10-2024 notes added">
       <created>1729923557774</created>
@@ -604,7 +586,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748851332558</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="updated 06-06-2025">
+      <created>1749192180934</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1749192180934</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -632,7 +621,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated added 15-06-2024 notes added" />
     <MESSAGE value="updated added 14-06-2024 notes added" />
     <MESSAGE value="updated added 14-07-2024 notes added" />
     <MESSAGE value="updated added 18-10-2024 notes added" />
@@ -657,7 +645,8 @@
     <MESSAGE value="Added the ci of ci.yml file" />
     <MESSAGE value="updated 30-05-2025" />
     <MESSAGE value="updated 02-06-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated 02-06-2025" />
+    <MESSAGE value="updated 06-06-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated 06-06-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
