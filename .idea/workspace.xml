@@ -4,10 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="updated 06-06-2025">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="cucumber run">
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250608061801.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Scroll_using_javascript20250608062116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250608062207.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/This_Super/Super_keyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/validates_usernames_validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefination/configReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChromeParallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ChromeParallel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_parentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Abstraction/Abstraction_parentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Convert_arrayList_in_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Convert_arrayList_in_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/This_keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/This_Super/This_keyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/aeiou.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/aeiou.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/Count_of_word_from_sentences_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/contructor/constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/MethodOverridingChildClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/Method_Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Method_Overloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Suite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/reverse_Sentence_word.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/reverse_Sentence_word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/contructor/constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contructor/constructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,22 +131,9 @@
       <recent name="SeleniumTopic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.reverse_Sentence_word">
-    <configuration name="Read_properties_File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Read_properties_File" />
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumTopic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="reverse_Sentence_word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.reverse_Sentence_word" />
+  <component name="RunManager" selected="Application.Count_of_word_from_sentences_1">
+    <configuration name="Count_of_word_from_sentences_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Program.StringProgram.Count_of_word_from_sentences_1" />
       <module name="Practice_programs" />
       <extension name="coverage">
         <pattern>
@@ -130,18 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Practice" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Practice.feature" />
-      <option name="GLUE" value="StepDefination" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="aeiou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Concept.aeiou" />
       <module name="Practice_programs" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Practice" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="Java_Concept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,19 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: To perform the value from the dropdown" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/Practice.feature" />
-      <option name="GLUE" value="StepDefination" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="constructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contructor.constructor" />
       <module name="Practice_programs" />
-      <option name="NAME_FILTER" value="^To perform the value from the dropdown$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^To perform the value from the dropdown$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: To perform the value from the dropdown" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="contructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,6 +190,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="D:/Projects/eclipse-workspace/java_con/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selenium_Suite_parallel.Scroll_using_javascript" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practice_programs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumTopic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumTopic" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTopic.Selenium_Suite_parallel" />
+      <option name="METHOD_NAME" value="Scroll_using_javascript" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Selenium_other_methods.Window_Basic_Auth" type="TestNG" nameIsGenerated="true">
       <module name="Practice_programs" />
       <extension name="coverage">
@@ -206,39 +236,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Practice_programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Cucumber.Options.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Cucumber.Options" />
-      <option name="MAIN_CLASS_NAME" value="Cucumber.Options.TestRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.reverse_Sentence_word" />
-      <item itemvalue="Application.Read_properties_File" />
-      <item itemvalue="Cucumber Java.Feature: Practice" />
-      <item itemvalue="Cucumber Java.Scenario: To perform the value from the dropdown" />
+      <item itemvalue="Application.Count_of_word_from_sentences_1" />
+      <item itemvalue="Application.aeiou" />
+      <item itemvalue="Application.constructor" />
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="TestNG.Selenium_other_methods.Window_Basic_Auth" />
-      <item itemvalue="TestNG.TestRunner" />
+      <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+      <item itemvalue="TestNG.Selenium_Suite_parallel.Scroll_using_javascript" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.reverse_Sentence_word" />
-        <item itemvalue="TestNG.TestRunner" />
-        <item itemvalue="Cucumber Java.Scenario: To perform the value from the dropdown" />
-        <item itemvalue="Cucumber Java.Feature: Practice" />
-        <item itemvalue="Application.Read_properties_File" />
+        <item itemvalue="Application.Count_of_word_from_sentences_1" />
+        <item itemvalue="Application.aeiou" />
+        <item itemvalue="Application.constructor" />
+        <item itemvalue="TestNG.D:/Projects/eclipse-workspace/java_con/testng.xml" />
+        <item itemvalue="TestNG.Selenium_Suite_parallel.Scroll_using_javascript" />
       </list>
     </recent_temporary>
   </component>
@@ -250,13 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00039" summary="updated added 26-10-2024 notes added">
-      <created>1731848521182</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1731848521182</updated>
     </task>
     <task id="LOCAL-00040" summary="updated added 02-02-2025">
       <created>1738497872421</created>
@@ -594,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749377247716</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="cucumber run">
+      <created>1749386549164</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1749386549166</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -622,7 +635,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated added 14-06-2024 notes added" />
     <MESSAGE value="updated added 14-07-2024 notes added" />
     <MESSAGE value="updated added 18-10-2024 notes added" />
     <MESSAGE value="updated added 19-10-2024 notes added" />
@@ -647,7 +659,8 @@
     <MESSAGE value="updated 30-05-2025" />
     <MESSAGE value="updated 02-06-2025" />
     <MESSAGE value="updated 06-06-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated 06-06-2025" />
+    <MESSAGE value="cucumber run" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber run" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

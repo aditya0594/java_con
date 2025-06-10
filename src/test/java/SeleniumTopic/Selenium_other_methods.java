@@ -30,6 +30,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 import java.util.Set;
+import java.util.function.Function;
 
 
 @Listeners(ITestListener.class)
@@ -582,10 +583,18 @@ public class Selenium_other_methods {
         /**Explicit wait
         //Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
         // visible, or clickable. This allows the script to pause execution until the dynamic element is ready. */
-        WebElement element = driver.findElement(By.xpath("//div[@id='droparea']"));
+        By element = By.xpath("//div[@id='droparea']");
         WebDriverWait wait4= new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement ele = wait4.until(ExpectedConditions.visibilityOfElementLocated(element));
+
+
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement dynamicElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("dynamicElement")));
+        dynamicElement.click();
+
         wait2.until(ExpectedConditions.elementToBeClickable(element));
-        element.click();
+      //  element.click();
        // wait2.until(ExpectedConditions.presenceOfElementLocated(element));
        // element.click();
        // wait2.until(ExpectedConditions.visibilityOfElementLocated(element));

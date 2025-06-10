@@ -162,7 +162,7 @@ import java.util.Map;
 
             localDriver.get("https://demo.automationtesting.in/Register.html");
             JavascriptExecutor js = (JavascriptExecutor) localDriver;
-            WebElement element2 = localDriver.findElement(By.xpath("//buttn[@id='Button1']"));
+            WebElement element2 = localDriver.findElement(By.xpath("//button[@id='Button1']"));
             js.executeScript("arguments[0].scrollIntoView();", element2);
             Thread.sleep(5000);
             extentTest.pass("Scrolled to the element");

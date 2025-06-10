@@ -31,30 +31,21 @@
             <class name="SeleniumTopic.Selenium_Suite_parallel">
                 <methods>
                     <include name="Scroll_using_javascript"/>
-                    <include name="Scroll_using_javascript_bottom_page"/>
-                    <include name="Scroll_using_javascript_specific_pixels"/>
-                    <include name="DragAndDrop"/>
-                    <include name="Verify"/>
-                    <include name="rightClick"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-<!--    <test name="Run on Chrome">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <classes>-->
-<!--            <class name="SeleniumTopic.Selenium_Suite_parallel">-->
-<!--                <methods>-->
-<!--                    <include name="Scroll_using_javascript"/>-->
 <!--                    <include name="Scroll_using_javascript_bottom_page"/>-->
 <!--                    <include name="Scroll_using_javascript_specific_pixels"/>-->
 <!--                    <include name="DragAndDrop"/>-->
 <!--                    <include name="Verify"/>-->
 <!--                    <include name="rightClick"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Cucumber test run on chrome">
+        <classes>
+            <class name="Cucumber.Options.TestRunner">
+            </class>
+        </classes>
+    </test>
 <!--
   <test name="Run on Firefox">
         <parameter name="browser" value="firefox"/>
@@ -76,7 +67,7 @@
   <!--  <test name="Run on Edge">
         <parameter name="browser" value="Remote_Edge"/>
         <classes>
-            <class name="Selenium_Suite">
+            <class name="SeleniumTopic.Selenium_Suite">
                 <methods>
                     <include name="Scroll_using_javascript"/>
                     <include name="Scroll_using_javascript_bottom_page"/>

@@ -17,6 +17,7 @@ public abstract class Abstraction_parentMethod {
     /**
      We use abstraction when we know that our class should have some methods
      but we are not sure how exactly those methods should function.
+
      Assume, I am creating a class of Vehicle which should have a method called start().
      There will be some other subclass of this Vehicle class such as Car, Bike and these two subclasses use start() method.
      But the implementation of start() method in Car is different from Bike.

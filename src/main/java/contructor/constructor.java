@@ -47,6 +47,7 @@ public class constructor {
        constructor obj = new constructor();
        constructor obj1 = new constructor(5,5);
        constructor obj2 = new constructor("aditya");
+       constructor ob3 = new constructor(10,20);
     }
 
 
@@ -70,7 +71,7 @@ public class constructor {
 
  Question: What is constructor overloading?
  Answer: Constructor overloading is the process of defining multiple constructors in a class with different parameter lists.
- This allows the creation of objects in different ways, prove
+ This allows the creation of objects in different ways
 
  Question: How can you call a private constructor from outside the class?
  Answer: You cannot directly call a private constructor from outside the class.

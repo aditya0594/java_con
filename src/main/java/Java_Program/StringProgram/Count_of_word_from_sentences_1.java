@@ -1,5 +1,7 @@
 package Java_Program.StringProgram;
 
+import com.google.protobuf.MapEntry;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,24 +27,26 @@ public class Count_of_word_from_sentences_1 {
 
     public static void main(String[] args) {
         String str = "this is the string and string is immutable";
-        String[] word = str.split(" ");
-        HashMap<String,Integer> hasword = new HashMap<>();
-        for(String words : word){
-            if(hasword.containsKey(words)){
-                hasword.put(words,hasword.get(words)+1);
+        String[] words = str.split(" ");
+        //count the words
+        String target = "string";
+        int count = 0;
+        HashMap<String,Integer> hashMap = new HashMap<>();
+        for(String word : words){
+            if(hashMap.containsKey(word)){
+                hashMap.put(word,hashMap.get(word)+1);
             }
-            else {
-                hasword.put(words,1);
+            else{
+                hashMap.put(word,1);
             }
+            if(word.equals(target)){
+                count++;
+            }
+
         }
-        for(Map.Entry<String,Integer> m : hasword.entrySet()){
-            System.out.println(m.getKey()+ " " + m.getValue());
-        }
-        String specificWord = "string";
-        if (hasword.containsKey(specificWord)) {
-            System.out.println("Count of '" + specificWord + "': " + hasword.get(specificWord));
-        } else {
-            System.out.println("The word '" + specificWord + "' is not found in the string.");
+        System.out.println("This is count of "+ target+ " : "+count);
+        for(Map.Entry<String,Integer> m : hashMap.entrySet()){
+            System.out.println("this is the words : "+m.getKey()+" count is :" + m.getValue());
         }
     }
 

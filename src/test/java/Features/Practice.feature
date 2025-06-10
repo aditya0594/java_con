@@ -54,12 +54,12 @@ Feature: Practicing the all the functions of selenium
 #    And Switch on the parent Window
 #    Then Verify we are on the parent window
 
-#    @jquery
-#  Scenario: Get all the course list
-#    Given Open the url "https://the-internet.herokuapp.com/jqueryui/menu#"
-#    When Hover to Enable
-#    And Hover to Download
-#    And Click on Pdf
+    @jquery
+  Scenario: Get all the course list
+    Given Open the url "https://the-internet.herokuapp.com/jqueryui/menu#"
+    When Hover to Enable
+    And Hover to Download
+    And Click on Pdf
 
   @dropdownWithDatatable
   Scenario: To perform the value from the dropdown
