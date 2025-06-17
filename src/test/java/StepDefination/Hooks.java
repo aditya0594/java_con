@@ -21,14 +21,15 @@ public class Hooks {
     public void setup(Scenario scenario) {
         String browserType = configReader.get("browser");
         ChromeOptions options = new ChromeOptions();
-        FirefoxOptions options1 = new FirefoxOptions();
         if (browserType.equalsIgnoreCase("chrome")) {
 
             if (scenario.getSourceTagNames().contains("@dropdownWithDatatable")){
-                options.addArguments("-headless"); // note: single dash
-                // Firefox doesn't use --no-sandbox or --disable-dev-shm-usage by default
+                FirefoxOptions options1 = new FirefoxOptions();
+                options.addArguments("-headless"); // ✅ Headless mode
 
-                driver = new FirefoxDriver(options1);
+                // Initialize WebDriver with options
+                 driver = new FirefoxDriver(options1);
+
             } else {
                 options.addArguments("--headless=new");
                 options.addArguments("--no-sandbox");
