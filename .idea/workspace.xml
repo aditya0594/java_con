@@ -5,48 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b267a7ed-54e0-4ac4-b7e1-1f9fe69edda7" name="Changes" comment="cucumber run">
-      <change afterPath="$PROJECT_DIR$/Screenshots/DragAndDrop20250611072702.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/DragAndDrop20250611072721.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/DragAndDrop20250611072802.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Find_all_links20250610084739.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screenshots/Verify20250611072814.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/program_overide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/program_overide_child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/reverse_the_elements_of_array_without_using_additional_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Concept/Check_unchecked_exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java_Program/StringProgram/pratices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/GIGHMMPIOBKLFEPJOCNAMGKKBIGLIDOM_6_18_0_0.crx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/Options/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/Practice.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_Suite_parallel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTopic/Selenium_other_methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinationPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/StepDefinationPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefination/configReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefination/configReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GIGHMMPIOBKLFEPJOCNAMGKKBIGLIDOM_6_18_0_0.crx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Concept/Check_unchecked_exception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/ArrayProgram/Find_Duplicate_element_Array_String.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java_Program/StringProgram/pratices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Cucumber/Options/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Cucumber/Options/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_Suite_parallel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTopic/Selenium_other_methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Selenium_Suite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefination/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefination/StepDefinationPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefination/StepDefinationPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/STMExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/STMExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,13 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664567482668</updated>
-    </task>
-    <task id="LOCAL-00042" summary="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added">
-      <created>1741849327481</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1741849327481</updated>
     </task>
     <task id="LOCAL-00043" summary="array, Arraylist, LinkedList added, and HashMap, HashTable , TreeMap is added">
       <created>1742484968641</created>
@@ -626,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749565818692</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="cucumber run">
+      <created>1750145068351</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1750145068351</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
