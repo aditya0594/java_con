@@ -25,21 +25,21 @@
 <!--            </class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<!--<test name="Run on Chrome -&#45;&#45;single">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <classes>-->
-<!--            <class name="SeleniumTopic.Selenium_Suite_parallel">-->
-<!--                <methods>-->
-<!--                    <include name="Scroll_using_javascript"/>-->
-<!--                    <include name="Scroll_using_javascript_bottom_page"/>-->
-<!--                    <include name="Scroll_using_javascript_specific_pixels"/>-->
-<!--                    <include name="DragAndDrop"/>-->
-<!--                    <include name="Verify"/>-->
-<!--                    <include name="rightClick"/>-->
-<!--                </methods>-->
-<!--            </class>-->
-<!--        </classes>-->
-<!--    </test>-->
+<test name="Run on Chrome ---single">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="SeleniumTopic.Selenium_Suite_parallel">
+                <methods>
+                    <include name="Scroll_using_javascript"/>
+                    <include name="Scroll_using_javascript_bottom_page"/>
+                    <include name="Scroll_using_javascript_specific_pixels"/>
+                    <include name="DragAndDrop"/>
+                    <include name="Verify"/>
+                    <include name="rightClick"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 
 <!--    <test name="Run on Chrome &#45;&#45; with regression group">-->
 <!--        <parameter name="browser" value="chrome"/>-->
