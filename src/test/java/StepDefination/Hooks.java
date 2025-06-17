@@ -1,5 +1,6 @@
 package StepDefination;
 
+import com.mysql.cj.x.protobuf.MysqlxCrud;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -13,6 +14,7 @@ import java.time.Duration;
 
 public class Hooks {
     public static WebDriver driver;
+
     @Before
     public void setup(Scenario scenario) {
         String browserType = configReader.get("browser");
@@ -26,7 +28,20 @@ public class Hooks {
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         }
+
     }
+//    @Parameters("browserType")
+//    @Before
+//    public void setup() {
+//        String browserType = configReader.get("browser");
+//        if (browserType.equalsIgnoreCase("chrome")) {
+//            driver = new ChromeDriver();
+//            driver.manage().window().maximize();
+//            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//        }
+//    }
+
+
 
 //    @Before("@dropdownWithDatatable")
 //    public void setupFirefoxDriver(){
@@ -39,4 +54,8 @@ public class Hooks {
     public void teardown(){
         driver.quit();
     }
+
 }
+
+
+

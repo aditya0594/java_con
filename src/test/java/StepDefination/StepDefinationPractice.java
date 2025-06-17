@@ -1,13 +1,11 @@
 package StepDefination;
 
 import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -209,10 +207,21 @@ public class StepDefinationPractice {
     }
 
 
+    @When("Enter your name")
+    public void enterYourName() {
+        driver.findElement(By.id("name")).sendKeys("Aditya");
+    }
 
+    @And("Click on the alert button")
+    public void clickOnTheAlertButton() {
+        driver.findElement(By.id("alertbtn")).click();
+    }
 
-
-
-
-
+    @Then("Verify that the popup will showing enter text and click on the accept button")
+    public void verifyThatThePopupWillShowingEnterTextAndClickOnTheAcceptButton() {
+        Alert alert = driver.switchTo().alert();
+        String text = alert.getText();
+        Assert.assertTrue(text.contains("Aditya"));
+        alert.accept();
+    }
 }

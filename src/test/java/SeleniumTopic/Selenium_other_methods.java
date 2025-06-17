@@ -90,6 +90,7 @@ public class Selenium_other_methods {
 
     @Test(priority= 1,enabled = true)
     public void ScreenShot_practics() throws IOException {
+
         driver.get("https://www.google.com");
         File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshot,new File("Screenshots/screenshootgoogle.png"));
@@ -325,8 +326,9 @@ public class Selenium_other_methods {
         // actions.doubleClick(from).perform();
         // actions.moveToElement(from).click().perform();
         // actions.release(from).perform();
-
        //  actions.scrollToElement(element).perform();
+       // actions.keyDown(Keys.ARROW_DOWN);
+      //  actions.keyUp(Keys.ARROW_DOWN);
 
         Thread.sleep(10000);
 
@@ -395,15 +397,15 @@ public class Selenium_other_methods {
     public Object[][] loginData() {
         return new Object[][]
                 {
-                        {"aditya@gmail.com", "Aditya@123"},
-                        {"aditya1@gmail.com", "Aditya@123"},
-                        {"aditya1@gmail.com", "Aditya@123"},
+                        {"aditya@gmail.com", "Aditya@123","data1"},
+                        {"aditya1@gmail.com", "Aditya@123","data2"},
+                        {"aditya1@gmail.com", "Aditya@123","data3"},
                 };
 
     }
 
     @Test(priority = 10, enabled = true, dataProvider = "loginDataProvider")
-    public void Dataproviders(String username, String password) {
+    public void Dataproviders(String username, String password,String data) {
 
         // DataProvider is like a container that passes
         //the data to our test methods so that our single test method can execute itself with multiple data sets.
@@ -412,6 +414,7 @@ public class Selenium_other_methods {
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//input[@id='username']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+        System.out.println("This is the value " + data);
 
     }
 
@@ -583,6 +586,7 @@ public class Selenium_other_methods {
         /**Explicit wait
         //Utilize WebDriver’s `WebDriverWait` along with expected conditions to wait for an element to be present,
         // visible, or clickable. This allows the script to pause execution until the dynamic element is ready. */
+
         By element = By.xpath("//div[@id='droparea']");
         WebDriverWait wait4= new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement ele = wait4.until(ExpectedConditions.visibilityOfElementLocated(element));
@@ -601,6 +605,7 @@ public class Selenium_other_methods {
        // element.click();
        // wait2.until(ExpectedConditions.textToBePresentInElement(element));
         //element.click();
+        //wait2.until(ExpectedConditions.alertIsPresent(element));
 
 
         WebElement from = driver.findElement(By.xpath("//img[@src='logo.png']"));
@@ -713,7 +718,6 @@ public class Selenium_other_methods {
                 HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();
                 conn.setRequestMethod("HEAD");
                 int statusCode = conn.getResponseCode();
-
                 if(statusCode!=200){
                     writer.newLine();
                     System.out.println("This link is broken : " + url);

@@ -6,13 +6,12 @@ import java.util.stream.Collectors;
 public class pratices {
 
     public static void main(String[] args) {
-        String str = "Aditya is a good boy";
-
-        String reverse = "";
-        for(int i=str.length()-1;i>=0;i--){
-            reverse = reverse + str.charAt(i);
+        int[] arr = {1,2,3,4,5,6,7};
+        String rev = " ";
+        for(int i = arr.length-1;i>=0;i--){
+            rev = rev + arr[i];
         }
-        System.out.println(reverse);
+        System.out.println(rev);
     }
 
     }

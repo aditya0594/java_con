@@ -25,21 +25,44 @@
 <!--            </class>-->
 <!--        </classes>-->
 <!--    </test>-->
-<test name="Run on Chrome">
-        <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="SeleniumTopic.Selenium_Suite_parallel">
-                <methods>
-                    <include name="Scroll_using_javascript"/>
+<!--<test name="Run on Chrome -&#45;&#45;single">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="SeleniumTopic.Selenium_Suite_parallel">-->
+<!--                <methods>-->
+<!--                    <include name="Scroll_using_javascript"/>-->
 <!--                    <include name="Scroll_using_javascript_bottom_page"/>-->
 <!--                    <include name="Scroll_using_javascript_specific_pixels"/>-->
 <!--                    <include name="DragAndDrop"/>-->
 <!--                    <include name="Verify"/>-->
 <!--                    <include name="rightClick"/>-->
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Run on Chrome &#45;&#45; with regression group">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="regression"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="SeleniumTopic.Selenium_Suite_parallel">-->
+<!--                <methods>-->
+<!--                    <include name="Scroll_using_javascript"/>-->
+<!--                    &lt;!&ndash;-->
+<!--                    <include name="Scroll_using_javascript_bottom_page"/>-->
+<!--                    <include name="Scroll_using_javascript_specific_pixels"/>-->
+<!--                    <include name="DragAndDrop"/>-->
+<!--                    <include name="Verify"/>-->
+<!--                    <include name="rightClick"/>-->
+<!--                    &ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test name="Cucumber test run on chrome">
         <classes>
             <class name="Cucumber.Options.TestRunner">

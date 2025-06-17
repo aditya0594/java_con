@@ -29,28 +29,39 @@ public class Check_unchecked_exception {
      */
 
 
-
-    public void myMethod() throws InterruptedException {  //Example of throw
-        Thread.sleep(1000);
-        throw new InterruptedException();
-    }
-
+    // Example of Throws keyword
     public void myMethod1() throws InterruptedException {
         Thread.sleep(1000);
+    }
+
+    //Example of Throw keyword
+
+    /**
+     * What is throw in Java?
+     * The throw keyword is used to manually throw an exception in Java.
+     */
+    public static void checkAge(int age) {
+        if (age < 18) {
+            throw new IllegalArgumentException("Access denied - You must be at least 18 years old.");
+        } else {
+            System.out.println("Access granted - You are old enough!");
+        }
     }
 
 
     public static void main(String[] args) throws InterruptedIOException, InterruptedException {
 
-        try{
-        FileReader file = new FileReader("test.txt");// Might throw FileNotFoundException
-        FileInputStream fis = new FileInputStream(" ");
+        //checkAge(1);
+
+        try {
+            FileReader file = new FileReader("test.txt");// Might throw FileNotFoundException
+            FileInputStream fis = new FileInputStream(" ");
             BufferedReader br = new BufferedReader(file);
             System.out.println(br.readLine());
             br.close();
             Thread.sleep(5000);
-        }catch( Exception e ) {
-           throw new InterruptedException();
+        } catch (Exception e) {
+            System.out.println("This is the error we found " + e);
         }
 
 
@@ -68,11 +79,21 @@ public class Check_unchecked_exception {
          ClassCastException
          */
 
-
-                int a = 10, b = 0;
-                int result = a / b; // Throws ArithmeticException
-                System.out.println(result);
-            }
+        try {
+            int[] arr = {1, 2, 3};
+            System.out.println(arr[5]); // Will throw ArrayIndexOutOfBoundsException
+            throw new ArrayIndexOutOfBoundsException("This is message from the throw ");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Caught exception: " + e.getMessage());
         }
+
+        try {
+            int result = 10 / 0; // Will throw ArithmeticException
+        } catch (ArithmeticException e) {
+            System.out.println("Cannot divide by zero.");
+        }
+
+    }
+}
 
 

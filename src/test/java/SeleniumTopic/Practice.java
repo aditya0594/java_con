@@ -61,8 +61,7 @@ public class Practice {
     @Test(priority =1)
     public void seleniumdriverwithout() throws IOException, InterruptedException {
         // No need to set system property for chromedriver
-        ChromeOptions options = new ChromeOptions();
-        WebDriver driver = new ChromeDriver(options);
+        WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
         System.out.println("Title: " + driver.getTitle());
         Thread.sleep(5000);

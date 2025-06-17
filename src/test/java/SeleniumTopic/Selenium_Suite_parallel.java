@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.*;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.ie.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -83,6 +84,9 @@ import java.util.Map;
             EdgeOptions options = new EdgeOptions();
             localDriver = new EdgeDriver(options);
         }
+            else if (browser.equalsIgnoreCase("headless")) {
+               localDriver = new HtmlUnitDriver();
+            }
             else if (browser.equalsIgnoreCase("grid_chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--remote-allow-origins=*");
@@ -198,7 +202,7 @@ import java.util.Map;
             WebDriver localDriver = getDriver();
 
             localDriver.get("https://demo.automationtesting.in/Dynamic.html");
-            WebElement from = localDriver.findElement(By.id("angular"));
+            WebElement from = localDriver.findElement(By.id("angula"));
             WebElement to = localDriver.findElement(By.id("droparea"));
 
             new Actions(localDriver).dragAndDrop(from, to).perform();

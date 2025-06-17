@@ -1,5 +1,7 @@
 package Java_Program.ArrayProgram;
 
+import io.cucumber.java.sl.In;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -10,27 +12,26 @@ public class Find_Duplicate_element_Array_String {
       //  String[] arr = str.split(" ");
         int arr[] = {1,2,5,3,4,5};
         boolean flag = false;
-        HashSet<Integer> hasint = new HashSet<>();
-       HashMap<Integer,Integer> hashMap = new HashMap<>();
-        for(Integer l: arr) {
-            if(hashMap.containsKey(l)){
-                hashMap.put(l,hashMap.get(l)+1);
-            }
-            else{
-                hashMap.put(l,1);
-            }
-            if (hasint.add(l)==false)
-            {
-                System.out.println("Found duplicate integer :"+ l);
-                flag= true;
-            }
-        }
-        if(flag==false){
+        HashSet<Integer> hashSet = new HashSet<>();
+        HashMap<Integer,Integer> hashMap = new HashMap<>();
 
-            System.out.println("Not content duplicate");
+        for(Integer w : arr){
+            if(hashMap.containsKey(w)){
+                hashMap.put(w,hashMap.get(w)+1);
+            }
+            else {
+                hashMap.put(w,1);
+            }
+            if(hashSet.add(w)==false){
+                System.out.println("Duplicate value found :  " + w);
+                break;
+            }
         }
-        for(Map.Entry<Integer,Integer> ls : hashMap.entrySet()){
-            System.out.println(" The number : " + ls.getKey() + " Count is : "+ ls.getValue());
+        if(flag){
+            System.out.println("Duplicate value not found");
+        }
+        for(Map.Entry<Integer,Integer> val : hashMap.entrySet()){
+            System.out.println(val.getKey() + " :: " + val.getValue());
         }
 
 
