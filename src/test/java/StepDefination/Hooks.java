@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.Parameters;
 
 import java.time.Duration;
@@ -20,10 +21,14 @@ public class Hooks {
     public void setup(Scenario scenario) {
         String browserType = configReader.get("browser");
         ChromeOptions options = new ChromeOptions();
+        FirefoxOptions options1 = new FirefoxOptions();
         if (browserType.equalsIgnoreCase("chrome")) {
 
             if (scenario.getSourceTagNames().contains("@dropdownWithDatatable")){
-                driver = new FirefoxDriver();
+                options.addArguments("-headless"); // note: single dash
+                // Firefox doesn't use --no-sandbox or --disable-dev-shm-usage by default
+
+                driver = new FirefoxDriver(options1);
             } else {
                 options.addArguments("--headless=new");
                 options.addArguments("--no-sandbox");
