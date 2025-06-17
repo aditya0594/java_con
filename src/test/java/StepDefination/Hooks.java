@@ -23,14 +23,14 @@ public class Hooks {
         ChromeOptions options = new ChromeOptions();
         if (browserType.equalsIgnoreCase("chrome")) {
 
-            if (scenario.getSourceTagNames().contains("@dropdownWithDatatable")){
-                FirefoxOptions options1 = new FirefoxOptions();
-                options.addArguments("-headless"); // ✅ Headless mode
-
-                // Initialize WebDriver with options
-                 driver = new FirefoxDriver(options1);
-
-            } else {
+//            if (scenario.getSourceTagNames().contains("@dropdownWithDatatable")){
+//                FirefoxOptions options1 = new FirefoxOptions();
+//                options.addArguments("-headless"); // ✅ Headless mode
+//
+//                // Initialize WebDriver with options
+//                 driver = new FirefoxDriver(options1);
+//
+//            } else {
                 options.addArguments("--headless=new");
                 options.addArguments("--no-sandbox");
                 options.addArguments("--disable-dev-shm-usage");
@@ -40,7 +40,7 @@ public class Hooks {
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         }
 
-    }
+  //  }
 //    @Parameters("browserType")
 //    @Before
 //    public void setup() {
