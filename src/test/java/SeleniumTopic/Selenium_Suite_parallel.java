@@ -202,7 +202,7 @@ import java.util.Map;
             WebDriver localDriver = getDriver();
 
             localDriver.get("https://demo.automationtesting.in/Dynamic.html");
-            WebElement from = localDriver.findElement(By.id("angula"));
+            WebElement from = localDriver.findElement(By.id("angular"));
             WebElement to = localDriver.findElement(By.id("droparea"));
 
             new Actions(localDriver).dragAndDrop(from, to).perform();
